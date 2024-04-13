@@ -1,0 +1,46 @@
+.hm-it-serv-card-blk h4 {
+    font-size: 18px;
+    font-family: system-ui;
+    text-align: center;
+}
+.hm-it-serv-card-blk p {
+    font-size: 13px;
+    font-family: system-ui;
+    text-align: justify;
+}
+.it-ser-cta {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.hm-it-serv-card-blk {
+    background: #fff;
+    padding: 30px;
+}
+.it-ser-img img {
+    width: 45px;
+    height: 45px;
+}
+
+.it-ser-link a {
+    border: 1px solid #000;
+    border-radius: 20px;
+    color: #fff;
+    font-weight: 600;
+    font-size: 13px;
+    background: #000;
+    padding: 8px 20px;
+}
+.hm-it-serv-card-blk {
+    background: #fff;
+    padding: 30px;
+    box-shadow: 0px 0px 2px 0px #00000096;
+    border-radius: 5px;
+    margin: 10px 0px;
+}
+.dev-digi-blk {
+    padding: 25px 0px;
+    text-align: center;
+    font-family: system-ui;
+    color: #fff;
+}

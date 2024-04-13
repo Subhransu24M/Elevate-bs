@@ -1,0 +1,49 @@
+.compl-sev-sec1 {
+    padding: 30px 0px;
+}
+.compl-serv-sec2 {
+    padding: 30px 0px;
+}
+.compl-serv-sec3 {
+    background: #000b18;
+    color: #fff;
+    padding: 30px 0px;
+    background-image: url(../bg-images/bg-img1.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.compl-sec4 {
+    padding: 30px 0px;
+    background: linear-gradient(90deg, rgb(7 55 106) 0%, rgb(26 99 151) 47%, rgb(8 93 143) 100%);
+    color: #fff;
+}
+.compl-btn-cnt {
+    color: #000;
+}
+.compl-btn-tlt {
+    color: #000;
+}
+
+.compl-sec3-box {
+    background: #ffffff;
+    padding: 12px;
+    color: #000;
+    text-align: center;
+}
+.compl-sec3-box p{
+    text-align: center;
+}
+.compl-img{
+    max-width: 100%;
+    height: auto;
+}
+.compl-hd{
+    font-size: 28px;
+    font-family: system-ui;
+}
+.compl-sec3-box h5 {
+    font-size: 18px;
+    font-weight: 500;
+    font-family: system-ui;
+}

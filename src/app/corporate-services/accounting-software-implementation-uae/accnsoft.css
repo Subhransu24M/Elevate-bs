@@ -1,0 +1,91 @@
+/* Accordian */
+.acnt-impl-hdr {
+    padding: 0px;
+    /* color: #fff !important; */
+    /* background: black; */
+}
+
+/* Common */
+.acnt-impl-sec2 {
+    padding: 30px 0px;  
+    background: #000810;
+}
+.acnt-impl-sec2-bg{
+    /* background-image: url(../../bgimages//sps-bg-2.png); */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 70%;
+}
+.acnt-impl-sec3 {
+    background: linear-gradient(90deg, rgb(0 58 120) 0%, rgb(10 82 133) 47%, rgb(2 54 118) 100%);
+    padding: 30px 0px;
+    color: #fff;
+}
+.cmn-frm-blk {
+    margin-top: 40px;
+}
+
+.acnt-impl-sec2-rght {
+    text-align: center;
+    background: #fff;
+    padding: 32px;
+}
+.acnt-impl-hd {
+    text-align: center;
+    color: #fff;
+    font-size: 28px;
+}
+.acnt-impl-sec2-hd {
+    color: #fff;
+    font-size: 28px;
+}
+.acnt-impl-btn {
+    color: #fff;
+    width: 100%;
+    text-align: left;
+}
+.acnt-impl-btn:hover{
+    color:#fff;
+    text-decoration: none;
+}
+.acnt-impl-mdlbtn {
+    background: none;
+    color: #000;
+    margin-top: 13px;
+}
+.acnt-impl-sec2-rght h5 {
+    font-size: 15px !important;
+}
+.acnt-impl-sec1 {
+    padding: 30px 0px;
+}
+.acnt-impl-img-top{
+    margin-top: 40px;
+    max-width: 100%;
+    height: auto;
+}
+.acnt-impl-sec2-rght {
+    margin-top: 22px;
+}
+.accn-impl-hd{
+    font-size: 28px;
+}
+/* Modal */
+.acnt-impl-mdlbtn {
+    margin-top: 15px;
+    /* background: no-repeat; */
+    background: none;
+    color: #000;
+}
+.acnt-impl-mdl-ul li{
+text-align: left;
+}
+.acnt-impl-btn {
+    background: #540000;
+    text-decoration: none;
+}
+.acnt-impl-btn:hover {
+    background: #540000;
+    
+}

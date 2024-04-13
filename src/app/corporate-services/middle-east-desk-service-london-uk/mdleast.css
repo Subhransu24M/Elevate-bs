@@ -1,0 +1,26 @@
+.mdl-east-des-sec3 {
+    padding: 30px 0px;
+    background: linear-gradient(90deg, rgb(7 55 106) 0%, rgb(26 99 151) 47%, rgb(8 93 143) 100%);
+    color: #fff;
+}
+.mdl-east-des-sec2 {
+    padding: 30px 0px;
+    background: #ffffffed;
+}
+.mdl-east-des-sec2-bgimg{
+    background-image: url(../bg-images/dubai-bg.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.mdl-east-des-sec1 {
+    padding: 30px 0px;
+}
+.mdl-eastimg{
+    max-width: 100%;
+    height: auto;
+}
+.mdl-east-hd {
+    font-size: 28px;
+}

@@ -1,0 +1,45 @@
+
+
+const LocalPartModal2 = () => {
+  return (
+    <>
+    <button type="button" className="btn btn-primary lcl-part-mdl-btn" data-bs-toggle="modal" data-bs-target="#exampleModal2">
+            Do I Need a Local Sponsor in Dubai?
+            </button>
+
+
+            <div className="modal fade" id="exampleModal2" tabIndex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                <div className="modal-dialog" role="document">
+                    <div className="modal-content">
+                        <div className="modal-header">
+                            <h5 className="modal-title" id="exampleModalLabel">Do I Need a Local Sponsor in Dubai?</h5>
+                            <button type="button" className="btn-close" data-bs-dismiss="modal" aria-label="Close">
+                                
+                            </button>
+                        </div>
+                        <div className="modal-body">
+                            <p>If you are planning to establish a business in Dubai or any other part of the UAE mainland in certain industries, you will require a local sponsor or local service agent. These industries include:</p>
+                              <ul className="lcl-part-mdl-ul">
+                                <li>Oil exploration and production.</li>
+                                <li>Security and military services.</li>
+                                <li>Banking, financing, and insurance activities.</li>
+                                <li>Pilgrimage and Umrah services.</li>
+                                <li>Water and electricity provision.</li>
+                                <li>Fishing and related services.</li>
+                                <li>Post and telecoms services.</li>
+                                <li>Road and air transport.</li>
+                                <li>Printing and publishing.</li>
+                                <li>Commercial agency.</li>
+                                <li>Medical retail (including pharmacies).</li>
+                                <li>Blood banks, quarantines, and venom/poison banks.</li>
+                                <li>Outside of these industries and similar ones, you may have the opportunity to retain 100% ownership of your business, but you will need to apply to the Dubai Department of Economic Development (DED) for permission to trade.</li>  
+                              </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    </>
+  )
+}
+
+export default LocalPartModal2

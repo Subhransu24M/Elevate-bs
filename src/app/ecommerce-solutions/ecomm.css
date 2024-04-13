@@ -1,0 +1,172 @@
+.ecomm-img-blk img {
+    max-width: 100%;
+    height: auto;
+}
+.wcomm-bg{
+    background-image: url(../../../public/images/bgimages/woocomm.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-size: 40%;
+    background-position: center;
+    margin: 10px 0px;
+    
+}
+.mgnt-bg{
+    background-image: url(../../../public/images/bgimages/magento.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-size: 40%;
+    background-position: center;
+    margin: 10px 0px;
+}
+.shopify-bg{
+    background-image: url(../../../public/images/bgimages/shopify.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-size: 40%;
+    background-position: center;
+    margin: 10px 0px;
+}
+.ecomm-bg-clr{
+    background-color: #000000bd;
+    padding: 50px 0px;
+
+}
+.ecomm-tlt h4 {
+    text-align: center;
+    color: #fff;
+    font-family: system-ui;
+}
+.ecomm-tlt {
+    text-align: center;
+}
+
+.ecom-mdl-btn {
+    background: no-repeat;
+    border: 1px solid #fff;
+    border-radius: 20px;
+    font-family: system-ui;
+    font-weight: 500;
+    margin-top: 20px;
+    padding: 8px 25px;
+}
+
+.ecomm-snd-blk {
+    background: #f7f7f7;
+    padding: 50px 0px;
+}
+.ecomm-snd-blk h2 {
+    text-align: center;
+    padding-bottom: 30px;
+    font-family: system-ui;
+}
+
+.ecom-snd-left ul {
+    font-family: system-ui;
+    font-size: 15px;
+    font-weight: 500;
+}
+.ecommcnt-blk {
+    padding: 50px 0px;
+}
+
+.e-comm-sec-4 {
+    background: #760000;
+    color: #fff;
+    padding: 30px 0px;
+}
+
+.e-comm-sec-4-sub-blk h2 {
+    text-align: center;
+}
+.e-comm-sec-4 h2 {
+    text-align: center;
+}
+
+.sub-sub-blk {
+    background: #fff;
+    color: #000;
+    padding: 5px;
+    text-align: center;
+}
+.sub-sub-blk h4 {
+    font-family: system-ui;
+    font-size: 18px;
+}
+.sub-sub-blk p {
+    text-align: center;
+}
+.sub-sub-blk img {
+    width: 35%;
+    padding: 8px 0px;
+}
+
+.e-comm-sec-5 {
+    padding: 30px 0px;
+    background-image: url(../../../public/images/bgimages/bg-img1.png);
+    background-color: #000;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+}
+
+.e-comm-sec-5 h2 {
+    text-align: center;
+}
+.e-comm-sec-5 h4{
+    text-align: center;
+    font-family: system-ui;
+    font-size: 18px;
+    padding-bottom: 12px;
+}
+.e-comm-sec-5 p{text-align: center;font-family: system-ui;}
+.e-comm-sec-5-box {
+    background: #00000080;
+    padding: 16px;
+    margin-bottom: 10px;
+    color: #fff;
+}
+.e-comm-sec-5-box2 {
+    background: #00000080;
+    padding: 16px;
+    margin-bottom: 10px;
+    color: #fff;
+}
+.ecom-sec5-box-icon img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 15px;
+}
+
+.ecom-payment-img {
+    background: #3a1c1c70;
+    border-radius: 50%;
+    padding: 18px;
+    overflow: inherit;
+    box-shadow: 0px 0px 4px 1px red;
+    width: 80px;
+    height: 80px ;
+}
+.ecom-payment-img:hover {
+    background: #3a1c1c70;
+    border-radius: 50%;
+    padding: 18px;
+    overflow: inherit;
+    /* width: 110px; */
+    /* box-shadow: 0px 0px 4px 1px red; */
+    width: 80px;
+    pointer-events: all;
+}
+
+.ecomm-conv-box {
+    background: #dbb600;
+}
+.ecomm-conv-tlt {
+    text-align: center;
+    line-height: 2.2;
+    font-family: system-ui;
+    font-weight: 700;
+    font-size: 30px;
+}

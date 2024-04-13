@@ -1,0 +1,99 @@
+/* Accordian */
+
+.bkp-accord-blk-cnt {
+    padding: 0px;
+}
+.bkp-accord-btn{
+    color: #fff;
+    width: 100% ;
+    text-align: left;
+}
+.bkp-accord-btn:hover{
+    color: #fff;
+    text-decoration: none;
+}
+.bkp-accrd-arw-icon {
+    float: right;
+}
+.bk-kp-sec3 {
+    background: #000516;
+    color: #fff;
+}
+.bkp-accord-cardbd-cnt {
+    color: #000;
+}
+
+/* Bookkepping CSS */
+.bk-kp-sec1{
+    padding: 30px 0px;
+}
+.bk-kp-sec4 {
+    padding: 30px 0px;
+    background: linear-gradient(90deg, rgb(0 58 120) 0%, rgb(10 82 133) 47%, rgb(2 54 118) 100%);
+    color: #fff;
+}
+.bkp-frm-blk {
+    margin: 40px 0px;
+}
+.bk-kp-sec3 {
+    padding: 30px 0px;
+}
+.bkp-ftr-cnt{
+    color: #fff;
+    text-align: center;
+}
+/* .bkp-ftr-tlt{
+    font-size: 30px !important;
+} */
+
+.bk-kp-sec2 {
+    padding: 30px 0px;
+    background: linear-gradient(90deg, rgb(0 58 120) 0%, rgb(10 82 133) 47%, rgb(2 54 118) 100%);
+    color: #fff;
+}
+.bkp-lft-img {
+    margin-top: 20px;
+    max-width: 100%;
+    height: auto;
+}
+
+.bkp-accord-btn {
+    background: #580000;
+    /* border: none; */
+    text-decoration: none;
+}
+.bkp-accord-btn:hover {
+    background: #580000;
+    
+}
+.bkp-rgt-img{
+    max-width: 100%;
+    height: auto;
+}
+
+.bank-accnt-opn-boc-lay-4 {
+    background-image: url(../bg-images/cfo-bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 1;
+}
+.bank-accnt-opn-boc-lay-4 h2 {
+    color: #fff;
+    font-size: 28px;
+    font-weight: 600;
+    padding-top: 25px;
+    text-align: center;
+}
+.bkp-ftr-cnt {
+    color: #fff;
+    text-align: center;
+}
+.bank-accnt-opn-boc-lay-4 h4 {
+    color: #fff;   
+    font-size: 22px !important;
+    text-align: center;
+}
+
+.bkp-hd{
+    font-size: 28px;
+}
