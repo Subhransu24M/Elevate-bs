@@ -1,0 +1,29 @@
+.heroic-bg {
+    /* background-color: #075b68; */
+    background-image: url(../../../../public/hd-bg.svg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.header-banner-blk {
+    background: #041026d6;
+}
+
+.heroic-sec {
+    text-align: center;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    color: #ffffff;
+}
+
+.heroic-sec a {
+    color: #ffffff;
+}
+.breadcrumb-1 {
+    padding-top: 10px;
+    background: #000b1e;
+    color: #fff;
+}
+.breadcum-p {
+    color: #fff;
+}

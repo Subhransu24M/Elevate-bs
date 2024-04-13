@@ -1,0 +1,10 @@
+.hm-it-blk-bg {
+    background: #00030a;
+    padding: 50px 0px;
+}
+.hm-it-bg{
+    background-image: url(../../../../public//images//bgimages/bg-text-1.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}

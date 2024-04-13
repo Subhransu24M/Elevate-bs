@@ -1,0 +1,74 @@
+/* Local Partner Comp CSS */
+.lcl-part-acrd-btn{
+    color: #fff;
+    width: 100%;
+    text-align: left;
+}
+.lcl-part-acrd-btn:hover{
+    color: #fff;
+    text-decoration: none;
+}
+.lcl-part-acrd-icon {
+    float: right;
+    font-size: 18px;
+}
+.lcl-part-acrd-tlt {
+    padding: 0px;
+}
+.lcl-part-acrd-btn {
+    background: #620000;
+    text-decoration: none;
+    border: none;
+    box-shadow: none;
+}
+
+/* Local Partner */
+
+.lcl-par-sec4 {
+    padding: 30px 0px;
+    background: linear-gradient(90deg, rgb(0 58 120) 0%, rgb(10 82 133) 47%, rgb(2 54 118) 100%);
+    color: #fff;
+}
+.lcl-par-sec3 {
+    padding: 30px 0px;
+    background: #000b18;
+}
+.lcl-par-sec3-tlt{
+    color: #fff;
+    text-align: center;
+}
+.lcl-par-sec3-cnt{
+    color: #fff;
+}
+.lcl-part-mdl-btn {
+    background: none;
+    font-weight: 500;
+}
+.lcl-mdl-btn-clmn {
+    text-align: center;
+}
+.lcl-par-sec1 {
+    padding: 30px 0px;
+}
+.lcl-par-sec2 {
+    padding: 30px 0px;
+    background: linear-gradient(90deg, rgb(0 58 120) 0%, rgb(10 82 133) 47%, rgb(2 54 118) 100%);
+}
+.lcl-part-sec2-tlt{
+    color: #fff;
+}
+.lcl-part-sec2-cnt{
+    color: #fff;
+}
+.lcl-part-sec4-tlt {
+    margin-top: 40px;
+}
+.lcl-part-img{
+    max-width: 100%;
+    height: auto;
+}
+
+/* Local Partner Modal */
+.lcl-part-mdl-ul{
+    text-align: left;
+}

@@ -1,0 +1,81 @@
+.Card3-sec {
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+.service-block-three {
+    position: relative;
+    margin-bottom: 30px;
+}
+.service-block-three .inner-box {
+    position: relative;
+    padding: 35px 30px;
+    /* background-color: #ffffff; */
+    box-shadow: 1px 1px 2px 2px rgb(0 0 0 / 8%);
+    margin-right: 4PX;
+}
+.service-block-three .inner-box .content {
+    position: relative;
+}
+.service-block-three .inner-box .service-number {
+    position: absolute;
+    right: 0px;
+    bottom: 0px;
+    /* color: #dddddd; */
+    font-size: 60px;
+    font-weight: 700;
+    font-family: 'Montserrat', sans-serif;
+}
+.service-block-three .inner-box h4 {
+    position: relative;
+    line-height: 1.4em;
+    font-weight: 700;
+    font-size: 27px;
+}
+.service-block-three .inner-box .text {
+    position: relative;
+    color: #555555;
+    font-size: 16px;
+    line-height: 1.7em;
+    font-weight: 500;
+    margin-top: 25px;
+    margin-bottom: 30px;
+}
+.service-block-three .inner-box .more-detail {
+    position: relative;
+    color: #222222;
+    font-size: 15px;
+    font-weight: 700;
+    border: 1px solid #1a1a1a;
+    padding: 6px 15px;
+    border-radius: 20px;
+}
+.service-block-three .inner-box h4 a {
+    position: relative;
+    color: #222222;
+    font-size: 22px;
+    text-decoration: none;
+}
+
+/* Card Background Color */
+.b1{
+    background-color: #90d110ad;
+}
+.b2{
+    background-color: #04baf1cc;
+}
+.b3{
+    background-color: #f93030cc;
+}
+.s1{
+    color: #96c525db;
+}
+.s2{
+    color: #20a5cde3;
+}
+.s3{
+    color: #c71d1d73;
+}
+
+img.dmser-img {
+    max-width: 100%;
+}

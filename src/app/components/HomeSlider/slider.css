@@ -1,0 +1,50 @@
+@media (max-width: 768px){
+.d-md-block {
+    display: block !important;
+}}
+
+@media (max-width: 768px){
+    .carousel-caption {
+        padding-top: 100px !important;
+    }}
+
+@media (max-width: 768px){
+        .carousel-caption {
+            left: 15% !important;
+        }}
+
+
+.carousel-caption {
+    position: absolute;
+    right: 15%;
+    bottom: 0px ;
+    left: 12%;
+    padding-top: 175px;
+    padding-bottom: 0px ;
+    color: #fff;
+    text-align: left;
+    top: 0px ;
+}
+
+.carousel-caption h2 {
+    font-weight: 700;
+    font-family: system-ui;
+    font-size: 40px;
+}
+span.sl-hd-spn {
+    color: #ab0000;
+}
+
+/* Slider CTA Button */
+a.btn.sld-cta-btn {
+    /* border: #fff !important; */
+    border: 1px solid #fff;
+    border-radius: 20px;
+    color: #fff;
+    padding: 6px 25px;
+    margin-top: 30px;
+}
+
+.carousel-control-next, .carousel-control-prev {
+    width: 10%;
+}

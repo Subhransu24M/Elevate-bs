@@ -1,0 +1,48 @@
+.dm-rght-blk img {
+    max-width: 100%;
+    height: auto;
+}
+.dm-sec1 {
+    padding: 35px 0px;
+}
+h1.all-serv-tlt {
+    font-family: system-ui;
+    font-size: 28px;
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+.dmimgbnr img {
+    max-width: 100%;
+    height: auto;
+}
+
+.dm-serv-advertise-blk {
+    background: #f3e213;
+    padding: 20px 0px 20px 0px;
+    text-align: center;
+}
+.all-serv-tlt-h2 {
+    font-family: system-ui;
+    font-weight: 600;
+    font-size: 30px;
+}
+.all-serv-tlt-tag {
+    font-family: system-ui;
+    font-weight: 600;
+    font-size: 20px;
+}
+
+.dm-audit-mainblk {
+    background: #f1f4f7;
+    padding: 30px 0px;
+    color: #000;
+}
+.dm-snd-tlt{
+    font-size: 25px;
+}
+
+.dm-serv-powerhouse-blk h2{
+    font-size: 25px;
+    padding-bottom: 20px;
+}

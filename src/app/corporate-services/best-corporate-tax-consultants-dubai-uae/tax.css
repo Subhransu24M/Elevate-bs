@@ -1,0 +1,92 @@
+.tax-con-sec4{
+    padding: 30px 0px;
+    color: #fff;
+    background: linear-gradient(90deg, rgb(7 55 106) 0%, rgb(26 99 151) 47%, rgb(8 93 143) 100%);
+}
+.tax-con-sec3 {
+    padding: 30px 0px;
+    background: #000d1a;
+    color: #fff;
+}
+.tax-con-sec1 {
+    padding: 30px 0px;
+}
+
+.tax-cons-mdl-box {
+    border: 1px solid;
+    padding: 20px 0px ;
+    margin: 2px;
+    text-align: center;
+}
+.corp-img-blk img {
+    max-width: 100%;
+    height: auto;
+}
+.rest-hd1 {
+    font-family: system-ui;
+    font-size: 25px;
+    padding-bottom: 10px;
+}
+.rest-hd2 {
+    font-family: system-ui;
+    font-size: 25px;
+    padding-bottom: 10px;
+}
+.tax-cons-mdl-box h6 {
+    font-size: 13px;
+}
+
+.tax-cons-mdl-btn {
+    background: no-repeat;
+    border-radius: 20px;
+    border: 1px solid #fff;
+    font-size: 14px;
+    padding: 5px 15px;
+    margin-top: 15px
+}
+
+/* Modal CSs */
+
+.tax-cons-benefits-blk {
+    display: flex;
+    margin-top: 5px;
+}
+.tax-cons-benefits-blk-icon {
+    font-size: 19px ;
+    padding-right: 15px;
+}
+.tax-cons-benefits-blk-cnt {
+    padding-top: 5px;
+}
+.tax-cons-mdl-cnt {
+    color: #000;
+}
+.tax-cons-mdl-tlt {
+    color: #000;
+}
+.tax-cons-accord-hdr{
+    padding: 0px;
+}
+.tax-cons-accord-btn {
+    color: #fff;
+    width: 100%;
+    text-align: left;
+}
+.tax-cons-accord-btn:hover {
+    color: #fff;
+    width: 100%;
+    text-align: left;
+    text-decoration: none;
+}
+.tax-cons-accord-cnt {
+    color: #000;
+}
+.tax-cons-mdl-cnt ul li {
+    text-align: left;
+}
+.tax-cons-mdl-cnt h6 {
+    text-align: left;
+}
+.tax-cons-mdl-cnt p {
+    text-align: left;
+}

@@ -1,0 +1,55 @@
+.aud-ass-sec2-box {
+    background: #013162;
+    margin: 0px 1px;
+    text-align: center;
+    padding: 10px 0px;
+    color: #fff;
+}
+.aud-ass-sec2 {
+    background: black;
+    color: #fff;
+    padding: 30px 0px;
+}
+.aud-ass-modal-bdy {
+    color: #000;
+    text-align: left;
+}
+.aud-mdl-tlt{
+    color: #000;
+}
+
+.aud-ass-sec2-box button {
+    font-size: 14px;
+    background: none;
+    padding: 4px 10px;
+    margin-top: 10px;
+}
+
+.aud-ass-sec4 {
+    background: linear-gradient(90deg, rgb(0 58 120) 0%, rgb(10 82 133) 47%, rgb(2 54 118) 100%);
+    color: #fff;
+    padding: 30px 0px;
+}
+.aud-ass-sec3 {
+    padding: 30px 0px;
+}
+.aud-ass-sec3 h2{
+    text-align: center;
+}
+.aud-ass-sec1 {
+    padding: 30px 0px;
+}
+.audt-assr-img{
+    max-width: 100%;
+    height: auto;
+}
+.audt-assr-zone-img{
+    max-width: 100%;
+    height: auto;
+}
+.audt-assr-hd{
+    font-size: 28px;
+}
+.aud-ass-sec2-box h6{
+    font-size: 14px;
+}

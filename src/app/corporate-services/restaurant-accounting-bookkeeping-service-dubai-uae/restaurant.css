@@ -1,0 +1,49 @@
+.restau-accn-sec4 {
+    padding: 30px 0px;
+    background: linear-gradient(90deg, rgb(7 55 106) 0%, rgb(26 99 151) 47%, rgb(8 93 143) 100%);
+    color: #fff;
+}
+.restau-accn-sec2 {
+    padding: 30px 0px;
+    background: #000a14;
+    color: #fff;
+    background-image: url(../bg-images/bg-img1.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.rest-accnt-mdl-tlt{
+    color: #000;
+}
+.how-accnt-modal-bdy{
+    color: #000;
+    text-align: left;
+}
+.restau-accn-sec1 {
+    padding: 30px 0px;
+}
+.restau-sece-rght-blk {
+    text-align: center;
+}
+h4.restau-sece-rght-blk-tlt {
+    margin-bottom: 20px;
+}
+.rest-accnt-mdl-btn {
+    margin-bottom: 25px;
+}
+.rest-img img{
+    max-width: 100%;
+    height: auto;
+}
+
+h1.rest-hd1 {
+    font-family: system-ui;
+    font-size: 25px;
+    padding-bottom: 10px;
+}
+
+h2.rest-hd2 {
+    font-family: system-ui;
+    font-size: 25px;
+    padding-bottom: 10px;
+}

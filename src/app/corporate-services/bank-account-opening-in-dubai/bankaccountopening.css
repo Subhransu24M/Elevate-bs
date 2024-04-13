@@ -1,0 +1,130 @@
+
+.cfo-ul {list-style: none;}
+.bank-accnt-opn-boc-lay-2 {
+    padding: 20px 0px 20px 0px;
+    background: linear-gradient(90deg, rgb(0 58 120) 0%, rgb(10 82 133) 47%, rgb(2 54 118) 100%);
+    color: #fff;
+    /* background-image: url(../AccountOpening/images/accnt-bg.webp); */
+}
+.bank-accnt-opn-boc-lay-2 h2 {
+    text-align: center;
+    font-family: 'system-ui';
+    font-weight: 600;
+    font-size: 32px !important;
+}
+.bank-accnt-opn-boc-lay-3 {
+    padding: 20px 0px 20px 0px;
+}
+.bank-accnt-opn-boc-lay-3 h2 {
+    text-align: center;
+    font-family: system-ui;
+    font-weight: 600;
+    font-size: 32px !important;
+}
+.bank-accnt-opn-boc-lay-4 {
+    background-image: url(./images/bank-account-opening.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 1;   
+}
+.bank-accnt-opn-boc-lay-4 h2 {
+    text-align: center;
+    color: #fff;
+    font-family: 'system-ui';
+    font-size: 32px ;
+    font-weight: 600;
+    padding-top: 25px;
+}
+.bank-accnt-opn-boc-lay-4 h4 {
+    text-align: center;
+    color: #fff;
+    font-family: 'system-ui';
+    font-size: 22px !important;
+}
+.bank-acnt-cnt-us-blk {
+    text-align: center;
+    font-family: 'system-ui';
+    color: #fff;
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.bnk-acnt-opn-cta .st-cnt-blk {
+    display: flex;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    background: #07161e66;
+}
+.bank-accnt-opn-blk-5 h2{text-align: center;color: #fff;}
+
+.card-header-bnk-acnt {
+    background: linear-gradient(90deg, rgb(9 48 90) 0%, rgb(0 101 173) 47%, rgb(0 54 84) 100%);
+    /* padding: 0px; */
+}
+.card-header-bnk-acnt {color:#fff;}
+.card-header-bnk-acnt button:hover{text-decoration: none;color: #fff;}
+
+.text-left {
+    display: flex;
+    justify-content: space-between;
+    font-size: 20px;
+}
+.bnk-acnt-opn-box-bg{
+    background-image: url(./images/dubai-bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.bnk-acnt-opn-box-6 h2{text-align: center;}
+.bnk-acnt-opn-box-7 h2{text-align: center;}
+.bnk-acnt-opn-infobox {
+    display: flex;
+}
+.bnk-acnt-opn-infobox-icon svg {
+    display: block;
+    margin-top: 3px;
+    margin-bottom: 15px;
+    color: #002a5e;
+}
+.bnk-acnt-opn-infobox-tlt {
+    display: block;
+    margin-left: 10px;
+}
+.bnk-acnt-ul{list-style: none;font-weight: 500;}
+.bnk-ant-ul-li-icon {
+    margin-right: 10px;
+    color: #002a5e;
+}
+.bnk-acnt-card{border-radius: 0px;border: none;}
+.bank-accnt-opn-blk-5 {
+    background: linear-gradient(90deg, rgb(0 58 120) 0%, rgb(10 82 133) 47%, rgb(2 54 118) 100%);
+    /* background-image: url(../AccountOpening/images/accnt-bg.webp); */
+}
+.bnk-acnt-bg-img img{
+    /* background-image: url(./images/bank-accnt.webp); */
+    max-width: 100%;
+    height: auto;
+}
+
+.tax-cons-mdl-cnt ul li{
+list-style: none;
+}
+.bnk-accn-mdl {
+    text-align: center;
+    padding: 30px 0px;
+}
+
+.bnk-acnt-opn-box-6 {
+    background: #00000091;
+    color: #fff;
+}
+.bnk-accn-mdl-cnt,.bnk-accn-mdl-tlt{
+    color: #000;
+    text-align: left;
+}
+.bnk-accn-mdl-cnt ul li{
+    list-style: none;
+    font-size: 15px;
+}

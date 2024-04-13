@@ -1,0 +1,91 @@
+/* Vat Doc Modal */
+.vat-reg-doc-modal-tlt{
+    color: #000;
+}
+.vat-reg-doc-modal-ul{
+    color: #000;
+}
+.vat-reg-modal-btn{
+    background: none;
+    font-weight: 500;
+}
+
+/* VAT Reg */
+
+.vat-reg-chkbox-blk {
+    display: flex;
+}
+.vat-reg-chkbox-icon{
+    font-size: 19px;
+    padding-right: 10px;
+}
+.vat-reg-chkbox-cnt{
+    padding-top: 9px;
+}
+.vat-reg-sec4 {
+    padding: 30px 0px;
+    background: linear-gradient(90deg, rgb(7 55 106) 0%, rgb(26 99 151) 47%, rgb(8 93 143) 100%);
+    color: #fff;
+}
+.vat-reg-sec3 {
+    padding: 30px 0px;
+}
+.vat-reg-sec2 {
+    padding: 30px 0px;
+    background: #000714;
+    color: #fff;
+}
+.vat-reg-sec1 {
+    padding: 30px 0px;
+}
+.vat-reg-doc-modal {
+    margin-top: 25px;
+}
+.vat-reg-doc-img {
+    margin-top: 25px;
+}
+.vat-reg-doc-mdl-blk {
+    display: grid;
+    justify-items: center;
+    border: 1px solid;
+    width: 50%;
+    margin-left: 25%;
+    padding: 20px;
+}
+.vat-reg-doc-tlt {
+    text-align: center;
+    font-size: 30px;
+    font-family: system-ui;
+}
+
+.vat-reg-box-bgimg {
+    color: #fff;
+    text-align: center;
+    background-image: url(./images/VAT-Registration-uae.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    margin: 10px 0px;
+    margin: 1px;
+}
+.vat-reg-box {
+    background: #000000d6;
+    padding: 35px 0px;
+}
+
+.vat-reg-box h6{
+    font-family: system-ui;
+    font-size: 18px;
+}
+.vat-reg-modal2-btn {
+    background: no-repeat;
+    margin-top: 15px;
+}
+.vat-reg-img{
+    max-width: 100%;
+    height: auto;
+}
+
+.vat-reg-hd{
+    font-size: 28px;
+}

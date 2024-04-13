@@ -1,0 +1,51 @@
+.vat-dereg-img{
+    max-width: 100%;
+    height: auto;
+}
+.vat-dereg-hd{
+    font-size: 28px;
+}
+.vat-de-reg-sec1 {
+    padding: 30px 0px;
+}
+.vat-de-reg-sec2 {
+    padding: 30px 0px;
+    /* background: #f1f1f1; */
+    background: linear-gradient(90deg, rgb(7 55 106) 0%, rgb(26 99 151) 47%, rgb(8 93 143) 100%);
+    color: #fff;
+}
+.vat-de-reg-sec3 {
+    padding: 30px 0px;
+    background: #000c16;
+    color: #fff;
+}
+.vat-de-reg-sec4 {
+    padding: 30px 0px;
+    
+}
+
+.vat-de-reg-sec5 {
+    padding: 30px 0px;
+    background-image: url(../bg-images/bg-img1.png);
+    background-position:center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.vat-de-reg-sec6 {
+    padding: 30px 0px;
+    background: linear-gradient(90deg, rgb(7 55 106) 0%, rgb(26 99 151) 47%, rgb(8 93 143) 100%);
+    color: #fff;
+}
+.vat-de-reg-procs-box {
+    text-align: center;
+    background: #ffffff87;
+    padding: 26px;
+    margin: 20px 0px;
+    box-shadow: 0px 0px 2px 1px #00000078;
+}
+
+.vat-procs-img {
+    width: 18%;
+    margin: 10px 0px;
+}
