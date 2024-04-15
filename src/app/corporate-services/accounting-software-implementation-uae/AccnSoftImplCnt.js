@@ -4,6 +4,7 @@ import acntimplimg from './images/account-implementation.jpg';
 import AccountingImplAccord from "./AccountingImplAccord";
 import AccountImplModal from "./AccountImplModal";
 import AccountImplModal2 from "./AccountImplModal2";
+import { BsCheck2Square } from "react-icons/bs";
 const AccnSoftImplCnt = () => {
   return (
     <>
@@ -60,12 +61,12 @@ const AccnSoftImplCnt = () => {
                         <p>Our team specializes in assisting Small and Medium-sized businesses in identifying cost-effective and user-friendly systems. We collaborate with clients to formulate strategies that align with their operational, reporting, and growth needs. When we cannot directly execute an implementation, we serve as advisors, guiding clients in system selection and providing ongoing support for workflow implementation and system training.At Elevate, we are your trusted partner for accounting system implementation in the UAE. Our expertise in serving businesses of all sizes, from SMEs to large enterprises and family offices, sets us apart. </p>
                         <h2 className="acnt-impl-hd">Here's why you should choose Elevate:</h2>
                         <ul>
-                            <li>Expertise in diverse systems</li>
-                            <li>Comprehensive solutions</li>
-                            <li>Proven track record</li>
-                            <li>Customized approach</li>
-                            <li>Effective project management</li>
-                            <li>Ongoing support and advisory</li>
+                            <li><BsCheck2Square/> Expertise in diverse systems</li>
+                            <li><BsCheck2Square/> Comprehensive solutions</li>
+                            <li><BsCheck2Square/> Proven track record</li>
+                            <li><BsCheck2Square/> Customized approach</li>
+                            <li><BsCheck2Square/> Effective project management</li>
+                            <li><BsCheck2Square/> Ongoing support and advisory</li>
                         </ul>                
                     </div>
                     <div className="col-md-12 col-lg-4 col-xl-4 col-sm-12 col-xs-12">

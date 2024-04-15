@@ -4,6 +4,7 @@ import cmpformimg from './images/company-formation-uae.jpg';
 import Image from 'next/image';
 import { IoMdCheckboxOutline } from "react-icons/io";
 import ComForDocModal from "./ComForDocModal";
+import { BsCheck2Square } from "react-icons/bs";
 const CompanyFormationCnt = () => {
   return (
     <>
@@ -97,13 +98,13 @@ const CompanyFormationCnt = () => {
                                 <h2>Choose Elevate as your Business setup consultant in Dubai,UAE</h2>
                                 <p>Elevate offers complete services to facilitate your business setup in Dubai. From helping you choose the right business to providing VISA assistance, and expert accounting and auditing assistance, we are your trusted business setup consultant for a successful business establishment in Dubai, UAE.</p>
                                 <ul>
-                                    <li>Choose the Right Business</li>
-                                    <li>Prepare a detailed business plan</li>
-                                    <li>VISA Assistance</li>
-                                    <li>Office Space Assistance</li>
-                                    <li>Bank Account Opening Assistance</li>
-                                    <li>Complete PRO Assistance</li>
-                                    <li>Accounting & Auditing Assistance</li>
+                                    <li><BsCheck2Square/> Choose the Right Business</li>
+                                    <li><BsCheck2Square/> Prepare a detailed business plan</li>
+                                    <li><BsCheck2Square/> VISA Assistance</li>
+                                    <li><BsCheck2Square/> Office Space Assistance</li>
+                                    <li><BsCheck2Square/> Bank Account Opening Assistance</li>
+                                    <li><BsCheck2Square/> Complete PRO Assistance</li>
+                                    <li><BsCheck2Square/> Accounting & Auditing Assistance</li>
                                 </ul>
                             </div>
                         </div>

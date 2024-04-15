@@ -3,6 +3,7 @@ import Image from 'next/image'
 import restaurantimg from './images/restaurant-accounting.jpg';
 import ResModal1 from './ResModal1';
 import ResModal2 from './ResModal2';
+import { FaLongArrowAltRight } from "react-icons/fa";
 const RestaurantContent = () => {
   return (
     <>
@@ -28,12 +29,12 @@ const RestaurantContent = () => {
                     <div className="col-md-12 col-lg-6 col-xl-6 col-sm-12 col-xs-12">
                         <h2 className='rest-hd2'>Financial Reporting Rstaurant Accounting Services, DUBAI</h2>
                         <ul>
-                            <li>Profit & Loss Statements</li>
-                            <li>Balance Sheet</li>
-                            <li>Cash Flow Statement</li>
-                            <li>General Ledger</li>
-                            <li>Inter-Company Accounting</li>
-                            <li>Fixed Asset Account Management</li>
+                            <li><FaLongArrowAltRight/>Profit & Loss Statements</li>
+                            <li><FaLongArrowAltRight/>Balance Sheet</li>
+                            <li><FaLongArrowAltRight/>Cash Flow Statement</li>
+                            <li><FaLongArrowAltRight/>General Ledger</li>
+                            <li><FaLongArrowAltRight/>Inter-Company Accounting</li>
+                            <li><FaLongArrowAltRight/>Fixed Asset Account Management</li>
                         </ul>
                     </div>
                     <div className="col-md-12 col-lg-6 col-xl-6 col-sm-12 col-xs-12">
@@ -64,15 +65,15 @@ const RestaurantContent = () => {
                         <p>By opting to outsource your Accounting Services for Restaurants in UAE, to our expert team at ELEVATE, you liberate both your valuable time and energy. Our track record speaks for itself – we've built a solid reputation for delivering unparalleled restaurant accounting services in Dubai and throughout the UAE. Our team of highly qualified professionals is dedicated to surpassing expectations, ensuring that you receive not just standard accounting solutions, but tailored and cost-effective ones.</p>
                         <p>At ELEVATE, our commitment goes beyond conventional accounting. We specialize in providing restaurant accounting services in Dubai, catering to the unique needs of the thriving culinary landscape in the UAE. As a steadfast partner, we assist you in navigating the intricate world of finances, enabling you to focus on the culinary excellence that defines your restaurant. Whether you're starting a new venture or looking to enhance your current operations, our services are designed to empower your success.</p>
                         <ul>
-                            <li>Bookkeeping services</li>
-                            <li>Accounts payable & Accounts receivable</li>
-                            <li>Bank account reconciliation</li>
-                            <li>Managed Payroll</li>
-                            <li>Value-added tax</li>
-                            <li>Representation of Financial report to the Management</li>
-                            <li>Break-even Analysis Report</li>
-                            <li>Submitting VAT refund forms</li>
-                            <li>Any support or guidance related to accounting and vat filing</li>
+                            <li><FaLongArrowAltRight/>Bookkeeping services</li>
+                            <li><FaLongArrowAltRight/>Accounts payable & Accounts receivable</li>
+                            <li><FaLongArrowAltRight/>Bank account reconciliation</li>
+                            <li><FaLongArrowAltRight/>Managed Payroll</li>
+                            <li><FaLongArrowAltRight/>Value-added tax</li>
+                            <li><FaLongArrowAltRight/>Representation of Financial report to the Management</li>
+                            <li><FaLongArrowAltRight/>Break-even Analysis Report</li>
+                            <li><FaLongArrowAltRight/>Submitting VAT refund forms</li>
+                            <li><FaLongArrowAltRight/>Any support or guidance related to accounting and vat filing</li>
                         </ul>
                     </div>
                     <div className="col-md-12 col-lg-4 col-xl-4 col-sm-12 col-xs-12">

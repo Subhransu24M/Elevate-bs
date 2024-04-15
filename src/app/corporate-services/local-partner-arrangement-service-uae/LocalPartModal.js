@@ -1,5 +1,5 @@
 
-
+import { BsCheck2Square } from "react-icons/bs";
 const LocalPartModal = () => {
   return (
     <>
@@ -20,12 +20,12 @@ const LocalPartModal = () => {
                         <div className="modal-body">
                             <p>A local sponsor or local service agent in Dubai has several responsibilities, including:</p>
                               <ul className="lcl-part-mdl-ul">
-                                <li>Managing the cancellation of employees' work visas.</li>
-                                <li>Handling the cancellation of labor status for employees.</li>
-                                <li>Closing bank accounts related to the business.</li>
-                                <li>Settling any outstanding debts if applicable.</li>
-                                <li>Facilitating interactions with government officials and ministries on behalf of the business.</li>
-                                <li>Interpreting business contracts in Arabic, as a local authority is required to understand and interpret these documents and can sign them on behalf of their foreign business partner.</li>
+                                <li><BsCheck2Square/> Managing the cancellation of employees' work visas.</li>
+                                <li><BsCheck2Square/> Handling the cancellation of labor status for employees.</li>
+                                <li><BsCheck2Square/> Closing bank accounts related to the business.</li>
+                                <li><BsCheck2Square/> Settling any outstanding debts if applicable.</li>
+                                <li><BsCheck2Square/> Facilitating interactions with government officials and ministries on behalf of the business.</li>
+                                <li><BsCheck2Square/> Interpreting business contracts in Arabic, as a local authority is required to understand and interpret these documents and can sign them on behalf of their foreign business partner.</li>
                                 
                               </ul>
                         </div>

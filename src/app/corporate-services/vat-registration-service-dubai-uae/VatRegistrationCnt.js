@@ -8,6 +8,7 @@ import DistinctVatRegModal from "./DistinctVatRegModal";
 import ElvBrandRepModal from "./ElvBrandRepModal";
 import ExpNewBusinessAvenuesModal from "./ExpNewBusinessAvenuesModal";
 import EnhCashFlowModal from "./EnhCashFlowModal";
+import { BsCheck2Square } from "react-icons/bs";
 const VatRegistrationCnt = () => {
   return (
     <>
@@ -117,14 +118,14 @@ const VatRegistrationCnt = () => {
                             <p>Elevate Auditing offers top-notch VAT registration services in Dubai,UAE for new businesses which include analyzing your turnover to determine whether your business should register for VAT or wait. We will facilitate the process by applying for online VAT registration and obtaining the Tax Registration Number (TRN) for your company. Additionally, we will ensure that your company's VAT certificate is issued by the FTA.</p>
                             <h3>Our VAT Services include the followings:</h3>
                             <ul>
-                                <li>VAT Registrations</li>
-                                <li>VAT Return filings.</li>
-                                <li>VAT Refunds.</li>
-                                <li>VAT Voluntary disclosure.</li>
-                                <li>VAT Reconsideration.</li>
-                                <li>VAT deregistration service</li>
-                                <li>VAT Audit</li>
-                                <li>Liaison with FTA on their tax-related matters</li>
+                                <li><BsCheck2Square/> VAT Registrations</li>
+                                <li><BsCheck2Square/> VAT Return filings.</li>
+                                <li><BsCheck2Square/> VAT Refunds.</li>
+                                <li><BsCheck2Square/> VAT Voluntary disclosure.</li>
+                                <li><BsCheck2Square/> VAT Reconsideration.</li>
+                                <li><BsCheck2Square/> VAT deregistration service</li>
+                                <li><BsCheck2Square/> VAT Audit</li>
+                                <li><BsCheck2Square/> Liaison with FTA on their tax-related matters</li>
                             </ul>
                             <h6>Looking to register for VAT in the UAE? Let us help you simplify the process! Contact us today to get started!</h6>
                         </div>

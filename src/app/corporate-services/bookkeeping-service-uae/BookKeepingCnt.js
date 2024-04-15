@@ -3,6 +3,7 @@ import bookkeepingimgleft from './images/bookeeping-service.png';
 import bookkeepingimguae from './images/bookkeeping-service-uae.jpg';
 import Image from 'next/image';
 import BookKeepingAccord from './BookKeepingAccord';
+import { BsCheck2Square } from "react-icons/bs";
 const BookKeepingCnt = () => {
   return (
     <>
@@ -31,13 +32,13 @@ const BookKeepingCnt = () => {
                             <p>Bookkeeping is the systematic process of recording, organizing, and maintaining financial transactions and records of a business or organization. It involves documenting all financial activities, such as income, expenses, purchases, and sales, in a structured and chronological manner.</p>
                             <h4>Key aspects of Bookkeeping include</h4>
                             <ul>
-                                <li>Recording Transactions</li>
-                                <li>Organization</li>
-                                <li>Double-Entry System</li>
-                                <li>Balancing Accounts</li>
-                                <li>Financial Reporting</li>
-                                <li>Compliance</li>
-                                <li>Decision Making</li>
+                                <li><BsCheck2Square/> Recording Transactions</li>
+                                <li><BsCheck2Square/> Organization</li>
+                                <li><BsCheck2Square/> Double-Entry System</li>
+                                <li><BsCheck2Square/> Balancing Accounts</li>
+                                <li><BsCheck2Square/> Financial Reporting</li>
+                                <li><BsCheck2Square/> Compliance</li>
+                                <li><BsCheck2Square/> Decision Making</li>
                             </ul>
                             <p>Bookkeeping is a fundamental aspect of accounting, serving as the foundation upon which more complex financial analysis and reporting are built. It ensures that a company's financial records are accurate, transparent, and up-to-date, which is essential for both internal management and external stakeholders, such as investors, creditors, and tax authorities.</p>
                         </div>
@@ -68,11 +69,11 @@ const BookKeepingCnt = () => {
                             <h2 className='bkp-hd'>Why Outsource Bookkeeping to Elevate Team?</h2>
                             <p>From fundamental to advanced bookkeeping services, we extend equal care and consideration to all our clients, ensuring that they receive the best accounting and bookkeeping services in Dubai, UAE.</p>
                             <ul>
-                                <li>Value-added Bookkeeping Services</li>
-                                <li>Accuracy in Reporting</li>
-                                <li>Professional approach toward Reports</li>
-                                <li>Stick to finishing the work on deadlines</li>
-                                <li>Cross-monitoring and finalization by a professional Chartered Accountant</li>
+                                <li><BsCheck2Square/> Value-added Bookkeeping Services</li>
+                                <li><BsCheck2Square/> Accuracy in Reporting</li>
+                                <li><BsCheck2Square/> Professional approach toward Reports</li>
+                                <li><BsCheck2Square/> Stick to finishing the work on deadlines</li>
+                                <li><BsCheck2Square/> Cross-monitoring and finalization by a professional Chartered Accountant</li>
                             </ul>
                             <div className="bk-kp-rw2">
                                 <h2 className='bkp-hd'>What we do?</h2>
@@ -80,22 +81,22 @@ const BookKeepingCnt = () => {
                             <div className="row">
                                 <div className="col-md-12 col-lg-6 col-xl-6 col-xm-12 col-xs-12">
                                     <ul>
-                                        <li>Preparing Financial Statements.</li>
-                                        <li>Managing Cost.</li>
-                                        <li>Invoicing.</li>
-                                        <li>Computerized accounting system analysis and installation.</li>
-                                        <li>Budgeting & Financial Forecasting.</li>
-                                        <li>Managing Accounts Receivable.</li>
+                                        <li><BsCheck2Square/> Preparing Financial Statements.</li>
+                                        <li><BsCheck2Square/> Managing Cost.</li>
+                                        <li><BsCheck2Square/> Invoicing.</li>
+                                        <li><BsCheck2Square/> Computerized accounting system analysis and installation.</li>
+                                        <li><BsCheck2Square/> Budgeting & Financial Forecasting.</li>
+                                        <li><BsCheck2Square/> Managing Accounts Receivable.</li>
                                     </ul>
                                 </div>
                                 <div className="col-md-12 col-lg-6 col-xl-6 col-xm-12 col-xs-12">
                                     <ul>
-                                        <li>Managing Accounts Payables.</li>
-                                        <li>Verification and valuation of inventory.</li>
-                                        <li>Preparation of monthly bank reconciliation statements.</li>
-                                        <li>Payroll Processing.</li>
-                                        <li>Banking and Credit card reconciliation.</li>
-                                        <li>Supervision & review of financial accounting records.</li>
+                                        <li><BsCheck2Square/> Managing Accounts Payables.</li>
+                                        <li><BsCheck2Square/> Verification and valuation of inventory.</li>
+                                        <li><BsCheck2Square/> Preparation of monthly bank reconciliation statements.</li>
+                                        <li><BsCheck2Square/> Payroll Processing.</li>
+                                        <li><BsCheck2Square/> Banking and Credit card reconciliation.</li>
+                                        <li><BsCheck2Square/> Supervision & review of financial accounting records.</li>
                                     </ul>
                                 </div>
                             </div>

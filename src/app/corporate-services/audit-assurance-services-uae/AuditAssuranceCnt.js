@@ -7,6 +7,7 @@ import approvedzome4 from './images/4.png';
 import approvedzome5 from './images/5.png';
 import approvedzome6 from './images/6.png';
 import auditassuranceimg from './images/audit-assurance.jpg';
+import { BsCheck2Square } from "react-icons/bs";
 const AuditAssurancecnt = () => {
   return (
     <>
@@ -36,17 +37,16 @@ const AuditAssurancecnt = () => {
                                 <h6>External Audit</h6>
                                 {/* Modal Starts */}
 
-                                <button type="button" className="btn btn-primary" data-toggle="modal" data-target="#exampleModalLong">
+                                <button type="button" className="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModalLong">
                                     Learn More
                                 </button>
 
-                                <div className="modal fade" id="exampleModalLong" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle" aria-hidden="true">
+                                <div className="modal fade" id="exampleModalLong" tabIndex="-1" role="dialog" aria-labelledby="exampleModalLongTitle" aria-hidden="true">
                                     <div className="modal-dialog" role="document">
                                         <div className="modal-content">
                                             <div className="modal-header">
                                                 <h5 className="modal-title aud-mdl-tlt" id="exampleModalLongTitle">External Audit</h5>
-                                                <button type="button" className="close" data-dismiss="modal" aria-label="Close">
-                                                    <span aria-hidden="true">&times;</span>
+                                                <button type="button" className="btn-close" data-bs-dismiss="modal" aria-label="Close">
                                                 </button>
                                             </div>
                                             <div className="modal-body">
@@ -71,17 +71,16 @@ const AuditAssurancecnt = () => {
                                 <h6>Internal Audit</h6>
                                 {/* Modal Starts */}
 
-                                <button type="button" className="btn btn-primary" data-toggle="modal" data-target="#exampleModalLong2">
+                                <button type="button" className="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModalLong2">
                                     Learn More
                                 </button>
 
-                                <div className="modal fade" id="exampleModalLong2" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle" aria-hidden="true">
+                                <div className="modal fade" id="exampleModalLong2" tabIndex="-1" role="dialog" aria-labelledby="exampleModalLongTitle" aria-hidden="true">
                                     <div className="modal-dialog" role="document">
                                         <div className="modal-content">
                                             <div className="modal-header">
                                                 <h5 className="modal-title aud-mdl-tlt" id="exampleModalLongTitle">Internal Audit</h5>
-                                                <button type="button" className="close" data-dismiss="modal" aria-label="Close">
-                                                    <span aria-hidden="true">&times;</span>
+                                                <button type="button" className="btn-close" data-bs-dismiss="modal" aria-label="Close">
                                                 </button>
                                             </div>
                                             <div className="modal-body">
@@ -106,17 +105,16 @@ const AuditAssurancecnt = () => {
                                 <h6>Inventory/Stock Audit</h6>
                                 {/* Modal Starts */}
 
-                                <button type="button" className="btn btn-primary" data-toggle="modal" data-target="#exampleModalLong3">
+                                <button type="button" className="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModalLong3">
                                     Learn More
                                 </button>
 
-                                <div className="modal fade" id="exampleModalLong3" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle" aria-hidden="true">
+                                <div className="modal fade" id="exampleModalLong3" tabIndex="-1" role="dialog" aria-labelledby="exampleModalLongTitle" aria-hidden="true">
                                     <div className="modal-dialog" role="document">
                                         <div className="modal-content">
                                             <div className="modal-header">
                                                 <h5 className="modal-title aud-mdl-tlt" id="exampleModalLongTitle">Inventory/Stock Audit</h5>
-                                                <button type="button" className="close" data-dismiss="modal" aria-label="Close">
-                                                    <span aria-hidden="true">&times;</span>
+                                                <button type="button" className="btn-close" data-bs-dismiss="modal" aria-label="Close">
                                                 </button>
                                             </div>
                                             <div className="modal-body">
@@ -141,17 +139,17 @@ const AuditAssurancecnt = () => {
                                 <h6>Revenue Audit</h6>
                                 {/* Modal Starts */}
 
-                                <button type="button" className="btn btn-primary" data-toggle="modal" data-target="#exampleModalLong4">
+                                <button type="button" className="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModalLong4">
                                     Learn More
                                 </button>
 
-                                <div className="modal fade" id="exampleModalLong4" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle" aria-hidden="true">
+                                <div className="modal fade" id="exampleModalLong4" tabIndex="-1" role="dialog" aria-labelledby="exampleModalLongTitle" aria-hidden="true">
                                     <div className="modal-dialog" role="document">
                                         <div className="modal-content">
                                             <div className="modal-header">
                                                 <h5 className="modal-title aud-mdl-tlt" id="exampleModalLongTitle">Revenue Audit</h5>
-                                                <button type="button" className="close" data-dismiss="modal" aria-label="Close">
-                                                    <span aria-hidden="true">&times;</span>
+                                                <button type="button" className="btn-close" data-bs-dismiss="modal" aria-label="Close">
+
                                                 </button>
                                             </div>
                                             <div className="modal-body">
@@ -174,17 +172,17 @@ const AuditAssurancecnt = () => {
                                 <h6>Due Diligence Services</h6>
                                 {/* Modal Starts */}
 
-                                <button type="button" className="btn btn-primary" data-toggle="modal" data-target="#exampleModalLong5">
+                                <button type="button" className="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModalLong5">
                                     Learn More
                                 </button>
 
-                                <div className="modal fade" id="exampleModalLong5" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle" aria-hidden="true">
+                                <div className="modal fade" id="exampleModalLong5" tabIndex="-1" role="dialog" aria-labelledby="exampleModalLongTitle" aria-hidden="true">
                                     <div className="modal-dialog" role="document">
                                         <div className="modal-content">
                                             <div className="modal-header">
                                                 <h5 className="modal-title aud-mdl-tlt" id="exampleModalLongTitle">Due Diligence Services</h5>
-                                                <button type="button" className="close" data-dismiss="modal" aria-label="Close">
-                                                    <span aria-hidden="true">&times;</span>
+                                                <button type="button" className="btn-close" data-bs-dismiss="modal" aria-label="Close">
+                                                    
                                                 </button>
                                             </div>
                                             <div className="modal-body">
@@ -207,17 +205,17 @@ const AuditAssurancecnt = () => {
                                 <h6>Forensic Audit</h6>
                                 {/* Modal Starts */}
 
-                                <button type="button" className="btn btn-primary" data-toggle="modal" data-target="#exampleModalLong6">
+                                <button type="button" className="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModalLong6">
                                     Learn More
                                 </button>
 
-                                <div className="modal fade" id="exampleModalLong6" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle" aria-hidden="true">
+                                <div className="modal fade" id="exampleModalLong6" tabIndex="-1" role="dialog" aria-labelledby="exampleModalLongTitle" aria-hidden="true">
                                     <div className="modal-dialog" role="document">
                                         <div className="modal-content">
                                             <div className="modal-header">
                                                 <h5 className="modal-title aud-mdl-tlt" id="exampleModalLongTitle">Forensic Audit</h5>
-                                                <button type="button" className="close" data-dismiss="modal" aria-label="Close">
-                                                    <span aria-hidden="true">&times;</span>
+                                                <button type="button" className="btn-close" data-bs-dismiss="modal" aria-label="Close">
+                                                    
                                                 </button>
                                             </div>
                                             <div className="modal-body">
@@ -273,10 +271,10 @@ const AuditAssurancecnt = () => {
                             <p>Elevate Auditing is one of the best audit firms in Dubai and UAE, with a team of top auditors. We provide a complete range of audit and assurance services to help companies achieve their business objectives by gaining insight into their organizational structure and internal processes.</p>
                             <p>Team Elevate Auditing delivers independent, objective, and high-quality auditing services in UAE.</p>
                             <ul>
-                                <li>Expert team of auditors</li>
-                                <li>Time-bound Audits</li>
-                                <li>Compliance with the industry's best practices and standards</li>
-                                <li>Affordable Professional Charges</li>
+                                <li><BsCheck2Square/> Expert team of auditors</li>
+                                <li><BsCheck2Square/> Time-bound Audits</li>
+                                <li><BsCheck2Square/> Compliance with the industry's best practices and standards</li>
+                                <li><BsCheck2Square/> Affordable Professional Charges</li>
                             </ul>
                             <h6>Take control of your financial management with Elevate's expert Audit & Assurance services in UAE. Contact us today to learn more!</h6>
                         </div>

@@ -1,5 +1,5 @@
 
-
+import { FaLongArrowAltRight } from "react-icons/fa";
 const Modal2 = () => {
   return (
     <>
@@ -15,10 +15,10 @@ const Modal2 = () => {
                         </div>
                         <div className="modal-body trd-mark-mdl-cnt">
                             <ul>
-                                <li>Trademark in PDF file</li>
-                                <li>Scanned copy of the Trade License</li>
-                                <li>Scanned Passport copy of Authorised Signatory</li>
-                                <li>Power of Attorney (Notarized by the Notary Public & legalized by the UAE)</li>
+                                <li><FaLongArrowAltRight/>Trademark in PDF file</li>
+                                <li><FaLongArrowAltRight/>Scanned copy of the Trade License</li>
+                                <li><FaLongArrowAltRight/>Scanned Passport copy of Authorised Signatory</li>
+                                <li><FaLongArrowAltRight/>Power of Attorney (Notarized by the Notary Public & legalized by the UAE)</li>
                             </ul>
                         </div>
                     </div>

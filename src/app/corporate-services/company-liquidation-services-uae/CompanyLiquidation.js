@@ -3,6 +3,7 @@ import Image from 'next/image';
 import cmpliquidationimg from './images/company-liquidation.jpg';
 import Liquidationmodal from "./Liquidationmodal";
 import Liquidationmodal2 from "./Liquidationmodal2";
+import { BsCheck2Square } from "react-icons/bs";
 const CompanyLiquidation = () => {
   return (
     <>
@@ -48,14 +49,14 @@ const CompanyLiquidation = () => {
                         <div className="col-md-12 col-lg-6 col-xl-6 col-sm-12 col-xs-12">
                             <h2 className="lqd-hd">Documents required for Company Liquidation in Dubai,UAE</h2>
                             <ul>
-                                <li>Copy of your business license. If your business license has expired, you will have to get it renewed before you can begin the process</li>
-                                <li>AOA/MOA (Memorandum of Association) with a copy of any changes that have been made</li>
-                                <li>Share Certificate</li>
-                                <li>Power of Attorney (if the owner/shareholders are outside the country)</li>
-                                <li>Copies of all shareholder’s passports</li>
-                                <li>Copies of emirates ID</li>
-                                <li>Shareholders’ Resolution</li>
-                                <li>Deregistration application form </li>
+                                <li><BsCheck2Square/> Copy of your business license. If your business license has expired, you will have to get it renewed before you can begin the process</li>
+                                <li><BsCheck2Square/> AOA/MOA (Memorandum of Association) with a copy of any changes that have been made</li>
+                                <li><BsCheck2Square/> Share Certificate</li>
+                                <li><BsCheck2Square/> Power of Attorney (if the owner/shareholders are outside the country)</li>
+                                <li><BsCheck2Square/> Copies of all shareholder’s passports</li>
+                                <li><BsCheck2Square/> Copies of emirates ID</li>
+                                <li><BsCheck2Square/> Shareholders’ Resolution</li>
+                                <li><BsCheck2Square/> Deregistration application form </li>
                             </ul>
                         </div>
                     </div>
@@ -70,17 +71,17 @@ const CompanyLiquidation = () => {
                             <p>Having extensive experience as both an Auditor and Company Liquidator in Dubai, UAE, we possess in-depth knowledge of the financial connections of companies across various domains. Elevate has successfully liquidated numerous types of companies, including Limited Liability Companies, Free Zone Companies, and Offshore Companies.
                             </p>
                             <ul>
-                                <li>Drafting the Board Resolution</li>
-                                <li>Publishing Advertisement in English and Arabic News Paper</li>
-                                <li>Settling with Employees</li>
-                                <li>Settling with the Debtors/suppliers</li>
-                                <li>Visa Cancellation</li>
-                                <li>Bank Account Closing</li>
-                                <li>Obtaining NOC from Dewa, NOC from Local Telecom Company</li>
-                                <li>Registered Tenancy Agreement Cancellation</li>
-                                <li>De-register with FTA</li>
-                                <li>Preparation of the Liquidator’s Report</li>
-                                <li>Submission of the final Report to the Authority to get the De-Registration Certificate</li>
+                                <li><BsCheck2Square/> Drafting the Board Resolution</li>
+                                <li><BsCheck2Square/> Publishing Advertisement in English and Arabic News Paper</li>
+                                <li><BsCheck2Square/> Settling with Employees</li>
+                                <li><BsCheck2Square/> Settling with the Debtors/suppliers</li>
+                                <li><BsCheck2Square/> Visa Cancellation</li>
+                                <li><BsCheck2Square/> Bank Account Closing</li>
+                                <li><BsCheck2Square/> Obtaining NOC from Dewa, NOC from Local Telecom Company</li>
+                                <li><BsCheck2Square/> Registered Tenancy Agreement Cancellation</li>
+                                <li><BsCheck2Square/> De-register with FTA</li>
+                                <li><BsCheck2Square/> Preparation of the Liquidator’s Report</li>
+                                <li><BsCheck2Square/> Submission of the final Report to the Authority to get the De-Registration Certificate</li>
                             </ul>
                             <h5>Take the first step towards a hassle-free company closure in UAE - contact Elevate for expert Liquidation services!</h5>
                         </div>

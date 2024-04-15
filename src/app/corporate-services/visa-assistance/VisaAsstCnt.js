@@ -6,6 +6,7 @@ import callicon from './icon/call-1.png';
 import gmailicon from './icon/gmail.png';
 import Image from 'next/image';
 import Link from 'next/link';
+import { BsCheck2Square } from "react-icons/bs";
 const VisaAsstCnt = () => {
   return (
     <>
@@ -88,16 +89,16 @@ const VisaAsstCnt = () => {
                                 <div className='tourist-visa-document'>
                                     <h4>Documents Required For The Visa Application</h4>
                                     <ul>
-                                        <li>A passport, valid for a minimum of six months</li>
-                                        <li>Passport size photos</li>
-                                        <li>A copy of your completed and signed Dubai visa application form.</li>
-                                        <li>Details about your itinerary.</li>
-                                        <li>Proof of hotel bookings, flight bookings.</li>
-                                        <li>Copy of tour ticket.</li>
-                                        <li>A cover letter with all the required details about your itinerary.</li>
-                                        <li>Statement from your bank of the last six months to prove you have enough finances to fund your visit.</li>
-                                        <li>Address proof.</li>
-                                        <li>Letter from your sponsor who can be a friend or relative staying in Dubai.</li>
+                                        <li><BsCheck2Square/> A passport, valid for a minimum of six months</li>
+                                        <li><BsCheck2Square/> Passport size photos</li>
+                                        <li><BsCheck2Square/> A copy of your completed and signed Dubai visa application form.</li>
+                                        <li><BsCheck2Square/> Details about your itinerary.</li>
+                                        <li><BsCheck2Square/> Proof of hotel bookings, flight bookings.</li>
+                                        <li><BsCheck2Square/> Copy of tour ticket.</li>
+                                        <li><BsCheck2Square/> A cover letter with all the required details about your itinerary.</li>
+                                        <li><BsCheck2Square/> Statement from your bank of the last six months to prove you have enough finances to fund your visit.</li>
+                                        <li><BsCheck2Square/> Address proof.</li>
+                                        <li><BsCheck2Square/> Letter from your sponsor who can be a friend or relative staying in Dubai.</li>
                                     </ul>
                                 </div>
                             </div>
@@ -176,16 +177,16 @@ const VisaAsstCnt = () => {
                                 <div className='tourist-visa-document'>
                                     <h4>Documents Required For The Visa Application</h4>
                                     <ul>
-                                        <li>A passport, valid for a minimum of six months</li>
-                                        <li>Passport size photos</li>
-                                        <li>A copy of your completed and signed Dubai visa application form.</li>
-                                        <li>Details about your itinerary.</li>
-                                        <li>Proof of hotel bookings, flight bookings.</li>
-                                        <li>Copy of tour ticket.</li>
-                                        <li>A cover letter with all the required details about your itinerary.</li>
-                                        <li>Statement from your bank of the last six months to prove you have enough finances to fund your visit.</li>
-                                        <li>Address proof.</li>
-                                        <li>Letter from your sponsor who can be a friend or relative staying in Dubai.</li>
+                                        <li><BsCheck2Square/> A passport, valid for a minimum of six months</li>
+                                        <li><BsCheck2Square/> Passport size photos</li>
+                                        <li><BsCheck2Square/> A copy of your completed and signed Dubai visa application form.</li>
+                                        <li><BsCheck2Square/> Details about your itinerary.</li>
+                                        <li><BsCheck2Square/> Proof of hotel bookings, flight bookings.</li>
+                                        <li><BsCheck2Square/> Copy of tour ticket.</li>
+                                        <li><BsCheck2Square/> A cover letter with all the required details about your itinerary.</li>
+                                        <li><BsCheck2Square/> Statement from your bank of the last six months to prove you have enough finances to fund your visit.</li>
+                                        <li><BsCheck2Square/> Address proof.</li>
+                                        <li><BsCheck2Square/> Letter from your sponsor who can be a friend or relative staying in Dubai.</li>
                                     </ul>
                                 </div>
                             </div>
@@ -268,16 +269,16 @@ const VisaAsstCnt = () => {
                                 <div className='tourist-visa-document'>
                                     <h4>Documents Required For The Visa Application</h4>
                                     <ul>
-                                        <li>A passport, valid for a minimum of six months</li>
-                                        <li>Passport size photos</li>
-                                        <li>A copy of your completed and signed Dubai visa application form.</li>
-                                        <li>Details about your itinerary.</li>
-                                        <li>Proof of hotel bookings, flight bookings.</li>
-                                        <li>Copy of tour ticket.</li>
-                                        <li>A cover letter with all the required details about your itinerary.</li>
-                                        <li>Statement from your bank of the last six months to prove you have enough finances to fund your visit.</li>
-                                        <li>Address proof.</li>
-                                        <li>Letter from your sponsor who can be a friend or relative staying in Dubai.</li>
+                                        <li><BsCheck2Square/> A passport, valid for a minimum of six months</li>
+                                        <li><BsCheck2Square/> Passport size photos</li>
+                                        <li><BsCheck2Square/> A copy of your completed and signed Dubai visa application form.</li>
+                                        <li><BsCheck2Square/> Details about your itinerary.</li>
+                                        <li><BsCheck2Square/> Proof of hotel bookings, flight bookings.</li>
+                                        <li><BsCheck2Square/> Copy of tour ticket.</li>
+                                        <li><BsCheck2Square/> A cover letter with all the required details about your itinerary.</li>
+                                        <li><BsCheck2Square/> Statement from your bank of the last six months to prove you have enough finances to fund your visit.</li>
+                                        <li><BsCheck2Square/> Address proof.</li>
+                                        <li><BsCheck2Square/> Letter from your sponsor who can be a friend or relative staying in Dubai.</li>
                                     </ul>
                                 </div>
                             </div>
@@ -355,16 +356,16 @@ const VisaAsstCnt = () => {
                                 <div className='tourist-visa-document'>
                                     <h4>Documents Required For The Visa Application</h4>
                                     <ul>
-                                        <li>A passport, valid for a minimum of six months</li>
-                                        <li>Passport size photos</li>
-                                        <li>A copy of your completed and signed Dubai visa application form.</li>
-                                        <li>Details about your itinerary.</li>
-                                        <li>Proof of hotel bookings, flight bookings.</li>
-                                        <li>Copy of tour ticket.</li>
-                                        <li>A cover letter with all the required details about your itinerary.</li>
-                                        <li>Statement from your bank of the last six months to prove you have enough finances to fund your visit.</li>
-                                        <li>Address proof.</li>
-                                        <li>Letter from your sponsor who can be a friend or relative staying in Dubai.</li>
+                                        <li><BsCheck2Square/> A passport, valid for a minimum of six months</li>
+                                        <li><BsCheck2Square/> Passport size photos</li>
+                                        <li><BsCheck2Square/> A copy of your completed and signed Dubai visa application form.</li>
+                                        <li><BsCheck2Square/> Details about your itinerary.</li>
+                                        <li><BsCheck2Square/> Proof of hotel bookings, flight bookings.</li>
+                                        <li><BsCheck2Square/> Copy of tour ticket.</li>
+                                        <li><BsCheck2Square/> A cover letter with all the required details about your itinerary.</li>
+                                        <li><BsCheck2Square/> Statement from your bank of the last six months to prove you have enough finances to fund your visit.</li>
+                                        <li><BsCheck2Square/> Address proof.</li>
+                                        <li><BsCheck2Square/> Letter from your sponsor who can be a friend or relative staying in Dubai.</li>
                                     </ul>
                                 </div>
                             </div>

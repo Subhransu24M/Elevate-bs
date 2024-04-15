@@ -5,6 +5,7 @@ import TaxModal3 from "./TaxModal3"
 import Image from 'next/image';
 import corptaximg1 from './images/Corporate-Tax-img1.webp';
 import TaxConsultancyBenefits from "./TaxConsultancyBenefits";
+import { FaLongArrowAltRight } from "react-icons/fa";
 const TaxContent = () => {
   return (
     <>
@@ -69,11 +70,11 @@ const TaxContent = () => {
                             <p>As one of the leading tax consultant firms in Dubai, UAE, Elevate Auditing brings forth an array of comprehensive solutions. Our profound understanding of the local and regional tax landscape allows us to offer unparalleled guidance. We recognize the significance of compliance with the Federal Tax Authority (FTA) regulations and guidelines. To this end, we provide an in-depth tax health check to assess the precise impact of taxes on your business. Based on our findings, we formulate efficient recommendations tailored to meet FTA requirements.</p>
                             <p>Elevate serves as your trusted tax advisor in the UAE, ensuring that your business navigates the intricate realm of taxes with confidence and proficiency. Our commitment to excellence and unwavering dedication sets us apart as a partner you can rely on for all your tax consultancy needs.</p>
                             <ol>
-                                <li>Tax Filling</li>
-                                <li>Tax Registration</li>
-                                <li>Tax Planning</li>
-                                <li>Tax Training</li>
-                                <li>Tax Implementation </li>
+                                <li><FaLongArrowAltRight/>Tax Filling</li>
+                                <li><FaLongArrowAltRight/>Tax Registration</li>
+                                <li><FaLongArrowAltRight/>Tax Planning</li>
+                                <li><FaLongArrowAltRight/>Tax Training</li>
+                                <li><FaLongArrowAltRight/>Tax Implementation </li>
                             </ol>
                             <h6>
                                 Maximize your tax savings and minimize risk with our expert tax consultancy services. Contact us now to ensure your business complies with all tax regulations!

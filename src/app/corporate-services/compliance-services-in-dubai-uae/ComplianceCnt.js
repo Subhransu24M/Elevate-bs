@@ -6,6 +6,7 @@ import ComplCbcrModal from "./ComplCbcrModal";
 import ComplEsrModal from "./ComplEsrModal";
 import ComplUboModal from "./ComplUboModal";
 import ComplAmlModal from "./ComplAmlModal";
+import { BsCheck2Square } from "react-icons/bs";
 const ComplianceCnt = () => {
   return (
     <>
@@ -34,10 +35,10 @@ const ComplianceCnt = () => {
                             <p>Compliance in business involves adhering to legal requirements to ensure that all operations are conducted in accordance with the law. It involves being knowledgeable about applicable laws and regulations and taking appropriate measures to ensure compliance.</p>
                             <h2 className="compl-hd">When considering a compliance expert in Dubai, it is essential to ask certain critical questions, such as:</h2>
                             <ul>
-                                <li>What specific compliance services do you provide?</li>
-                                <li>How well-versed are you in UAE laws and regulations?</li>
-                                <li>How frequently do you communicate updates regarding legal changes to your clients?</li>
-                                <li>Can you share any past examples of successful client cases or stories that demonstrate your expertise?</li>
+                                <li><BsCheck2Square/> What specific compliance services do you provide?</li>
+                                <li><BsCheck2Square/> How well-versed are you in UAE laws and regulations?</li>
+                                <li><BsCheck2Square/> How frequently do you communicate updates regarding legal changes to your clients?</li>
+                                <li><BsCheck2Square/> Can you share any past examples of successful client cases or stories that demonstrate your expertise?</li>
                             </ul>
                         </div>
 

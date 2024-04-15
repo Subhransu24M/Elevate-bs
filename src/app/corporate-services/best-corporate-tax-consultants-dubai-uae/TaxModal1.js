@@ -1,5 +1,5 @@
 
-
+import { FaLongArrowAltRight } from "react-icons/fa";
 const TaxModal1 = () => {
   return (
     <>
@@ -24,14 +24,14 @@ const TaxModal1 = () => {
                             </ul>
                             <h6>Non-Taxable Income & Exemptions:</h6>
                             <ul>
-                                <li>Businesses engaged in commercial activities and natural resource exploitation.</li>
-                                <li>No withholding taxes on domestic and cross-border payments.</li>
-                                <li>Individuals receiving dividends, capital gains, or other forms of income from their own shareholdings or assets.</li>
-                                <li>Individuals earning interest and other income from bank accounts or savings plans.</li>
-                                <li>Salary or employment income of individuals.</li>
-                                <li>Dividends and capital gains from qualifying shareholdings in UAE companies.</li>
-                                <li>Intra-group transfers and qualifying reorganizations.</li>
-                                <li>Individuals not needing a company license can invest in UAE real estate in a personal capacity.</li>
+                                <li><FaLongArrowAltRight/>Businesses engaged in commercial activities and natural resource exploitation.</li>
+                                <li><FaLongArrowAltRight/>No withholding taxes on domestic and cross-border payments.</li>
+                                <li><FaLongArrowAltRight/>Individuals receiving dividends, capital gains, or other forms of income from their own shareholdings or assets.</li>
+                                <li><FaLongArrowAltRight/>Individuals earning interest and other income from bank accounts or savings plans.</li>
+                                <li><FaLongArrowAltRight/>Salary or employment income of individuals.</li>
+                                <li><FaLongArrowAltRight/>Dividends and capital gains from qualifying shareholdings in UAE companies.</li>
+                                <li><FaLongArrowAltRight/>Intra-group transfers and qualifying reorganizations.</li>
+                                <li><FaLongArrowAltRight/>Individuals not needing a company license can invest in UAE real estate in a personal capacity.</li>
                             </ul>
                             <p>
                             Navigating this tax landscape requires expert guidance. Elevate, as one of the Best Corporate Tax Consultants in Dubai, UAE, stands ready to provide comprehensive support tailored to your business needs.
