@@ -1,0 +1,42 @@
+.iso-cert-sec5 {
+    padding: 30px 0px;
+    background: linear-gradient(90deg, rgb(0 58 120) 0%, rgb(10 82 133) 47%, rgb(2 54 118) 100%);
+    color: #fff;
+}
+.iso-cert-sec4 {
+    padding: 30px 0px;
+}
+.iso-cert-sec3 {
+    padding: 30px 0px;
+    background: #000412;
+    color: #fff;
+}
+.iso-cert-sec2 {
+    padding: 30px 0px;
+}
+.iso-cert-sec1 {
+    padding: 30px 0px;
+}
+.isoimg3 {
+    margin-top: 55px;
+    max-width: 100%;
+    height: auto;
+}
+
+.isoimg1 {
+    max-width: 100%;
+    height: auto;
+}
+.isoimg2 {
+    max-width: 100%;
+    height: auto;
+}
+span.bkp-iso {
+    margin-right: 10px;
+}
+.iso-hd{
+    font-size: 32px;
+}
+.iso-subhd{
+    font-size: 28px;
+}
