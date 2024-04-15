@@ -19,7 +19,7 @@ const ItServices = () => {
                                 <Image src={webicon} />
                             </div>
                             <div className='it-ser-link'>
-                                <Link type="button" href="#" className='btn btn-primary'>Read More</Link>
+                                <Link type="button" href="/website-development" className='btn btn-primary'>Read More</Link>
                             </div>
                         </div>
                     </div>
@@ -33,7 +33,7 @@ const ItServices = () => {
                                 <Image src={ecomicon} />
                             </div>
                             <div className='it-ser-link'>
-                                <Link type="button" href="#" className='btn btn-primary'>Read More</Link>
+                                <Link type="button" href="/ecommerce-solutions" className='btn btn-primary'>Read More</Link>
                             </div>
                         </div>
                     </div>
@@ -47,7 +47,7 @@ const ItServices = () => {
                                 <Image src={marketingicon} />
                             </div>
                             <div className='it-ser-link'>
-                                <Link type="button" href="#" className='btn btn-primary'>Read More</Link>
+                                <Link type="button" href="/digital-marketing" className='btn btn-primary'>Read More</Link>
                             </div>
                         </div>
                     </div>
@@ -61,7 +61,7 @@ const ItServices = () => {
                                 <Image src={appicon} />
                             </div>
                             <div className='it-ser-link'>
-                                <Link type="button" href="#" className='btn btn-primary'>Read More</Link>
+                                <Link type="button" href="/app-development" className='btn btn-primary'>Read More</Link>
                             </div>
                         </div>
                     </div>

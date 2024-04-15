@@ -17,7 +17,7 @@ const Slider = () => {
                             <div className="carousel-caption d-none d-md-block">
                                 <h2><span className='sl-hd-spn'>INNOVATIVE</span> SUPPORT SYSTEM</h2>
                                 <p>We provide innovative support system to any business.</p>
-                                <Link href="#" type="button" className="btn sld-cta-btn">Contact us</Link>
+                                <Link href="/contact-us" type="button" className="btn sld-cta-btn">Contact us</Link>
                             </div>
                     </div>
                     {/* <div className="carousel-item">

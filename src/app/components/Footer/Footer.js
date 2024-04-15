@@ -66,10 +66,10 @@ const Footer = () => {
                                     </div>
                                     <p>Capitalizing on its 15 years of cutting edge expertise in Corporate Services, IT Services & Digital Marketing.</p>
                                     <div className="ftr-scl">
-                                        <Link href="#"><Image src={ftrfacebook} width={40} height={40} /></Link>
-                                        <Link href="#"><Image src={ftrinstagram} width={40} height={40} /></Link>
-                                        <Link href="#"><Image src={ftrlinkedin} width={40} height={40} /></Link>
-                                        <Link href="#"><Image src={ftrtwitter} width={40} height={40} /></Link>
+                                        <Link href="https://www.facebook.com/elevatebs/" target='_blank'><Image src={ftrfacebook} width={40} height={40} /></Link>
+                                        <Link href="https://www.instagram.com/elevateauditing/" target='_blank'><Image src={ftrinstagram} width={40} height={40} /></Link>
+                                        <Link href="https://twitter.com/elevatebs" target='_blank'><Image src={ftrlinkedin} width={40} height={40} /></Link>
+                                        <Link href="https://www.linkedin.com/company/elevate-business-solutions-dmcc/" target='_blank'><Image src={ftrtwitter} width={40} height={40} /></Link>
                                     </div>
                                 </div>
                             </div>
@@ -78,14 +78,14 @@ const Footer = () => {
                                     <h4>Services</h4>
                                     <hr className='ftr-hr' />
                                     <ul>
-                                        <li><FaArrowRightFromBracket className='ftr-arrow' /><Link href="#">Website Development</Link></li>
-                                        <li><FaArrowRightFromBracket className='ftr-arrow' /><Link href="#">E-Commerce Solutions</Link></li>
-                                        <li><FaArrowRightFromBracket className='ftr-arrow' /><Link href="#">App Development</Link></li>
-                                        <li><FaArrowRightFromBracket className='ftr-arrow' /><Link href="#">Digital Marketing</Link></li>
+                                        <li><FaArrowRightFromBracket className='ftr-arrow' /><Link href="/website-development">Website Development</Link></li>
+                                        <li><FaArrowRightFromBracket className='ftr-arrow' /><Link href="/ecommerce-solutions">E-Commerce Solutions</Link></li>
+                                        <li><FaArrowRightFromBracket className='ftr-arrow' /><Link href="/app-development">App Development</Link></li>
+                                        <li><FaArrowRightFromBracket className='ftr-arrow' /><Link href="/digital-marketing">Digital Marketing</Link></li>
                                         <li><FaArrowRightFromBracket className='ftr-arrow' /><Link href="#">SEO</Link></li>
                                         <li><FaArrowRightFromBracket className='ftr-arrow' /><Link href="#">Google Ads</Link></li>
                                         <li><FaArrowRightFromBracket className='ftr-arrow' /><Link href="#">Social Media Marketing</Link></li>
-                                        <li><FaArrowRightFromBracket className='ftr-arrow' /><Link href="#">Corporate Services</Link></li>
+                                        <li><FaArrowRightFromBracket className='ftr-arrow' /><Link href="/corporate-services">Corporate Services</Link></li>
                                     </ul>
                                 </div>
                             </div>

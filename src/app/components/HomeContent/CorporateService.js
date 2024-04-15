@@ -32,7 +32,7 @@ const CorporateService = () => {
                                 </div>
                                 <h4>Corporate Services</h4>
                                 <p></p>
-                                <Link href="#" type="button" className="btn btn-danger hm-cor-btn">Read More</Link>
+                                <Link href="/corporate-service" type="button" className="btn btn-danger hm-cor-btn">Read More</Link>
                             </div>
                         </div>
                         <div className='col-md-3 col-lg-3 col-xl-3 col-sm-12 col-xs-12'>
@@ -42,7 +42,7 @@ const CorporateService = () => {
                                 </div>
                                 <h4>Accounting Services</h4>
                                 <p></p>
-                                <Link href="#" type="button" className="btn btn-danger hm-cor-btn">Read More</Link>
+                                <Link href="https://elevateauditing.com" type="button" className="btn btn-danger hm-cor-btn" target='_blank'>Read More</Link>
                             </div>
                         </div>
                     </div>
@@ -57,7 +57,7 @@ const CorporateService = () => {
                             <div className='cor-cta-hd'>
                                 <h2>Reduce your audit risk by outsourcing your accounting needs.</h2>
                                 <h5>Hire the best accounting specialists to deal with your accounting needs. !</h5>
-                                <Link href="#" type='button' className='btn btn-danger cor-cta-btn-lst'>Get Free Consultaion Today</Link>
+                                <Link href="/contact-us" type='button' className='btn btn-danger cor-cta-btn-lst'>Get Free Consultaion Today</Link>
                             </div>
                         </div>
                     </div>
