@@ -11,6 +11,7 @@
   },
   "dependencies": {
     "@nextui-org/breadcrumbs": "^2.0.4",
+    "@vercel/analytics": "^1.2.2",
     "@vercel/speed-insights": "^1.0.10",
     "axios": "^1.6.8",
     "bootstrap": "^5.3.3",
