@@ -6,8 +6,8 @@ import AboutContent from "./AboutContent"
 
 
 export const metadata = {
-  title: "Elevate Business Solution - About us",
-  description: "Elevate Business Solutions",
+  title: "About - Elevate Business Solutions DMCC",
+  description: "Capitalizing on its 15 years of cutting edge expertise in Corporate Services, IT Services & Digital Marketing.We have experienced team members giving their hands in enabling the business grow.",
 };
 const page = () => {
   return (

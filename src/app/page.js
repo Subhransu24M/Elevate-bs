@@ -8,8 +8,9 @@ import CorporateService from "./components/HomeContent/CorporateService";
 import Footer from "./components/Footer/Footer";
 
 export const metadata = {
-  title: "Elevate Business Solution - Home",
-  description: "Elevate Business Solutions",
+  title: "Provide Innovative Support System to Any Business - Elevate Business Solutions DMCC",
+  description: "Provide Innovative Support System to Any Business",
+  keywords:"website development service dubai, digital marketing service dubai, accounting service dubai"
 };
 
 export default function Home() {
