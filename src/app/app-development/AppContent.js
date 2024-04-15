@@ -7,6 +7,7 @@ import hybridappimg from '../../../public/icons/hybrid-app.png';
 import pwaappimg from '../../../public/icons/pwa-app.png';
 import flutterappimg from '../../../public/icons/flutter-app.png';
 import ItForm from '../components/WebForm/ItForm';
+import { FaLongArrowAltRight } from "react-icons/fa";
 const AppContent = () => {
     return (
         <>
@@ -30,10 +31,10 @@ const AppContent = () => {
                                 </p>
                                 <div className="app-dev-ul-blk">
                                     <ul className="app-dev-ul">
-                                        <li>10+ years development experience</li>
-                                        <li>100% project on time Delivered</li>
-                                        <li>100% Satisfied Clients </li>
-                                        <li>500+ App delivered successfully</li>
+                                        <li><FaLongArrowAltRight/>10+ years development experience</li>
+                                        <li><FaLongArrowAltRight/>100% project on time Delivered</li>
+                                        <li><FaLongArrowAltRight/>100% Satisfied Clients </li>
+                                        <li><FaLongArrowAltRight/>500+ App delivered successfully</li>
                                     </ul>
                                 </div>
 
@@ -122,12 +123,12 @@ const AppContent = () => {
                             <h3>Industries we serve</h3>
                             <p>Delivering customized app development services to diverse industries, the Best Mobile App Developers in London create tailored digital solutions for your business objectives</p>
                             <ul>
-                                <li>E-commerce</li>
-                                <li>Taxi Booking</li>
-                                <li>Food Delivery</li>
-                                <li>Online Training</li>
-                                <li>Insurance</li>
-                                <li>Finance</li>
+                                <li><FaLongArrowAltRight/>E-commerce</li>
+                                <li><FaLongArrowAltRight/>Taxi Booking</li>
+                                <li><FaLongArrowAltRight/>Food Delivery</li>
+                                <li><FaLongArrowAltRight/>Online Training</li>
+                                <li><FaLongArrowAltRight/>Insurance</li>
+                                <li><FaLongArrowAltRight/>Finance</li>
                             </ul>
                         </div>
                         <div className='col-md-12 col-xl-5 col-lg-5 col-sm-12'>

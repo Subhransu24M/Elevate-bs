@@ -17,7 +17,7 @@ import multilangualimg from '../../../public/icons/multilangual-support.png';
 import offerimg from '../../../public/icons/offer.png';
 import seooptimisedimg from '../../../public/icons/seo-optimised.png';
 import shippingapiimg from '../../../public/icons/shipping-api.png';
-
+import { FaLongArrowAltRight } from "react-icons/fa";
 const EcommContent = () => {
     return (
         <>
@@ -53,13 +53,13 @@ const EcommContent = () => {
                                     We love to do web development and we develop what our clients love and we work with clients all over the world to create thoughtful and purposeful websites which are aesthetically appealing, responsive, error free, efficient and optimized..
                                 </p>
                                 <ul>
-                                    <li>Shopping Cart Solutions</li>
-                                    <li>Shipping Module Development</li>
-                                    <li>Website Theme Development</li>
-                                    <li>Responsive Web Development</li>
-                                    <li>Custom Website Development</li>
-                                    <li>Website Maintenance and Support</li>
-                                    <li>Third-Party Integrations</li>
+                                    <li><FaLongArrowAltRight/>Shopping Cart Solutions</li>
+                                    <li><FaLongArrowAltRight/>Shipping Module Development</li>
+                                    <li><FaLongArrowAltRight/>Website Theme Development</li>
+                                    <li><FaLongArrowAltRight/>Responsive Web Development</li>
+                                    <li><FaLongArrowAltRight/>Custom Website Development</li>
+                                    <li><FaLongArrowAltRight/>Website Maintenance and Support</li>
+                                    <li><FaLongArrowAltRight/>Third-Party Integrations</li>
                                 </ul>
                             </div>
                         </div>

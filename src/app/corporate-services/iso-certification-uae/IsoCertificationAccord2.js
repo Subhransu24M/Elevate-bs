@@ -131,3 +131,4 @@ const IsoCertificationAccord2 = () => {
 }
 
 export default IsoCertificationAccord2
+

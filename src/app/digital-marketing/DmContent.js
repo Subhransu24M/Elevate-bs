@@ -3,6 +3,7 @@ import dmimg from '../../../public/images/digital-marketing-agency.jpg';
 import ItForm from '../components/WebForm/ItForm';
 import DmCard from '../components/DmCard/DmCard';
 import dmimgbnr from '../../../public/images/digital-marketing-services.webp';
+import { FaLongArrowAltRight } from "react-icons/fa";
 const DmContent = () => {
     return (
         <>
@@ -33,11 +34,11 @@ const DmContent = () => {
                         <div className='col-md-8 col-lg-8 col-xl-8 col-sm-12 col-xs-12 brd'>
                             <h2 className='dm-snd-tlt'>What Sets Elevate Apart as the Leading Digital Marketing Agency in London, UK?</h2>
                             <ul>
-                                <li>With a decade-long industry experience, Elevate excels in the realm of digital marketing.</li>
-                                <li>A remarkable track record of 1500+ successful projects underscores our expertise.</li>
-                                <li>Our global footprint spans Dubai, UK, USA, and India, reflecting our far-reaching impact.</li>
-                                <li>We commit to delivering enhanced ROI through robust online presence, encompassing SEO and SMO strategies.</li>
-                                <li>Our team, comprising adept developers and digital marketers, is dedicated to fortifying your brand's identity.</li>
+                                <li><FaLongArrowAltRight/>With a decade-long industry experience, Elevate excels in the realm of digital marketing.</li>
+                                <li><FaLongArrowAltRight/>A remarkable track record of 1500+ successful projects underscores our expertise.</li>
+                                <li><FaLongArrowAltRight/>Our global footprint spans Dubai, UK, USA, and India, reflecting our far-reaching impact.</li>
+                                <li><FaLongArrowAltRight/>We commit to delivering enhanced ROI through robust online presence, encompassing SEO and SMO strategies.</li>
+                                <li><FaLongArrowAltRight/>Our team, comprising adept developers and digital marketers, is dedicated to fortifying your brand's identity.</li>
                             </ul>
                             <h2 className='dm-snd-tlt'>Start with a Free Website Audit</h2>
                             <p>Expect to receive your detailed report via email within just two business days, providing valuable insights into your website's SEO, Quality Assurance, Accessibility, and overall health.</p>

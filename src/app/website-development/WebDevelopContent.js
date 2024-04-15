@@ -13,6 +13,7 @@ import WebAccordianLeft from './WebAccordianLeft';
 import { WebAccordianRight } from './WebAccordianRight';
 import WebFlipbox from './WebFlipbox';
 import ItForm from '../components/WebForm/ItForm';
+import { FaLongArrowAltRight } from "react-icons/fa";
 const WebDevelopContent = () => {
     return (
         <>
@@ -141,9 +142,9 @@ const WebDevelopContent = () => {
                     <h4>Visitors to your website just require 0.05 seconds to form an opinion about what they see and experience on a web page</h4>
                     <p>As a leading Web Development Company in London our professional development team works hard to achieve your business objectives by ensuring that your website redesign is optimised for lead generation, digital marketing, and brand exposure. </p>
                     <ul>
-                        <li>Improve User experience and ROI</li>
-                        <li>Improve SEO & site performance</li>
-                        <li>Increase Sales & Conversions</li>
+                        <li><FaLongArrowAltRight/>Improve User experience and ROI</li>
+                        <li><FaLongArrowAltRight/>Improve SEO & site performance</li>
+                        <li><FaLongArrowAltRight/>Increase Sales & Conversions</li>
                     </ul>
                 </div>
             </div>
