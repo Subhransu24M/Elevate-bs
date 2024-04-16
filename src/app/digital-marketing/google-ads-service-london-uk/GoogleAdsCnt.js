@@ -16,7 +16,7 @@ const GoogleAdsCnt = () => {
                 <div className="container">
                     <div className="row">
                         <div className="col-md-7 col-lg-7 col-xl-7 col-sm-12 col-xs-12 pt-5 pb-5">
-                            <h1>Trusted PPC Agency in London, UK</h1>
+                            <h1 className='glads-hd'>Trusted PPC Agency in London, UK</h1>
                             <p>Google Ads reaches over 90% of internet users worldwide. Connect with potential customers precisely when they're actively searching for your products or services on Google with the expertise of a Trusted PPC Agency in London, UK. Through the expertise of our Google AdWords specialists, your ads can appear to users at the precise moment they're seeking recommendations on what to do, where to go, or what to buy. Whether users are browsing on their desktop or mobile devices, our strategic ad timing ensures that interested individuals are transformed into valuable customers. Trust in our team to strategically display ads and convert those with intent into valuable customers, regardless of their device.</p>
                         </div>
                         <div className="col-md-5 col-lg-5 col-xl-5 col-sm-12 col-xs-12 pt-5 pb-5">
@@ -31,8 +31,8 @@ const GoogleAdsCnt = () => {
 
             <div className="googleads-sec-2">
                 <div className="container">
-                    <h2>Attain your desired results with a Reputable PPC Agency in London, UK</h2>
-                    <div className="row">
+                    <h2 className='glads-subhd'>Attain your desired results with a Reputable PPC Agency in London, UK</h2>
+                    <div className="row pt-3 pb-3">
                         <div className="col-md-12 col-lg-8 col-xl-8 col-sm-12 col-xs-12">
 
                             <div className="row pt-3">
@@ -60,7 +60,7 @@ const GoogleAdsCnt = () => {
                             </div>
 
                             <div className="gads-per-blk">
-                                <h2>Google Ads Performance Metrics</h2>
+                                <h2 className='glads-subhd'>Google Ads Performance Metrics</h2>
                                 <p>With our expertise as a Trusted PPC Agency in London, UK, we'll navigate your Google Ads investments for maximum results, ensuring every penny drives success.</p>
                                 <ul>
                                     <li>Increase in website visitors from Google Ads: 150-200%</li>
@@ -72,7 +72,7 @@ const GoogleAdsCnt = () => {
                         </div>
 
                         <div className="col-md-12 col-lg-4 col-xl-4 col-sm-12 col-xs-12">
-                            <div className="glad-frm-blk mt-5">
+                            <div className="glad-frm-blk">
                                 <ItForm/>
                             </div>
 
@@ -83,9 +83,9 @@ const GoogleAdsCnt = () => {
                 </div>
             </div>
 
-            <div className="glads-sec-4">
+            <div className="glads-sec-4 pt-5 pb-5">
                 <div className="container">
-                    <h2>Drive Traffic, Sales, and Conversions with Elevate</h2>
+                    <h2 className='glads-subhd'>Drive Traffic, Sales, and Conversions with Elevate</h2>
                     <p>Elevate your business with the expertise of one of the leading PPC Marketing Agencies in London, driving targeted traffic, boosting sales, and optimizing conversions for your success.</p>
                     <div className="row">
                         <div className="col-md-6 col-lg-6 col-xl-6 col-sm-12 col-xs-12">
