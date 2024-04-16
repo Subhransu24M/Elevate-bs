@@ -9,7 +9,7 @@
 @media (max-width: 991px){
     .navbar-nav {
         position: fixed;
-        background: #fff;
+        background: hsl(0deg 0% 100% / 78%);
         top: 0;
         right: 0;
         height: 100vh;
@@ -17,6 +17,7 @@
         width: 100%;
         display: block;
         padding: 30px;
+        backdrop-filter: blur(2px);
     }
     }
 
