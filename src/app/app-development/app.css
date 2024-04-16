@@ -42,3 +42,9 @@ img.wd-img {
 .app-sec-01 {
     padding: 30px 0px;
 }
+.app-dev-ul {
+    list-style: none;
+}
+.app-dev-ul-chk{
+    margin-right: 10px;
+}

@@ -13,13 +13,16 @@ import WebAccordianLeft from './WebAccordianLeft';
 import { WebAccordianRight } from './WebAccordianRight';
 import WebFlipbox from './WebFlipbox';
 import ItForm from '../components/WebForm/ItForm';
-import { FaLongArrowAltRight } from "react-icons/fa";
+// import { FaLongArrowAltRight } from "react-icons/fa";
+import { BsCheck2Square } from "react-icons/bs";
+import Link from 'next/link';
+
 const WebDevelopContent = () => {
     return (
         <>
             <div className="container">
                 <div className='row'>
-                    <div className='col-xl-12 col-lg-12 col-md-12'>
+                    <div className='col-xl-12 col-lg-12 col-md-12 mt-5 mb-5'>
                         <h1 className='web-dev-cmp-tlt'>Leading Website Design and Development Company in London, UK</h1>
                         <h2 className='web-dev-h1'>SECURE A HIGH YIELDING <span className='web-dev-tlt-span'>DIGITAL FUTURE</span> WITH US</h2>
 
@@ -41,111 +44,128 @@ const WebDevelopContent = () => {
                                 <p>Our dedicated web development team collaborates closely with businesses—startups, SMBs, and enterprises alike—to construct bespoke technological solutions that bring your vision to life. Whether it's automating and streamlining business operations, launching your digital presence, fostering brand awareness and client engagement, or pursuing any other business objective, our committed web designers and developers are up to the task.</p>
                                 <p>Initiate your web development journey with a team of seasoned web developers who specialize in delivering innovative, interactive, and user-friendly web solutions. Elevate: Your partner for turning digital dreams into reality.
                                 </p>
-                            </div>                            
+                            </div>
                         </div>
                     </div>
                     <div className="col-xl-4 col-lg-4 col-md-12">
                         {/* <Webdevlopmentform /> */}
-                        <ItForm/>
+                        <ItForm />
                     </div>
                 </div>
 
             </div>
 
-            <WebFlipbox/>
+            <WebFlipbox />
 
-            <div className='web-dev-out-row'>
-                <h2>Bringing Innovation to Diverse industries</h2>
-                <div className='container'>
-                    <p>Revolutionizing diverse industries through innovative digital solutions. As a leading Web Design and Development Service Provider in London, we bring cutting-edge creativity to transform businesses across sectors.</p>
-                    <div className='row'>
-                        <div className='col-md-6 col-lg-3 col-xl-3 col-sm-12 col-xs-12'>
-                            <div className='web-dev-box'>
-                                <Image src={educationimg} />
-                                <h5>Education</h5>
+            <div className='web-dev-out-row-bg'>
+                <div className='web-dev-out-row'>
+                    <h2>Bringing Innovation to Diverse industries</h2>
+                    <div className='container'>
+                        <p>Revolutionizing diverse industries through innovative digital solutions. As a leading Web Design and Development Service Provider in London, we bring cutting-edge creativity to transform businesses across sectors.</p>
+                        <div className='row'>
+                            <div className='col-md-6 col-lg-3 col-xl-3 col-sm-12 col-xs-12'>
+                                <div className='web-dev-box'>
+                                    <Image src={educationimg} />
+                                    <h5>Education</h5>
+                                </div>
+                            </div>
+                            <div className='col-md-6 col-lg-3 col-xl-3 col-sm-12 col-xs-12'>
+                                <div className='web-dev-box'>
+                                    <Image src={hotelimg} />
+                                    <h5>Hotels & Restaurants</h5>
+                                </div>
+                            </div>
+                            <div className='col-md-6 col-lg-3 col-xl-3 col-sm-12 col-xs-12'>
+                                <div className='web-dev-box'>
+                                    <Image src={transportimg} />
+                                    <h5>Transport</h5>
+                                </div>
+                            </div>
+                            <div className='col-md-6 col-lg-3 col-xl-3 col-sm-12 col-xs-12'>
+                                <div className='web-dev-box'>
+                                    <Image src={healthimg} />
+                                    <h5>Health</h5>
+                                </div>
                             </div>
                         </div>
-                        <div className='col-md-6 col-lg-3 col-xl-3 col-sm-12 col-xs-12'>
-                            <div className='web-dev-box'>
-                                <Image src={hotelimg} />
-                                <h5>Hotels & Restaurants</h5>
-                            </div>
-                        </div>
-                        <div className='col-md-6 col-lg-3 col-xl-3 col-sm-12 col-xs-12'>
-                            <div className='web-dev-box'>
-                                <Image src={transportimg} />
-                                <h5>Transport</h5>
-                            </div>
-                        </div>
-                        <div className='col-md-6 col-lg-3 col-xl-3 col-sm-12 col-xs-12'>
-                            <div className='web-dev-box'>
-                                <Image src={healthimg} />
-                                <h5>Health</h5>
-                            </div>
-                        </div>
-                    </div>
 
-                    <div className='row'>
-                        <div className='col-md-6 col-lg-3 col-xl-3 col-sm-12 col-xs-12'>
-                            <div className='web-dev-box'>
-                                <Image src={retailimg} />
-                                <h5>Retail</h5>
+                        <div className='row'>
+                            <div className='col-md-6 col-lg-3 col-xl-3 col-sm-12 col-xs-12'>
+                                <div className='web-dev-box'>
+                                    <Image src={retailimg} />
+                                    <h5>Retail</h5>
+                                </div>
+                            </div>
+                            <div className='col-md-6 col-lg-3 col-xl-3 col-sm-12 col-xs-12'>
+                                <div className='web-dev-box'>
+                                    <Image src={fintechimg} />
+                                    <h5>Fintech</h5>
+                                </div>
+                            </div>
+                            <div className='col-md-6 col-lg-3 col-xl-3 col-sm-12 col-xs-12'>
+                                <div className='web-dev-box'>
+                                    <Image src={ecommerceimg} />
+                                    <h5>E-commerce</h5>
+                                </div>
+                            </div>
+                            <div className='col-md-6 col-lg-3 col-xl-3 col-sm-12 col-xs-12'>
+                                <div className='web-dev-box'>
+                                    <Image src={realstateimg} />
+                                    <h5>Realestate</h5>
+                                </div>
                             </div>
                         </div>
-                        <div className='col-md-6 col-lg-3 col-xl-3 col-sm-12 col-xs-12'>
-                            <div className='web-dev-box'>
-                                <Image src={fintechimg} />
-                                <h5>Fintech</h5>
-                            </div>
+                        <div className='web-dev-dream-blk'>
+                            <h2>Dreaming of a successful business launch, but don't have a strong web presence?</h2>
+                            <p>As a leading Web Development Company in London, we've cultivated a flawless track record, successfully delivering numerous websites and achieving an impressive 100% success rate.</p>
                         </div>
-                        <div className='col-md-6 col-lg-3 col-xl-3 col-sm-12 col-xs-12'>
-                            <div className='web-dev-box'>
-                                <Image src={ecommerceimg} />
-                                <h5>E-commerce</h5>
-                            </div>
-                        </div>
-                        <div className='col-md-6 col-lg-3 col-xl-3 col-sm-12 col-xs-12'>
-                            <div className='web-dev-box'>
-                                <Image src={realstateimg} />
-                                <h5>Realestate</h5>
-                            </div>
-                        </div>
-                    </div>
-                    <div className='web-dev-dream-blk'>
-                        <h2>Dreaming of a successful business launch, but don't have a strong web presence?</h2>
-                        <p>As a leading Web Development Company in London, we've cultivated a flawless track record, successfully delivering numerous websites and achieving an impressive 100% success rate.</p>
                     </div>
                 </div>
             </div>
 
 
-            <div className='web-dev-accord'>
+            <div className='web-dev-accord mt-5 mb-5'>
                 <div className='container'>
-                <h2>Our Promise to Strengthen Your Digital Footprint</h2>
-                <p>Count on us to fortify your digital footprint with our commitment to excellence. As a leading Web Design Agency in London, we are your trusted partner for enhancing online presence.</p>
+                    <h2>Our Promise to Strengthen Your Digital Footprint</h2>
+                    <p>Count on us to fortify your digital footprint with our commitment to excellence. As a leading Web Design Agency in London, we are your trusted partner for enhancing online presence.</p>
                     <div className='row'>
                         <div className='col-md-6 col-lg-6 col-xl-6 col-sm-12 col-xs-12'>
-                        <WebAccordianLeft />
+                            <WebAccordianLeft />
                         </div>
                         <div className='col-md-6 col-lg-6 col-xl-6 col-sm-12 col-xs-12'>
-                            <WebAccordianRight/>
+                            <WebAccordianRight />
                         </div>
                     </div>
                 </div>
             </div>
-            
+
 
 
             <div className='web-dev-sec-4'>
                 <h2>Considering a fresh look for your website? Want to redesign?</h2>
                 <div className='container'>
-                    <h4>Visitors to your website just require 0.05 seconds to form an opinion about what they see and experience on a web page</h4>
-                    <p>As a leading Web Development Company in London our professional development team works hard to achieve your business objectives by ensuring that your website redesign is optimised for lead generation, digital marketing, and brand exposure. </p>
-                    <ul>
-                        <li><FaLongArrowAltRight/>Improve User experience and ROI</li>
-                        <li><FaLongArrowAltRight/>Improve SEO & site performance</li>
-                        <li><FaLongArrowAltRight/>Increase Sales & Conversions</li>
-                    </ul>
+                    <h4 className='web-proc-h4'>Visitors to your website just require 0.05 seconds to form an opinion about what they see and experience on a web page</h4>
+                    <p className='web-proc-p'>As a leading Web Development Company in London our professional development team works hard to achieve your business objectives by ensuring that your website redesign is optimised for lead generation, digital marketing, and brand exposure. </p>
+                    <div className='row'>
+                        <div className='col-md-12 col-lg-4 col-xl-4 col-sm-12 col-xs-12'>
+                            <div className='web-imp-proc'>
+                                <BsCheck2Square className='web-proc-chk-icon' />Improve User experience and ROI
+                            </div>
+                        </div>
+                        <div className='col-md-12 col-lg-4 col-xl-4 col-sm-12 col-xs-12'>
+                            <div className='web-imp-proc'>
+                                <BsCheck2Square className='web-proc-chk-icon' />Improve Website Laoding Speed
+                            </div>
+                        </div>
+                        <div className='col-md-12 col-lg-4 col-xl-4 col-sm-12 col-xs-12'>
+                            <div className='web-imp-proc'>
+                                <BsCheck2Square className='web-proc-chk-icon' />Increase Sales & Conversions
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div className='web-dev-proc-cta'>
+                    <Link href="/contact-us" className='btn btn-web-proc-cta'>Contact us</Link>
                 </div>
             </div>
 

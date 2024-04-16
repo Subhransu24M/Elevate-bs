@@ -7,7 +7,9 @@ import hybridappimg from '../../../public/icons/hybrid-app.png';
 import pwaappimg from '../../../public/icons/pwa-app.png';
 import flutterappimg from '../../../public/icons/flutter-app.png';
 import ItForm from '../components/WebForm/ItForm';
-import { FaLongArrowAltRight } from "react-icons/fa";
+// import {  BsCheck2Square } from "react-icons/fa";
+import { BsCheck2Square } from "react-icons/bs";
+
 const AppContent = () => {
     return (
         <>
@@ -31,10 +33,10 @@ const AppContent = () => {
                                 </p>
                                 <div className="app-dev-ul-blk">
                                     <ul className="app-dev-ul">
-                                        <li><FaLongArrowAltRight/>10+ years development experience</li>
-                                        <li><FaLongArrowAltRight/>100% project on time Delivered</li>
-                                        <li><FaLongArrowAltRight/>100% Satisfied Clients </li>
-                                        <li><FaLongArrowAltRight/>500+ App delivered successfully</li>
+                                        <li><BsCheck2Square className="app-dev-ul-chk"/>10+ years development experience</li>
+                                        <li><BsCheck2Square className="app-dev-ul-chk"/>100% project on time Delivered</li>
+                                        <li><BsCheck2Square className="app-dev-ul-chk"/>100% Satisfied Clients </li>
+                                        <li><BsCheck2Square className="app-dev-ul-chk"/>500+ App delivered successfully</li>
                                     </ul>
                                 </div>
 
@@ -122,13 +124,13 @@ const AppContent = () => {
                         <div className='col-md-12 col-xl-7 col-lg-7 col-sm-12'>
                             <h3>Industries we serve</h3>
                             <p>Delivering customized app development services to diverse industries, the Best Mobile App Developers in London create tailored digital solutions for your business objectives</p>
-                            <ul>
-                                <li><FaLongArrowAltRight/>E-commerce</li>
-                                <li><FaLongArrowAltRight/>Taxi Booking</li>
-                                <li><FaLongArrowAltRight/>Food Delivery</li>
-                                <li><FaLongArrowAltRight/>Online Training</li>
-                                <li><FaLongArrowAltRight/>Insurance</li>
-                                <li><FaLongArrowAltRight/>Finance</li>
+                            <ul className="app-dev-ul">
+                                <li><BsCheck2Square className="app-dev-ul-chk"/>E-commerce</li>
+                                <li><BsCheck2Square className="app-dev-ul-chk"/>Taxi Booking</li>
+                                <li><BsCheck2Square className="app-dev-ul-chk"/>Food Delivery</li>
+                                <li><BsCheck2Square className="app-dev-ul-chk"/>Online Training</li>
+                                <li><BsCheck2Square className="app-dev-ul-chk"/>Insurance</li>
+                                <li><BsCheck2Square className="app-dev-ul-chk"/>Finance</li>
                             </ul>
                         </div>
                         <div className='col-md-12 col-xl-5 col-lg-5 col-sm-12'>

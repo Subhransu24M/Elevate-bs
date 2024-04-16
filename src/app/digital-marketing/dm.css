@@ -46,3 +46,9 @@ h1.all-serv-tlt {
     font-size: 25px;
     padding-bottom: 20px;
 }
+.dm-ul{
+list-style: none;
+}
+.dm-ul-chk{
+    margin-right: 10px;
+}

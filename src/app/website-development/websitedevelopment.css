@@ -32,20 +32,19 @@
   .web-dev-h1{
       font-weight: 600;
       font-family: system-ui;
-    font-size: 35px;
+    font-size: 22px;
       text-align: center;
   }
   .web-dev-tlt-span {
     color: #a30000;
-    font-size: 50px;
+    font-size: 28px;
   }
   
   .web-dev-box {
-      background: #fff;
+    background: #e1e1e1a6;
       text-align: center;
       margin-bottom: 10px;
-      padding: 20px;
-      /* border: 1px dotted #040c4a; */
+      padding: 12px;
   }
   .web-dev-box img {
     width: 48px;
@@ -149,7 +148,7 @@
   
   .web-dev-out-row {
     padding: 30px 0px;
-    background: #620000;
+    background: #000000c9;
     color: #fff;
   }
   
@@ -229,10 +228,12 @@
   }
   .web-dev-sec-4 h2 {
     text-align: center;
+    padding-bottom: 10px;
   }
   .web-dev-sec-4 h4{
     text-align: center;
     font-size: 20px !important;
+    padding-bottom: 10px;
   }
   .web-dev-sec-4 p{
     text-align: center;
@@ -243,10 +244,13 @@
     font-weight: 500;
   }
   .web-dev-sec-4 {
-    background: #6c0000;
+    background: #000918;
     padding: 30px 0px;
     color: #fff;
   }
+  .web-dev-proc-cta {
+    text-align: center;
+}
 
   /* Web Accordian Right */
 
@@ -254,4 +258,33 @@
     background: #fbfbfb;
     padding: 50px 0px;
     margin: 30px 0px 0px 0px;
+}
+
+.web-imp-proc {
+  border: 1px dotted #ddd5d5;
+  text-align: center;
+  border-radius: 5px;
+  padding: 4px 0px;
+  font-size: 15px;
+  margin: 10px 0px; 
+}
+.web-proc-chk-icon {
+  margin-right: 10px;
+  font-size: 18px;
+}
+
+.btn-web-proc-cta {
+  color: #fff;
+  border-radius: 20px;
+  padding: 6px 25px;
+  background: #5a0000;
+  margin: 30px 0px;
+  box-shadow: 0px 0px 2px 4px #000;
+}
+
+.web-dev-out-row-bg{
+  background-image: url(../corporate-services/bg-images/dubai-bg.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
 }

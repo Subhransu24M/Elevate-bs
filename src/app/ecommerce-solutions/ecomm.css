@@ -52,8 +52,9 @@
 }
 
 .ecomm-snd-blk {
-    background: #f7f7f7;
+    background: #000f22e8;
     padding: 50px 0px;
+    color: #fff;
 }
 .ecomm-snd-blk h2 {
     text-align: center;
@@ -67,7 +68,7 @@
     font-weight: 500;
 }
 .ecommcnt-blk {
-    padding: 50px 0px;
+    padding: 30px 0px;
 }
 
 .e-comm-sec-4 {
@@ -98,6 +99,7 @@
 }
 .sub-sub-blk img {
     width: 35%;
+    height: 35%;
     padding: 8px 0px;
 }
 
@@ -165,8 +167,47 @@
 }
 .ecomm-conv-tlt {
     text-align: center;
-    line-height: 2.2;
+    
     font-family: system-ui;
     font-weight: 700;
     font-size: 30px;
+}
+
+.ecomm-hd{
+    font-size: 28px;
+}
+
+.ecomm-subhd{
+    font-size: 28px;
+}
+
+.ecom-snd-left ul li {
+    list-style: none;
+}
+.ecomm-bs-chk{
+    margin-right: 10px;
+}
+.ecomm-snd-blk-bg{
+    background-image: url(./images/ecommerce-bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.ecomm-boost-cta {
+    text-align: center;
+}
+.btn.ecom-bst-cta {
+    color: #fff;
+    border: 1px solid #fff;
+    border-radius: 20px;
+    padding: 6px 20px;
+}
+.ecom-bst-blk {
+    border: 1px solid #002c5a;
+    padding: 50px 50px;
+    background: #1e2d404f;
+}
+
+.ecomm-img-blk h2 {
+    font-size: 28px;
 }

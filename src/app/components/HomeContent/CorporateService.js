@@ -32,7 +32,7 @@ const CorporateService = () => {
                                 </div>
                                 <h4>Corporate Services</h4>
                                 <p></p>
-                                <Link href="/corporate-service" type="button" className="btn btn-danger hm-cor-btn">Read More</Link>
+                                <Link href="/corporate-services" type="button" className="btn btn-danger hm-cor-btn">Read More</Link>
                             </div>
                         </div>
                         <div className='col-md-3 col-lg-3 col-xl-3 col-sm-12 col-xs-12'>
