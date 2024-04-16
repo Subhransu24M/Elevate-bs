@@ -27,7 +27,7 @@ const DmCard = () => {
                                         <div className="service-number s2">02</div>
                                         <h4><a href="">Social Media Marketing</a></h4>
                                         <div className="text">Integrating your search and social efforts brings better brand visibility and higher conversion rates.</div>
-                                        <Link className='more-detail' href="#">More Details</Link>
+                                        <Link className='more-detail' href="/digital-marketing/social-media-marketing-service-london-uk">More Details</Link>
 
                                     </div>
                                 </div>
@@ -41,7 +41,7 @@ const DmCard = () => {
                                         <div className="service-number s3">03</div>
                                         <h4><a href="">Google Ads</a></h4>
                                         <div className="text">Improve your conversion rate, traffic and visibility in very short time using the power of Google Ads.</div>
-                                        <Link className='more-detail' href="#">More Details</Link>
+                                        <Link className='more-detail' href="/digital-marketing/google-ads-service-london-uk">More Details</Link>
                                     </div>
                                 </div>
                             </div>

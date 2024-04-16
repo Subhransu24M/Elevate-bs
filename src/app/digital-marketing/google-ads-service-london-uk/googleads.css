@@ -1,0 +1,67 @@
+.googleads-sec-2 {
+    background: #1c1c1c;
+    color: #fff;
+    padding: 30px 0px;
+}
+.googleads-sec2-box {
+    background: #fff;
+    color: #000;
+    text-align: center;
+    padding: 10px;
+    margin-top: 2px;
+    margin-bottom: 2px;
+}
+.gads-per-blk{
+    padding: 30px 0px;
+}
+.googleads-sec-2 h2{
+    text-align: center;
+}
+.googleads-sec2-box p{
+    text-align: center;
+}
+.googleads-sec2-box h5 {
+    padding-top: 10px;
+}
+/* .glad-frm-blk {
+    background: #004581;
+    padding: 20px;
+} */
+
+.glad-frm-blk .cmn-frm-cls h4{
+    text-align: center;
+    border-bottom: 1px dotted;
+}
+.glads-box-chk-cnt {
+    padding-left: 15px;
+    /* padding-top: 10px; */
+}
+/* .glads-box-chk-icon {
+    font-size: 23px;
+} */
+.glads-box-chk-main-blk {
+    display: flex;
+    background: #e1e1e1;
+    margin: 10px 0px;
+    padding: 12px;
+}
+.glads-box-chk-icon .srch-ad-img {
+    width: 60px;
+    height: 60px;
+}
+.glads-box-chk-icon .display-ad-img {
+    width: 60px;
+    height: 60px;
+}
+.glads-box-chk-icon .shopping-ad-img {
+    width: 60px;
+    height: 60px;
+}
+.glads-box-chk-icon .app-ad-img {
+    width: 60px;
+    height: 60px;
+}
+.glads-sec1-img-blk img {
+    max-width: 100%;
+    height: auto;
+}
