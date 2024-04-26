@@ -25,7 +25,7 @@ const Footer = () => {
     const publish = (event) => {
         const value = event.target.value;
 
-        if (value === "UAE") {
+        if (value === "DUBAI") {
             setCtitle(addressdata[0].ctitle);
             setCdetails(addressdata[0].cdetails);
             setMobileno(addressdata[0].cmobileno);
