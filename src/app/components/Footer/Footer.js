@@ -10,6 +10,10 @@ import ftrtwitter from '../../../../public/social-icons/twitter.png';
 import { FaArrowRightFromBracket } from "react-icons/fa6";
 import { addressdata } from "./FooterAddress";
 import React, { useState } from 'react';
+import { FaMapMarkerAlt } from "react-icons/fa";
+import { BsTelephone } from "react-icons/bs";
+import { ImMobile } from "react-icons/im";
+import { RiMailSendLine } from "react-icons/ri";
 const Footer = () => {
 
     const [ctitle, setCtitle] = useState(addressdata[0].ctitle);
@@ -28,26 +32,33 @@ const Footer = () => {
             setTelno(addressdata[0].ctelno);
             setMailid(addressdata[0].cmailid);
         }
-        else if (value === "USA") {
+        else if (value === "ABU DHABI") {
             setCtitle(addressdata[1].ctitle);
             setCdetails(addressdata[1].cdetails);
             setMobileno(addressdata[1].cmobileno);
             setTelno(addressdata[1].ctelno);
             setMailid(addressdata[1].cmailid);
         }
-        else if (value === "UK") {
+        else if (value === "USA") {
             setCtitle(addressdata[2].ctitle);
             setCdetails(addressdata[2].cdetails);
             setMobileno(addressdata[2].cmobileno);
-            setTelno(addressdata[2].ctelno);
+            setTelno("");
             setMailid(addressdata[2].cmailid);
         }
-        else if (value === "INDIA") {
+        else if (value === "UK") {
             setCtitle(addressdata[3].ctitle);
             setCdetails(addressdata[3].cdetails);
             setMobileno(addressdata[3].cmobileno);
             setTelno(addressdata[3].ctelno);
             setMailid(addressdata[3].cmailid);
+        }
+        else if (value === "INDIA") {
+            setCtitle(addressdata[4].ctitle);
+            setCdetails(addressdata[4].cdetails);
+            setMobileno(addressdata[4].cmobileno);
+            setTelno(addressdata[4].ctelno);
+            setMailid(addressdata[4].cmailid);
         }
     }
 
@@ -111,10 +122,29 @@ const Footer = () => {
                                 </div>
                                 <div className='hm-ftr-addrs-blk'>
                                     <h5 className="ftr-adrs-tlt" >{ctitle}</h5>
-                                    <p className="ftr-adrs-txt" ><b>Address:</b> {cdetails}</p>
+                                    {/* <p className="ftr-adrs-txt" ><b><RiMapPinLine className='ftr-adrs-r-icon'/>:</b> {cdetails}</p>
                                     <p className="ftr-adrs-txt" ><b>Tel No. :</b> {ctelno}</p>
                                     <p className="ftr-adrs-txt" ><b>Mobile No :</b> {cmobileno}</p>
-                                    <p className="ftr-adrs-txt" ><b>Mail Id :</b> {cmailid}</p>
+                                    <p className="ftr-adrs-txt" ><b>Mail Id :</b> {cmailid}</p> */}
+
+                                    <div className='ftr-addrs-r-ul'>
+                                     <div className='ftr-adrs-li-blk'>
+                                    <FaMapMarkerAlt className='ftr-adrs-r-a-icon'/><div className="ftr-adrs-txt">{cdetails}</div>
+                                    </div> 
+
+                                    {ctelno && ( <div className='ftr-adrs-li-blk'>
+                                    <BsTelephone className='ftr-adrs-r-icon'/><div className="ftr-adrs-txt">{ctelno}</div>
+                                    </div> )}
+
+                                    <div className='ftr-adrs-li-blk'>
+                                    <ImMobile className='ftr-adrs-r-icon'/><div className="ftr-adrs-txt">{cmobileno}</div>
+                                    </div>
+
+                                    <div className='ftr-adrs-li-blk'>
+                                    <RiMailSendLine className='ftr-adrs-r-icon'/><div className="ftr-adrs-txt">{cmailid}</div>
+                                    </div>
+                                    
+                                    </div>
                                 </div>
                             </div>
                         </div>

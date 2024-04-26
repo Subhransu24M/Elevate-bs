@@ -74,3 +74,32 @@ button.btn.btn-link.ftr-adrs {
     margin-top: 10px;
     /* background: #080808bf; */
 }
+
+.ftr-addrs-r-ul{
+    list-style: none;
+    padding-left: 0;
+}
+.ftr-adrs-li-blk{
+    display: flex;
+    align-items: center;
+    margin: 10px 0px;
+}
+.ftr-adrs-r-icon{
+    font-size: 30px;
+    padding-right: 10px;
+    /* border-right: 1px dotted #8d8d8d; */
+}
+.ftr-adrs-r-a-icon{
+    font-size: 30px;
+    padding-right: 10px;
+    /* border-right: 1px dotted #fff; */
+}
+
+.ftr-adrs-txt {
+    margin-left: 10px;
+    font-size: 14px;
+}
+
+.hm-ftr-addrs-blk h5 {
+    font-size: 18px;
+}
