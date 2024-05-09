@@ -56,7 +56,7 @@ const CorporateService = () => {
                         <div className='col-md-12 col-lg-12 col-xl-12 col-sm-12 col-xs-12'>
                             <div className='cor-cta-hd'>
                                 <h2>Reduce your audit risk by outsourcing your accounting needs.</h2>
-                                <h5>Hire the best accounting specialists to deal with your accounting needs. !</h5>
+                                <h5>Hire the best accounting specialists to deal with your accounting needs.</h5>
                                 <Link href="/contact-us" type='button' className='btn btn-danger cor-cta-btn-lst'>Get Free Consultaion Today</Link>
                             </div>
                         </div>
