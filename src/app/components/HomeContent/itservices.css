@@ -22,7 +22,7 @@
     height: 45px;
 }
 
-.it-ser-link a {
+/* .it-ser-link a {
     border: 1px solid #000;
     border-radius: 20px;
     color: #fff;
@@ -30,6 +30,19 @@
     font-size: 13px;
     background: #000;
     padding: 8px 20px;
+} */
+.it-ser-link a {
+    /* border: 1px solid #000; */
+    border-radius: 20px;
+    color: #fff;
+    font-weight: 600;
+    border: none;
+    box-shadow: 0px 0px 0px 2px #0a244400;
+    font-size: 13px;
+    /* background: #000; */
+    padding: 8px 20px;
+    background: rgb(2, 0, 36);
+    background: linear-gradient(90deg, rgb(3 47 86) 0%, rgb(11 124 181) 35%, rgb(28 105 161) 100%);
 }
 .hm-it-serv-card-blk {
     background: #fff;
