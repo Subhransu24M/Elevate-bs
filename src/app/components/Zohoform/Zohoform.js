@@ -1,59 +1,59 @@
 "use client"
-import React, { useState } from 'react';
+import React, { useState } from 'react'
+import './zohoform.css';
 
-import './popupform.css';
+const Zohoform = () => {
+    const [formData, setFormData] = useState({
+        Company: '',
+        'Last Name': '',
+        Email: '',
+        Mobile: '',
+        Website: '',
+        Description: '',
+        LEADCF13: 'BUSINESS COLLABORATION',
+        'Lead Source': 'Website',
+        LEADCF20: 'https://elevatebs.com/contact',
+        'Lead Status': 'Pre-Qualified'
+      });
 
-const Popupform = () => {
-  const [formData, setFormData] = useState({
-    Company: '',
-    'Last Name': '',
-    Email: '',
-    Mobile: '',
-    Website: '',
-    Description: '',
-    LEADCF13: 'BUSINESS COLLABORATION',
-    'Lead Source': 'Website',
-    LEADCF20: 'https://elevatebs.com/contact',
-    'Lead Status': 'Pre-Qualified'
-  });
+      const handleChange = (e) => {
+        setFormData({
+          ...formData,
+          [e.target.name]: e.target.value
+        });
+      };
 
-  const handleChange = (e) => {
-    setFormData({
-      ...formData,
-      [e.target.name]: e.target.value
-    });
-  };
-
-  const handleSubmit = (e) => {
-    e.preventDefault();
-    const mandatoryFields = ['Company', 'Last Name', 'Email', 'Mobile'];
-    for (let field of mandatoryFields) {
-      if (!formData[field]) {
-        alert(`${field} cannot be empty.`);
-        return;
-      }
-    }
-
-    // Submit the form
-    const form = document.createElement('form');
-    form.method = 'POST';
-    form.action = 'https://crm.zoho.com/crm/WebToLeadForm';
-    form.acceptCharset = 'UTF-8';
-    form.target = '_self';
-
-    for (let key in formData) {
-      const input = document.createElement('input');
-      input.type = 'hidden';
-      input.name = key;
-      input.value = formData[key];
-      form.appendChild(input);
-    }
-
-    document.body.appendChild(form);
-    form.submit();
-  };
-
+      const handleSubmit = (e) => {
+        e.preventDefault();
+        const mandatoryFields = ['Company', 'Last Name', 'Email', 'Mobile'];
+        for (let field of mandatoryFields) {
+          if (!formData[field]) {
+            alert(`${field} cannot be empty.`);
+            return;
+          }
+        }
+    
+        // Submit the form
+        const form = document.createElement('form');
+        form.method = 'POST';
+        form.action = 'https://crm.zoho.com/crm/WebToLeadForm';
+        form.acceptCharset = 'UTF-8';
+        form.target = '_self';
+    
+        for (let key in formData) {
+          const input = document.createElement('input');
+          input.type = 'hidden';
+          input.name = key;
+          input.value = formData[key];
+          form.appendChild(input);
+        }
+    
+        document.body.appendChild(form);
+        form.submit();
+      };
+    
   return (
+    <>
     <div id='crmWebToEntityForm' className='zcwf_lblLeft crmWebToEntityForm' style={{ backgroundColor: 'white', color: 'black', maxWidth: '600px' }}>
       <form id='webform' onSubmit={handleSubmit}>
         <div className='zcwf_row'>
@@ -152,7 +152,9 @@ const Popupform = () => {
         <button type='submit' className='formsubmit'>Submit</button>
       </form>
     </div>
+    
+    </>
   );
 };
 
-export default Popupform;
+export default Zohoform

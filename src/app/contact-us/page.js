@@ -1,9 +1,10 @@
 import BreadCrumb from '../components/BreadCrumbs/BreadCrumb';
 import Footer from '../components/Footer/Footer';
-import Popupform from '../components/FormPopup/Popupform';
+
 
 import NavBar from '../components/NavBar/NavBar';
 import TopBar from '../components/TopBar/TopBar';
+import Zohoform from '../components/Zohoform/Zohoform';
 import ContactContent from './ContactContent';
 import './contact.css';
 
@@ -20,7 +21,7 @@ const page = () => {
     <BreadCrumb page="Contact us" />
     <ContactContent/>
     <div>
-      <Popupform/>
+      <Zohoform/>
     </div>
     <Footer/>
     </>
