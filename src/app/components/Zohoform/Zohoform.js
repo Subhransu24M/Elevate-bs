@@ -111,7 +111,7 @@ const Zohoform = () => {
             </select>
           </div>
         </div>
-        <div className='zcwf_row'>
+        <div className='zcwf_row' style={{display: 'none'}}>
           <div className='zcwf_col_lab' style={{ fontSize: '15px', fontFamily: 'Georgia' }}><label htmlFor='Lead_Source'>Lead Source</label></div>
           <div className='zcwf_col_fld'>
             <select id='Lead_Source' name='Lead Source' value={formData['Lead Source']} onChange={handleChange}>
@@ -131,13 +131,13 @@ const Zohoform = () => {
             </select>
           </div>
         </div>
-        <div className='zcwf_row'>
+        <div className='zcwf_row' style={{display: 'none'}}>
           <div className='zcwf_col_lab' style={{ fontSize: '15px', fontFamily: 'Georgia' }}><label htmlFor='LEADCF20'>Source URL</label></div>
           <div className='zcwf_col_fld'>
             <input type='text' id='LEADCF20' name='LEADCF20' maxLength='450' value={formData.LEADCF20} onChange={handleChange} />
           </div>
         </div>
-        <div className='zcwf_row'>
+        <div className='zcwf_row' style={{display: 'none'}}>
           <div className='zcwf_col_lab' style={{ fontSize: '15px', fontFamily: 'Georgia' }}><label htmlFor='Lead_Status'>Lead Status</label></div>
           <div className='zcwf_col_fld'>
             <select id='Lead_Status' name='Lead Status' value={formData['Lead Status']} onChange={handleChange}>
