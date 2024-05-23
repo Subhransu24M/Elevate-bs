@@ -3,6 +3,7 @@ import Image from 'next/image';
 import Link from 'next/link';
 // import {slidervideo} from '../../../../public/video/dubai.mp4'
 import './slider.css';
+
 const Slider = () => {
     return (
         <>
@@ -18,14 +19,13 @@ const Slider = () => {
                             <source src={slidervideo} type="video/mp4" />
                         </video> */}
                         
-                        
-                        
                          <Image src={slider1} className="d-block w-100" alt="..." height={550}/> 
                         <div className="carousel-caption d-none d-md-block">
                             <h2><span className='sl-hd-spn'>INNOVATIVE</span> SUPPORT SYSTEM</h2>
                             <p>We provide innovative support system to any business.</p>
                             <Link href="/contact-us" type="button" className="btn sld-cta-btn">Contact us</Link>
                         </div>
+                        
                     </div>
                     {/* <div className="carousel-item">
                         <img src="..." className="d-block w-100" alt="..." />

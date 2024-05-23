@@ -1,5 +1,6 @@
 import BreadCrumb from '../components/BreadCrumbs/BreadCrumb';
 import Footer from '../components/Footer/Footer';
+import PopupForm from '../components/FormPopup/popupForm';
 import NavBar from '../components/NavBar/NavBar';
 import TopBar from '../components/TopBar/TopBar';
 import ContactContent from './ContactContent';
@@ -17,6 +18,9 @@ const page = () => {
     <NavBar/>
     <BreadCrumb page="Contact us" />
     <ContactContent/>
+    <div>
+      <PopupForm/>
+    </div>
     <Footer/>
     </>
   )
