@@ -2,7 +2,7 @@
 import React, { useState } from 'react';
 import './popupform.css';
 
-const PopupForm = () => {
+const Popupform = () => {
   const [formData, setFormData] = useState({
     Company: '',
     'Last Name': '',
@@ -154,4 +154,4 @@ const PopupForm = () => {
   );
 };
 
-export default PopupForm;
+export default Popupform;
