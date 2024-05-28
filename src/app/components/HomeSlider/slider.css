@@ -81,3 +81,9 @@ a.btn.sld-cta-btn {
 .carousel-control-prev {
     width: 10%;
 }
+
+/* Video Slider */
+.nextvideoshm{
+    max-width: 100%;
+    height: auto;
+}
