@@ -4,19 +4,33 @@ img.wd-img {
     display: block;
     margin: auto;
 }
-.app-sec-02 {
+/* .app-sec-02 {
     background: #000;
     padding: 20px 0px;
     background-image:url(../../../public/images/bgimages/bg-img1.png);
     background-repeat: no-repeat;
     background-size: cover;
     color: #fff;
+} */
+.app-sec-02 {
+    background: linear-gradient(90deg, rgb(0 5 167) 30%, rgb(15 43 145) 70%);
+    padding: 20px 0px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #fff;
 }
 .app-dev-grid-blk {
-    /* border: 1px solid; */
+    border-radius: 15px;
+    padding: 22px;
+    background: #3c79e991;
+    background: linear-gradient(323deg, rgb(0 31 255 / 49%) 50%, rgb(0 25 201 / 67%) 50%);
+    box-shadow: 0px 0px 10px 1px #0c112cbf;
+    transition: scale 2s;
+}
+/* .app-dev-grid-blk {
     padding: 22px;
     background: #12121291;
-}
+} */
 .app-dev-grid-blk h4 {
     font-size: 20px !important;
     text-align: center;
@@ -27,6 +41,17 @@ img.wd-img {
     margin-right: auto;
 }
 .app-dev-box-icon {
+    background: linear-gradient(320deg, rgb(28 121 235) 30%, rgb(16 70 225) 70%);
+    padding: 15px;
+    border-radius: 100%;
+    overflow: inherit;
+    width: 75px;
+    height: 75px;
+    border: none !important;
+    box-shadow: inset 0px 0px 2px 3px #000000;
+    margin-bottom: 15px;
+}
+/* .app-dev-box-icon {
     background: #053f7a;
     padding: 15px;
     border-radius: 100%;
@@ -35,7 +60,7 @@ img.wd-img {
     height: 75px;
     box-shadow: 0px 0px 4px 1px #fff;
     margin-bottom: 15px;
-}
+} */
 .app-dev-sec-3 {
     padding: 30px 0px;
 }
@@ -47,4 +72,9 @@ img.wd-img {
 }
 .app-dev-ul-chk{
     margin-right: 10px;
+}
+
+/* Animation */
+.app-dev-grid-blk:hover {
+    scale: 0.9;
 }

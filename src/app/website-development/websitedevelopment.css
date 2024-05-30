@@ -41,7 +41,7 @@
   }
   
   .web-dev-box {
-    background: #e1e1e1a6;
+    background: #ceeff9ba;
       text-align: center;
       margin-bottom: 10px;
       padding: 12px;
@@ -148,7 +148,7 @@
   
   .web-dev-out-row {
     padding: 30px 0px;
-    background: #000000c9;
+    background: #002748d1;
     color: #fff;
   }
   
@@ -244,7 +244,7 @@
     font-weight: 500;
   }
   .web-dev-sec-4 {
-    background: #000918;
+    background: linear-gradient(90deg, rgb(2 75 92) 30%, rgb(2 71 120) 70%);
     padding: 30px 0px;
     color: #fff;
   }
@@ -279,7 +279,7 @@
   padding: 6px 25px;
   background: #5a0000;
   margin: 30px 0px;
-  box-shadow: 0px 0px 2px 4px #000;
+  box-shadow: 0px 0px 2px 3px #00000078;
 }
 
 .web-dev-out-row-bg{
