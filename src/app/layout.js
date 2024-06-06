@@ -1,3 +1,4 @@
+"use client"
 import { Inter } from "next/font/google";
 import Script from 'next/script';
 import "./globals.css";
@@ -5,13 +6,20 @@ import "./globals.css";
 import "../../node_modules/bootstrap/dist/css/bootstrap.min.css";
 import { SpeedInsights } from '@vercel/speed-insights/next';
 import { Analytics } from "@vercel/analytics/react";
-
+import "../../node_modules/aos/dist/aos.css";
+import { React, useEffect } from 'react';
+import AOS from 'aos';
 
 const inter = Inter({ subsets: ["latin"] });
 
 
 
 export default function RootLayout({ children }) {
+
+  useEffect(() => {
+    AOS.init();
+  }, []);
+
   return (
     <html lang="en">
       <head>
@@ -31,6 +39,7 @@ export default function RootLayout({ children }) {
         `}
 
         </Script>
+        <Script src="https://unpkg.com/aos@2.3.4/dist/aos.js"></Script>
       </head>
       <body className={inter.className}>
         {children}
