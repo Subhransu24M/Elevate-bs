@@ -21,7 +21,7 @@ const AboutContent = () => {
                         </div>
                         <div className="col-md-6 col-lg-6 col-xl-6 col-sm-12 col-xs-12">
                             <div className="abt-cnt-img">
-                                <Image src={abtcntimg} />
+                                <Image src={abtcntimg} alt="all about elevate business solutions" />
                             </div>
                         </div>
                     </div>

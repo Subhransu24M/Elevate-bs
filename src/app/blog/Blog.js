@@ -39,7 +39,7 @@ export default async function Blog() {
                 <div className="col-md-6 col-xl-4 col-lg-4 col-sm-12 col-xs-12" key={id}>
                   <div className="blog-lst-blk">
                     <div className="blk-lst-img">
-                      <Image src={urlForImage(post.image)} height={200} width={300} />
+                      <Image src={urlForImage(post.image)} height={200} width={300}/>
                       <h1>{post.title}</h1>
                       <h6>{post.exceprt}</h6>
                       <Link href={`/blog/${post.slug}`}>Read More</Link>
@@ -57,8 +57,8 @@ export default async function Blog() {
           <div className="row">
           
             {
-              categoryLists.map(categories => (
-                <div className="col-md-12 col-lg-12 col-xl-12 col-sm-12 col-xs-12">
+              categoryLists.map((categories,index) => (
+                <div className="col-md-12 col-lg-12 col-xl-12 col-sm-12 col-xs-12" key={index}>
                   <div className="category-lists">
                   {/* <h6>{categories.title}</h6> */}
                     <Link href={`/category/${categories.slug}`}>{categories.title}</Link>
