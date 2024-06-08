@@ -2,7 +2,7 @@ import { client } from "../../../sanity/lib/client";
 import Link from "next/link";
 import Image from "next/image";
 import { urlForImage } from "../../../sanity/lib/image";
-// import singlePost from "./[slug]/page";
+import './blog.css';
 
 export const metadata = {
   title: "Blog Lists",
@@ -18,7 +18,7 @@ export default async function Blog() {
       category ->{title,"slug":slug.current},
   }`;
 
-  const categoryquery =`*[_type=='category']{
+  const categoryquery = `*[_type=='category']{
     title,
     "slug":slug.current
   }`;
@@ -28,50 +28,48 @@ export default async function Blog() {
   console.log(categoryLists);
   console.log(postLists);
   return (
-
-    <main className="container">
-      <h4>Blog Lists</h4>
-      <div className="row">
-        <div className="col-md-6 col-xl-9 col-lg-9 col-sm-12 col-xs-12">
-          <div className="row">
-            {
-              postLists.map((post,id) => (
-                <div className="col-md-6 col-xl-4 col-lg-4 col-sm-12 col-xs-12" key={id}>
-                  <div className="blog-lst-blk">
+    <div className="blog-blk">
+      <main className="container">
+        <div className="row">
+          <div className="col-md-6 col-xl-4 col-lg-4 col-sm-12 col-xs-12">
+            <div className="row">
+              {
+                postLists.map((post, id) => (
+                  // <div className="col-md-6 col-xl-4 col-lg-4 col-sm-12 col-xs-12" key={id}>
+                  <div className="blog-lst-blk" key={id}>
                     <div className="blk-lst-img">
-                      <Image src={urlForImage(post.image)} height={200} width={300}/>
-                      <h1>{post.title}</h1>
-                      <h6>{post.exceprt}</h6>
-                      <Link href={`/blog/${post.slug}`}>Read More</Link>
+                      <Image src={urlForImage(post.image)} layout="responsive" height={200} width={300} />
                     </div>
+                    <h1 className="blg-pst-tlt">{post.title}</h1>
+                    <p>{post.exceprt}</p>
+                    <Link href={`/blog/${post.slug}`}>Read More</Link>
                   </div>
-                </div>
-              ))
-            }
+                  // </div>
+                ))
+              }
+            </div>
           </div>
-        </div>
 
-        {/* Category Right Column */}
+          {/* Category Right Column */}
 
-        <div className="col-md-6 col-xl-3 col-lg-3 col-sm-12 col-xs-12">
+          {/* <div className="col-md-6 col-xl-3 col-lg-3 col-sm-12 col-xs-12">
           <div className="row">
           
             {
               categoryLists.map((categories,index) => (
                 <div className="col-md-12 col-lg-12 col-xl-12 col-sm-12 col-xs-12" key={index}>
                   <div className="category-lists">
-                  {/* <h6>{categories.title}</h6> */}
                     <Link href={`/category/${categories.slug}`}>{categories.title}</Link>
                   </div>
                 </div>
               ))
             }
           </div>
+        </div> */}
+
 
         </div>
-
-
-      </div>
-    </main>
+      </main>
+    </div>
   )
 }

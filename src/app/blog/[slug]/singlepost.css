@@ -13,3 +13,7 @@ a.snglp-catg-level {
     text-align: center;
     margin: 20px 0px;
 }
+.sngl-pst-img-blk{
+    max-width: 100%;
+    height: auto;
+}

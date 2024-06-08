@@ -61,8 +61,8 @@ export default async function singlePost({ params}) {
        <BreadCrumb page={singlePost.title} />
         <div className="container">
           <h1>{singlePost.title}</h1>
-            <div>
-              <Image src={urlForImage(singlePost.image)} width={800} height={300} priority/>
+            <div className="sngl-pst-img-blk">
+              <Image src={urlForImage(singlePost.image)} layout="responsive" width={800} height={300} priority/>
             </div>
             {singlePost.categories && (
             <div className="sngl-p-cat-level">

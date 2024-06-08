@@ -21,7 +21,7 @@ const CorporateService = () => {
                     </div>
                     <div className='row'>
                         <div className='col-md-6 col-lg-6 col-xl-6 col-sm-12 col-xs-12'>
-                            <div className='hm-cor-img'>
+                            <div className='hm-cor-img' data-aos="fade-right" data-aos-easing="ease-in" data-aos-duration="1000">
                                  <Image src={corpimg} /> 
                             </div>
                         </div>
@@ -54,7 +54,7 @@ const CorporateService = () => {
                 <div className='container'>
                     <div className='row'>
                         <div className='col-md-12 col-lg-12 col-xl-12 col-sm-12 col-xs-12'>
-                            <div className='cor-cta-hd'>
+                            <div className='cor-cta-hd' data-aos="fade-zoom-in" data-aos-easing="ease-in" data-aos-duration="1500">
                                 <h2>Reduce your audit risk by outsourcing your accounting needs.</h2>
                                 <h5>Hire the best accounting specialists to deal with your accounting needs.</h5>
                                 <Link href="/contact-us" type='button' className='btn btn-danger cor-cta-btn-lst'>Get Free Consultaion Today</Link>
