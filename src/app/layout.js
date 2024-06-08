@@ -9,10 +9,10 @@ import { Analytics } from "@vercel/analytics/react";
 import "../../node_modules/aos/dist/aos.css";
 import { React, useEffect } from 'react';
 import AOS from 'aos';
+import '../../node_modules/animate.css/animate.min.css';
+
 
 const inter = Inter({ subsets: ["latin"] });
-
-
 
 export default function RootLayout({ children }) {
 

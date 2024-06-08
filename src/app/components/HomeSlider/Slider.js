@@ -23,8 +23,8 @@ const Slider = () => {
                     {/* <video src={require('../../../../public/dubai.mp4')} autoPlay muted loop className="nextvideoshm" />                       */}
                          <Image src={slider1} className="d-block w-100" alt="..." height={550}/> 
                         <div className="carousel-caption d-none d-md-block">
-                            <h2><span className='sl-hd-spn'>INNOVATIVE</span> SUPPORT SYSTEM</h2>
-                            <p>We provide innovative support system to any business.</p>
+                            <h2 className='animationsldrtlt animate__animated animate__fadeInLeft'><span className='sl-hd-spn '>INNOVATIVE</span> SUPPORT SYSTEM</h2>
+                            <p className='animationsldrp animate__animated animate__zoomIn'>We provide innovative support system to any business.</p>
                             <Link href="/contact-us" type="button" className="btn sld-cta-btn">Contact us</Link>
                         </div>    
                     </div>

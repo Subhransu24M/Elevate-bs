@@ -87,3 +87,10 @@ a.btn.sld-cta-btn {
     max-width: 100%;
     height: auto;
 }
+.animationsldrtlt{
+    animation-duration: 2s;
+}
+.animationsldrp{
+    animation-duration: 5s;
+    font-size: 20px;
+}
