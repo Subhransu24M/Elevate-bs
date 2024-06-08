@@ -27,9 +27,9 @@ export default async function Category() {
       <NavBar/>
 
         {
-          categoryquerylist.map((categoryList) =>(
+          categoryquerylist.map((categoryList,i) =>(
             
-            <div>
+            <div key={i}>
               <Link href={`/category/${categoryList.slug}`}>{categoryList.title}</Link>
             </div>
           ))

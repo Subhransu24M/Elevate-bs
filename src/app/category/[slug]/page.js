@@ -28,8 +28,8 @@ export default async function categoryData({params}) {
         <NavBar/>
         
             {
-                categoryDatas.map(post => (
-                    <div>
+                categoryDatas.map((post,i) => (
+                    <div key={i}>
                         <h1>{post.title}</h1>
                     </div>
 
