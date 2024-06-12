@@ -1,0 +1,35 @@
+.sticky-bottom-ftr-blk {
+    bottom: 0;
+    width: 100%;
+    position: fixed;
+    background: linear-gradient(90deg, rgb(10 80 155 / 94%) 30%, rgb(24 106 155 / 94%) 70%);
+    z-index: 999;
+}
+.btm-icon a {
+    padding: 10px 0px;
+    justify-content: center;
+    display: grid;
+    justify-items: center;
+    text-decoration: none;
+    color: #ffffff;
+}
+.btm-icon svg {
+    font-size: 25px;
+}
+.ftr-btm-blk{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.ftr-btm-p{
+    margin-bottom: 0px;
+    font-size: 10px;
+    font-weight: 500;
+}
+
+@media (min-width: 767px) {
+    .sticky-bottom-ftr-blk{
+          display: none;
+    }
+    
+}

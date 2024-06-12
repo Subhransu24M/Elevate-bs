@@ -14,6 +14,9 @@ import { FaMapMarkerAlt } from "react-icons/fa";
 import { BsTelephone } from "react-icons/bs";
 import { ImMobile } from "react-icons/im";
 import { RiMailSendLine } from "react-icons/ri";
+import FooterBottmSticky from './footerBottmSticky';
+
+
 const Footer = () => {
 
     const [ctitle, setCtitle] = useState(addressdata[0].ctitle);
@@ -151,6 +154,10 @@ const Footer = () => {
                     </div>
                 </div>
             </div>
+
+            {/* Sticky Bottom Footer */}
+               
+            <FooterBottmSticky/>
         </>
     )
 }
