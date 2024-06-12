@@ -10,7 +10,7 @@ const ItServices = () => {
     return (
         <>
             <div className='row'>
-                <div className='col-md-3 col-lg-3 col-xl-3 col-sm-12 col-xs-12' data-aos="fade-right" data-aos-offset="300" data-aos-duration="500" data-aos-easing="ease-in-sine" >
+                <div className='col-md-3 col-lg-3 col-xl-3 col-sm-12 col-xs-12' data-aos="fade-right" data-aos-offset="300" data-aos-duration="500" data-aos-easing="ease-in-sine" data-aos-delay="300">
                     <div className='hm-it-serv-card-blk'>
                         <h4>Website Development</h4>
                         <p>website is not just a virtual depiction of your company profile rather, it reflects your business objectives and goals</p>
@@ -24,7 +24,7 @@ const ItServices = () => {
                         </div>
                     </div>
                 </div>
-                <div className='col-md-3 col-lg-3 col-xl-3 col-sm-12 col-xs-12' data-aos="fade-right" data-aos-offset="300" data-aos-duration="700" data-aos-easing="ease-in-sine">
+                <div className='col-md-3 col-lg-3 col-xl-3 col-sm-12 col-xs-12' data-aos="fade-right" data-aos-offset="300" data-aos-duration="500" data-aos-easing="ease-in-sine" data-aos-delay="600">
                     <div className='hm-it-serv-card-blk'>
                         <h4>E-Commerce Solutions</h4>
                         <p>e-commerce consulting company helping retailers to launch their business online and grow. For online retail business</p>
@@ -38,7 +38,7 @@ const ItServices = () => {
                         </div>
                     </div>
                 </div>
-                <div className='col-md-3 col-lg-3 col-xl-3 col-sm-12 col-xs-12' data-aos="fade-right" data-aos-offset="300" data-aos-duration="900" data-aos-easing="ease-in-sine">
+                <div className='col-md-3 col-lg-3 col-xl-3 col-sm-12 col-xs-12' data-aos="fade-right" data-aos-offset="300" data-aos-duration="500" data-aos-easing="ease-in-sine" data-aos-delay="900">
                     <div className='hm-it-serv-card-blk'>
                         <h4>Digital Marketing</h4>
                         <p>Our strategy drives measurable results. We do 360 degree approach to focus on increasing conversions</p>
@@ -52,7 +52,7 @@ const ItServices = () => {
                         </div>
                     </div>
                 </div>
-                <div className='col-md-3 col-lg-3 col-xl-3 col-sm-12 col-xs-12' data-aos="fade-right" data-aos-offset="300" data-aos-duration="1100" data-aos-easing="ease-in-sine">
+                <div className='col-md-3 col-lg-3 col-xl-3 col-sm-12 col-xs-12' data-aos="fade-right" data-aos-offset="300" data-aos-duration="500" data-aos-easing="ease-in-sine" data-aos-delay="1200">
                     <div className='hm-it-serv-card-blk'>
                         <h4>App Development</h4>
                         <p>We offer customer centric mobile application development services to our clients that fully serve their business needs.</p>
