@@ -6,7 +6,7 @@ import { MdAttachEmail } from "react-icons/md";
 import './footerbottomsticky.css';
 import Link from "next/link";
 
-const FooterBottmSticky = () => {
+const StickyFooter = () => {
     return (
         <>
             <div className='sticky-bottom-ftr-blk'>
@@ -39,4 +39,4 @@ const FooterBottmSticky = () => {
     )
 }
 
-export default FooterBottmSticky
+export default StickyFooter
