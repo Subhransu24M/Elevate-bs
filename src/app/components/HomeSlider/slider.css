@@ -12,12 +12,12 @@
 
 @media (max-width: 576px) {
     .carousel-caption {
-        padding-top: 20px !important;
+        top: -75px !important;
     }
 }
 
 @media (max-width: 576px) {
-    a.btn.sld-cta-btn {
+    .sld-cta-btn {
         margin-top: 10px !important;
     }
 }
@@ -35,27 +35,43 @@
 }
 
 @media (max-width: 768px) {
-    .sldr1 img {
-        height: 400px;
+    .sldimg {
+        height: 400px !important;
+        max-width: 100%;
+        /* height: auto; */
     }
 }
 
 @media (max-width: 576px) {
-    .sldr1 img {
-        height: 300px;
+    .sldimg {
+        height: 300px !important;
+        max-width: 100%;
+        /* height: auto; */
     }
 }
 
+@media (min-width: 768px) {
+    .carousel-caption {
+        top:40%;
+        padding-top: 0px;
+        bottom: 0px;
+    }
+}
+
+.sldimg{
+    max-width: 100%;
+    height: auto;
+}
 .carousel-caption {
     position: absolute;
     right: 15%;
     bottom: 0px;
     left: 12%;
-    padding-top: 175px;
-    padding-bottom: 0px;
+    /* padding-top: 175px; */
+    padding-bottom: 0px !important;
     color: #fff;
     text-align: left;
-    top: 0px;
+    /* top: 0; */
 }
 
 .carousel-caption h2 {
