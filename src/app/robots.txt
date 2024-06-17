@@ -1,2 +1,4 @@
 user-agent : *
-disallow:
+disallow :
+
+Sitemap: https://www.elevatebs.com/sitemap.xml
