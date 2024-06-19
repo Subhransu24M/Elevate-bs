@@ -26,7 +26,7 @@ const Slider = () => {
                     </div> */}
 
 
-                    <div className="carousel-item">
+                    <div className="carousel-item active">
                         <Image src={slider1} className="d-block w-100 sldimg" alt="innovative support system" />
                         <div className="carousel-caption d-none d-md-block">
                             <h2 className='animationsldrtlt' data-aos="fade-up" data-aos-duration="800" data-aos-easing="linear" data-aos-delay="100"><span className='sl-hd-spn '>INNOVATIVE</span> SUPPORT SYSTEM</h2>
