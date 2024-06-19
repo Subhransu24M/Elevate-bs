@@ -21,13 +21,12 @@ const Slider = () => {
                 </div> */}
                 <div className="carousel-inner">
 
-                <div className="carousel-item active">
+                    {/* <div className="carousel-item active">
                         <Image src={eidslider} className="d-block w-100 sldimg" alt="eid al adha 2024" />
-                    </div>
+                    </div> */}
 
 
                     <div className="carousel-item">
-                        {/* <video src={require('../../../../public/dubai.mp4')} autoPlay muted loop className="nextvideoshm" />                       */}
                         <Image src={slider1} className="d-block w-100 sldimg" alt="innovative support system" />
                         <div className="carousel-caption d-none d-md-block">
                             <h2 className='animationsldrtlt' data-aos="fade-up" data-aos-duration="800" data-aos-easing="linear" data-aos-delay="100"><span className='sl-hd-spn '>INNOVATIVE</span> SUPPORT SYSTEM</h2>
@@ -35,23 +34,6 @@ const Slider = () => {
                             <Link href="/contact-us" type="button" className="btn sld-cta-btn" data-aos="fade-zoom-in" data-aos-duration="800" data-aos-easing="linear" data-aos-delay="900">Contact us</Link>
                         </div>
                     </div>
-
-
-
-                    {/* <div className="carousel-item">
-                        <img src="..." className="d-block w-100" alt="..." />
-                            <div className="carousel-caption d-none d-md-block">
-                                <h5>Second slide label</h5>
-                                <p>Some representative placeholder content for the second slide.</p>
-                            </div>
-                    </div>
-                    <div className="carousel-item">
-                        <img src="..." className="d-block w-100" alt="..." />
-                            <div className="carousel-caption d-none d-md-block">
-                                <h5>Third slide label</h5>
-                                <p>Some representative placeholder content for the third slide.</p>
-                            </div>
-                    </div> */}
 
 
 

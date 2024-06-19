@@ -13,15 +13,15 @@ const CorporateService = () => {
                     <div className='row'>
                         <div className='col-md-12 col-lg-12 col-xl-12 col-sm-12 col-xs-12'>
                             <div className='hm-cor-hd'>
-                                <h2>Dedicated Accounting & Corporate Services</h2>
-                                <h4>With personalised support</h4>
-                                <p>At Elevate, our team brings in ultimate client satisfaction by enabling them achieving their desired business goal. We can help you understand your daily business operations and at the same time stay up to date on tax law changes that affect you.</p>
+                                <h2 data-aos="fade-up" data-aos-easing="ease-in" data-aos-delay="400">Dedicated Accounting & Corporate Services</h2>
+                                <h4 data-aos="fade-up" data-aos-easing="ease-in" data-aos-delay="500">With personalised support</h4>
+                                <p data-aos="fade-up" data-aos-easing="ease-in" data-aos-delay="600">At Elevate, our team brings in ultimate client satisfaction by enabling them achieving their desired business goal. We can help you understand your daily business operations and at the same time stay up to date on tax law changes that affect you.</p>
                             </div>
                         </div>
                     </div>
                     <div className='row'>
                         <div className='col-md-6 col-lg-6 col-xl-6 col-sm-12 col-xs-12'>
-                            <div className='hm-cor-img' data-aos="fade-right" data-aos-easing="ease-in" data-aos-duration="1000">
+                            <div className='hm-cor-img' data-aos="fade-right" data-aos-easing="ease-in" data-aos-delay="800">
                                  <Image src={corpimg} /> 
                             </div>
                         </div>

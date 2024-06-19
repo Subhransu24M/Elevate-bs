@@ -8,4 +8,8 @@
     background-repeat: no-repeat;
     background-attachment: fixed;
 }
+.dev-digi-blk p{
+    text-align: center;
+    padding: 20px;
+}
 
