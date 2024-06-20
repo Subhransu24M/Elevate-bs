@@ -40,3 +40,10 @@ span.bkp-iso {
 .iso-subhd{
     font-size: 28px;
 }
+.iso-cerft-ul{
+    list-style: none;
+    padding-left: 0px;
+}
+.iso-cerft-arrow{
+    margin-right: 10px;
+}

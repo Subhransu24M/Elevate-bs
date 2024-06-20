@@ -33,7 +33,7 @@ const VatDeRegCnt = () => {
                         <div className="col-md-12 col-lg-6 col-xl-6 col-sm-12 col-xs-12">
                             <h2 className="vat-dereg-hd">VAT Deregistration in UAE</h2>
                             <p>Deregistration of VAT in UAE is primarily conducted online via the FTA portal. However, businesses that have ceased operations are required to obtain a company liquidation letter from government authorities before they can apply for VAT deregistration. To assist businesses with cancelling their VAT services, Elevate provides streamlined VAT deregistration services in Dubai ,UAE. When applying for VAT deregistration, companies must select one of two types of services available for this process.</p>
-                            <ul>
+                            <ul className="vat-dereg-ul">
                                 <li><BsCheck2Square/> Mandatory VAT Deregistration</li>
                                 <li><BsCheck2Square/> Voluntary VAT Deregistration</li>
                             </ul>
@@ -124,7 +124,7 @@ const VatDeRegCnt = () => {
                         </div>
                         <div className="col-md-12 col-lg-12 col-xl-12 col-sm-12 col-xs-12">
                             <h2 className="vat-dereg-hd">Documents required for VAT deregistration in UAE</h2>
-                            <ul>
+                            <ul className="vat-dereg-ul">
                                 <li><BsCheck2Square/> Revoked trade license documentation, dissolution notice, and Board resolution records.</li>
                                 <li><BsCheck2Square/> Latest financial statement for the enterprise - options include Trial Balance, Profit and Loss statement, or Balance Sheet (either Audited or Unaudited).</li>
                                 <li><BsCheck2Square/> Correspondence from the Ministry of Labour regarding staff headcount.</li>
@@ -150,7 +150,7 @@ const VatDeRegCnt = () => {
                             <h2 className="vat-dereg-hd">How Elevate can help you?</h2>
                             <p>While the process of VAT deregistration may seem simple, having a comprehensive VAT deregistration guide can be instrumental,it can become time-consuming due to the specific requirements set by the Tax Authority that must be carefully met based on the unique circumstances of each case. Failure to meet these requirements or submit necessary documents within the deadlines imposed by the Authority can result in application rejection and the imposition of penalties. Elevate offers professional VAT Deregistration services in the UAE, ensuring compliance with Emirati VAT regulations. Starting from the beginning, Elevate carefully examines your business operations and assesses the potential for deregistration, streamlining the process for you.</p>
                             <p>Recognizing the significance and necessity of VAT services for all business entities within the UAE, we provide an extensive array of VAT-related solutions in Dubai. Our offerings encompass:</p>
-                            <ul>
+                            <ul className="vat-dereg-ul">
                                 <li><BsCheck2Square/> VAT Training</li>
                                 <li><BsCheck2Square/> VAT Registration</li>
                                 <li><BsCheck2Square/> VAT Deregistration</li>

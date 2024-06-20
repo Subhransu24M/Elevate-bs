@@ -78,6 +78,10 @@
     background: none;
     color: #000;
 }
+.acnt-impl-mdl-ul{
+    list-style: none;
+    padding-left: 0px;
+}
 .acnt-impl-mdl-ul li{
 text-align: left;
 }
@@ -88,4 +92,9 @@ text-align: left;
 .acnt-impl-btn:hover {
     background: #540000;
     
+}
+
+.accnt-soft-impl-ul{
+    list-style: none;
+    padding-left: 0px;
 }

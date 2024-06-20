@@ -31,7 +31,7 @@ const BookKeepingCnt = () => {
                             <h2 className='bkp-hd'>What is Bookkeeping?</h2>
                             <p>Bookkeeping is the systematic process of recording, organizing, and maintaining financial transactions and records of a business or organization. It involves documenting all financial activities, such as income, expenses, purchases, and sales, in a structured and chronological manner.</p>
                             <h4>Key aspects of Bookkeeping include</h4>
-                            <ul>
+                            <ul className='bookkeep-ul'>
                                 <li><BsCheck2Square/> Recording Transactions</li>
                                 <li><BsCheck2Square/> Organization</li>
                                 <li><BsCheck2Square/> Double-Entry System</li>
@@ -68,7 +68,7 @@ const BookKeepingCnt = () => {
                         <div className="col-md-12 col-lg-8 col-xl-8 col-sm-12 col-xs-12">
                             <h2 className='bkp-hd'>Why Outsource Bookkeeping to Elevate Team?</h2>
                             <p>From fundamental to advanced bookkeeping services, we extend equal care and consideration to all our clients, ensuring that they receive the best accounting and bookkeeping services in Dubai, UAE.</p>
-                            <ul>
+                            <ul className='bookkeep-ul'>
                                 <li><BsCheck2Square/> Value-added Bookkeeping Services</li>
                                 <li><BsCheck2Square/> Accuracy in Reporting</li>
                                 <li><BsCheck2Square/> Professional approach toward Reports</li>
@@ -80,7 +80,7 @@ const BookKeepingCnt = () => {
                             </div>
                             <div className="row">
                                 <div className="col-md-12 col-lg-6 col-xl-6 col-xm-12 col-xs-12">
-                                    <ul>
+                                    <ul className='bookkeep-ul'>
                                         <li><BsCheck2Square/> Preparing Financial Statements.</li>
                                         <li><BsCheck2Square/> Managing Cost.</li>
                                         <li><BsCheck2Square/> Invoicing.</li>
@@ -90,7 +90,7 @@ const BookKeepingCnt = () => {
                                     </ul>
                                 </div>
                                 <div className="col-md-12 col-lg-6 col-xl-6 col-xm-12 col-xs-12">
-                                    <ul>
+                                    <ul className='bookkeep-ul'>
                                         <li><BsCheck2Square/> Managing Accounts Payables.</li>
                                         <li><BsCheck2Square/> Verification and valuation of inventory.</li>
                                         <li><BsCheck2Square/> Preparation of monthly bank reconciliation statements.</li>

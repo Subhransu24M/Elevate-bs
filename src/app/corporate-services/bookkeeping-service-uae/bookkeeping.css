@@ -97,3 +97,7 @@
 .bkp-hd{
     font-size: 28px;
 }
+.bookkeep-ul{
+    list-style: none;
+    padding-left: 0px;
+}

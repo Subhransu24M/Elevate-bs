@@ -146,10 +146,10 @@ const CfoContent = () => {
                     <div className="row">
                         <div className="col-md-12 col-xl-12 col-lg-12 col-sm-12">
                             <h4>By engaging Elevate for CFO services in UAE, you can gain a better understanding of your business</h4>
-                            <div className="bank-acnt-cnt-us-blk">
+                            {/* <div className="bank-acnt-cnt-us-blk">
                                 <span>CONTACT US TODAY !</span>
-                                {/* <div className="bnk-acnt-opn-cta"><Startcontact /></div> */}
-                            </div>
+                                <div className="bnk-acnt-opn-cta"><Startcontact /></div>
+                            </div> */}
                         </div>
                     </div>
                 </div>

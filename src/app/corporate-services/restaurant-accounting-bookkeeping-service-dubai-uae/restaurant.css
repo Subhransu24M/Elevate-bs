@@ -47,3 +47,11 @@ h2.rest-hd2 {
     font-size: 25px;
     padding-bottom: 10px;
 }
+
+.rest-ul{
+    list-style: none;
+    padding-left: 0px;
+}
+.rest-arrow{
+    margin-right: 10px;
+}

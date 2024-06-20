@@ -90,3 +90,11 @@
 .tax-cons-mdl-cnt p {
     text-align: left;
 }
+
+.corp-tax-ol{
+    list-style: none;
+    padding-left: 0px;
+}
+.corp-tax-arrow{
+    margin-right: 10px;
+}

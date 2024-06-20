@@ -60,7 +60,7 @@ const AccnSoftImplCnt = () => {
                         <h2 className="acnt-impl-hd">Your Trusted Partner for Accounting System Implementation in the UAE</h2>
                         <p>Our team specializes in assisting Small and Medium-sized businesses in identifying cost-effective and user-friendly systems. We collaborate with clients to formulate strategies that align with their operational, reporting, and growth needs. When we cannot directly execute an implementation, we serve as advisors, guiding clients in system selection and providing ongoing support for workflow implementation and system training.At Elevate, we are your trusted partner for accounting system implementation in the UAE. Our expertise in serving businesses of all sizes, from SMEs to large enterprises and family offices, sets us apart. </p>
                         <h2 className="acnt-impl-hd">Here's why you should choose Elevate:</h2>
-                        <ul>
+                        <ul className="accnt-soft-impl-ul">
                             <li><BsCheck2Square/> Expertise in diverse systems</li>
                             <li><BsCheck2Square/> Comprehensive solutions</li>
                             <li><BsCheck2Square/> Proven track record</li>

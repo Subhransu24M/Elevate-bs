@@ -33,7 +33,7 @@ const CompanyFormationCnt = () => {
                                     <IoMdCheckboxOutline />
                                 </div>
                                 <div className="cmp-form-chk-box-cnt">
-                                    <h6>100% Foreign Ownership</h6>
+                                    <h6>100% Foreign Ownership :</h6>
                                     <p>Dubai allows full foreign ownership of companies, providing investors with control and flexibility.</p>
                                 </div>
                             </div>
@@ -42,7 +42,7 @@ const CompanyFormationCnt = () => {
                                     <IoMdCheckboxOutline />
                                 </div>
                                 <div className="cmp-form-chk-box-cnt">
-                                    <h6>Tax Advantages</h6>
+                                    <h6>Tax Advantages :</h6>
                                     <p>The UAE offers reduced taxes and no personal income tax, increasing profitability.</p>
                                 </div>
                             </div>
@@ -51,7 +51,7 @@ const CompanyFormationCnt = () => {
                                     <IoMdCheckboxOutline />
                                 </div>
                                 <div className="cmp-form-chk-box-cnt">
-                                    <h6>Ease of Doing Business</h6>
+                                    <h6>Ease of Doing Business :</h6>
                                     <p>Dubai's streamlined processes and business-friendly environment make setup and operations efficient.</p>
                                 </div>
                             </div>
@@ -60,7 +60,7 @@ const CompanyFormationCnt = () => {
                                     <IoMdCheckboxOutline />
                                 </div>
                                 <div className="cmp-form-chk-box-cnt">
-                                    <h6>World-Class Infrastructure</h6>
+                                    <h6>World-Class Infrastructure :</h6>
                                     <p>Dubai boasts modern infrastructure, enhancing operational capabilities and attracting global talent.</p>
                                 </div>
                             </div>
@@ -69,7 +69,7 @@ const CompanyFormationCnt = () => {
                                     <IoMdCheckboxOutline />
                                 </div>
                                 <div className="cmp-form-chk-box-cnt">
-                                    <h6>Strategic Location</h6>
+                                    <h6>Strategic Location :</h6>
                                     <p>Situated at the crossroads of Europe, Asia, and Africa, Dubai offers access to diverse markets, boosting business opportunities.</p>
                                 </div>
                             </div>
@@ -97,7 +97,7 @@ const CompanyFormationCnt = () => {
                             <div className="cmp-form-ftr-lft-sec">
                                 <h2>Choose Elevate as your Business setup consultant in Dubai,UAE</h2>
                                 <p>Elevate offers complete services to facilitate your business setup in Dubai. From helping you choose the right business to providing VISA assistance, and expert accounting and auditing assistance, we are your trusted business setup consultant for a successful business establishment in Dubai, UAE.</p>
-                                <ul>
+                                <ul className="compny-form-ul">
                                     <li><BsCheck2Square/> Choose the Right Business</li>
                                     <li><BsCheck2Square/> Prepare a detailed business plan</li>
                                     <li><BsCheck2Square/> VISA Assistance</li>

@@ -39,3 +39,7 @@
 .lqd-hd{
     font-size: 28px;
 }
+.comp-lqd-ul{
+    list-style: none;
+    padding-left: 0px;
+}

@@ -32,7 +32,7 @@
     text-align: center;
 }
 .compl-sec3-box p{
-    text-align: center;
+    text-align: justify;
 }
 .compl-img{
     max-width: 100%;
@@ -46,4 +46,8 @@
     font-size: 18px;
     font-weight: 500;
     font-family: system-ui;
+}
+.compliance-ul{
+    list-style: none;
+    padding-left: 0px;
 }

@@ -89,3 +89,7 @@
 .vat-reg-hd{
     font-size: 28px;
 }
+.vat-regt-ul{
+    list-style: none;
+    padding-left: 0px;
+}

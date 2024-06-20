@@ -5,7 +5,6 @@ import Modal2 from './Modal2';
 import Modal3 from './Modal3';
 import HowtoRegTrdCnt from './HowtoRegTrdCnt';
 import CorporateForm from '@/app/components/CorporateForm/CorporateForm';
-import { FaLongArrowAltRight } from "react-icons/fa";
 const TrademarkContent = () => {
   return (
     <>
@@ -30,12 +29,12 @@ const TrademarkContent = () => {
             <div className="col-md-12 col-lg-6 col-xl-6 col-sm-12 col-xs-12">
               <h2 className='trdmark-hd2'>Benefits of Trademark Certification</h2>
               <ul>
-                <li><FaLongArrowAltRight/>Safeguards company products and preserves brand identity.</li>
-                <li><FaLongArrowAltRight/>Facilitates effortless brand and product recognition, minimizing duplication.</li>
-                <li><FaLongArrowAltRight/>Establishes a perception of quality and trust in delivered products and services.</li>
-                <li><FaLongArrowAltRight/>Offers protection against competitors who offer substandard goods or services under a similar mark.</li>
-                <li><FaLongArrowAltRight/>Enhances brand reputation and market position.</li>
-                <li><FaLongArrowAltRight/>Provides exclusive rights and legal recourse.</li>
+                <li>Safeguards company products and preserves brand identity.</li>
+                <li>Facilitates effortless brand and product recognition, minimizing duplication.</li>
+                <li>Establishes a perception of quality and trust in delivered products and services.</li>
+                <li>Offers protection against competitors who offer substandard goods or services under a similar mark.</li>
+                <li>Enhances brand reputation and market position.</li>
+                <li>Provides exclusive rights and legal recourse.</li>
               </ul>
             </div>
             <div className="col-md-12 col-lg-6 col-xl-6 col-sm-12 col-xs-12">
@@ -86,13 +85,13 @@ const TrademarkContent = () => {
               <h2 className='trdmark-hd2'>Why Choose Elevate for Trademark Registration in UAE?</h2>
               <p>Registering a trademark in the UAE may seem simple, but any mistakes in the application or document submission can lead to rejection. Therefore, it is highly recommended to seek the assistance of an experienced business consultant who is well-versed in the trademark registration process in the UAE. </p>
               <ul>
-                <li><FaLongArrowAltRight/>Advise and assist with the process of registering trademarks through a comprehensive search report, selection, and retention of trademarks.</li>
-                <li><FaLongArrowAltRight/>Manage the preparation and prosecution of trademark applications.</li>
-                <li><FaLongArrowAltRight/>Handle the maintenance of trademark rights, including the timely payment of renewal fees.</li>
-                <li><FaLongArrowAltRight/>Record amendments to trademarks, such as changes in name, address, assignment, merger, mortgage, licensing, and franchising of rights.</li>
-                <li><FaLongArrowAltRight/>Conduct market investigations to detect potential cases of counterfeiting and piracy.</li>
-                <li><FaLongArrowAltRight/>Provide assistance in filing complaints against trademark infringement across the UAE.</li>
-                <li><FaLongArrowAltRight/>File applications for recording registered trademarks with customs authorities in the UAE.</li>
+                <li>Advise and assist with the process of registering trademarks through a comprehensive search report, selection, and retention of trademarks.</li>
+                <li>Manage the preparation and prosecution of trademark applications.</li>
+                <li>Handle the maintenance of trademark rights, including the timely payment of renewal fees.</li>
+                <li>Record amendments to trademarks, such as changes in name, address, assignment, merger, mortgage, licensing, and franchising of rights.</li>
+                <li>Conduct market investigations to detect potential cases of counterfeiting and piracy.</li>
+                <li>Provide assistance in filing complaints against trademark infringement across the UAE.</li>
+                <li>File applications for recording registered trademarks with customs authorities in the UAE.</li>
               </ul>
             </div>
             <div className="col-md-12 col-lg-4 col-xl-4 col-sm-12 col-xs-12">

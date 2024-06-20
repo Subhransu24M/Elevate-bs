@@ -31,10 +31,10 @@ const IsoCnt = () => {
                     </div>
                     <div className="col-md-12 col-lg-6 col-xl-6 col-sm-12 col-xs-12">
                         <h2 className="iso-subhd">Our ISO Certification solutions are deemed to be the ultimate in terms of :</h2>
-                        <ul>
-                            <li><FaLongArrowAltRight/>Unmatched Efficiency in Service Delivery </li>
-                            <li><FaLongArrowAltRight/>Revolutionary Certification Approach </li>
-                            <li><FaLongArrowAltRight/>Accelerate Project Deployment and Ensure Timely Completion </li>
+                        <ul className="iso-cerft-ul">
+                            <li><FaLongArrowAltRight className="iso-cerft-arrow"/>Unmatched Efficiency in Service Delivery </li>
+                            <li><FaLongArrowAltRight className="iso-cerft-arrow"/>Revolutionary Certification Approach </li>
+                            <li><FaLongArrowAltRight className="iso-cerft-arrow"/>Accelerate Project Deployment and Ensure Timely Completion </li>
                         </ul>
                         <p>With a team of highly experienced consultants, we collaborate with renowned ISO certification bodies worldwide to streamline the certification process for your organization. Our services encompass a wide range of standards, including ISO 9001:2015, OHSAS 18001, HACCP ISO 22000, ISO 14001, ISO 20000, SA 8000, ISO 27001, ISO 13485, Organic Certification, CE Certification, ISO 17025 NABL accreditation, and Integrated ISO Certification, along with various management system standards. We ensure a seamless journey towards certification, tailored to your preferences and requirements.</p>
                         <p>Our ISO certification services extend across all 7 emirates of UAE, including Abu Dhabi, Dubai, Sharjah, Ajman, Umm al-Quwain, Ras al-Khaimah, and Fujairah, catering to a diverse range of industries.</p>
@@ -49,17 +49,17 @@ const IsoCnt = () => {
                     <div className="col-md-12 col-lg-7 col-xl-7 col-sm-12 col-xs-12">
                        <h2 className="iso-subhd">Key Advantages of ISO Certification in the UAE</h2>
                        <p>Obtaining ISO certification in the United Arab Emirates (UAE) offers several key advantages to organizations. Here are some of the benefits:</p>
-                       <ul>
-                        <li><FaLongArrowAltRight/>Enhanced credibility and reputation.</li>
-                        <li><FaLongArrowAltRight/>Increased customer confidence.</li>
-                        <li><FaLongArrowAltRight/>Improved operational efficiency.</li>
-                        <li><FaLongArrowAltRight/>Compliance with legal and regulatory requirements.</li>
-                        <li><FaLongArrowAltRight/>Competitive advantage in the market.</li>
-                        <li><FaLongArrowAltRight/>Access to new markets and opportunities.</li>
-                        <li><FaLongArrowAltRight/>Cultivation of a continuous improvement culture.</li>
-                        <li><FaLongArrowAltRight/>Better supplier relationships and a reliable supply chain.</li>
-                        <li><FaLongArrowAltRight/>Improved employee engagement and satisfaction.</li>
-                        <li><FaLongArrowAltRight/>Effective risk management and mitigation.</li>
+                       <ul className="iso-cerft-ul">
+                        <li><FaLongArrowAltRight className="iso-cerft-arrow"/>Enhanced credibility and reputation.</li>
+                        <li><FaLongArrowAltRight className="iso-cerft-arrow"/>Increased customer confidence.</li>
+                        <li><FaLongArrowAltRight className="iso-cerft-arrow"/>Improved operational efficiency.</li>
+                        <li><FaLongArrowAltRight className="iso-cerft-arrow"/>Compliance with legal and regulatory requirements.</li>
+                        <li><FaLongArrowAltRight className="iso-cerft-arrow"/>Competitive advantage in the market.</li>
+                        <li><FaLongArrowAltRight className="iso-cerft-arrow"/>Access to new markets and opportunities.</li>
+                        <li><FaLongArrowAltRight className="iso-cerft-arrow"/>Cultivation of a continuous improvement culture.</li>
+                        <li><FaLongArrowAltRight className="iso-cerft-arrow"/>Better supplier relationships and a reliable supply chain.</li>
+                        <li><FaLongArrowAltRight className="iso-cerft-arrow"/>Improved employee engagement and satisfaction.</li>
+                        <li><FaLongArrowAltRight className="iso-cerft-arrow"/>Effective risk management and mitigation.</li>
                        </ul>
                     </div>
                     <div className="col-md-12 col-lg-5 col-xl-5 col-sm-12 col-xs-12">
@@ -75,13 +75,13 @@ const IsoCnt = () => {
                     <div className="col-md-12 col-lg-6 col-xl-6 col-sm-12 col-xs-12">
                        <h2 className="iso-subhd">ISO Certification Consultant in UAE</h2>
                        <p>As the leading ISO consultants in UAE, we provide comprehensive insights into operational and process improvements for your organization. Our expertise extends to various aspects of ISO certification in Dubai, including ISO training, ISO auditing, and ISO 9001 certification consulting. Our specialized ISO certification consulting package in UAE encompasses the following niche areas:</p>
-                       <ul>
-                        <li><FaLongArrowAltRight/>Quality Management</li>
-                        <li><FaLongArrowAltRight/>Marketing Management</li>
-                        <li><FaLongArrowAltRight/>Human Resource Management</li>
-                        <li><FaLongArrowAltRight/>Finance Management</li>
-                        <li><FaLongArrowAltRight/>Environmental Management</li>
-                        <li><FaLongArrowAltRight/>Information Security Management</li>
+                       <ul className="iso-cerft-ul">
+                        <li ><FaLongArrowAltRight className="iso-cerft-arrow"/>Quality Management</li>
+                        <li><FaLongArrowAltRight className="iso-cerft-arrow"/>Marketing Management</li>
+                        <li><FaLongArrowAltRight className="iso-cerft-arrow"/>Human Resource Management</li>
+                        <li><FaLongArrowAltRight className="iso-cerft-arrow"/>Finance Management</li>
+                        <li><FaLongArrowAltRight className="iso-cerft-arrow"/>Environmental Management</li>
+                        <li><FaLongArrowAltRight className="iso-cerft-arrow"/>Information Security Management</li>
                        </ul>
                        <p>By availing of our ISO certificate in UAE services, you can optimize your business practices and ensure ISO compliance throughout your organization.</p>
                     </div>
@@ -98,17 +98,17 @@ const IsoCnt = () => {
                     <div className="col-md-12 col-lg-8 col-xl-8 col-sm-12 col-xs-12">
                        <h2 className="iso-subhd">Why Choose Elevate for ISO Certification in UAE?</h2>
                        <p>Team Elevate adopts a unique approach, starting from the bottom and working our way up, to ensure a 100% success rate for ISO Certification Consulting assignments in the UAE. Our ISO consultants are industry experts with unparalleled experience from around the globe. We provide top-notch services for ISO certification in the UAE, guiding your organization towards corporate excellence and sustainable competitive advantage. Our ISO consulting services in the UAE are renowned for their dedicated and prompt delivery, coupled with extensive industry knowledge, making us the highest-rated ISO consultants in the region.</p>
-                       <ul>
-                        <li><FaLongArrowAltRight/>Streamline processes and documentation</li>
-                        <li><FaLongArrowAltRight/>Ensure compliance with ISO standards</li>
-                        <li><FaLongArrowAltRight/>Enhance quality management systems</li>
-                        <li><FaLongArrowAltRight/>Improve operational efficiency</li>
-                        <li><FaLongArrowAltRight/>Increase customer satisfaction</li>
-                        <li><FaLongArrowAltRight/>Demonstrate commitment to international standards</li>
-                        <li><FaLongArrowAltRight/>Access global markets</li>
-                        <li><FaLongArrowAltRight/>Enhance credibility and reputation</li>
-                        <li><FaLongArrowAltRight/>Facilitate continuous improvement</li>
-                        <li><FaLongArrowAltRight/>Mitigate risks and increase resilience</li>
+                       <ul className="iso-cerft-ul">
+                        <li><FaLongArrowAltRight className="iso-cerft-arrow"/>Streamline processes and documentation</li>
+                        <li><FaLongArrowAltRight className="iso-cerft-arrow"/>Ensure compliance with ISO standards</li>
+                        <li><FaLongArrowAltRight className="iso-cerft-arrow"/>Enhance quality management systems</li>
+                        <li><FaLongArrowAltRight className="iso-cerft-arrow"/>Improve operational efficiency</li>
+                        <li><FaLongArrowAltRight className="iso-cerft-arrow"/>Increase customer satisfaction</li>
+                        <li><FaLongArrowAltRight className="iso-cerft-arrow"/>Demonstrate commitment to international standards</li>
+                        <li><FaLongArrowAltRight className="iso-cerft-arrow"/>Access global markets</li>
+                        <li><FaLongArrowAltRight className="iso-cerft-arrow"/>Enhance credibility and reputation</li>
+                        <li><FaLongArrowAltRight className="iso-cerft-arrow"/>Facilitate continuous improvement</li>
+                        <li><FaLongArrowAltRight className="iso-cerft-arrow"/>Mitigate risks and increase resilience</li>
                        </ul>
                     </div>
                     <div className="col-md-12 col-lg-4 col-xl-4 col-sm-12 col-xs-12">

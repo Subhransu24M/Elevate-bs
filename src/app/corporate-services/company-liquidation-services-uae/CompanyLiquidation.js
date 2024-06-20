@@ -48,7 +48,7 @@ const CompanyLiquidation = () => {
                         </div>
                         <div className="col-md-12 col-lg-6 col-xl-6 col-sm-12 col-xs-12">
                             <h2 className="lqd-hd">Documents required for Company Liquidation in Dubai,UAE</h2>
-                            <ul>
+                            <ul className="comp-lqd-ul">
                                 <li><BsCheck2Square/> Copy of your business license. If your business license has expired, you will have to get it renewed before you can begin the process</li>
                                 <li><BsCheck2Square/> AOA/MOA (Memorandum of Association) with a copy of any changes that have been made</li>
                                 <li><BsCheck2Square/> Share Certificate</li>
@@ -70,7 +70,7 @@ const CompanyLiquidation = () => {
                             <h2 className="lqd-hd">As a Liquidator Elevate’s Projected Role is to</h2>
                             <p>Having extensive experience as both an Auditor and Company Liquidator in Dubai, UAE, we possess in-depth knowledge of the financial connections of companies across various domains. Elevate has successfully liquidated numerous types of companies, including Limited Liability Companies, Free Zone Companies, and Offshore Companies.
                             </p>
-                            <ul>
+                            <ul className="comp-lqd-ul">
                                 <li><BsCheck2Square/> Drafting the Board Resolution</li>
                                 <li><BsCheck2Square/> Publishing Advertisement in English and Arabic News Paper</li>
                                 <li><BsCheck2Square/> Settling with Employees</li>

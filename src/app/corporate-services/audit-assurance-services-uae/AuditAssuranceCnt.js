@@ -270,7 +270,7 @@ const AuditAssurancecnt = () => {
                             <h2 className="audt-assr-hd">Why Choose Elevate Auditors in UAE for Your Audit Needs?</h2>
                             <p>Elevate Auditing is one of the best audit firms in Dubai and UAE, with a team of top auditors. We provide a complete range of audit and assurance services to help companies achieve their business objectives by gaining insight into their organizational structure and internal processes.</p>
                             <p>Team Elevate Auditing delivers independent, objective, and high-quality auditing services in UAE.</p>
-                            <ul>
+                            <ul className='audit-assurn-ul'>
                                 <li><BsCheck2Square/> Expert team of auditors</li>
                                 <li><BsCheck2Square/> Time-bound Audits</li>
                                 <li><BsCheck2Square/> Compliance with the industry's best practices and standards</li>

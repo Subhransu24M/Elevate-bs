@@ -72,3 +72,7 @@ h2.comp-for-doc-tlt {
     font-size: 28px;
     text-align: center;
 }
+.compny-form-ul{
+    list-style: none;
+    padding-left: 0px;
+}

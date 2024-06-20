@@ -34,7 +34,7 @@ const ComplianceCnt = () => {
                             <h2 className="compl-hd">What is Business Compliance Services?</h2>
                             <p>Compliance in business involves adhering to legal requirements to ensure that all operations are conducted in accordance with the law. It involves being knowledgeable about applicable laws and regulations and taking appropriate measures to ensure compliance.</p>
                             <h2 className="compl-hd">When considering a compliance expert in Dubai, it is essential to ask certain critical questions, such as:</h2>
-                            <ul>
+                            <ul className="compliance-ul">
                                 <li><BsCheck2Square/> What specific compliance services do you provide?</li>
                                 <li><BsCheck2Square/> How well-versed are you in UAE laws and regulations?</li>
                                 <li><BsCheck2Square/> How frequently do you communicate updates regarding legal changes to your clients?</li>

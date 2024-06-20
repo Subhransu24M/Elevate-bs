@@ -117,7 +117,7 @@ const VatRegistrationCnt = () => {
                             <h2 className="vat-reg-hd">Why Elevate for VAT registration in UAE?</h2>
                             <p>Elevate Auditing offers top-notch VAT registration services in Dubai,UAE for new businesses which include analyzing your turnover to determine whether your business should register for VAT or wait. We will facilitate the process by applying for online VAT registration and obtaining the Tax Registration Number (TRN) for your company. Additionally, we will ensure that your company's VAT certificate is issued by the FTA.</p>
                             <h3>Our VAT Services include the followings:</h3>
-                            <ul>
+                            <ul className="vat-regt-ul">
                                 <li><BsCheck2Square/> VAT Registrations</li>
                                 <li><BsCheck2Square/> VAT Return filings.</li>
                                 <li><BsCheck2Square/> VAT Refunds.</li>

@@ -88,7 +88,7 @@ const VisaAsstCnt = () => {
                                 </div>
                                 <div className='tourist-visa-document'>
                                     <h4>Documents Required For The Visa Application</h4>
-                                    <ul>
+                                    <ul className='visa-ass-ul'>
                                         <li><BsCheck2Square/> A passport, valid for a minimum of six months</li>
                                         <li><BsCheck2Square/> Passport size photos</li>
                                         <li><BsCheck2Square/> A copy of your completed and signed Dubai visa application form.</li>
@@ -176,7 +176,7 @@ const VisaAsstCnt = () => {
                                 </div>
                                 <div className='tourist-visa-document'>
                                     <h4>Documents Required For The Visa Application</h4>
-                                    <ul>
+                                    <ul className='visa-ass-ul'>
                                         <li><BsCheck2Square/> A passport, valid for a minimum of six months</li>
                                         <li><BsCheck2Square/> Passport size photos</li>
                                         <li><BsCheck2Square/> A copy of your completed and signed Dubai visa application form.</li>
@@ -268,7 +268,7 @@ const VisaAsstCnt = () => {
                                 </div>
                                 <div className='tourist-visa-document'>
                                     <h4>Documents Required For The Visa Application</h4>
-                                    <ul>
+                                    <ul className='visa-ass-ul'>
                                         <li><BsCheck2Square/> A passport, valid for a minimum of six months</li>
                                         <li><BsCheck2Square/> Passport size photos</li>
                                         <li><BsCheck2Square/> A copy of your completed and signed Dubai visa application form.</li>
@@ -355,7 +355,7 @@ const VisaAsstCnt = () => {
                                 </div>
                                 <div className='tourist-visa-document'>
                                     <h4>Documents Required For The Visa Application</h4>
-                                    <ul>
+                                    <ul className='visa-ass-ul'>
                                         <li><BsCheck2Square/> A passport, valid for a minimum of six months</li>
                                         <li><BsCheck2Square/> Passport size photos</li>
                                         <li><BsCheck2Square/> A copy of your completed and signed Dubai visa application form.</li>
