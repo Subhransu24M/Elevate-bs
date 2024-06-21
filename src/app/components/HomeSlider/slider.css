@@ -89,5 +89,6 @@
   @media (max-width: 768px) {
     .video-caption {
       font-size: 14px; /* Adjust font size for smaller screens if needed */
+      width: 90%;
     }
   }
