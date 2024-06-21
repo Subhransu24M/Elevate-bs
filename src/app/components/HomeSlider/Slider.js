@@ -22,18 +22,18 @@ const Slider = () => {
                         <h2 
                             className='animationsldrtlt' 
                             data-aos="fade-up" 
-                            data-aos-duration="800" 
+                            data-aos-duration="400" 
                             data-aos-easing="linear" 
-                            data-aos-delay="100"
+                            // data-aos-delay="100"
                         >
                             <span className='sl-hd-spn '>INNOVATIVE</span> SUPPORT SYSTEM
                         </h2>
                         <p 
                             className='animationsldrp' 
                             data-aos="fade-up" 
-                            data-aos-duration="800" 
+                            data-aos-duration="500" 
                             data-aos-easing="linear" 
-                            data-aos-delay="600"
+                            // data-aos-delay="600"
                         >
                             We provide innovative support system to any business.
                         </p>
@@ -41,9 +41,9 @@ const Slider = () => {
                             href="/contact-us" 
                             className="btn sld-cta-btn" 
                             data-aos="fade-zoom-in" 
-                            data-aos-duration="800" 
+                            data-aos-duration="600" 
                             data-aos-easing="linear" 
-                            data-aos-delay="900"
+                            // data-aos-delay="900"
                         >
                             Contact us
                         </Link>
