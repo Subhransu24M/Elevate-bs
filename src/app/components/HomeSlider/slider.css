@@ -9,6 +9,8 @@
 
 .animationsldrp{
     text-align: center;
+    color: #fff;
+    font-weight: 500;
 }
 
 /* Cloudinary Video Responsive */
@@ -19,12 +21,12 @@
     overflow: hidden;
 } */
 
-.nextvideoshm video {
+/* .nextvideoshm video {
     width: 100% !important;
     height: auto !important;
     max-width: 100%;
     display: block;
-}
+} */
 
 /* .carousel-item {
     display: flex;
@@ -33,9 +35,8 @@
     height: 100vh; 
 } */
 
-.video-caption {
+/* .video-caption {
     position: absolute;
-    /* bottom: 20px; */
     left: 0;
     right: 0;
     text-align: center;
@@ -46,21 +47,19 @@
     align-items: center !important;
     bottom: 0px !important;
     padding-top: 0px !important;
-    /* padding-bottom: 0px !important; */
     color: #fff;
-}
+} */
 
 
 /* Caption Mobile */
 
-@media (max-width: 768px) {
+/* @media (max-width: 768px) {
     .video-caption {
-        /* display: block !important; */
         left: 5%;
         right: 5%;
         top: -10% !important;
     }
-}
+} */
 
 /* For Desktop */
 
@@ -69,3 +68,26 @@
         top: 0% !important;
     }
 } */
+
+.video-blk {
+    position: relative;
+  }
+
+  .video-caption {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+  }
+  .video-caption h2{
+    color: #fff;
+    font-weight: 700px;
+  }
+  
+  /* Media query for smaller devices */
+  @media (max-width: 768px) {
+    .video-caption {
+      font-size: 14px; /* Adjust font size for smaller screens if needed */
+    }
+  }
