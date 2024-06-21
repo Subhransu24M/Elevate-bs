@@ -6,9 +6,8 @@ import '../../../../node_modules/next-cloudinary/dist/cld-video-player.css';
 
 const Slider = () => {
     return (
-        <div id="carouselExampleCaptions" className="carousel slide" data-bs-ride="carousel">
-            <div className="carousel-inner">
-                <div className="carousel-item active">
+        
+                <div className="video-blk">
                     <CldVideoPlayer 
                         id="unique-video-id"
                         src="https://res.cloudinary.com/dpa8rgat7/video/upload/v1718965894/dubai_vcm1ei.mp4"
@@ -19,7 +18,7 @@ const Slider = () => {
                         controls={false}
                         width="1920" height="1080"
                     />
-                    <div className="carousel-caption d-none d-md-block">
+                    <div className="video-caption">
                         <h2 
                             className='animationsldrtlt' 
                             data-aos="fade-up" 
@@ -50,8 +49,7 @@ const Slider = () => {
                         </Link>
                     </div>
                 </div>
-            </div>
-        </div>
+            
     )
 }
 
