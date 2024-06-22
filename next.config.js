@@ -8,7 +8,7 @@ module.exports = {
         remotePatterns:[
             {
                 protocol:'https',
-                hostname:'cdn.sanity.io,res.cloudinary.com'
+                hostname:'cdn.sanity.io'
             }
         ]
     }
