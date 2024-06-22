@@ -97,7 +97,8 @@
 
   @media (max-width: 768px) {
     .video-caption h2 {
-      font-size: 20px; /* Adjust font size for smaller screens if needed */
-      width: 90%;
+      font-size: 22px; /* Adjust font size for smaller screens if needed */
+      font-weight: 700;
+      text-align: center;
     }
   }
