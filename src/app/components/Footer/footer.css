@@ -64,7 +64,10 @@ button.btn.btn-link.ftr-adrs {
     background: #6e0000;
     color: #fff;
     text-decoration: none;
-    margin-right: 15px;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    margin: 5px 5px;
 }
 
 .hm-ftr-addrs-blk {

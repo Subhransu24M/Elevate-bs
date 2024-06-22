@@ -10,7 +10,6 @@ const Slider = () => {
                 <div className="video-blk">
                     <CldVideoPlayer 
                         id="unique-video-id"
-                        // src="https://res.cloudinary.com/dpa8rgat7/video/upload/v1719031030/dubai_video_nvjbhe.webm"
                         src="https://res.cloudinary.com/dpa8rgat7/video/upload/f_auto/v1718965894/dubai_vcm1ei.mp4"
                         autoplay 
                         muted 

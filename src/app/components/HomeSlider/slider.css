@@ -13,62 +13,6 @@
     font-weight: 500;
 }
 
-/* Cloudinary Video Responsive */
-
-/* .carousel-inner {
-    position: relative;
-    width: 100%;
-    overflow: hidden;
-} */
-
-/* .nextvideoshm video {
-    width: 100% !important;
-    height: auto !important;
-    max-width: 100%;
-    display: block;
-} */
-
-/* .carousel-item {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh; 
-} */
-
-/* .video-caption {
-    position: absolute;
-    left: 0;
-    right: 0;
-    text-align: center;
-    position: absolute;
-    display: flex !important;
-    flex-direction: column !important;
-    justify-content: center !important;
-    align-items: center !important;
-    bottom: 0px !important;
-    padding-top: 0px !important;
-    color: #fff;
-} */
-
-
-/* Caption Mobile */
-
-/* @media (max-width: 768px) {
-    .video-caption {
-        left: 5%;
-        right: 5%;
-        top: -10% !important;
-    }
-} */
-
-/* For Desktop */
-
-/* @media (min-width: 768px) {
-    .video-caption {
-        top: 0% !important;
-    }
-} */
-
 .video-blk {
     position: relative;
   }

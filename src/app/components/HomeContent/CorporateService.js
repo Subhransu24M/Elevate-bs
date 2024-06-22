@@ -7,21 +7,21 @@ import accicon from '../../../../public/icons/audit.png';
 const CorporateService = () => {
     return (
         <>
-            <div className='hm-corp-blk'>
+            <div className='hm-corp-blk' data-aos="fade-up" data-aos-easing="ease-in">
                 <div className='hm-corp-bg-clr'>
                 <div className='container'>
                     <div className='row'>
                         <div className='col-md-12 col-lg-12 col-xl-12 col-sm-12 col-xs-12'>
-                            <div className='hm-cor-hd'>
-                                <h2 data-aos="fade-up" data-aos-easing="ease-in" data-aos-delay="400">Dedicated Accounting & Corporate Services</h2>
-                                <h4 data-aos="fade-up" data-aos-easing="ease-in" data-aos-delay="500">With personalised support</h4>
-                                <p data-aos="fade-up" data-aos-easing="ease-in" data-aos-delay="600">At Elevate, our team brings in ultimate client satisfaction by enabling them achieving their desired business goal. We can help you understand your daily business operations and at the same time stay up to date on tax law changes that affect you.</p>
+                            <div className='hm-cor-hd' >
+                                <h2>Dedicated Accounting & Corporate Services</h2>
+                                <h4>With personalised support</h4>
+                                <p>At Elevate, our team brings in ultimate client satisfaction by enabling them achieving their desired business goal. We can help you understand your daily business operations and at the same time stay up to date on tax law changes that affect you.</p>
                             </div>
                         </div>
                     </div>
                     <div className='row'>
                         <div className='col-md-6 col-lg-6 col-xl-6 col-sm-12 col-xs-12'>
-                            <div className='hm-cor-img' data-aos="fade-right" data-aos-easing="ease-in" data-aos-delay="800">
+                            <div className='hm-cor-img'>
                                  <Image src={corpimg} /> 
                             </div>
                         </div>
@@ -51,10 +51,10 @@ const CorporateService = () => {
             </div>
 
             <div className='cor-cta-blk'>
-                <div className='container'>
+                <div className='container pt-5 pb-5' data-aos="fade-zoom-in" data-aos-easing="ease-in" data-aos-duration="500">
                     <div className='row'>
                         <div className='col-md-12 col-lg-12 col-xl-12 col-sm-12 col-xs-12'>
-                            <div className='cor-cta-hd' data-aos="fade-zoom-in" data-aos-easing="ease-in" data-aos-duration="1500">
+                            <div className='cor-cta-hd' >
                                 <h2>Reduce your audit risk by outsourcing your accounting needs.</h2>
                                 <h5>Hire the best accounting specialists to deal with your accounting needs.</h5>
                                 <Link href="/contact-us" type='button' className='btn btn-danger cor-cta-btn-lst'>Get Free Consultaion Today</Link>
