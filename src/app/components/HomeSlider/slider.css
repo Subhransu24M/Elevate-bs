@@ -79,16 +79,24 @@
     left: 50%;
     transform: translate(-50%, -50%);
     text-align: center;
+    width: 800px;
   }
   .video-caption h2{
     color: #fff;
-    font-weight: 700px;
+    font-weight: 700;
+    font-size: 50px;
   }
   
   /* Media query for smaller devices */
   @media (max-width: 768px) {
     .video-caption {
-      font-size: 14px; /* Adjust font size for smaller screens if needed */
+      width: 90%;
+    }
+  }
+
+  @media (max-width: 768px) {
+    .video-caption h2 {
+      font-size: 20px; /* Adjust font size for smaller screens if needed */
       width: 90%;
     }
   }
