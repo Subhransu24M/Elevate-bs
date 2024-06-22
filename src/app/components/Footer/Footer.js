@@ -97,9 +97,9 @@ const Footer = () => {
                                         <li><FaArrowRightFromBracket className='ftr-arrow' /><Link href="/ecommerce-solutions">E-Commerce Solutions</Link></li>
                                         <li><FaArrowRightFromBracket className='ftr-arrow' /><Link href="/app-development">App Development</Link></li>
                                         <li><FaArrowRightFromBracket className='ftr-arrow' /><Link href="/digital-marketing">Digital Marketing</Link></li>
-                                        <li><FaArrowRightFromBracket className='ftr-arrow' /><Link href="#">SEO</Link></li>
-                                        <li><FaArrowRightFromBracket className='ftr-arrow' /><Link href="#">Google Ads</Link></li>
-                                        <li><FaArrowRightFromBracket className='ftr-arrow' /><Link href="#">Social Media Marketing</Link></li>
+                                        <li><FaArrowRightFromBracket className='ftr-arrow' /><Link href="/digital-marketing/seo-service-in-london-uk">SEO</Link></li>
+                                        <li><FaArrowRightFromBracket className='ftr-arrow' /><Link href="/digital-marketing/google-ads-service-london-uk">Google Ads</Link></li>
+                                        <li><FaArrowRightFromBracket className='ftr-arrow' /><Link href="/digital-marketing/social-media-marketing-service-london-uk">Social Media Marketing</Link></li>
                                         <li><FaArrowRightFromBracket className='ftr-arrow' /><Link href="/corporate-services">Corporate Services</Link></li>
                                     </ul>
                                 </div>
