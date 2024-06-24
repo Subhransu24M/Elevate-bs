@@ -36,7 +36,7 @@ export default async function singlePost({ params}) {
   
   
   const query=`*[_type=='post' && slug.current == "${params.slug}"]{
-    title,image,content,
+    title,image,content,'Slug':slug.current,
     // category ->{title,slug},
 
     categories[] ->{
@@ -58,7 +58,7 @@ export default async function singlePost({ params}) {
       <>
        <TopBar/>
        <NavBar/>
-       <BreadCrumb page={singlePost.title} />
+       <BreadCrumb page={singlePost.title} /> 
         <div className="container">
           <h1>{singlePost.title}</h1>
             <div className="sngl-pst-img-blk">
