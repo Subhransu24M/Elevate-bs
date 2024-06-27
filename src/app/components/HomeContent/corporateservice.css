@@ -35,14 +35,13 @@
 }
 
 .hm-corp-blk {
-    padding: 50px 0px;
-    text-align: center;
+    margin-top: 50px;
     
 }
 
-.hm-corp-blk h2{
-    /* font-size: 20px; */
-    font-family: system-ui;
+
+.hm-cor-hd h2,h4{
+    text-align:center;
 }
 
 .hm-cor-hd h4 {
@@ -68,6 +67,7 @@
     /* padding: 40px 0px; */
     text-align: center;
     color: #fff;
+    margin-top: 50px;
 }
 
 a.btn.btn-danger.cor-cta-btn-lst {

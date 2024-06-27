@@ -37,7 +37,7 @@ const addressdata = [
         id: "INDIA",
         ctitle: "Elevate First Business Pvt. Ltd",
         cdetails: "Plot No: GA-161, Gayatri Vihar, Patia , Bhubaneswar, Odisha-751024, INDIA",
-        ctelno: "+91 674 350 0878",
+        ctelno: "+91 674 353 5676",
         cmobileno: "+91 89841 97663",
         cmailid: "info@elevatebs.com",
         
