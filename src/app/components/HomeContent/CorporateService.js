@@ -1,7 +1,7 @@
 import './corporateservice.css';
 import Image from 'next/image';
 import Link from 'next/link';
-import corpimg from '../../../../public/images/corporate.jpg';
+import corpimg from '../../../../public/images/corporate.webp';
 import corpicon from '../../../../public/icons/corporate-1.png';
 import accicon from '../../../../public/icons/audit.png';
 const CorporateService = () => {

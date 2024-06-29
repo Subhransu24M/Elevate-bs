@@ -1,5 +1,5 @@
 import Image from 'next/image';
-import hmabtimg from '../../../../public/images/aboutimg.png';
+import hmabtimg from '../../../../public/images/aboutimg.webp';
 import trusticon from '../../../../public/icons/trust.png';
 import { FaLongArrowAltRight } from "react-icons/fa";
 import './homecontent.css';
