@@ -1,5 +1,6 @@
 import Image from 'next/image';
 import abtcntimg from '../../../public/images/about-img.jpg';
+import Link from 'next/link';
 import './about.css'
 const AboutContent = () => {
     return (
@@ -23,6 +24,10 @@ const AboutContent = () => {
                             <div className="abt-cnt-img">
                                 <Image src={abtcntimg} alt="all about elevate business solutions" />
                             </div>
+                            <div className='cmp-profl-blk'>
+                            <Link className="cmp-profl-lnk" href="https://cdn.sanity.io/files/kdltfz5q/production/ede6ffeb1a484e012f867df6060912d5e687f88d.pdf" target='_blank'>Check our company profile</Link>
+                            </div>
+                            
                         </div>
                     </div>
                 </div>

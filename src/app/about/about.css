@@ -7,8 +7,8 @@
 .abt-cnt-img img {
     max-width: 100%;
     height: auto;
-    margin: 50px 0px;
-    padding: 50px 0px;
+    margin: 100px 0px 30px 0px;
+    
 }
 .abt-cnt {
     padding: 50px 0px;
@@ -28,6 +28,19 @@
 
 .abt-lst-cnt {
     padding: 50px 0px;
+}
+
+.cmp-profl-blk {
+    display: flex;
+    justify-content: center;
+}
+
+.cmp-profl-lnk {
+    background: linear-gradient(90deg, rgb(2 75 92) 30%, rgb(2 71 120) 70%);
+    color: #fff;
+    padding: 8px 20px;
+    border-radius: 30px;
+    font-weight: 600;
 }
 
 @media (max-width: 767px){
