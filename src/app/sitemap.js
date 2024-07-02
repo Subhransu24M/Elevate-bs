@@ -12,7 +12,7 @@ export default async function sitemap() {
 
   const data = await client.fetch (query);
   console.log(data);
-  const baseUrl ="http://localhost:3000";
+  const baseUrl ="https://www.elevatebs.com";
   const post = data.map((item) => ({
 
         url: `${baseUrl}/blog/${item.slug}`,
