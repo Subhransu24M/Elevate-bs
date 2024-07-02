@@ -1,4 +1,5 @@
 user-agent : *
 disallow :
+disallow : /elv-studio/
 
 Sitemap: https://www.elevatebs.com/sitemap.xml

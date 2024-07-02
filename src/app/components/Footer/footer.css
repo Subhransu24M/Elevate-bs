@@ -9,6 +9,10 @@
 .fir-inr {
     color: #fff;
 }
+.fir-inr h4{
+    text-align: left;
+    font-size: 18px;
+}
 .ftr-logo {
     background: #fff;
     width: 135px;
@@ -68,6 +72,7 @@ button.btn.btn-link.ftr-adrs {
     justify-content: center;
     align-items: center;
     margin: 5px 5px;
+    font-size: 15px;
 }
 
 .hm-ftr-addrs-blk {
