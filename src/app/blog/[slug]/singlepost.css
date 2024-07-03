@@ -6,6 +6,7 @@ a.snglp-catg-level {
     padding: 5px 19px;
     font-weight: 600;
     border-radius: 20px;
+    font-size: 13px;
 }
 .sngl-p-cat-level {
     display: flex;

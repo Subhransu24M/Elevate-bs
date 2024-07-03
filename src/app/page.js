@@ -6,6 +6,7 @@ import Slider from "./components/HomeSlider/Slider";
 import HomeContent from "./components/HomeContent/HomeContent";
 import CorporateService from "./components/HomeContent/CorporateService";
 import Footer from "./components/Footer/Footer";
+import NavbarNew from "./components/NavBar/NavbarNew";
 
 export const metadata = {
   title: "Provide Innovative Support System to Any Business - Elevate Business Solutions DMCC",
@@ -17,6 +18,7 @@ export default function Home() {
   return (
     <>
     <TopBar/>
+    {/* <NavbarNew/> */}
     <NavBar/>
     <Slider/>
     <HomeContent />

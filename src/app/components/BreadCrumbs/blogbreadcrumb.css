@@ -1,0 +1,33 @@
+.sngl-blog-sec p{
+    margin-bottom: 0px;
+}
+.sngl-blog-blk {
+    background: #c1e2f1;
+    padding: 10px 0px;
+}
+.breadcum-p{
+    color: #000;
+    font-weight: 600;
+}
+.sngl-blog-sec {
+    display: flex;
+    align-items: center;
+    font-size: 13px;
+    justify-content: center;
+}
+.pr-5 {
+    padding-right: 5px;
+}
+.pl-5 {
+    padding-left: 5px;
+}
+.sngl-tlt-pst {
+    font-size: 30px;
+    margin-top: 20px;
+}
+
+@media(max-width:981px){
+    .sngl-blog-blk{
+        display: none;
+    }
+}

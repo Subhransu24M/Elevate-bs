@@ -11,6 +11,7 @@ import Footer from "../../components/Footer/Footer";
 import NavBar from "../../components/NavBar/NavBar";
 import { client } from "../../../../sanity/lib/client";
 import { urlForImage } from "../../../../sanity/lib/image";
+import BlogBreadcrumb from "@/app/components/BreadCrumbs/BlogBreadcrumb";
 
 export async function generateMetadata({params}) {
   const query=`*[_type=='post' && slug.current == "${params.slug}"]{
@@ -58,12 +59,18 @@ export default async function singlePost({ params}) {
       <>
        <TopBar/>
        <NavBar/>
-       <BreadCrumb page={singlePost.title} /> 
-        <div className="container">
-          <h1>{singlePost.title}</h1>
-            <div className="sngl-pst-img-blk">
+       <div className="container-fluid p-0">
+       <div className="sngl-pst-img-blk">
               <Image src={urlForImage(singlePost.image)} layout="responsive" width={800} height={300} priority/>
             </div>
+       </div>
+       <BlogBreadcrumb breadcrumbtitle={singlePost.title} />
+       {/* <BreadCrumb page={singlePost.title} />  */}
+        <div className="container">
+          <h1 className="sngl-tlt-pst">{singlePost.title}</h1>
+            {/* <div className="sngl-pst-img-blk">
+              <Image src={urlForImage(singlePost.image)} layout="responsive" width={800} height={300} priority/>
+            </div> */}
             {singlePost.categories && (
             <div className="sngl-p-cat-level">
               {singlePost.categories.map((category, index) => (
