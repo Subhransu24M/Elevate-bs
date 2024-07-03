@@ -18,3 +18,8 @@ a.snglp-catg-level {
     max-width: 100%;
     height: auto;
 }
+
+ul{
+    list-style: square;
+}
+
