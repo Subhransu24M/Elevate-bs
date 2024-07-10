@@ -68,7 +68,7 @@
 
 .scl-icn {
     color: #fff;
-    font-size: 25px;
+    font-size: 20px;
 }
 .left-canvas-scl-icn-blk:before {
     content: 'Follow us';
@@ -76,4 +76,31 @@
 }
 .left-canvas-scl-blk{
     margin: 20px 0px;
+}
+
+.left-cnvs-cnt-tlt-blk {
+    position: absolute;
+    bottom: 0px;
+    /* max-width: 100%; */
+    width: 100%;
+    /* margin-left: -5px; */
+}
+
+/* Navbar Display Over the Video */
+
+@media(min-width:981px){
+    .navbarnew-blk {
+    position: absolute;
+    z-index: 9;
+    width: 100%;
+}}
+
+@media(max-width:981px){
+    .navbarnew-blk {
+    position: relative;
+}}
+
+.btn-close-custom {
+    filter: invert(1.5) sepia(1) 
+    saturate(5) hue-rotate(250deg);
 }

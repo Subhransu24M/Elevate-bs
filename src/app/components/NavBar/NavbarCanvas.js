@@ -18,7 +18,7 @@ const NavbarCanvas = () => {
             <div className="offcanvas offcanvas-start left-site-canvas-blk" data-bs-scroll="true" data-bs-backdrop="false" tabIndex="-1" id="offcanvasScrolling" aria-labelledby="offcanvasScrollingLabel">
                 <div className="offcanvas-header">
                     <Link className="navbar-brand side-canvs-logo" href="/"><Image src={ebslogo} width={120} height={120} priority={false}></Image></Link>
-                    <button type="button" className="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                    <button type="button" className="btn-close btn-close-custom text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
                 </div>
                 <div className="offcanvas-body">
                     {/* Menu Section */}
@@ -52,36 +52,36 @@ const NavbarCanvas = () => {
                         </div>
                     </nav>
                     <div className="left-cnvs-cnt-tlt-blk">
-                    <div className="left-canvas-scl-blk">
-                        {/* <h6>Follow us on</h6> */}
-                        <div className="left-canvas-scl-icn-blk">
-                            <div className="lft-cnv-scl-blk-icn">
-                                <Link href="#" target="_blank"><FaFacebookF className="scl-icn" /></Link>
+                        <div className="left-canvas-scl-blk">
+                            {/* <h6>Follow us on</h6> */}
+                            <div className="left-canvas-scl-icn-blk">
+                                <div className="lft-cnv-scl-blk-icn">
+                                    <Link href="#" target="_blank"><FaFacebookF className="scl-icn" /></Link>
+                                </div>
+                                <div className="lft-cnv-scl-blk-icn">
+                                    <Link href="#" target="_blank"><FaInstagram className="scl-icn" /></Link>
+                                </div>
+                                <div className="lft-cnv-scl-blk-icn">
+                                    <Link href="#" target="_blank"><FaLinkedinIn className="scl-icn" /></Link>
+                                </div>
+                                <div className="lft-cnv-scl-blk-icn">
+                                    <Link href="#" target="_blank"><FaXTwitter className="scl-icn" /></Link>
+                                </div>
                             </div>
-                            <div className="lft-cnv-scl-blk-icn">
-                                <Link href="#" target="_blank"><FaInstagram className="scl-icn" /></Link>
-                            </div>
-                            <div className="lft-cnv-scl-blk-icn">
-                                <Link href="#" target="_blank"><FaLinkedinIn className="scl-icn" /></Link>
-                            </div>
-                            <div className="lft-cnv-scl-blk-icn">
-                                <Link href="#" target="_blank"><FaXTwitter className="scl-icn" /></Link>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div className="cnt-dtls">
-                        <div className="cta-blk-icon">
-                            <Link href="tel:+97144258131"><BsTelephone className="telp-icon" /></Link>
-                        </div>
-                        <div className="cta-blk-icon">
-                            <Link href="#"><BsWhatsapp className="whatsapp-icon" /></Link>
-                        </div>
-                        <div className="cta-blk-icon">
-                            <Link href="mailto:info@elevatebs.com"><SiGmail className="mail-icon" /></Link>
                         </div>
 
-                    </div>
+                        {/* <div className="cnt-dtls">
+                            <div className="cta-blk-icon">
+                                <Link href="tel:+97144258131"><BsTelephone className="telp-icon" /></Link>
+                            </div>
+                            <div className="cta-blk-icon">
+                                <Link href="#"><BsWhatsapp className="whatsapp-icon" /></Link>
+                            </div>
+                            <div className="cta-blk-icon">
+                                <Link href="mailto:info@elevatebs.com"><SiGmail className="mail-icon" /></Link>
+                            </div>
+
+                        </div> */}
                     </div>
                 </div>
             </div>

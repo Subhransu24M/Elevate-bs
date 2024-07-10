@@ -1,0 +1,48 @@
+
+
+/* Slider CTA Button */
+.sld-cta-btn {
+    color: #fff;
+    font-weight: 600;
+    background: #870101;
+}
+
+.animationsldrp{
+    text-align: center;
+    color: #fff;
+    font-weight: 500;
+}
+
+.video-blk {
+    position: relative;
+  }
+
+  .video-caption {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    width: 800px;
+  }
+  .video-caption h2{
+    color: #fff;
+    font-weight: 700;
+    font-size: 50px;
+    text-align: center;
+  }
+  
+  /* Media query for smaller devices */
+  @media (max-width: 768px) {
+    .video-caption {
+      width: 90%;
+    }
+  }
+
+  @media (max-width: 768px) {
+    .video-caption h2 {
+      font-size: 22px; /* Adjust font size for smaller screens if needed */
+      font-weight: 700;
+      text-align: center;
+    }
+  }
