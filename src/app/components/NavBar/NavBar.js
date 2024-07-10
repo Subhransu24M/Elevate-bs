@@ -1,5 +1,5 @@
 import "./navbar.css";
-import ebslogo from '../../../../public/logo/ebs-logo.png'
+import ebslogo from '../../../../public/logo/ebs-logo-svg.svg'
 import Image from 'next/image';
 import Link from 'next/link';
 

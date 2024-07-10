@@ -92,3 +92,11 @@ button.btn-close.mn-close-btn {
 .my-nav-li{
     color: #fff !important;
 } */
+
+.my-csm-nav {
+    height: 100px;
+}
+.navbar-brand img {
+    height: 107px;
+    width: 107px;
+}
