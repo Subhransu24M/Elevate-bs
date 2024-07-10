@@ -100,3 +100,11 @@ button.btn-close.mn-close-btn {
     height: 107px;
     width: 107px;
 }
+
+@media (max-width:467px) {
+    .navbar-brand img {
+        height: 98px;
+        width: 98px;
+    }
+    
+}
