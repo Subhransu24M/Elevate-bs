@@ -15,7 +15,7 @@ const MiddleEastDeskCnt = () => {
                             <p>People from the UK are increasingly drawn to the UAE, Qatar, and other Arab nations for business due to a combination of factors, including favorable tax policies, a strategic location at the crossroads of global trade routes, robust economies, access to a growing consumer base, and business-friendly regulations. These countries offer a unique opportunity for international entrepreneurs and companies to expand their operations, tap into emerging markets, and enjoy the benefits of a stable and supportive business environment.</p>
                         </div>
                         <div className="col-md-12 col-lg-6 col-xl-6 col-sm-12 col-xs-12">
-                            <Image src={middledeskimg} className="mdl-eastimg"/>
+                            <Image src={middledeskimg} className="mdl-eastimg" alt="middle east desk service london uk"/>
                         </div>
                     </div>
                 </div>

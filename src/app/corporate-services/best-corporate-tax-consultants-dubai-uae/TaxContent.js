@@ -18,7 +18,7 @@ const TaxContent = () => {
                         </div>
                         <div className="col-md-12 col-lg-6 col-xl-6 col-sm-12 col-xs-12">
                             <div className="corp-img-blk">
-                            <Image src={corptaximg1} />
+                            <Image src={corptaximg1} alt="best corporate tax consultants dubai uae" />
                             </div>
                         </div>
                     </div>

@@ -65,25 +65,25 @@ const WebDevelopContent = () => {
                         <div className='row'>
                             <div className='col-md-6 col-lg-3 col-xl-3 col-sm-12 col-xs-12'>
                                 <div className='web-dev-box'>
-                                    <Image src={educationimg} />
+                                    <Image src={educationimg} alt="website development service uk"/>
                                     <h5>Education</h5>
                                 </div>
                             </div>
                             <div className='col-md-6 col-lg-3 col-xl-3 col-sm-12 col-xs-12'>
                                 <div className='web-dev-box'>
-                                    <Image src={hotelimg} />
+                                    <Image src={hotelimg} alt="website development service uk"/>
                                     <h5>Hotels & Restaurants</h5>
                                 </div>
                             </div>
                             <div className='col-md-6 col-lg-3 col-xl-3 col-sm-12 col-xs-12'>
                                 <div className='web-dev-box'>
-                                    <Image src={transportimg} />
+                                    <Image src={transportimg} alt="website development service uk"/>
                                     <h5>Transport</h5>
                                 </div>
                             </div>
                             <div className='col-md-6 col-lg-3 col-xl-3 col-sm-12 col-xs-12'>
                                 <div className='web-dev-box'>
-                                    <Image src={healthimg} />
+                                    <Image src={healthimg} alt="website development service uk"/>
                                     <h5>Health</h5>
                                 </div>
                             </div>
@@ -92,25 +92,25 @@ const WebDevelopContent = () => {
                         <div className='row'>
                             <div className='col-md-6 col-lg-3 col-xl-3 col-sm-12 col-xs-12'>
                                 <div className='web-dev-box'>
-                                    <Image src={retailimg} />
+                                    <Image src={retailimg} alt="website development service uk"/>
                                     <h5>Retail</h5>
                                 </div>
                             </div>
                             <div className='col-md-6 col-lg-3 col-xl-3 col-sm-12 col-xs-12'>
                                 <div className='web-dev-box'>
-                                    <Image src={fintechimg} />
+                                    <Image src={fintechimg} alt="website development service uk"/>
                                     <h5>Fintech</h5>
                                 </div>
                             </div>
                             <div className='col-md-6 col-lg-3 col-xl-3 col-sm-12 col-xs-12'>
                                 <div className='web-dev-box'>
-                                    <Image src={ecommerceimg} />
+                                    <Image src={ecommerceimg} alt="website development service uk"/>
                                     <h5>E-commerce</h5>
                                 </div>
                             </div>
                             <div className='col-md-6 col-lg-3 col-xl-3 col-sm-12 col-xs-12'>
                                 <div className='web-dev-box'>
-                                    <Image src={realstateimg} />
+                                    <Image src={realstateimg} alt="website development service uk"/>
                                     <h5>Realestate</h5>
                                 </div>
                             </div>

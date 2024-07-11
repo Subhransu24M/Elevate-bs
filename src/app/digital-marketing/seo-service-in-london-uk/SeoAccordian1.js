@@ -10,7 +10,7 @@ const SeoAccordian1 = () => {
                 <div className="card">
                     <div className="card-header" id="faqhead1">
                         <Link href="#" className="btn btn-header-link" data-bs-toggle="collapse" data-bs-target="#faq1"
-                            aria-expanded="true" aria-controls="faq1"><Image className="seo-accor-img" src={keywordimg} />Keyword Research</Link>
+                            aria-expanded="true" aria-controls="faq1"><Image className="seo-accor-img" src={keywordimg} alt="seo service london uk"/>Keyword Research</Link>
                     </div>
 
                     <div id="faq1" className="collapse" aria-labelledby="faqhead1" data-bs-parent="#faq">
@@ -22,7 +22,7 @@ const SeoAccordian1 = () => {
                 <div className="card">
                     <div className="card-header" id="faqhead2">
                         <Link href="#" className="btn btn-header-link collapsed" data-bs-toggle="collapse" data-bs-target="#faq2"
-                            aria-expanded="true" aria-controls="faq2"><Image className="seo-accor-img" src={backlinkimg} />Qualitative Backlinking</Link>
+                            aria-expanded="true" aria-controls="faq2"><Image className="seo-accor-img" src={backlinkimg} alt="seo service london uk"/>Qualitative Backlinking</Link>
                     </div>
 
                     <div id="faq2" className="collapse" aria-labelledby="faqhead2" data-bs-parent="#faq">
@@ -34,7 +34,7 @@ const SeoAccordian1 = () => {
                 <div className="card">
                     <div className="card-header" id="faqhead3">
                         <Link href="#" className="btn btn-header-link collapsed" data-bs-toggle="collapse" data-bs-target="#faq3"
-                            aria-expanded="true" aria-controls="faq3"><Image className="seo-accor-img" src={onpageimg} />On-Page Optimization</Link>
+                            aria-expanded="true" aria-controls="faq3"><Image className="seo-accor-img" src={onpageimg} alt="seo service london uk"/>On-Page Optimization</Link>
                     </div>
 
                     <div id="faq3" className="collapse" aria-labelledby="faqhead3" data-bs-parent="#faq">

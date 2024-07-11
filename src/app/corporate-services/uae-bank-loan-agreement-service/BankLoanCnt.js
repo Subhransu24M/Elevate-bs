@@ -18,7 +18,7 @@ export const BankLoanCnt = () => {
                         </div>
                         <div className="col-md-12 col-lg-6 col-xl-6 col-sm-12 col-xs-12">
                             <div className="bnk-ln-agr-sec1-img" data-aos="fade-right" data-aos-easing="ease-in-sine">
-                            <Image src={bankloanagreementimg} />
+                            <Image src={bankloanagreementimg} alt="bank loan agreement service uae"/>
                             </div>
                         </div>
                     </div>
@@ -32,21 +32,21 @@ export const BankLoanCnt = () => {
                     <div className="row">
                         <div className="col-md-4 col-lg-4 col-xl-4 col-sm-12 col-xs-12">
                             <div className="bmk-ln-agr-sec2-box" data-aos="fade-up" data-aos-anchor-placement="top-center">
-                                <Image src={businessloanimg} />
+                                <Image src={businessloanimg} alt="bank loan agreement service uae"/>
                                 <h4>Business Loans</h4>
                                 <p>Dubai's business environment is thriving, attracting entrepreneurs from around the world. Our team of experts specializes in helping startups and established companies secure business loans that fuel growth, working capital, and expansion.</p>
                             </div>
                         </div>
                         <div className="col-md-4 col-lg-4 col-xl-4 col-sm-12 col-xs-12">
                             <div className="bmk-ln-agr-sec2-box" data-aos="fade-up" data-aos-anchor-placement="top-center">
-                            <Image src={personalloanimg} />
+                            <Image src={personalloanimg} alt="bank loan agreement service uae"/>
                                 <h4 >Personal Loans</h4>
                                 <p>Whether you need a personal loan for education, home renovation, or any other purpose, we offer comprehensive guidance to find the best loan options with favorable terms and interest rates.</p>
                             </div>
                         </div>
                         <div className="col-md-4 col-lg-4 col-xl-4 col-sm-12 col-xs-12">
                             <div className="bmk-ln-agr-sec2-box" data-aos="fade-up" data-aos-anchor-placement="top-center">
-                            <Image src={mortgageloanimg} />
+                            <Image src={mortgageloanimg} alt="bank loan agreement service uae"/>
                                 <h4>Mortgage Loans</h4>
                                 <p>Dubai's real estate market is both dynamic and competitive. We assist homebuyers in securing mortgage loans, ensuring they find the ideal financing solution for their dream home.</p>
                             </div>

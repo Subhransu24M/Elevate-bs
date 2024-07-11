@@ -22,13 +22,13 @@ const CorporateService = () => {
                     <div className='row'>
                         <div className='col-md-6 col-lg-6 col-xl-6 col-sm-12 col-xs-12'>
                             <div className='hm-cor-img'>
-                                 <Image src={corpimg} /> 
+                                 <Image src={corpimg} alt="corporate service" /> 
                             </div>
                         </div>
                         <div className='col-md-3 col-lg-3 col-xl-3 col-sm-12 col-xs-12'>
                             <div className='hm-acccor-blk'>
                                 <div className='hm-cor-icon'>
-                                     <Image src={corpicon} /> 
+                                     <Image src={corpicon} alt="corporate service"/> 
                                 </div>
                                 <h4>Corporate Services</h4>
                                 <p></p>
@@ -38,7 +38,7 @@ const CorporateService = () => {
                         <div className='col-md-3 col-lg-3 col-xl-3 col-sm-12 col-xs-12'>
                             <div className='hm-acccor-blk'>
                                 <div className='hm-cor-icon'>
-                                     <Image src={accicon} /> 
+                                     <Image src={accicon} alt="accounting service"/> 
                                 </div>
                                 <h4>Accounting Services</h4>
                                 <p></p>

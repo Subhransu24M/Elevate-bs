@@ -22,7 +22,7 @@ const VatRegistrationCnt = () => {
                             <p>Furthermore, being VAT-registered can boost a business's reputation, signaling to customers and partners that the business operates transparently and in accordance with the country's legal framework. This can be especially important when dealing with other registered businesses or government entities, as it demonstrates a commitment to professionalism and accountability.</p>
                         </div>
                         <div className="col-md-12 col-lg-6 col-xl-6 col-sm-12 col-xs-12">
-                            <Image src={vatregimg1} className="vat-reg-img" />
+                            <Image src={vatregimg1} className="vat-reg-img" alt="vat registration service dubai uae"/>
                         </div>
                     </div>
                 </div>
@@ -58,7 +58,7 @@ const VatRegistrationCnt = () => {
                             <h2 className="vat-reg-doc-tlt">Required documents for VAT registration in UAE</h2>
                             <div className="vat-reg-doc-mdl-blk">
                                 <div className="vat-reg-doc-img">
-                                    <Image src={vatregimg} />
+                                    <Image src={vatregimg} alt="vat registration service dubai uae"/>
                                 </div>
                                 <div className="vat-reg-doc-modal">
                                     <VatDocModal/>

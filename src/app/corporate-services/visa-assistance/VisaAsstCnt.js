@@ -17,7 +17,7 @@ const VisaAsstCnt = () => {
                         <div className='col-md-12 col-xl-6 col-lg-6'>
                             <div className='turist-visa-blk'>
                                 {/* <h4>Tourist Visa </h4> */}
-                                <Image className='uae-visa-img' src={uaevisaimg} alt="uae-visa-assistance-in-bbsr" />
+                                <Image className='uae-visa-img' src={uaevisaimg} alt="uae visa assistance in bbsr" />
                                 <div className='tourist-visa-btn-blk'>
                                     <div className='visa-info'>
                                         <h4>Tourist visa within 24 hours</h4>
@@ -106,7 +106,7 @@ const VisaAsstCnt = () => {
                         <div className='col-md-12 col-xl-6 col-lg-6'>
                             <div className='turist-visa-blk'>
                                 {/* <h4>Business Visa </h4> */}
-                                <Image className='uae-visa-img' src={businessvisaimg} alt="uae-visa-assistance-in-bbsr" />
+                                <Image className='uae-visa-img' src={businessvisaimg} alt="uae visa assistance in bbsr" />
                                 <div className='tourist-visa-btn-blk'>
                                     <div className='visa-info'>
                                         <h4>Business visa within 48 hours</h4>
@@ -198,7 +198,7 @@ const VisaAsstCnt = () => {
                         <div className='col-md-12 col-xl-6 col-lg-6'>
                             <div className='turist-visa-blk'>
                                 {/* <h4>Tourist Visa </h4> */}
-                                <Image className='uae-visa-img' src={singporevisaimg} alt="uae-visa-assistance-in-bbsr" />
+                                <Image className='uae-visa-img' src={singporevisaimg} alt="uae visa assistance in bbsr" />
                                 <div className='tourist-visa-btn-blk'>
                                     <div className='visa-info'>
                                         <h4>Tourist visa within 24 hours</h4>
@@ -286,7 +286,7 @@ const VisaAsstCnt = () => {
                         <div className='col-md-12 col-xl-6 col-lg-6'>
                             <div className='turist-visa-blk'>
                                 {/* <h4>Business Visa </h4> */}
-                                <Image className='uae-visa-img' src={singporevisaimg} alt="uae-visa-assistance-in-bbsr" />
+                                <Image className='uae-visa-img' src={singporevisaimg} alt="uae visa assistance in bbsr" />
                                 <div className='tourist-visa-btn-blk'>
                                     <div className='visa-info'>
                                         <h4>Business visa within 48 hours</h4>

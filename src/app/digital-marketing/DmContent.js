@@ -20,7 +20,7 @@ const DmContent = () => {
                         </div>
                         <div className="col-md-6 col-sm-12 col-lg-6 col-xl-6 col-xs-12">
                             <div className='dm-rght-blk'>
-                                <Image src={dmimg} className="dmimgcls" alt="digital-marketing-agency-london-uk" />
+                                <Image src={dmimg} className="dmimgcls" alt="digital marketing agency london uk" />
                             </div>
                         </div>
                     </div>

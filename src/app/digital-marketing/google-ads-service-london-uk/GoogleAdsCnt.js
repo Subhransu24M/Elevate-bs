@@ -21,7 +21,7 @@ const GoogleAdsCnt = () => {
                         </div>
                         <div className="col-md-5 col-lg-5 col-xl-5 col-sm-12 col-xs-12 pt-5 pb-5">
                             <div className="glads-sec1-img-blk">
-                                <Image src={ppcagencylondonimg} />
+                                <Image src={ppcagencylondonimg} alt="google ads service london uk"/>
                             </div>
 
                         </div>
@@ -38,21 +38,21 @@ const GoogleAdsCnt = () => {
                             <div className="row pt-3">
                                 <div className="col-md-4 col-xl-4 col-lg-4 col-sm-12 col-xs-12 pl-1 pr-1">
                                     <div className="googleads-sec2-box" data-aos="zoom-in" data-aos-duration="3000">
-                                        <Image src={webtraffic} />
+                                        <Image src={webtraffic} alt="google ads service london uk"/>
                                         <h5>Boost Website Traffic</h5>
                                         <p>Elevate your online sales, bookings, or mailing list subscriptions by harnessing the power of online advertisements that lead users directly to your website.</p>
                                     </div>
                                 </div>
                                 <div className="col-md-4 col-xl-4 col-lg-4 col-sm-12 col-xs-12 pl-1 pr-1">
                                     <div className="googleads-sec2-box" data-aos="zoom-in" data-aos-duration="3000">
-                                        <Image src={webinquiry} />
+                                        <Image src={webinquiry} alt="google ads service london uk"/>
                                         <h5>Drive More Inquiries</h5>
                                         <p>Boost customer interaction by prominently showcasing your phone number and integrating a convenient click-to-call feature within your ads, resulting in a surge in incoming phone calls.</p>
                                     </div>
                                 </div>
                                 <div className="col-md-4 col-xl-4 col-lg-4 col-sm-12 col-xs-12 pl-1 pr-1">
                                     <div className="googleads-sec2-box" data-aos="zoom-in" data-aos-duration="3000">
-                                        <Image src={webvisit} />
+                                        <Image src={webvisit} alt="google ads service london uk"/>
                                         <h5>Boost Store Visits</h5>
                                         <p>Attract a larger and more diverse customer base to your physical store by leveraging business ads that help individuals easily locate your company on the map.</p>
                                     </div>
@@ -91,7 +91,7 @@ const GoogleAdsCnt = () => {
                         <div className="col-md-6 col-lg-6 col-xl-6 col-sm-12 col-xs-12">
                             <div className="glads-box-chk-main-blk" data-aos="fade-right">
                                 <div className="glads-box-chk-icon">
-                                    <Image src={searchads} className="srch-ad-img" />
+                                    <Image src={searchads} className="srch-ad-img" alt="google ads service london uk"/>
                                 </div>
                                 <div className="glads-box-chk-cnt">
                                     <h6>Search Campaign</h6>
@@ -100,7 +100,7 @@ const GoogleAdsCnt = () => {
                             </div>
                             <div className="glads-box-chk-main-blk" data-aos="fade-right">
                                 <div className="glads-box-chk-icon">
-                                    <Image src={displayads} className="display-ad-img" />
+                                    <Image src={displayads} className="display-ad-img" alt="google ads service london uk"/>
                                 </div>
                                 <div className="glads-box-chk-cnt">
                                     <h6>Display Campaign</h6>
@@ -109,7 +109,7 @@ const GoogleAdsCnt = () => {
                             </div>
                             <div className="glads-box-chk-main-blk" data-aos="fade-right">
                                 <div className="glads-box-chk-icon">
-                                    <Image src={shoppingads} className="shopping-ad-img" />
+                                    <Image src={shoppingads} className="shopping-ad-img" alt="google ads service london uk"/>
                                 </div>
                                 <div className="glads-box-chk-cnt">
                                     <h6>Shopping Campaign</h6>
@@ -123,7 +123,7 @@ const GoogleAdsCnt = () => {
                         <div className="col-md-6 col-lg-6 col-xl-6 col-sm-12 col-xs-12">
                             <div className="glads-box-chk-main-blk" data-aos="fade-left">
                                 <div className="glads-box-chk-icon">
-                                    <Image src={videoads} className="video-ad-img" />
+                                    <Image src={videoads} className="video-ad-img" alt="google ads service london uk"/>
                                 </div>
                                 <div className="glads-box-chk-cnt">
                                     <h6>Video Campaign</h6>
@@ -132,7 +132,7 @@ const GoogleAdsCnt = () => {
                             </div>
                             <div className="glads-box-chk-main-blk" data-aos="fade-left">
                                 <div className="glads-box-chk-icon">
-                                    <Image src={appads} className="app-ad-img" />
+                                    <Image src={appads} className="app-ad-img" alt="google ads service london uk"/>
                                 </div>
                                 <div className="glads-box-chk-cnt">
                                     <h6>App Campaign</h6>

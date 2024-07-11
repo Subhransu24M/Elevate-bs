@@ -42,7 +42,7 @@ const SocialMediaCnt = () => {
             <div className="col-md-6 col-lg-6 col-xl-6 col-sm-12 col-xs-12">
               <div className="smo-sec2-imgbox">
                 {/* Need Image */}
-                <Image src={audienceengagement} />
+                <Image src={audienceengagement} alt="social media marketing service london uk"/>
               </div>
             </div>
             <div className="col-md-6 col-lg-6 col-xl-6 col-sm-12 col-xs-12">
@@ -65,7 +65,7 @@ const SocialMediaCnt = () => {
               <div className="col-md-6 col-lg-6 col-xl-6 col-sm-12 col-xs-12">
                 <div className="smo-sec2-imgbox">
                   {/* Need Image */}
-                  <Image src={websitetraffic} />
+                  <Image src={websitetraffic} alt="social media marketing service london uk"/>
                   
                 </div>
               </div>
@@ -79,7 +79,7 @@ const SocialMediaCnt = () => {
               <div className="col-md-6 col-lg-6 col-xl-6 col-sm-12 col-xs-12">
                 <div className="smo-sec2-imgbox">
                   {/* Need Image */}
-                  <Image src={brandawarness} />
+                  <Image src={brandawarness} alt="social media marketing service london uk"/>
                 </div>
               </div>
               <div className="col-md-6 col-lg-6 col-xl-6 col-sm-12 col-xs-12">
@@ -104,7 +104,7 @@ const SocialMediaCnt = () => {
               <div className="col-md-6 col-lg-6 col-xl-6 col-sm-12 col-xs-12">
                 <div className="smo-sec2-imgbox">
                   {/* Need Image */}
-                  <Image src={datainsights} />
+                  <Image src={datainsights} alt="social media marketing service london uk"/>
                 </div>
               </div>
             </div>
@@ -127,19 +127,19 @@ const SocialMediaCnt = () => {
           <div className="row">
             <div className="col-md-12 col-lg-1 col-xl-1 col-sm-12 col-xs-12"></div>
             <div className="col-md-12 col-lg-2 col-xl-2 col-sm-12 col-xs-12">
-              <Image src={facebookimg} className="smm-scl-img"/>
+              <Image src={facebookimg} className="smm-scl-img" alt="social media marketing service london uk"/>
             </div>
             <div className="col-md-12 col-lg-2 col-xl-2 col-sm-12 col-xs-12">
-              <Image src={instagramimg} className="smm-scl-img"/>
+              <Image src={instagramimg} className="smm-scl-img" alt="social media marketing service london uk"/>
             </div>
             <div className="col-md-12 col-lg-2 col-xl-2 col-sm-12 col-xs-12">
-              <Image src={youtubeimg} className="smm-scl-img"/>
+              <Image src={youtubeimg} className="smm-scl-img" alt="social media marketing service london uk"/>
             </div>
             <div className="col-md-12 col-lg-2 col-xl-2 col-sm-12 col-xs-12">
-              <Image src={pinterestimg} className="smm-scl-img"/>
+              <Image src={pinterestimg} className="smm-scl-img" alt="social media marketing service london uk"/>
             </div>
             <div className="col-md-12 col-lg-2 col-xl-2 col-sm-12 col-xs-12">
-              <Image src={linkedinimg} className="smm-scl-img"/>
+              <Image src={linkedinimg} className="smm-scl-img" alt="social media marketing service london uk"/>
             </div>
             <div className="col-md-12 col-lg-1 col-xl-1 col-sm-12 col-xs-12"></div>
           </div>

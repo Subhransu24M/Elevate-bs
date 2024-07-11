@@ -16,7 +16,7 @@ const ItServices = () => {
                         <p>website is not just a virtual depiction of your company profile rather, it reflects your business objectives and goals</p>
                         <div className='it-ser-cta'>
                             <div className='it-ser-img'>
-                                <Image src={webicon} />
+                                <Image src={webicon} alt="website development service uae"/>
                             </div>
                             <div className='it-ser-link'>
                                 <Link type="button" href="/website-development" className='btn btn-primary'>Read More</Link>
@@ -30,7 +30,7 @@ const ItServices = () => {
                         <p>e-commerce consulting company helping retailers to launch their business online and grow. For online retail business</p>
                         <div className='it-ser-cta'>
                             <div className='it-ser-img'>
-                                <Image src={ecomicon} />
+                                <Image src={ecomicon} alt="ecommerce solutions uae"/>
                             </div>
                             <div className='it-ser-link'>
                                 <Link type="button" href="/ecommerce-solutions" className='btn btn-primary'>Read More</Link>
@@ -44,7 +44,7 @@ const ItServices = () => {
                         <p>Our strategy drives measurable results. We do 360 degree approach to focus on increasing conversions</p>
                         <div className='it-ser-cta'>
                             <div className='it-ser-img'>
-                                <Image src={marketingicon} />
+                                <Image src={marketingicon} alt="digital marketing service uae"/>
                             </div>
                             <div className='it-ser-link'>
                                 <Link type="button" href="/digital-marketing" className='btn btn-primary'>Read More</Link>
@@ -58,7 +58,7 @@ const ItServices = () => {
                         <p>We offer customer centric mobile application development services to our clients that fully serve their business needs.</p>
                         <div className='it-ser-cta'>
                             <div className='it-ser-img'>
-                                <Image src={appicon} />
+                                <Image src={appicon} alt="app development service uae"/>
                             </div>
                             <div className='it-ser-link'>
                                 <Link type="button" href="/app-development" className='btn btn-primary'>Read More</Link>

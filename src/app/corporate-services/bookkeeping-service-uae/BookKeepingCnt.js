@@ -15,7 +15,7 @@ const BookKeepingCnt = () => {
                             <p>Bookkeeping is an integral component of the accounting process within businesses, involving the meticulous recording of financial transactions. Elevate is one of the renowned Bookkeeping firms in dubai for providing the most dependable bookkeeping services in the UAE. They assist in maintaining precise records of financial transactions, facilitating efficient accounting and tax preparation while adhering to UAE's tax regulations. Beyond merely documenting payables and receivables, Elevate ensures the security and prosperity of your business through accurate bookkeeping and comprehensive accounts management. As one of the foremost Bookkeeping service provider in Dubai, UAE, Elevate excels in delivering exceptional accounting and bookkeeping services, diligently tracking day-to-day business transactions.</p>
                         </div>
                         <div className="col-md-12 col-lg-6 col-xl-6 col-sm-12 col-xs-12">
-                            <Image src={bookkeepingimguae} className="bkp-rgt-img"/>
+                            <Image src={bookkeepingimguae} className="bkp-rgt-img" alt="bookkeeping service uae"/>
                         </div>
                     </div>
                 </div>
@@ -25,7 +25,7 @@ const BookKeepingCnt = () => {
                 <div className="container">
                     <div className="row">
                         <div className="col-md-12 col-lg-6 col-xl-6 col-sm-12 col-xs-12">
-                            <Image src={bookkeepingimgleft} className="bkp-lft-img"/>
+                            <Image src={bookkeepingimgleft} className="bkp-lft-img" alt="bookkeeping service uae"/>
                         </div>
                         <div className="col-md-12 col-lg-6 col-xl-6 col-sm-12 col-xs-12">
                             <h2 className='bkp-hd'>What is Bookkeeping?</h2>

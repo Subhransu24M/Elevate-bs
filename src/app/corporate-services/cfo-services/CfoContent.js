@@ -34,7 +34,7 @@ const CfoContent = () => {
                         </div>
                     </div>
                     <div className='col-md-12 col-lg-6 col-sm-12 col-xl-6'>
-                        <Image src={cfoimg1} />
+                        <Image src={cfoimg1} alt="cfo service uae"/>
                     </div>
                 </div>
             </div>
@@ -97,7 +97,7 @@ const CfoContent = () => {
                             </ul>
                         </div>
                         <div className='col-md-12 col-lg-5 col-xl-5 col-sm-12'>
-                            <Image src={cfoimg2} />
+                            <Image src={cfoimg2} alt="cfo service uae"/>
                         </div>
                     </div>
                 </div>

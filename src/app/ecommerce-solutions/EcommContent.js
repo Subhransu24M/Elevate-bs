@@ -135,35 +135,35 @@ const EcommContent = () => {
                             <div className="col-md-12 col-xl-1 col-lg-1 col-sm-12"></div>
                             <div className="col-md-12 col-xl-2 col-lg-2 col-sm-12">
                                 <div className="sub-sub-blk">
-                                    <Image src={planimg} />
+                                    <Image src={planimg} alt="ecommerce website development uk"/>
                                     <h4>Planning</h4>
                                     <p>Understand goals, target audience, and features needed.</p>
                                 </div>
                             </div>
                             <div className="col-md-12 col-xl-2 col-lg-2 col-sm-12">
                                 <div className="sub-sub-blk">
-                                    <Image src={designimg} />
+                                    <Image src={designimg} alt="ecommerce website development uk"/>
                                     <h4>Design</h4>
                                     <p>Create a user-friendly layout and visual style.</p>
                                 </div>
                             </div>
                             <div className="col-md-12 col-xl-2 col-lg-2 col-sm-12">
                                 <div className="sub-sub-blk">
-                                    <Image src={developmentimg} />
+                                    <Image src={developmentimg} alt="ecommerce website development uk"/>
                                     <h4>Development</h4>
                                     <p>Build the website with secure and efficient code.</p>
                                 </div>
                             </div>
                             <div className="col-md-12 col-xl-2 col-lg-2 col-sm-12">
                                 <div className="sub-sub-blk">
-                                    <Image src={testingimg} />
+                                    <Image src={testingimg} alt="ecommerce website development uk"/>
                                     <h4>Testing</h4>
                                     <p>Thoroughly check for bugs, usability, and responsiveness.</p>
                                 </div>
                             </div>
                             <div className="col-md-12 col-xl-2 col-lg-2 col-sm-12">
                                 <div className="sub-sub-blk">
-                                    <Image src={launchimg} />
+                                    <Image src={launchimg} alt="ecommerce website development uk"/>
                                     <h4>Launch</h4>
                                     <p>Deploy the website and ensure a seamless start.</p>
                                 </div>
@@ -184,7 +184,7 @@ const EcommContent = () => {
                         <div className="col-md-4 col-lg-4 col-xl-4 col-sm-12">
                             <div className="e-comm-sec-5-box">
                                 <div className="ecom-sec5-box-icon">
-                                    <Image src={paymentgatwayimg} className="ecom-payment-img" />
+                                    <Image src={paymentgatwayimg} className="ecom-payment-img" alt="ecommerce website development uk"/>
                                 </div>
                                 <h4>Secured Payment Gateways</h4>
                                 <p>Implement highly secure payment gateways to facilitate the safe transfer of online payments and safeguard client data.</p>
@@ -193,7 +193,7 @@ const EcommContent = () => {
                         <div className="col-md-4 col-lg-4 col-xl-4 col-sm-12">
                             <div className="e-comm-sec-5-box">
                                 <div className="ecom-sec5-box-icon">
-                                    <Image src={productattrimg} className="ecom-payment-img" />
+                                    <Image src={productattrimg} className="ecom-payment-img" alt="ecommerce website development uk"/>
                                 </div>
                                 <h4>Manage Product Attributes</h4>
                                 <p>Efficiently configure product attributes such as product type and price relevance, effectively shaping customer decisions.</p>
@@ -202,7 +202,7 @@ const EcommContent = () => {
                         <div className="col-md-4 col-lg-4 col-xl-4 col-sm-12">
                             <div className="e-comm-sec-5-box">
                                 <div className="ecom-sec5-box-icon">
-                                    <Image src={multilangualimg} className="ecom-payment-img" />
+                                    <Image src={multilangualimg} className="ecom-payment-img" alt="ecommerce website development uk"/>
                                 </div>
                                 <h4>Multilangual Support</h4>
                                 <p>Implement multi-language functionality to cater to a global audience, allowing customers to access your website in their preferred language for a more inclusive shopping experience.</p>
@@ -213,7 +213,7 @@ const EcommContent = () => {
                             <div className="col-md-4 col-lg-4 col-xl-4 col-sm-12">
                                 <div className="e-comm-sec-5-box2">
                                     <div className="ecom-sec5-box-icon">
-                                        <Image src={offerimg} className="ecom-payment-img" />
+                                        <Image src={offerimg} className="ecom-payment-img" alt="ecommerce website development uk"/>
                                     </div>
                                     <h4>Manage Offers & Discounts</h4>
                                     <p>Employ personalized offers and discounts through channels like email, text, and social media, effectively boosting customer engagement and driving sales.</p>
@@ -222,7 +222,7 @@ const EcommContent = () => {
                             <div className="col-md-4 col-lg-4 col-xl-4 col-sm-12">
                                 <div className="e-comm-sec-5-box2">
                                     <div className="ecom-sec5-box-icon">
-                                        <Image src={seooptimisedimg} className="ecom-payment-img" />
+                                        <Image src={seooptimisedimg} className="ecom-payment-img" alt="ecommerce website development uk"/>
                                     </div>
                                     <h4>SEO Optimised Website</h4>
                                     <p>Create a search engine optimized website with streamlined site architecture, optimized product pages, and comprehensive image alt text.</p>
@@ -231,7 +231,7 @@ const EcommContent = () => {
                             <div className="col-md-4 col-lg-4 col-xl-4 col-sm-12">
                                 <div className="e-comm-sec-5-box2">
                                     <div className="ecom-sec5-box-icon">
-                                        <Image src={shippingapiimg} className="ecom-payment-img" />
+                                        <Image src={shippingapiimg} className="ecom-payment-img" alt="ecommerce website development uk"/>
                                     </div>
                                     <h4>Shipping API Integration</h4>
                                     <p>Integrate shipping APIs seamlessly, enabling real-time and accurate shipping calculations, tracking, and order management.</p>

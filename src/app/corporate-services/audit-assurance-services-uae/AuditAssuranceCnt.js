@@ -19,7 +19,7 @@ const AuditAssurancecnt = () => {
                             <p>Every business requires Audit and Assurance Services as a core service to effectively monitor their financial transactions. Elevate offers comprehensive Audit and Assurance Services in the UAE that go beyond mere inspection and approval of financial records. Our Audit Services in UAE are designed to provide transparent and systematic financial statement audits, along with other assurance services, that offer valuable insights into your business. With our expertise, you can track your financial transactions with ease and confidence. Businesses require auditors who possess a deep understanding of their specific industry, geographical context, political and economic dynamics, long-term strategic goals, and the potential risks that necessitate evaluation and mitigation. They seek advisors who can adeptly leverage this critical information to conduct audits with the highest degree of accuracy and efficiency.</p>
                         </div>
                         <div className="col-md-12 col-lg-6 col-xl-6 col-sm-12 col-xs-12">
-                            <Image src={auditassuranceimg} className="audt-assr-img" />
+                            <Image src={auditassuranceimg} className="audt-assr-img" alt="audit assurance service uae"/>
                         </div>
                     </div>
                 </div>
@@ -242,22 +242,22 @@ const AuditAssurancecnt = () => {
                     <h2 className="audt-assr-hd">We are Approved Auditors both in the Mainland and following Freezones</h2>
                     <div className="row">
                         <div className="col-md-4 col-lg-2 col-xl-2 col-sm-12 col-xs-12">
-                            <Image src={approvedzome1} className="audt-assr-zone-img" />
+                            <Image src={approvedzome1} className="audt-assr-zone-img" alt="audit assurance service uae"/>
                         </div>
                         <div className="col-md-4 col-lg-2 col-xl-2 col-sm-12 col-xs-12">
-                        <Image src={approvedzome2} className="audt-assr-zone-img"/>
+                        <Image src={approvedzome2} className="audt-assr-zone-img" alt="audit assurance service uae"/>
                         </div>
                         <div className="col-md-4 col-lg-2 col-xl-2 col-sm-12 col-xs-12">
-                        <Image src={approvedzome3} className="audt-assr-zone-img"/>
+                        <Image src={approvedzome3} className="audt-assr-zone-img" alt="audit assurance service uae"/>
                         </div>
                         <div className="col-md-4 col-lg-2 col-xl-2 col-sm-12 col-xs-12">
-                        <Image src={approvedzome4} className="audt-assr-zone-img"/>
+                        <Image src={approvedzome4} className="audt-assr-zone-img" alt="audit assurance service uae"/>
                         </div>
                         <div className="col-md-4 col-lg-2 col-xl-2 col-sm-12 col-xs-12">
-                        <Image src={approvedzome5} className="audt-assr-zone-img"/>
+                        <Image src={approvedzome5} className="audt-assr-zone-img" alt="audit assurance service uae"/>
                         </div>
                         <div className="col-md-4 col-lg-2 col-xl-2 col-sm-12 col-xs-12">
-                        <Image src={approvedzome6} className="audt-assr-zone-img"/>
+                        <Image src={approvedzome6} className="audt-assr-zone-img" alt="audit assurance service uae"/>
                         </div>
                     </div>
                 </div>

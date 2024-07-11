@@ -10,7 +10,7 @@ const SeoAccordian2 = () => {
                 <div className="card">
                     <div className="card-header" id="faqhead4">
                         <Link href="#" className="btn btn-header-link collapsed" data-bs-toggle="collapse" data-bs-target="#faq4"
-                            aria-expanded="true" aria-controls="faq4"><Image className="seo-accor-img" src={techseoimg} />Technical SEO Mastery</Link>
+                            aria-expanded="true" aria-controls="faq4"><Image className="seo-accor-img" src={techseoimg} alt="seo service london uk"/>Technical SEO Mastery</Link>
                     </div>
 
                     <div id="faq4" className="collapse" aria-labelledby="faqhead4" data-bs-parent="#faq">
@@ -22,7 +22,7 @@ const SeoAccordian2 = () => {
                 <div className="card">
                     <div className="card-header" id="faqhead5">
                         <Link href="#" className="btn btn-header-link collapsed" data-bs-toggle="collapse" data-bs-target="#faq5"
-                            aria-expanded="true" aria-controls="faq5"><Image className="seo-accor-img" src={contentimg} />Content Excellence</Link>
+                            aria-expanded="true" aria-controls="faq5"><Image className="seo-accor-img" src={contentimg} alt="seo service london uk"/>Content Excellence</Link>
                     </div>
 
                     <div id="faq5" className="collapse" aria-labelledby="faqhead5" data-bs-parent="#faq">
@@ -34,7 +34,7 @@ const SeoAccordian2 = () => {
                 <div className="card">
                     <div className="card-header" id="faqhead6">
                         <Link href="#" className="btn btn-header-link collapsed" data-bs-toggle="collapse" data-bs-target="#faq6"
-                            aria-expanded="true" aria-controls="faq6"><Image className="seo-accor-img" src={analyticsimg} />Performance Tracking & Analysis</Link>
+                            aria-expanded="true" aria-controls="faq6"><Image className="seo-accor-img" src={analyticsimg} alt="seo service london uk"/>Performance Tracking & Analysis</Link>
                     </div>
 
                     <div id="faq6" className="collapse" aria-labelledby="faqhead6" data-bs-parent="#faq">

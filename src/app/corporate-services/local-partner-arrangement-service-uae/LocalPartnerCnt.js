@@ -17,7 +17,7 @@ const LocalPartnerCnt = () => {
                             <p>To establish a business in Dubai, you'll need an Emirati sponsor, who can either act as a sleeping partner with an agreed annual remuneration and an investor protection agreement or as a local service agent, depending on the type of license your company requires by law. If you choose to set up your business in one of the free zones in Dubai, you won't need a local sponsor, as free zones operate independently from mainland laws, and you have the flexibility to define your geographical boundaries as you see fit.</p>
                         </div>
                         <div className="col-md-12 col-lg-6 col-xl-6 colsm-12 col-xs-12">
-                           <Image src={localpartimg} className="lcl-part-img"/>
+                           <Image src={localpartimg} className="lcl-part-img" alt="local partner arrangement service uae"/>
                         </div>
                     </div>
                 </div>

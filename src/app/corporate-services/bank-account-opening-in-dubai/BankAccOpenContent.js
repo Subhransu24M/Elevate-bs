@@ -95,7 +95,7 @@ const BankAccOpenContent = () => {
                                 </div>
                             </div>
                             <div className="col-md-12 col-lg-6 col-xl-6 col-sm-12 bnk-acnt-bg-img">
-                                <Image src={bnkacntimg} />
+                                <Image src={bnkacntimg} alt="bank account opening service dubai" />
                             </div>
                         </div>
                     </div>

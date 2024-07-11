@@ -18,7 +18,7 @@ const VatDeRegCnt = () => {
                             <p>Value Added Tax (VAT) is an indirect tax imposed on the supply of goods and services in the United Arab Emirates (UAE). While VAT registration is mandatory for businesses that meet certain turnover thresholds, there are situations where deregistration becomes necessary. When a business in the UAE decides to bid adieu to its VAT registration with the Federal Tax Authority, it embarks on a journey called UAE VAT deregistration or cancellation. However, to secure the FTA's stamp of approval for this departure, the business must navigate legal conditions and substantiate valid reasons for its tax termination.</p>
                         </div>
                         <div className="col-md-12 col-lg-6 col-xl-6 col-sm-12 col-xs-12">
-                            <Image src={vatderegimg1} className="vat-dereg-img"/>
+                            <Image src={vatderegimg1} className="vat-dereg-img" alt="vat deregistration service dubai uae"/>
                         </div>
                     </div>
                 </div>
@@ -28,7 +28,7 @@ const VatDeRegCnt = () => {
                 <div className="container">
                     <div className="row">
                         <div className="col-md-12 col-lg-6 col-xl-6 col-sm-12 col-xs-12">
-                            <Image src={vatderegimg2} className="vat-dereg-img"/>
+                            <Image src={vatderegimg2} className="vat-dereg-img" alt="vat deregistration service dubai uae"/>
                         </div>
                         <div className="col-md-12 col-lg-6 col-xl-6 col-sm-12 col-xs-12">
                             <h2 className="vat-dereg-hd">VAT Deregistration in UAE</h2>
@@ -52,7 +52,7 @@ const VatDeRegCnt = () => {
                             <p>To initiate the deregistration process, you must submit the application to the Federal Tax Authority (FTA) within 20 business days from the occurrence of the event that necessitates deregistration, as specified under Article 21 of the VAT Law.</p>
                         </div>
                         <div className="col-md-12 col-lg-6 col-xl-6 col-sm-12 col-xs-12">
-                            <Image src={vatderegimg3} className="vat-dereg-img"/>
+                            <Image src={vatderegimg3} className="vat-dereg-img" alt="vat deregistration service dubai uae"/>
                         </div>
                     </div>
                 </div>
@@ -66,21 +66,21 @@ const VatDeRegCnt = () => {
                     <div className="row">
                         <div className="col-md-12 col-lg-4 col-xl-4 col-sm-12 col-xs-12">
                             <div className="vat-de-reg-procs-box">
-                                <Image src={applicationsubmimg} className="vat-procs-img" />
+                                <Image src={applicationsubmimg} className="vat-procs-img" alt="vat deregistration service dubai uae"/>
                                 <h5>Submitting the Application</h5>
                                 <p>Access your online account and accurately complete the VAT deregistration application. Provide the effective date for de-registration and upload all relevant supporting documents.</p>
                             </div>
                         </div>
                         <div className="col-md-12 col-lg-4 col-xl-4 col-sm-12 col-xs-12">
                             <div className="vat-de-reg-procs-box">
-                            <Image src={vatreturnimg} className="vat-procs-img" />
+                            <Image src={vatreturnimg} className="vat-procs-img" alt="vat deregistration service dubai uae"/>
                                 <h5>Final VAT Return</h5>
                                 <p>Upon review of the deregistration application, the FTA will notify you to submit your final VAT return. Ensure timely submission as per the instructions provided.</p>
                             </div>
                         </div>
                         <div className="col-md-12 col-lg-4 col-xl-4 col-sm-12 col-xs-12">
                             <div className="vat-de-reg-procs-box">
-                            <Image src={liabilitiesimg} className="vat-procs-img" />
+                            <Image src={liabilitiesimg} className="vat-procs-img" alt="vat deregistration service dubai uae"/>
                                 <h5>Settling Liabilities</h5>
                                 <p>Settle any outstanding liabilities, including penalties pending for payment, with the FTA. If you are in a credit position, you may also submit a refund application at the time of deregistration.</p>
                             </div>

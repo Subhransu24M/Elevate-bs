@@ -17,7 +17,7 @@ const IsoCnt = () => {
                        <p>Propel your business to the pinnacle of success with our trusted ISO certification services. Gain an undeniable competitive edge, enhance customer trust, and inspire confidence in your operations. From impeccable quality management to robust environmental practices, our expert team ensures your organization shines brightly on the global stage. Join the elite league of ISO-certified champions and let your business soar to new heights in the vibrant landscape of the UAE. Dare to dream big, achieve greatness, and revolutionize your future with ISO certification today!</p>
                     </div>
                     <div className="col-md-12 col-lg-6 col-xl-6 col-sm-12 col-xs-12">
-                        <Image src={isocertimg1} className="isoimg1"/>
+                        <Image src={isocertimg1} className="isoimg1" alt="iso certification service uae"/>
                     </div>
                 </div>
             </div>
@@ -27,7 +27,7 @@ const IsoCnt = () => {
             <div className="container">
                 <div className="row">
                     <div className="col-md-12 col-lg-6 col-xl-6 col-sm-12 col-xs-12">
-                       <Image src={isocertimg2} className="isoimg2"/>
+                       <Image src={isocertimg2} className="isoimg2" alt="iso certification service uae"/>
                     </div>
                     <div className="col-md-12 col-lg-6 col-xl-6 col-sm-12 col-xs-12">
                         <h2 className="iso-subhd">Our ISO Certification solutions are deemed to be the ultimate in terms of :</h2>
@@ -86,7 +86,7 @@ const IsoCnt = () => {
                        <p>By availing of our ISO certificate in UAE services, you can optimize your business practices and ensure ISO compliance throughout your organization.</p>
                     </div>
                     <div className="col-md-12 col-lg-6 col-xl-6 col-sm-12 col-xs-12">
-                        <Image src={isocertimg4} className="isoimg3" />
+                        <Image src={isocertimg4} className="isoimg3" alt="iso certification service uae"/>
                     </div>
                 </div>
             </div>

@@ -24,7 +24,7 @@ const HomeContent = () => {
                         
                             <div className='row-blk'>
                                 <div className='trust-blk'>
-                                    <Image src={trusticon} />
+                                    <Image src={trusticon} alt="trusted by clients"/>
                                     <h4>We're Trusted</h4>
                                     <h6>by 1K Clients</h6>
                                 </div>

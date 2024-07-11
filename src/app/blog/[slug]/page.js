@@ -61,7 +61,7 @@ export default async function singlePost({ params}) {
        <NavBar/>
        <div className="container-fluid p-0">
        <div className="sngl-pst-img-blk">
-              <Image src={urlForImage(singlePost.image)} layout="responsive" width={800} height={300} priority/>
+              <Image src={urlForImage(singlePost.image)} layout="responsive" width={800} height={300} alt={singlePost.image.attribution} priority/>
             </div>
        </div>
        <BlogBreadcrumb breadcrumbtitle={singlePost.title} />

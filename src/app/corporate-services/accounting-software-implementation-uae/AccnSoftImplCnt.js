@@ -17,7 +17,7 @@ const AccnSoftImplCnt = () => {
                         <p>At Elevate, our mission is to guide you in selecting and integrating the most suitable accounting software and system for your company's Accounting software implementation in UAE. Our focus is on delivering accurate and timely financial and operational insights while also enhancing your overall technological infrastructure. Regardless of whether your business is a startup, operates at a small to medium scale, or is a large corporate entity, the quality of your accounting system fundamentally shapes your growth trajectory. When our clients express concerns about lacking technological advancement, we assure them that we possess the ideal solution to address their needs.</p>
                     </div>
                     <div className="col-md-12 col-lg-6 col-xl-6 col-sm-12 col-xs-12">
-                        <Image src={acntimplimg} className="acnt-impl-img-top"/>
+                        <Image src={acntimplimg} className="acnt-impl-img-top" alt="accounting software implementation service uae"/>
                     </div>
                 </div>
             </div>

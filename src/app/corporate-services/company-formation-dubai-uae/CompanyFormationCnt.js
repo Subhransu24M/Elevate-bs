@@ -17,7 +17,7 @@ const CompanyFormationCnt = () => {
                             <p>Elevate stands as a premier provider of comprehensive business setup services in Dubai and the UAE, catering to startups, medium-sized enterprises, and large corporations. Our hallmark is the fusion of trust and quality in our business setup solutions, which goes beyond mere marketing rhetoric. Elevate's services cover all aspects of business setup, from Mainland to Free Zone and Offshore business registration, licensing, license renewals, and more. We measure our success by the growth and prosperity of our clients, which remains our ultimate reward.</p>
                         </div>
                         <div className="col-md-12 col-lg-6 col-xl-6 col-sm-12 col-xs-12">
-                            <Image src={cmpformimg} className="cmp-form-img-top" alt="uae-company-formation" />
+                            <Image src={cmpformimg} className="cmp-form-img-top" alt="company formation service uae" />
                         </div>
                     </div>
                 </div>
@@ -78,7 +78,7 @@ const CompanyFormationCnt = () => {
                             <div className="comp-form-doc-main-box-lay">
                                 <h2 className="comp-form-hd">Documents Required for Company Formation in Dubai, UAE</h2>
                                 <div className="com-doc-req-box">
-                                    <Image src={compformdocimg} />
+                                    <Image src={compformdocimg} alt="company formation service uae"/>
                                     <ComForDocModal/>
                                 </div>
                             </div>

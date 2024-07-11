@@ -16,7 +16,7 @@ const CompanyLiquidation = () => {
                             <p>Elevate provides Company Liquidation services in Dubai ,UAE, which includes the preparation of a Liquidator's report, also referred to as a No Liability Letter or Liquidator's Letter, by a Professional Auditor. To initiate the Company Closure process, we issue an Appointment of Liquidator's Letter to notify the licensing authority, followed by a Final Liquidator's report after conducting a thorough investigation of all potential liabilities of the company.We are dedicated to ensuring a smooth and compliant company liquidation process in Dubai, UAE.</p>
                         </div>
                         <div className="col-md-12 col-lg-6 col-xl-6 col-sm-12 col-xs-12">
-                            <Image src={cmpliquidationimg} className="lqdimg"/>
+                            <Image src={cmpliquidationimg} className="lqdimg" alt="company liquidation service uae"/>
                         </div>
                     </div>
                 </div>
