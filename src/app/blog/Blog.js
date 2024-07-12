@@ -30,7 +30,7 @@ export default async function Blog() {
     "slug":slug.current
   }`;
 
-  const postLists = await client.fetch(query, { cache: 'no-store' });
+  const postLists = await client.fetch(query);
   const categoryLists = await client.fetch(categoryquery, { cache: "no-store" });
   console.log(categoryLists);
   console.log(postLists);
@@ -57,8 +57,8 @@ export default async function Blog() {
                       </div>
 
                       <h1 className="blg-pst-tlt">{post.title}</h1>
-                      <p>{post.exceprt}</p>
-                      <Link href={`/blog/${post.slug}`}>Read More</Link>
+                      <p className="blg-excp-p">{post.exceprt}</p>
+                      <Link href={`/blog/${post.slug}`} className="blg-rd-btn">Read More</Link>
                     </div>
                   </div>
 

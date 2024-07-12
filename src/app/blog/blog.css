@@ -1,6 +1,6 @@
-.blg-pst-tlt{
+/* .blg-pst-tlt{
     font-size: 20px;
-}
+} */
 .blog-blk {
     margin: 20px 0px;
 }
@@ -26,4 +26,25 @@
 .pbls-dt-blk {
     text-align: left;
     margin: 5px 5px 5px 0px;
+}
+.blg-rd-btn{
+    border: 1px solid #0000007a;
+    padding: 6px 17px;
+    border-radius: 25px;
+    color: #000;
+    font-weight: 500;
+    font-size: 14px;
+}
+
+.blog-lst-blk {
+    background: #eaf6ff;
+    padding: 10px;
+    border-radius: 10px;
+}
+.blg-pst-tlt {
+    font-size: 17px;
+    padding: 5px 0px;
+}
+.blg-excp-p {
+    font-size: 14px;
 }
