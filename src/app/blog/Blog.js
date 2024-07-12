@@ -3,17 +3,24 @@ import Link from "next/link";
 import Image from "next/image";
 import { urlForImage } from "../../../sanity/lib/image";
 import './blog.css';
-
+import { format } from 'date-fns';
 export const metadata = {
   title: "Blog Lists",
   description: "Get all type og blogs here",
 };
 
+const formatDate = (dateString) => {
+  const date = new Date(dateString);
+  // Use format function from date-fns to format the date
+  // return format(date, 'dd-MM-yyyy'); // For format "02-07-2024"
+  return format(date, 'dd-MMM-yyyy'); // For format "07-Feb-2024"
+};
+
 export default async function Blog() {
 
-  const query = `*[_type=='post'] | order(_careatedAt asc)
+  const query = `*[_type=='post'] | order(_createdAt asc)
     {
-    title,exceprt,image,
+    title,exceprt,image,_createdAt,
       "slug":slug.current,
       category ->{title,"slug":slug.current},
   }`;
@@ -23,49 +30,60 @@ export default async function Blog() {
     "slug":slug.current
   }`;
 
-  const postLists = await client.fetch(query);
-  const categoryLists = await client.fetch(categoryquery);
+  const postLists = await client.fetch(query, { cache: 'no-store' });
+  const categoryLists = await client.fetch(categoryquery, { cache: "no-store" });
   console.log(categoryLists);
   console.log(postLists);
   return (
     <div className="blog-blk">
-      <main className="container">
+      <main className="container-fluid">
         <div className="row">
-          <div className="col-md-6 col-xl-4 col-lg-4 col-sm-12 col-xs-12">
+          <div className="col-md-6 col-xl-9 col-lg-9 col-sm-12 col-xs-12">
             <div className="row">
               {
                 postLists.map((post, id) => (
-                  // <div className="col-md-6 col-xl-4 col-lg-4 col-sm-12 col-xs-12" key={id}>
-                  <div className="blog-lst-blk" key={id}>
-                    <div className="blk-lst-img">
-                      <Image src={urlForImage(post.image)} layout="responsive" height={200} width={300} />
+
+                  <div className="col-md-6 col-xl-4 col-lg-4 col-sm-12 col-xs-12" key={id}>
+                    <div className="blog-lst-blk" key={id}>
+                      <div className="blk-lst-img">
+                        {post.image ? (
+                          <Image src={urlForImage(post.image)} height={200} width={300} alt={post.image.attribution} className="blog-img-size" />
+                        ) : (
+                          <p>No Image Avaliable</p>
+                        )}
+                        <div className="pbls-dt-blk">
+                          <level className="date-lvl">Publish at : {formatDate(post._createdAt)}</level>
+                        </div>
+                      </div>
+
+                      <h1 className="blg-pst-tlt">{post.title}</h1>
+                      <p>{post.exceprt}</p>
+                      <Link href={`/blog/${post.slug}`}>Read More</Link>
                     </div>
-                    <h1 className="blg-pst-tlt">{post.title}</h1>
-                    <p>{post.exceprt}</p>
-                    <Link href={`/blog/${post.slug}`}>Read More</Link>
                   </div>
-                  // </div>
+
                 ))
               }
             </div>
+
           </div>
 
           {/* Category Right Column */}
 
-          {/* <div className="col-md-6 col-xl-3 col-lg-3 col-sm-12 col-xs-12">
-          <div className="row">
-          
-            {
-              categoryLists.map((categories,index) => (
-                <div className="col-md-12 col-lg-12 col-xl-12 col-sm-12 col-xs-12" key={index}>
-                  <div className="category-lists">
-                    <Link href={`/category/${categories.slug}`}>{categories.title}</Link>
+          {/* < div className="col-md-6 col-xl-3 col-lg-3 col-sm-12 col-xs-12" >
+            <div className="row">
+
+              {
+                categoryLists.map((categories, index) => (
+                  <div className="col-md-12 col-lg-12 col-xl-12 col-sm-12 col-xs-12" key={index}>
+                    <div className="category-lists">
+                      <Link href={`/category/${categories.slug}`}>{categories.title}</Link>
+                    </div>
                   </div>
-                </div>
-              ))
-            }
-          </div>
-        </div> */}
+                ))
+              }
+            </div>
+          </div> */}
 
 
         </div>

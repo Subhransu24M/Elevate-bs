@@ -1,12 +1,9 @@
 import { PortableText } from "@portabletext/react";
-// import { client } from "../../../../sanity/lib/client";
-// import { urlForImage } from "../../../../sanity/lib/image";
 import Image from "next/image";
-
 import Link from "next/link";
 import './singlepost.css';
 import TopBar from "../../components/TopBar/TopBar";
-import BreadCrumb from "../../components/BreadCrumbs/BreadCrumb";
+// import BreadCrumb from "../../components/BreadCrumbs/BreadCrumb";
 import Footer from "../../components/Footer/Footer";
 import NavBar from "../../components/NavBar/NavBar";
 import { client } from "../../../../sanity/lib/client";
@@ -25,6 +22,12 @@ export async function generateMetadata({params}) {
     keywords: singlePost.keywords,
   }
 }
+
+const HtmlCodeBlock = ({ value }) => {
+  return(
+  <div dangerouslySetInnerHTML={{ __html: value.code }} />
+)
+};
 
 const contentImage = ({value}) =>{
   console.log(value);
@@ -61,7 +64,7 @@ export default async function singlePost({ params}) {
        <NavBar/>
        <div className="container-fluid p-0">
        <div className="sngl-pst-img-blk">
-              <Image src={urlForImage(singlePost.image)} layout="responsive" width={800} height={300} alt={singlePost.image.attribution} priority/>
+              <Image src={urlForImage(singlePost.image)} width={800} height={300} alt={singlePost.image.attribution} priority className="sngl-post-bnr-img"/>
             </div>
        </div>
        <BlogBreadcrumb breadcrumbtitle={singlePost.title} />
@@ -85,6 +88,7 @@ export default async function singlePost({ params}) {
               <PortableText value={singlePost.content} components={{
                 types:{
                   image: contentImage,
+                  htmlCode: HtmlCodeBlock,
                 }
               }}/>
             </div>

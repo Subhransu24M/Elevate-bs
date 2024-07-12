@@ -88,20 +88,21 @@ export const post = defineType({
                     }
                   }
                 ]
+              },
+              {
+                type: 'code',
+                name: 'htmlCode',
+                title: 'HTML',
+                options:{
+                  language: 'html',
+                  languageAlternatives: [
+                    {title: 'HTML', value: 'html'}
+                  ],
+                  // withFilename: true,
+                }
               }
             ]
           }),
-
-        // category reference
-
-        // defineField({
-        //     name:'category',
-        //     title:'Category',
-        //     type:'reference',
-        //     to:[{
-        //         type:'category'
-        //     }]
-        // }),
 
         defineField({
           name:'categories',
