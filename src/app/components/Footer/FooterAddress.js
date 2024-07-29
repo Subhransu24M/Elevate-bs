@@ -11,7 +11,7 @@ const addressdata = [
         id: "ABU DHABI",
         ctitle: "Elevate Business Solutions DMCC",
         cdetails: "Office No: 2310, Adax Tower, Al Reem Island, Abu Dhabi, UAE",
-        ctelno: "+971 (0) 44258131",
+        ctelno: "+971 (0) 28778971 / 26719099",
         cmobileno: "+971 56 167 2533",
         cmailid: "info@elevatebs.com",
     },
