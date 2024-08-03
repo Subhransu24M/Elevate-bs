@@ -13,8 +13,8 @@ const IsoCnt = () => {
                 <div className="row">
                     <div className="col-md-12 col-lg-6 col-xl-6 col-sm-12 col-xs-12">
                        <h1 className="iso-hd">ISO Certification in UAE</h1>
-                       <h4>Unlocking Excellence: Embrace the Power of ISO Certification in UAE! </h4>
-                       <p>Propel your business to the pinnacle of success with our trusted ISO certification services. Gain an undeniable competitive edge, enhance customer trust, and inspire confidence in your operations. From impeccable quality management to robust environmental practices, our expert team ensures your organization shines brightly on the global stage. Join the elite league of ISO-certified champions and let your business soar to new heights in the vibrant landscape of the UAE. Dare to dream big, achieve greatness, and revolutionize your future with ISO certification today!</p>
+                       <h4 className="iso-sub-tlt">Unlocking Excellence: Embrace the Power of ISO Certification in UAE! </h4>
+                       <p>Propel your business to the pinnacle of success with our trusted ISO certification services in Dubai. Gain an undeniable competitive edge, enhance customer trust, and inspire confidence in your operations. From impeccable quality management to robust environmental practices, our expert team ensures your organization shines brightly on the global stage. Join the elite league of ISO-certified champions and let your business soar to new heights in the vibrant landscape of the UAE. Dare to dream big, achieve greatness, and revolutionize your future with ISO certification today!</p>
                     </div>
                     <div className="col-md-12 col-lg-6 col-xl-6 col-sm-12 col-xs-12">
                         <Image src={isocertimg1} className="isoimg1" alt="iso certification service uae"/>
@@ -36,8 +36,10 @@ const IsoCnt = () => {
                             <li><FaLongArrowAltRight className="iso-cerft-arrow"/>Revolutionary Certification Approach </li>
                             <li><FaLongArrowAltRight className="iso-cerft-arrow"/>Accelerate Project Deployment and Ensure Timely Completion </li>
                         </ul>
-                        <p>With a team of highly experienced consultants, we collaborate with renowned ISO certification bodies worldwide to streamline the certification process for your organization. Our services encompass a wide range of standards, including ISO 9001:2015, OHSAS 18001, HACCP ISO 22000, ISO 14001, ISO 20000, SA 8000, ISO 27001, ISO 13485, Organic Certification, CE Certification, ISO 17025 NABL accreditation, and Integrated ISO Certification, along with various management system standards. We ensure a seamless journey towards certification, tailored to your preferences and requirements.</p>
-                        <p>Our ISO certification services extend across all 7 emirates of UAE, including Abu Dhabi, Dubai, Sharjah, Ajman, Umm al-Quwain, Ras al-Khaimah, and Fujairah, catering to a diverse range of industries.</p>
+                        <p>With a team of highly experienced ISO consultants in Dubai, we collaborate with renowned ISO certification bodies worldwide to streamline the certification process for your organization. Our services encompass a wide range of standards, including ISO 9001:2015, OHSAS 18001, HACCP ISO 22000, ISO 14001, ISO 20000, SA 8000, ISO 27001, ISO 13485, Organic Certification, CE Certification, ISO 17025 NABL accreditation, and Integrated ISO Certification, along with various management system standards. We ensure a seamless journey towards certification, tailored to your preferences and requirements.</p>
+                        <p>
+                        Our ISO certification services extend across all 7 emirates of UAE, including Abu Dhabi, Dubai, Sharjah, Ajman, Umm al-Quwain, Ras al-Khaimah, and Fujairah, catering to a diverse range of industries.
+                        </p>
                     </div>
                 </div>
             </div>
@@ -74,7 +76,7 @@ const IsoCnt = () => {
                 <div className="row">
                     <div className="col-md-12 col-lg-6 col-xl-6 col-sm-12 col-xs-12">
                        <h2 className="iso-subhd">ISO Certification Consultant in UAE</h2>
-                       <p>As the leading ISO consultants in UAE, we provide comprehensive insights into operational and process improvements for your organization. Our expertise extends to various aspects of ISO certification in Dubai, including ISO training, ISO auditing, and ISO 9001 certification consulting. Our specialized ISO certification consulting package in UAE encompasses the following niche areas:</p>
+                       <p>As the leading ISO consultants in Dubai, we provide comprehensive insights into operational and process improvements for your organization. Our expertise extends to various aspects of ISO certification in Dubai, including ISO training, ISO auditing, and ISO 9001 certification consulting. Our specialized ISO certification consulting package in UAE encompasses the following niche areas:</p>
                        <ul className="iso-cerft-ul">
                         <li ><FaLongArrowAltRight className="iso-cerft-arrow"/>Quality Management</li>
                         <li><FaLongArrowAltRight className="iso-cerft-arrow"/>Marketing Management</li>
@@ -97,7 +99,7 @@ const IsoCnt = () => {
                 <div className="row">
                     <div className="col-md-12 col-lg-8 col-xl-8 col-sm-12 col-xs-12">
                        <h2 className="iso-subhd">Why Choose Elevate for ISO Certification in UAE?</h2>
-                       <p>Team Elevate adopts a unique approach, starting from the bottom and working our way up, to ensure a 100% success rate for ISO Certification Consulting assignments in the UAE. Our ISO consultants are industry experts with unparalleled experience from around the globe. We provide top-notch services for ISO certification in the UAE, guiding your organization towards corporate excellence and sustainable competitive advantage. Our ISO consulting services in the UAE are renowned for their dedicated and prompt delivery, coupled with extensive industry knowledge, making us the highest-rated ISO consultants in the region.</p>
+                       <p>Team Elevate adopts a unique approach, starting from the bottom and working our way up, to ensure a 100% success rate for ISO Certification services in Dubai. Our ISO consultants in Dubai are industry experts with unparalleled experience from around the globe. We provide top-notch services for ISO certification in the UAE, guiding your organization towards corporate excellence and sustainable competitive advantage. Our ISO consulting services in the UAE are renowned for their dedicated and prompt delivery, coupled with extensive industry knowledge, making us the highest-rated ISO consultants in the region.</p>
                        <ul className="iso-cerft-ul">
                         <li><FaLongArrowAltRight className="iso-cerft-arrow"/>Streamline processes and documentation</li>
                         <li><FaLongArrowAltRight className="iso-cerft-arrow"/>Ensure compliance with ISO standards</li>
