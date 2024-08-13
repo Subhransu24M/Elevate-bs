@@ -18,9 +18,9 @@ import chaticon from '../../../public/icons/corporate-icons/chat.png';
 import callicon from '../../../public/icons/corporate-icons/call.png';
 
 const CorporateContent = () => {
-  return (
-    <>
-    <div className='business-services-main-blk'>
+    return (
+        <>
+            <div className='business-services-main-blk'>
                 <div className='bs-serv-bg-blk'>
                     <div className='container-fluid'>
                         <div className='row bs-ser-row-blk'>
@@ -427,7 +427,7 @@ const CorporateContent = () => {
 
                         <div className='row bs-ser-row-blk blk-3'>
                             <div className='col-md-6 col-lg-3 col-lg-3'>
-                            <div className='bs-ser-blk'>
+                                <div className='bs-ser-blk'>
                                     <div className='bs-ser-img-blk'>
                                         <Image src={localpartner} className="bs-serv-icon" alt="cfo-services-out-sourced" data-aos="zoom-in" data-aos-easing="linear"
                                             data-aos-duration="800" />
@@ -437,7 +437,7 @@ const CorporateContent = () => {
 
                                     <div className='btn-blk-row'>
                                         <div className='btn-blk'>
-                                            <button className='btn btn-danger bs-serv-btn-clr'><Link  href="/corporate-services/visa-assistance">Learn More</Link></button>
+                                            <button className='btn btn-danger bs-serv-btn-clr'><Link href="/corporate-services/visa-assistance">Learn More</Link></button>
                                         </div>
                                         <div className='action-btn-blk'>
                                             <Link href="https://api.whatsapp.com/send?phone=971561672533" target="_blank" data-toggle="tooltip" data-placement="top" title="Chat with us"><Image className='action-icon' src={chaticon} data-aos="zoom-in" data-aos-easing="linear"
@@ -523,11 +523,42 @@ const CorporateContent = () => {
                                 </div>
                             </div>
                         </div>
+
+                        <div className='row bs-ser-row-blk blk-3'>
+                            <div className='col-md-6 col-lg-3 col-lg-3'>
+                                <div className='bs-ser-blk'>
+                                    <div className='bs-ser-img-blk'>
+                                        <Image src={localpartner} className="bs-serv-icon" alt="cfo-services-out-sourced" data-aos="zoom-in" data-aos-easing="linear"
+                                            data-aos-duration="800" />
+                                    </div>
+                                    <h4 className='bs-serv-tlt'>Freelance Visa</h4>
+                                    <p className='bs-serv-p'>Dubai is becoming a top destination for freelancers worldwide, thanks to its strategic location, robust infrastructure, and vibrant lifestyle. </p>
+
+                                    <div className='btn-blk-row'>
+                                        <div className='btn-blk'>
+                                            <button className='btn btn-danger bs-serv-btn-clr'><Link href="/corporate-services/freelance-visa-dubai-uae">Learn More</Link></button>
+                                        </div>
+                                        <div className='action-btn-blk'>
+                                            <Link href="https://api.whatsapp.com/send?phone=971561672533" target="_blank" data-toggle="tooltip" data-placement="top" title="Chat with us"><Image className='action-icon' src={chaticon} data-aos="zoom-in" data-aos-easing="linear"
+                                                data-aos-duration="3000" /></Link>
+                                            <Link href="tel:971561672533" data-toggle="tooltip" data-placement="top" title="Call us"><Image className='action-icon call-icon' src={callicon} data-aos="zoom-in" data-aos-easing="linear"
+                                                data-aos-duration="3000" /></Link>
+                                            <Link href="mailto:info@elevateauditing.com" data-toggle="tooltip" data-placement="top" title="Mail us"><Image className='action-icon gmail-icon' src={gmailicon} data-aos="zoom-in" data-aos-easing="linear"
+                                                data-aos-duration="3000" /></Link>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div className='col-md-6 col-lg-3 col-lg-3'></div>
+                            <div className='col-md-6 col-lg-3 col-lg-3'></div>
+                            <div className='col-md-6 col-lg-3 col-lg-3'></div>
+                            
+                        </div>
                     </div>
                 </div>
             </div>
-    </>
-  )
+        </>
+    )
 }
 
 export default CorporateContent
