@@ -57,3 +57,10 @@
     list-style: none;
     padding-left: 0px;
 }
+
+.clntlgog>img{
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: auto;
+}

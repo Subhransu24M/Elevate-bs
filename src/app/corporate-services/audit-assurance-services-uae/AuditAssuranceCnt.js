@@ -8,6 +8,7 @@ import approvedzome5 from './images/5.png';
 import approvedzome6 from './images/6.png';
 import auditassuranceimg from './images/audit-assurance.jpg';
 import { BsCheck2Square } from "react-icons/bs";
+import ClientlogoSlider from "./ClientlogoSlider";
 const AuditAssurancecnt = () => {
   return (
     <>
@@ -240,7 +241,8 @@ const AuditAssurancecnt = () => {
             <div className="aud-ass-sec3">
                 <div className="container">
                     <h2 className="audt-assr-hd">We are Approved Auditors both in the Mainland and following Freezones</h2>
-                    <div className="row">
+                    <ClientlogoSlider/>
+                    {/* <div className="row">
                         <div className="col-md-4 col-lg-2 col-xl-2 col-sm-12 col-xs-12">
                             <Image src={approvedzome1} className="audt-assr-zone-img" alt="audit assurance service uae"/>
                         </div>
@@ -259,7 +261,7 @@ const AuditAssurancecnt = () => {
                         <div className="col-md-4 col-lg-2 col-xl-2 col-sm-12 col-xs-12">
                         <Image src={approvedzome6} className="audt-assr-zone-img" alt="audit assurance service uae"/>
                         </div>
-                    </div>
+                    </div> */}
                 </div>
             </div>
 

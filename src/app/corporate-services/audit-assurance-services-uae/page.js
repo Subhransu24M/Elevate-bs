@@ -5,6 +5,7 @@ import TopBar from "@/app/components/TopBar/TopBar"
 import AuditAssurancecnt from "./AuditAssuranceCnt"
 import './auditassurance.css';
 
+
 export const metadata = {
   title: "Auditing Services in UAE  |Approved  Auditors in UAE",
   description: "Reliable Auditing Services in UAE await you at Elevate Business Services.Elevate Business Services' audit and assurance expertise is at your disposal",
@@ -17,6 +18,7 @@ const page = () => {
     <NavBar/>
     <BreadCrumb page='Audit & Assurance Service'/>
     <AuditAssurancecnt/>
+    
     <Footer/>
 
     </>
