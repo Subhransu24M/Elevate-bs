@@ -1,0 +1,62 @@
+img.spcpkgimg {
+    max-width: 100%;
+    height: auto;
+}
+.spc-prctblblk {
+    text-align: center;
+}
+.spc-prctbl {
+    width: 100%;
+}
+.spcvisa-typ-blk {
+    text-align: center;
+    padding: 20px;
+}
+.spc-prctabletlt-blk {
+    background: linear-gradient(90deg, rgb(2 75 92) 30%, rgb(2 71 120) 70%);
+    padding: 50px 0px;
+}
+.spcvisa-typ-lbl {
+    color: #fff;
+    font-size: 30px;
+    font-family: 'Poppins';
+    font-weight: 500;
+}
+.spc-visatypefld {
+    max-width: 100%;
+    padding: 8px 15px;
+    border: none;
+    border-radius: 7px;
+    margin-left: 15px;
+    font-size: 18px;
+    font-weight: 500;
+}
+.spc-seltvis-tlt {
+    color: #fff;
+    padding: 7px;
+    font-size: 16px;
+    margin-bottom: 0px;
+    background: linear-gradient(335deg, rgb(23 54 110) 30%, rgb(17 83 131 / 90%) 70%);
+    box-shadow: 0px -1px 4px 2px #0000004d;
+}
+.spc-prctbl-th { 
+    background-color: #062b4a;
+}
+.spc-prctbl-th>th {
+    padding: 10px;
+    font-size: 18px;
+    font-family: 'Poppins';
+    font-weight: 600;
+    color: #fff;
+    text-align: left;
+}
+.spc-prctbl-tbdy {
+    background: #055776;
+}
+.spc-prctbl-tr>td {
+    color: #fff;
+    font-family: 'Poppins';
+    padding: 8px;
+    text-align: left;
+    border: 1px dotted #beeaff54;
+}

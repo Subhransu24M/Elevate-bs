@@ -13,7 +13,7 @@ const ItServices = () => {
                 <div className='col-md-3 col-lg-3 col-xl-3 col-sm-12 col-xs-12'  >
                     <div className='hm-it-serv-card-blk' >
                         <h4>Website Development</h4>
-                        <p>website is not just a virtual depiction of your company profile rather, it reflects your business objectives and goals</p>
+                        <p>Transform your brand with our website development services.</p>
                         <div className='it-ser-cta'>
                             <div className='it-ser-img'>
                                 <Image src={webicon} alt="website development service uae"/>
@@ -27,7 +27,7 @@ const ItServices = () => {
                 <div className='col-md-3 col-lg-3 col-xl-3 col-sm-12 col-xs-12' >
                     <div className='hm-it-serv-card-blk' >
                         <h4>E-Commerce Solutions</h4>
-                        <p>e-commerce consulting company helping retailers to launch their business online and grow. For online retail business</p>
+                        <p>Empower your online retail with our e-commerce solutions.</p>
                         <div className='it-ser-cta'>
                             <div className='it-ser-img'>
                                 <Image src={ecomicon} alt="ecommerce solutions uae"/>
@@ -41,7 +41,7 @@ const ItServices = () => {
                 <div className='col-md-3 col-lg-3 col-xl-3 col-sm-12 col-xs-12' >
                     <div className='hm-it-serv-card-blk' >
                         <h4>Digital Marketing</h4>
-                        <p>Our strategy drives measurable results. We do 360 degree approach to focus on increasing conversions</p>
+                        <p>Improve traffic and conversion with our digital marketing solutions</p>
                         <div className='it-ser-cta'>
                             <div className='it-ser-img'>
                                 <Image src={marketingicon} alt="digital marketing service uae"/>
@@ -55,7 +55,7 @@ const ItServices = () => {
                 <div className='col-md-3 col-lg-3 col-xl-3 col-sm-12 col-xs-12' >
                     <div className='hm-it-serv-card-blk' >
                         <h4>App Development</h4>
-                        <p>We offer customer centric mobile application development services to our clients that fully serve their business needs.</p>
+                        <p>We offer customer centric mobile app development services to our clients that fully serve their business needs.</p>
                         <div className='it-ser-cta'>
                             <div className='it-ser-img'>
                                 <Image src={appicon} alt="app development service uae"/>
