@@ -11,6 +11,11 @@ const SpcpricetableCnt = () => {
 
     const selectedData = spcpricelist[selectedPackage];
 
+    // Determine the label for the first row in the table
+    const licenseFeesLabel = selectedPackage !== "0 Visa Package"
+        ? "License Fees + Co-working Space"
+        : "License Fees";
+
     return (
         <>
             <div className="spc-tblprc-blk">
@@ -40,7 +45,7 @@ const SpcpricetableCnt = () => {
                         </thead>
                         <tbody className="spc-prctbl-tbdy">
                             <tr className="spc-prctbl-tr">
-                                <td>License Fees</td>
+                                <td>{licenseFeesLabel}</td>
                                 <td> <span className="spcvisaprc">{selectedData.licenseFees.toFixed(2)} </span><span className="spc-vsa-crn">AED</span></td>
                                 <td>1</td>
                                 <td><span className="spcvisaprc">{selectedData.licenseFees.toFixed(2)} </span><span className="spc-vsa-crn">AED</span></td>
