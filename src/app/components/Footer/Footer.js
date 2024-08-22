@@ -83,8 +83,8 @@ const Footer = () => {
                                     <div className="ftr-scl">
                                         <Link href="https://www.facebook.com/elevatebs/" target='_blank'><Image src={ftrfacebook} width={40} height={40} /></Link>
                                         <Link href="https://www.instagram.com/elevateauditing/" target='_blank'><Image src={ftrinstagram} width={40} height={40} /></Link>
-                                        <Link href="https://twitter.com/elevatebs" target='_blank'><Image src={ftrlinkedin} width={40} height={40} /></Link>
-                                        <Link href="https://www.linkedin.com/company/elevate-business-solutions-dmcc/" target='_blank'><Image src={ftrtwitter} width={40} height={40} /></Link>
+                                        <Link href="https://www.linkedin.com/company/elevate-business-solutions-dmcc/" target='_blank'><Image src={ftrlinkedin} width={40} height={40} /></Link>
+                                        <Link href="https://twitter.com/elevatebs" target='_blank'><Image src={ftrtwitter} width={40} height={40} /></Link>
                                     </div>
                                 </div>
                             </div>
