@@ -54,6 +54,7 @@ export default function RootLayout({ children }) {
 
         </Script>
         <Script src="https://unpkg.com/aos@2.3.4/dist/aos.js"></Script>
+        <Script src="https://kit.fontawesome.com/39faeeab9d.js" crossorigin="anonymous"></Script>
       </head>
       <body className={inter.className}>
         {children}
