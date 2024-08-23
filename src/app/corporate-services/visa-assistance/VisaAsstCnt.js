@@ -24,13 +24,7 @@ const VisaAsstCnt = () => {
                                         <h6><level>Price :</level> INR 3000.00</h6>
                                     </div>
 
-                                    {/* Button trigger modal  */}
-                                    {/* <div className='btn-blk-f'>
-                                        <button type="button" class="btn btn-danger visa-btn" data-toggle="modal" data-target="#bookModal">
-                                            Book Now
-                                        </button>
-
-                                    </div> */}
+                                    
                                     <div className='action-btn-blk'>
                                         <Link href="https://api.whatsapp.com/send?phone=971561672533" target="_blank" data-toggle="tooltip" data-placement="top" title="Chat with us"><Image className='action-icon visa-chat-icon' src={chaticon} data-aos="zoom-in" data-aos-easing="linear"
                                             data-aos-duration="3000" /></Link>
@@ -113,12 +107,6 @@ const VisaAsstCnt = () => {
                                         <h6><level>Price :</level> INR 5000.00</h6>
                                     </div>
 
-                                    {/* Button trigger modal  */}
-                                    {/* <div className='btn-blk-f'>
-                                        <button type="button" class="btn btn-danger visa-btn" data-toggle="modal" data-target="#bookModal2">
-                                            Book Now
-                                        </button>
-                                    </div> */}
 
                                     <div className='action-btn-blk'>
                                         <Link href="https://api.whatsapp.com/send?phone=971561672533" target="_blank" data-toggle="tooltip" data-placement="top" title="Chat with us"><Image className='action-icon visa-chat-icon' src={chaticon} data-aos="zoom-in" data-aos-easing="linear"
@@ -205,12 +193,6 @@ const VisaAsstCnt = () => {
                                         <h6><level>Price :</level> INR 3000.00</h6>
                                     </div>
 
-                                    {/* Button trigger modal  */}
-                                    {/* <div className='btn-blk-f'>
-                                        <button type="button" class="btn btn-danger visa-btn" data-toggle="modal" data-target="#bookModal3">
-                                            Book Now
-                                        </button>
-                                    </div> */}
                                     <div className='action-btn-blk'>
                                         <Link href="https://api.whatsapp.com/send?phone=971561672533" target="_blank" data-toggle="tooltip" data-placement="top" title="Chat with us"><Image className='action-icon visa-chat-icon' src={chaticon} data-aos="zoom-in" data-aos-easing="linear"
                                             data-aos-duration="3000" /></Link>

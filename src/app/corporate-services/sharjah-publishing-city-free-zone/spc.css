@@ -128,3 +128,58 @@
     font-weight: 700;
     font-size: 40px;
 }
+
+.why-spc-blk {
+    /* background: grey; */
+    background: linear-gradient(90deg, rgb(255 255 255) 30%, rgb(138 198 201 / 30%) 28%);
+    padding: 200px 0px 0px 0px;
+    /* box-shadow: -16px -9px 0px 1px #000; */
+    position: relative;
+    top: -148px;
+    z-index: -1;
+}
+
+.spc-bsn-lcn-blk {
+    position: relative;
+    background: aliceblue;
+    top: -75px;
+    padding: 50px;
+    /* height: 100%; */
+    /* min-height: 100%; */
+}
+.frezone-mdl-cnt>ul{
+    list-style: none;
+    text-align: left;
+}
+
+
+.docmdlblk>h3 {
+    font-size: 20px;
+    text-align: center;
+}
+.spc-frzdocbtn {
+    text-align: center;
+    margin: 20px 0px;
+}
+.docmdlblk {
+    border: 1px solid #afab97;
+    padding: 20px;
+    margin: 10px 0px;
+}
+
+/* Get Started */
+.getstrtspcblk-bg{
+    background-image: url(./images/get-started.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.getstrtspcblk {
+    background: #0b304aed;
+    color: #fff;
+    padding: 50px;
+}
+.getstrtspcblktlt {
+    font-size: 50px;
+    text-align: center;
+    padding: 50px 0px;
+}
