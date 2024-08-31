@@ -41,6 +41,7 @@ export default async function singlePost({ params}) {
   
   const query=`*[_type=='post' && slug.current == "${params.slug}"]{
     title,image,content,'Slug':slug.current,
+    'image':image.asset._ref,
     // category ->{title,slug},
 
     categories[] ->{
