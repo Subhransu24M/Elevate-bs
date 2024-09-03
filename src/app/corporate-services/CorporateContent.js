@@ -550,7 +550,7 @@ const CorporateContent = () => {
                                 </div>
                             </div>
                             <div className='col-md-6 col-lg-3 col-lg-3'>
-                            <div className='bs-ser-blk'>
+                                <div className='bs-ser-blk'>
                                     <div className='bs-ser-img-blk'>
                                         <Image src={localpartner} className="bs-serv-icon" alt="cfo-services-out-sourced" data-aos="zoom-in" data-aos-easing="linear"
                                             data-aos-duration="800" />
@@ -573,9 +573,32 @@ const CorporateContent = () => {
                                     </div>
                                 </div>
                             </div>
+                            <div className='col-md-6 col-lg-3 col-lg-3'>
+                            <div className='bs-ser-blk'>
+                                    <div className='bs-ser-img-blk'>
+                                        <Image src={localpartner} className="bs-serv-icon" alt="cfo-services-out-sourced" data-aos="zoom-in" data-aos-easing="linear"
+                                            data-aos-duration="800" />
+                                    </div>
+                                    <h4 className='bs-serv-tlt'>ADGM Restaurant Accounting</h4>
+                                    <p className='bs-serv-p'>Our tailored solutions are designed to streamline your financial operations and support the success of your restaurant or bar. </p>
+
+                                    <div className='btn-blk-row'>
+                                        <div className='btn-blk'>
+                                            <button className='btn btn-danger bs-serv-btn-clr'><Link href="/corporate-services/restaurant-accounting-services-in-abu-dhabi">Learn More</Link></button>
+                                        </div>
+                                        <div className='action-btn-blk'>
+                                            <Link href="https://api.whatsapp.com/send?phone=971561672533" target="_blank" data-toggle="tooltip" data-placement="top" title="Chat with us"><Image className='action-icon' src={chaticon} data-aos="zoom-in" data-aos-easing="linear"
+                                                data-aos-duration="3000" /></Link>
+                                            <Link href="tel:971561672533" data-toggle="tooltip" data-placement="top" title="Call us"><Image className='action-icon call-icon' src={callicon} data-aos="zoom-in" data-aos-easing="linear"
+                                                data-aos-duration="3000" /></Link>
+                                            <Link href="mailto:info@elevateauditing.com" data-toggle="tooltip" data-placement="top" title="Mail us"><Image className='action-icon gmail-icon' src={gmailicon} data-aos="zoom-in" data-aos-easing="linear"
+                                                data-aos-duration="3000" /></Link>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
                             <div className='col-md-6 col-lg-3 col-lg-3'></div>
-                            <div className='col-md-6 col-lg-3 col-lg-3'></div>
-                            
+
                         </div>
                     </div>
                 </div>
