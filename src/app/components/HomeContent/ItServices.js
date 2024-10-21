@@ -13,7 +13,7 @@ const ItServices = () => {
                 <div className='col-md-3 col-lg-3 col-xl-3 col-sm-12 col-xs-12'  >
                     <div className='hm-it-serv-card-blk' >
                         <h4>Website Development</h4>
-                        <p>Transform your brand with our website development services.</p>
+                        <p>Transform your brand with our comprehensive website development services.</p>
                         <div className='it-ser-cta'>
                             <div className='it-ser-img'>
                                 <Image src={webicon} alt="website development service uae"/>
@@ -55,7 +55,7 @@ const ItServices = () => {
                 <div className='col-md-3 col-lg-3 col-xl-3 col-sm-12 col-xs-12' >
                     <div className='hm-it-serv-card-blk' >
                         <h4>App Development</h4>
-                        <p>We offer customer centric mobile app development services to our clients that fully serve their business needs.</p>
+                        <p>We provide customer-focused mobile app development that meets your business needs</p>
                         <div className='it-ser-cta'>
                             <div className='it-ser-img'>
                                 <Image src={appicon} alt="app development service uae"/>

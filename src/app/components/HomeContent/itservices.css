@@ -1,9 +1,10 @@
 .hm-it-serv-card-blk h4 {
-    font-size: 18px;
+    font-size: 20px;
     text-align: center;
+    font-weight: 600;
 }
 .hm-it-serv-card-blk p {
-    text-align: justify;
+    text-align: center;
 }
 .it-ser-cta {
     display: flex;
