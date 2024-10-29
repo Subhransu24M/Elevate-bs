@@ -1,5 +1,6 @@
 "use client"
 import slider1 from '../../../../public/slider-banner/slider-1.webp';
+import diwalislider from '../../../../public/slider-banner/EBS-diwali-slider-24.jpg';
 import Image from 'next/image';
 import Link from 'next/link';
 import './slider.css';
@@ -20,20 +21,18 @@ const Slider = () => {
                         <Image src={eidslider} className="d-block w-100 sldimg" alt="eid al adha 2024" />
                     </div> */}
                     
+                    <div className="carousel-item active" >
+                    <Image src={diwalislider} className="d-block w-100 sldimg" alt="innovative support system" />
+                    </div>
 
-
-                    <div className="carousel-item active">
-                    
+                    <div className="carousel-item ">
                         <Image src={slider1} className="d-block w-100 sldimg" alt="innovative support system" />
                         <div className="carousel-caption d-none d-md-block">
                             <h2 className='animationsldrtlt' data-aos="fade-up" data-aos-duration="800" data-aos-easing="linear" data-aos-delay="100"><span className='sl-hd-spn '>INNOVATIVE</span> SUPPORT SYSTEM</h2>
                             <p className='animationsldrp' data-aos="fade-up" data-aos-duration="800" data-aos-easing="linear" data-aos-delay="600">We provide innovative support system to any business.</p>
                             <Link href="/contact-us" type="button" className="btn sld-cta-btn" data-aos="fade-zoom-in" data-aos-duration="800" data-aos-easing="linear" data-aos-delay="900">Contact us</Link>
-                        </div>
-                    </div>
-
-
-
+                        </div>                     
+                    </div>     
                 </div>
                 {/* <button className="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
                     <span className="carousel-control-prev-icon" aria-hidden="true"></span>
