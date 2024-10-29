@@ -21,8 +21,9 @@
 }
 .breadcrumb-1 {
     padding-top: 10px;
-    background: #000b1e;
+    /* background: #000b1e; */
     color: #fff;
+    background: linear-gradient(90deg, #070426 60%, #cb2020 119%);
 }
 .breadcum-p {
     color: #fff;

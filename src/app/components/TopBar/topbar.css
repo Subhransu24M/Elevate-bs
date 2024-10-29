@@ -44,7 +44,8 @@ a.t-b-mail {
     font-size: 15px;
 }
 .top-bar {
-    background: #282828;
+    /* background: #282828; */
+    background: linear-gradient(90deg, #03002a 40%, #af2121 119%);
     padding: 5px 0px;
 }
 

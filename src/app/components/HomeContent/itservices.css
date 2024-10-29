@@ -37,6 +37,7 @@
     padding: 8px 20px;
     background: rgb(2, 0, 36);
     background: linear-gradient(90deg, rgb(3 47 86) 0%, rgb(11 124 181) 35%, rgb(28 105 161) 100%);
+    /* background: linear-gradient(90deg, #03002a 40%, #af2121 119%); */
 }
 
 .dev-digi-blk {

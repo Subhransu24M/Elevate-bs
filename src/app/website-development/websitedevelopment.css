@@ -5,12 +5,13 @@
   }
   .web-dev-bq {
       text-align: center;
-      background: #004287;
+      /* background: #004287; */
       padding: 20px;
       font-size: 22px;
       color: #fff;
       font-weight: 600;
       font-family: system-ui;
+      background: linear-gradient(90deg, #070426 60%, #cb2020 119%);
   }
   
   .web-dgn-blk {
@@ -148,8 +149,9 @@
   
   .web-dev-out-row {
     padding: 30px 0px;
-    background: #002748d1;
+    /* background: #002748d1; */
     color: #fff;
+    background: linear-gradient(90deg, #070426cf 60%, #bf4242b3 119%);
   }
   
   .web-dev-out-row h2 {
@@ -244,9 +246,10 @@
     font-weight: 500;
   }
   .web-dev-sec-4 {
-    background: linear-gradient(90deg, rgb(2 75 92) 30%, rgb(2 71 120) 70%);
+    /* background: linear-gradient(90deg, rgb(2 75 92) 30%, rgb(2 71 120) 70%); */
     padding: 30px 0px;
     color: #fff;
+    background: linear-gradient(90deg, #070426 60%, #cb2020 119%);
   }
   .web-dev-proc-cta {
     text-align: center;

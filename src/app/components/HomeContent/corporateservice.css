@@ -63,15 +63,16 @@
 }
 
 .cor-cta-blk {
-    background: linear-gradient(90deg, rgb(2 75 92) 30%, rgb(2 71 120) 70%);
+    /* background: linear-gradient(90deg, rgb(2 75 92) 30%, rgb(2 71 120) 70%); */
     /* padding: 40px 0px; */
     text-align: center;
     color: #fff;
     margin-top: 50px;
+    background: linear-gradient(90deg, #070426 60%, #cb2020 119%);
 }
 
 a.btn.btn-danger.cor-cta-btn-lst {
-    background: linear-gradient(323deg, rgb(42 184 255 / 34%) 28%, rgb(44 162 163 / 42%) 70%);
+    /* background: linear-gradient(323deg, rgb(42 184 255 / 34%) 28%, rgb(44 162 163 / 42%) 70%); */
     border: none;
     /* border: 1px solid #fff; */
     border-radius: 23px;
@@ -79,4 +80,5 @@ a.btn.btn-danger.cor-cta-btn-lst {
     font-weight: 700;
     margin: 20px 0px 0px 0px;
     box-shadow: 0px 2px 0px 1px #040f1c61;
+    background: linear-gradient(90deg, #253274d9 40%, #c72020d6 119%);
 }

@@ -4,7 +4,8 @@
     background-size: cover;
 }
 .ftr-blk {
-    background: #00020eed;
+    /* background: #00020eed; */
+    background: linear-gradient(90deg, #02001ceb 40%, #811b1bd6 119%);
 }
 .fir-inr {
     color: #fff;
