@@ -27,4 +27,5 @@ ul li {
 /* Marquee Text */
 .marquee-text{
   font-weight: 700;
+  color: red;
 }
