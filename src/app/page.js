@@ -23,6 +23,7 @@ export default function Home() {
     <NavBar/>
     <Slider/>
     {/* <SliderVideo/> */}
+    <marquee className="marquee-text">May the beauty of Diwali fill your heart with happiness, warmth, and endless memories with loved ones.</marquee>
     <HomeContent />
     <CorporateService/>
     <Footer/>

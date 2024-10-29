@@ -23,3 +23,8 @@ ul li {
   padding-left: 0px;
   font-family: Poppins;
 }
+
+/* Marquee Text */
+.marquee-text{
+  font-weight: 700;
+}
