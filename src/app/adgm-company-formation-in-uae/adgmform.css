@@ -1,5 +1,5 @@
 .cmn-frm-blk {
-    background: linear-gradient(90deg, rgb(7 43 70) 0%, rgb(16 97 181 / 78%) 47%, rgb(3 41 74) 100%);
+    background: linear-gradient(165deg, rgb(5 2 42) 0%, rgb(21 18 46 / 78%) 47%, rgb(110 20 20) 100%);
     padding: 20px;
 }
 .long-arrow{
@@ -46,10 +46,11 @@ label.form-check-label {
     
 }
 .cmn-frm-blk h4 {
-    font-size: 30px !important;
+    font-size: 25px !important;
     text-align: center;
-    padding: 15px;
+    padding: 5px;
     border-bottom: 1px dotted;
+    color: #fff;
 }
 .cmn-frm-slt{
     border-radius: 0px;

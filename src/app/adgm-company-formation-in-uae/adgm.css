@@ -1,0 +1,65 @@
+.adgm-why-chos-ul {
+    padding: 0px;
+}
+.adgm-why-chos-ul li span {
+    font-size: 15px;
+}
+
+.compny-serv-provd-adgm-img img {
+    max-width: 100%;
+    max-height: 300px;
+    object-fit: cover;
+    object-position: 0% 50%;
+}
+.adgm-first-blk {
+    margin: 30px 0px;
+}
+.compny-serv-provd-adgm {
+    padding: 30px 5px;
+}
+.compny-serv-provd-adgm-img-snd img {
+    max-width: 100%;
+    max-height: 450px;
+    object-position: 50% 20%;
+    object-fit: cover;
+}
+.adgm-key-bngt-tlt {
+    margin: 20px 0px;
+    font-size: 20px;
+    font-weight: 600;
+}
+.adgm-key-benefits-blk {
+    padding: 0px 0px 20px 0px;
+}
+.key-benf-p{
+    padding-top: 20px;
+}
+.compny-serv-provd-adgm-img-thrd img {
+    max-width: 100%;
+    object-fit: cover;
+    object-position: 20%;
+    max-height: 400px;
+}
+.adgm-thrd-blk {
+    /* margin: 30px 0px; */
+    background: #f0f9ff6b;
+    padding: 30px 0px;
+}
+.adgm-frth-blk {
+    margin: 40px 0px;
+}
+.adgm-fth-blk {
+    background: #f7faff;
+    padding: 40px 0px;
+}
+.adgm-rdy-p {
+    padding: 0px 40px;
+    text-align: center;
+}
+
+@media(min-width:567px){
+    .adgm-rdy {
+        text-align: center;
+        padding: 0px 50px;
+    }
+}

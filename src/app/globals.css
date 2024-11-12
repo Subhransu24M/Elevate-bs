@@ -10,18 +10,99 @@ a{
   text-decoration: none !important;
 }
 p{
-  font-size: 16px ;
+  font-size: 15px ;
   text-align: justify;
-  font-family: Poppins;
+  font-family: 'Poppins';
 }
 h1,h2,h3,h4{
-  font-family: Poppins;
+  font-family: 'Poppins';
   
+}
+h1,h2{
+  font-size: 28px !important;
 }
 ul li {
   font-size: 16px;
   padding-left: 0px;
-  font-family: Poppins;
+  font-family: 'Poppins';
+}
+.carousel-caption.d-none.d-md-block h2 {
+  font-size: 55px !important;
+  max-width: 500px;
+  margin-bottom: 15px;
+}
+.carousel-caption.d-none.d-md-block p{
+  text-align: left;
+  max-width: 500px;
+  font-size: 15px;
+}
+.carousel-caption {
+  position: absolute;
+  right: 15%;
+  /* bottom: 0px; */
+  /* left: 12%; */
+  padding-bottom: 0px !important;
+  color: #fff;
+  text-align: left;
+  top: 120px !important;
+}
+
+@media(max-width:991px){
+  .carousel {
+    margin-top: 10px;
+}
+}
+
+@media(min-width:1069px) and (max-width:1169px){
+  .carousel-caption {
+    top: 100px !important;
+  }
+}
+
+@media(min-width:992px) and (max-width:1068px){
+  .carousel-caption {
+    top: 80px !important;
+  }
+}
+
+@media(min-width:769px) and (max-width:991px){
+  .carousel-caption {
+    top: 40px !important;
+  }
+  .carousel-caption.d-none.d-md-block h2 {
+    font-size: 45px !important;
+    max-width: 475px;
+  }
+}
+
+@media(max-width:768px){
+  .carousel-caption {
+    top: 10px !important;
+  }
+}
+
+@media(max-width:568px){
+  .carousel-caption.d-none.d-md-block h2 {
+    font-size: 35px !important;
+    max-width: 375px;
+  }
+}
+
+@media(max-width:320px){
+  .carousel-caption.d-none.d-md-block h2 {
+    font-size: 25px !important;
+    max-width: 375px;
+  }
+}
+
+/* slider Image */
+@media (max-width: 768px) {
+  .sldimg {
+      /* height: 400px !important;
+      max-width: 100%; */
+      object-fit: cover;
+      object-position: 70%;
+  }
 }
 
 /* Marquee Text */
