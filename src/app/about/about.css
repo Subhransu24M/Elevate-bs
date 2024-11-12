@@ -50,3 +50,9 @@
     padding: 2px;
     }
     }
+
+    /* @media(max-width:567px){
+        .rw-flex{
+          flex-direction: column-reverse;
+        }
+      } */

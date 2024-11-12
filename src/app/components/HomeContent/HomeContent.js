@@ -8,7 +8,7 @@ const HomeContent = () => {
     return (
         <>
             <div className="container pt-5 pb-5">
-                <div className="row">
+                <div className="row rw-flex">
                     <div className="col-md-6 col-lg-6 col-xl-6 col-sm-12 col-xs-12">
                         <div className="hm-abt-img">
                             <Image src={hmabtimg} alt="innovative support system providers" />
