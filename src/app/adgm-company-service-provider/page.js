@@ -14,7 +14,7 @@ export const metadata = {
       <>
         <TopBar/>
         <NavBar/>
-        <BreadCrumb page="ADGM Company Formation" />
+        <BreadCrumb page="ADGM Company Services" />
         <AdgmContent/>
         <Footer/>
   
