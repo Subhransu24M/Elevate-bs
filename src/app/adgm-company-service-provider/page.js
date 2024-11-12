@@ -5,8 +5,9 @@ import TopBar from "../components/TopBar/TopBar";
 import AdgmContent from "./AdgmContent";
 
 export const metadata = {
-    title: "ADGM Company Formation in UAE",
-    description: "At Elevate Business Solutions, we specialize in providing complete company services that facilitate smooth and efficient ADGM incorporation in UAE. ",
+    title: "Company Service Provider For ADGM | Elevate ",
+    description: "Company Service Provider for ADGM: Elevate offers streamlined setup, 100% foreign ownership, and expert compliance support in Abu Dhabi's financial hub. ",
+    keywords: "adgm company service provider,Company Service Provider For ADGM",
   };
   const page = () => {
     return (
