@@ -199,6 +199,12 @@ export default async function sitemap() {
         priority: 0.8,
       },
       {
+        url: 'https://www.elevatebs.com/adgm-company-service-provider',
+        lastModified: new Date(),
+        changeFrequency: 'monthly',
+        priority: 0.8,
+      },
+      {
         url: 'https://www.elevatebs.com/blog',
         lastModified: new Date(),
         changeFrequency: 'weekly',
