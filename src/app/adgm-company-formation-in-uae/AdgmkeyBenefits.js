@@ -57,7 +57,7 @@ const AdgmkeyBenefits = () => {
         <>
             <div className='adgm-key-benefits-blk'>
                 {benefits.map((benefit, index) => (
-                    <div className='adgm-up-block'>
+                    <div className='adgm-up-block' key={index}>
                         <div className='adgm-key-points' key={index}>
                             <div className='adgm-key-points-hd' onClick={() => toggleSection(index)}>
                                 <h6>{benefit.title}</h6>
