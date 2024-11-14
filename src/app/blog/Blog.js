@@ -4,10 +4,10 @@ import Image from "next/image";
 import { urlForImage } from "../../../sanity/lib/image";
 import './blog.css';
 import { format } from 'date-fns';
-export const metadata = {
-  title: "Blog Lists",
-  description: "Get all type og blogs here",
-};
+// export const metadata = {
+//   title: "Blog Lists",
+//   description: "Get all type og blogs here",
+// };
 
 const formatDate = (dateString) => {
   const date = new Date(dateString);
@@ -18,11 +18,18 @@ const formatDate = (dateString) => {
 
 export default async function Blog() {
 
-  const query = `*[_type=='post'] | order(_createdAt asc)
-    {
-    title,exceprt,image,_createdAt,
-      "slug":slug.current,
-      category ->{title,"slug":slug.current},
+  // const query = `*[_type=='post'] | order(_createdAt asc)
+  //   {
+  //   title,exceprt,image,_createdAt,
+  //     "slug":slug.current,
+  //     category ->{title,"slug":slug.current},
+  // }`;
+
+  const postquery =`*[_type=='post'] | order(_createdAt desc)
+  {
+  title,exceprt,image,_createdAt,
+  "slug":slug.current,
+  category ->{title,"slug":slug.current},
   }`;
 
   const categoryquery = `*[_type=='category']{
@@ -30,8 +37,8 @@ export default async function Blog() {
     "slug":slug.current
   }`;
 
-  const postLists = await client.fetch(query);
-  const categoryLists = await client.fetch(categoryquery, { cache: "no-store" });
+  const postLists = await client.fetch(postquery);
+  const categoryLists = await client.fetch(categoryquery);
   console.log(categoryLists);
   console.log(postLists);
   return (

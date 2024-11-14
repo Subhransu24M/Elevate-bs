@@ -24,7 +24,9 @@ ul{
 }
 
 .sngl-post-bnr-img{
-    width: 100%;
-    max-width: 100%;
+    width: 100% !important;
+    max-width: 1900px;
     height: auto;
+    display: block;
+    margin: auto;
 }

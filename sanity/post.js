@@ -86,6 +86,7 @@ export const post = defineType({
                     options: {
                       isHighlighted: true
                     }
+                    // fieldset: 'imageMetadata'
                   }
                 ]
               },
