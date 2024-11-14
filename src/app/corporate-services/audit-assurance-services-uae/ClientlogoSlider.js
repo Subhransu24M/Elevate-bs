@@ -60,37 +60,37 @@ const ClientlogoSlider = () => {
                     <div className="row">
                         <Slider {...settings}>
                             <div className="clntlgog">
-                                <Image src={clntlg1} />
+                                <Image src={clntlg1} alt="logo" />
                             </div>
                             <div className="clntlgog">
-                            <Image src={clntlg2} />
+                            <Image src={clntlg2} alt="logo"/>
                             </div>
                             <div className="clntlgog">
-                            <Image src={clntlg3} />
+                            <Image src={clntlg3} alt="logo"/>
                             </div>
                             <div className="clntlgog">
-                            <Image src={clntlg4} />
+                            <Image src={clntlg4} alt="logo"/>
                             </div>
                             <div className="clntlgog">
-                            <Image src={clntlg5} />
+                            <Image src={clntlg5} alt="logo"/>
                             </div>
                             <div className="clntlgog">
-                            <Image src={clntlg6} />
+                            <Image src={clntlg6} alt="logo"/>
                             </div>
                             <div className="clntlgog">
-                            <Image src={clntlg7} />
+                            <Image src={clntlg7} alt="logo"/>
                             </div>
                             <div className="clntlgog">
-                            <Image src={clntlg8} />
+                            <Image src={clntlg8} alt="logo"/>
                             </div>
                             <div className="clntlgog">
-                            <Image src={clntlg9} />
+                            <Image src={clntlg9} alt="logo"/>
                             </div>
                             <div className="clntlgog">
-                            <Image src={clntlg10} />
+                            <Image src={clntlg10} alt="logo"/>
                             </div>
                             <div className="clntlgog">
-                            <Image src={clntlg11} />
+                            <Image src={clntlg11} alt="logo"/>
                             </div>
                         </Slider>
                     </div>

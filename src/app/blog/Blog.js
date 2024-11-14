@@ -45,7 +45,7 @@ export default async function Blog() {
 
                   <div className="col-md-6 col-xl-4 col-lg-4 col-sm-12 col-xs-12" key={id}>
                     <div className="blog-lst-blk" key={id}>
-                      <div className="blk-lst-img">
+                      <div className="blk-lst-img" >
                         {post.image ? (
                           <Image src={urlForImage(post.image)} height={200} width={300} alt={post.image.attribution} className="blog-img-size" />
                         ) : (

@@ -30,9 +30,9 @@ const HtmlCodeBlock = ({ value }) => {
 };
 
 const contentImage = ({value}) =>{
-  console.log(value);
+  // console.log(value);
   return(
-    <Image src={urlForImage(value) } width={500} height={400}/>
+    <Image src={urlForImage(value) } width={500} height={400} alt="Elevate Business Solutions"/>
   )
 }
 
@@ -69,12 +69,9 @@ export default async function singlePost({ params}) {
             </div>
        </div>
        <BlogBreadcrumb breadcrumbtitle={singlePost.title} />
-       {/* <BreadCrumb page={singlePost.title} />  */}
+       
         <div className="container">
           <h1 className="sngl-tlt-pst">{singlePost.title}</h1>
-            {/* <div className="sngl-pst-img-blk">
-              <Image src={urlForImage(singlePost.image)} layout="responsive" width={800} height={300} priority/>
-            </div> */}
             {singlePost.categories && (
             <div className="sngl-p-cat-level">
               {singlePost.categories.map((category, index) => (
@@ -84,7 +81,7 @@ export default async function singlePost({ params}) {
               ))}
             </div>
           )}
-            {/* <p>{singlePost.categories.title}</p> */}
+            
             <div>
               <PortableText value={singlePost.content} components={{
                 types:{

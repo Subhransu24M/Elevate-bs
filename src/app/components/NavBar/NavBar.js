@@ -8,7 +8,7 @@ const NavBar = () => {
         <>
             <nav className="navbar navbar-expand-lg sticky-top bg-white my-csm-nav">
                 <div className="container">
-                    <Link className="navbar-brand" href="/"><Image src={ebslogo} width={120} height={120} priority={false}></Image></Link>
+                    <Link className="navbar-brand" href="/"><Image src={ebslogo} width={120} height={120} priority={false} alt="logo"></Image></Link>
                     <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                         <span className="navbar-toggler-icon"></span>
                     </button>

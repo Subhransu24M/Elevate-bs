@@ -10,7 +10,7 @@ const NavbarNew = () => {
             <div className='row'>
                 <div className='navbarnew'>
                     <div className='navbar-logo'>
-                    <Link className="navbar-brand" href="/"><Image src={ebslogo} width={120} height={120} priority={false}></Image></Link>
+                    <Link className="navbar-brand" href="/"><Image src={ebslogo} width={120} height={120} priority={false} alt="logo"></Image></Link>
                     </div>
                     <div className='navbar-cta'></div>
                     <div className='navbar-menu'>

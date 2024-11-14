@@ -21,17 +21,17 @@ const VisaAsstCnt = () => {
                                 <div className='tourist-visa-btn-blk'>
                                     <div className='visa-info'>
                                         <h4>Tourist visa within 24 hours</h4>
-                                        <h6><level>Price :</level> INR 3000.00</h6>
+                                        <h6><label>Price :</label> INR 3000.00</h6>
                                     </div>
 
                                     
                                     <div className='action-btn-blk'>
                                         <Link href="https://api.whatsapp.com/send?phone=971561672533" target="_blank" data-toggle="tooltip" data-placement="top" title="Chat with us"><Image className='action-icon visa-chat-icon' src={chaticon} data-aos="zoom-in" data-aos-easing="linear"
-                                            data-aos-duration="3000" /></Link>
+                                            data-aos-duration="3000" alt="icon"/></Link>
                                         <Link href="tel:971561672533" data-toggle="tooltip" data-placement="top" title="Call us"><Image className='action-icon call-icon visa-call-icon' src={callicon} data-aos="zoom-in" data-aos-easing="linear"
-                                            data-aos-duration="3000" /></Link>
+                                            data-aos-duration="3000" alt="icon"/></Link>
                                         <Link href="mailto:info@elevateauditing.com" data-toggle="tooltip" data-placement="top" title="Mail us"><Image className='action-icon gmail-icon visa-gmail-icon' src={gmailicon} data-aos="zoom-in" data-aos-easing="linear"
-                                            data-aos-duration="3000" /></Link>
+                                            data-aos-duration="3000" alt="icon"/></Link>
                                     </div>
                                 </div>
 
@@ -104,17 +104,17 @@ const VisaAsstCnt = () => {
                                 <div className='tourist-visa-btn-blk'>
                                     <div className='visa-info'>
                                         <h4>Business visa within 48 hours</h4>
-                                        <h6><level>Price :</level> INR 5000.00</h6>
+                                        <h6><label>Price :</label> INR 5000.00</h6>
                                     </div>
 
 
                                     <div className='action-btn-blk'>
                                         <Link href="https://api.whatsapp.com/send?phone=971561672533" target="_blank" data-toggle="tooltip" data-placement="top" title="Chat with us"><Image className='action-icon visa-chat-icon' src={chaticon} data-aos="zoom-in" data-aos-easing="linear"
-                                            data-aos-duration="3000" /></Link>
+                                            data-aos-duration="3000" alt="icon"/></Link>
                                         <Link href="tel:971561672533" data-toggle="tooltip" data-placement="top" title="Call us"><Image className='action-icon call-icon visa-call-icon' src={callicon} data-aos="zoom-in" data-aos-easing="linear"
-                                            data-aos-duration="3000" /></Link>
+                                            data-aos-duration="3000" alt="icon"/></Link>
                                         <Link href="mailto:info@elevateauditing.com" data-toggle="tooltip" data-placement="top" title="Mail us"><Image className='action-icon gmail-icon visa-gmail-icon' src={gmailicon} data-aos="zoom-in" data-aos-easing="linear"
-                                            data-aos-duration="3000" /></Link>
+                                            data-aos-duration="3000" alt="icon"/></Link>
                                     </div>
                                 </div>
 
@@ -190,16 +190,16 @@ const VisaAsstCnt = () => {
                                 <div className='tourist-visa-btn-blk'>
                                     <div className='visa-info'>
                                         <h4>Tourist visa within 24 hours</h4>
-                                        <h6><level>Price :</level> INR 3000.00</h6>
+                                        <h6><label>Price :</label> INR 3000.00</h6>
                                     </div>
 
                                     <div className='action-btn-blk'>
                                         <Link href="https://api.whatsapp.com/send?phone=971561672533" target="_blank" data-toggle="tooltip" data-placement="top" title="Chat with us"><Image className='action-icon visa-chat-icon' src={chaticon} data-aos="zoom-in" data-aos-easing="linear"
-                                            data-aos-duration="3000" /></Link>
+                                            data-aos-duration="3000" alt="icon"/></Link>
                                         <Link href="tel:971561672533" data-toggle="tooltip" data-placement="top" title="Call us"><Image className='action-icon call-icon visa-call-icon' src={callicon} data-aos="zoom-in" data-aos-easing="linear"
-                                            data-aos-duration="3000" /></Link>
+                                            data-aos-duration="3000" alt="icon"/></Link>
                                         <Link href="mailto:info@elevateauditing.com" data-toggle="tooltip" data-placement="top" title="Mail us"><Image className='action-icon gmail-icon visa-gmail-icon' src={gmailicon} data-aos="zoom-in" data-aos-easing="linear"
-                                            data-aos-duration="3000" /></Link>
+                                            data-aos-duration="3000" alt="icon"/></Link>
                                     </div>
                                 </div>
 
@@ -272,7 +272,7 @@ const VisaAsstCnt = () => {
                                 <div className='tourist-visa-btn-blk'>
                                     <div className='visa-info'>
                                         <h4>Business visa within 48 hours</h4>
-                                        <h6><level>Price :</level> INR 5000.00</h6>
+                                        <h6><label>Price :</label> INR 5000.00</h6>
                                     </div>
 
                                     {/* Button trigger modal  */}
@@ -283,11 +283,11 @@ const VisaAsstCnt = () => {
                                     </div> */}
                                     <div className='action-btn-blk'>
                                         <Link href="https://api.whatsapp.com/send?phone=971561672533" target="_blank" data-toggle="tooltip" data-placement="top" title="Chat with us"><Image className='action-icon visa-chat-icon' src={chaticon} data-aos="zoom-in" data-aos-easing="linear"
-                                            data-aos-duration="3000" /></Link>
+                                            data-aos-duration="3000" alt="icon"/></Link>
                                         <Link href="tel:971561672533" data-toggle="tooltip" data-placement="top" title="Call us"><Image className='action-icon call-icon visa-call-icon' src={callicon} data-aos="zoom-in" data-aos-easing="linear"
-                                            data-aos-duration="3000" /></Link>
+                                            data-aos-duration="3000" alt="icon"/></Link>
                                         <Link href="mailto:info@elevateauditing.com" data-toggle="tooltip" data-placement="top" title="Mail us"><Image className='action-icon gmail-icon visa-gmail-icon' src={gmailicon} data-aos="zoom-in" data-aos-easing="linear"
-                                            data-aos-duration="3000" /></Link>
+                                            data-aos-duration="3000" alt="icon" /></Link>
                                     </div>
                                 </div>
 

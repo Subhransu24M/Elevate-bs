@@ -133,7 +133,7 @@ const RasaBdcnt = () => {
                                 <div className='tdllstmnblk'>
                                     <div className='tdllstblk'>
                                         <div className='tdllsticn'>
-                                           <Image src={saletrack} className='tdllsticncls' /> 
+                                           <Image src={saletrack} className='tdllsticncls' alt="icon"/> 
                                         </div>
                                         <div className='tdllstcnt'>
                                             <h4>Daily Sales Tracking: </h4>
@@ -145,7 +145,7 @@ const RasaBdcnt = () => {
                                 <div className='tdllstmnblk'>
                                     <div className='tdllstblk'>
                                         <div className='tdllsticn'>
-                                           <Image src={accnsoft} className='tdllsticncls' /> 
+                                           <Image src={accnsoft} className='tdllsticncls' alt="icon"/> 
                                         </div>
                                         <div className='tdllstcnt'>
                                             <h4>Accounting Software Utilization: </h4>
@@ -157,7 +157,7 @@ const RasaBdcnt = () => {
                                 <div className='tdllstmnblk'>
                                     <div className='tdllstblk'>
                                         <div className='tdllsticn'>
-                                           <Image src={payrolicn} className='tdllsticncls' /> 
+                                           <Image src={payrolicn} className='tdllsticncls' alt="icon"/> 
                                         </div>
                                         <div className='tdllstcnt'>
                                             <h4>Payroll Management:  </h4>
@@ -169,7 +169,7 @@ const RasaBdcnt = () => {
                                 <div className='tdllstmnblk'>
                                     <div className='tdllstblk'>
                                         <div className='tdllsticn'>
-                                           <Image src={charticn} className='tdllsticncls' /> 
+                                           <Image src={charticn} className='tdllsticncls' alt="icon"/> 
                                         </div>
                                         <div className='tdllstcnt'>
                                             <h4>Chart of Accounts Creation:  </h4>
@@ -181,7 +181,7 @@ const RasaBdcnt = () => {
                                 <div className='tdllstmnblk'>
                                     <div className='tdllstblk'>
                                         <div className='tdllsticn'>
-                                           <Image src={statrev} className='tdllsticncls' /> 
+                                           <Image src={statrev} className='tdllsticncls' alt="icon"/> 
                                         </div>
                                         <div className='tdllstcnt'>
                                             <h4>Financial Statement Review:  </h4>

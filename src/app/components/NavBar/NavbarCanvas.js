@@ -17,7 +17,7 @@ const NavbarCanvas = () => {
 
             <div className="offcanvas offcanvas-start left-site-canvas-blk" data-bs-scroll="true" data-bs-backdrop="false" tabIndex="-1" id="offcanvasScrolling" aria-labelledby="offcanvasScrollingLabel">
                 <div className="offcanvas-header">
-                    <Link className="navbar-brand side-canvs-logo" href="/"><Image src={ebslogo} width={120} height={120} priority={false}></Image></Link>
+                    <Link className="navbar-brand side-canvs-logo" href="/"><Image src={ebslogo} width={120} height={120} priority={false} alt="logo"></Image></Link>
                     <button type="button" className="btn-close btn-close-custom text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
                 </div>
                 <div className="offcanvas-body">

@@ -1,0 +1,35 @@
+/* Ajman Slider CSS */
+.ajmanimgsld-blk{
+    position: relative;
+}
+.ajman-sld-img-tlt-blk{
+    position: absolute;
+    bottom: 30px;
+    text-align: center;
+    width: 100%;
+}
+.ajman-sld-img-tlt-blk h5{
+    color: #fff;
+    font-weight: 600;
+    font-size: 25px;
+    
+}
+
+/* Ajamn Doc Box Style*/
+.ajman-docblk {
+    text-align: center;
+    padding: 20px;
+    max-height: 180px;
+}
+.ajman-doc-ul li {
+    text-align: left;
+}
+.ajman-doc-box-clost-btn {
+    border: none;
+    background: no-repeat;
+    font-size: 37px;
+}
+/* Ajman Business Structure */
+.ajman-bsn-strc-pnt-blk ul {
+    padding-left: 0px;
+}
