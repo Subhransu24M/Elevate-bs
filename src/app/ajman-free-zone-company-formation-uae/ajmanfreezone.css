@@ -33,3 +33,24 @@
 .ajman-bsn-strc-pnt-blk ul {
     padding-left: 0px;
 }
+
+/* Ajman Company Cost Table */
+
+.ajman-comp-cost-tbl tr th{
+    padding: 10px;
+    border: 1px solid #000;
+}
+.ajman-comp-cost-tbl tr td{
+    padding: 10px;
+    border: 1px solid #000;
+}
+.ajman-comp-cost-tbl{
+    width: 100%;
+}
+.physical-off-ul ul{
+    padding-left: 0px;
+}
+.ajman-hand{
+    margin-right: 10px;
+}
+

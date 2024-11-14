@@ -3,6 +3,7 @@ import AjmansectorsSlider from "./AjmansectosSlider";
 import './ajmanfreezone.css';
 import AjmanDocuments from "./AjmanDocuments";
 import CompanysetupCost from "./CompanysetupCost";
+import PhysicalofficePackage from "./PhysicalofficePackage";
 
 const AjmanfreezoneCnt = () =>{
 
@@ -119,9 +120,47 @@ const AjmanfreezoneCnt = () =>{
             </div>
         </div>
 
-        {/* <div className="ajman-freezone-cmp-cost">
+        <div className="ajman-freezone-cmp-cost">
             <CompanysetupCost/>
-        </div> */}
+        </div>
+
+        <div className="ajman-freezone-cmp-cost">
+            <PhysicalofficePackage/>
+        </div>
+
+        <div className="ajman-cmp-setup-proc">
+            <div className="container">
+                <h2>Process of Company Setup in Ajman Free Zone,UAE Simplified </h2>
+                <p>Starting your new business with Ajman Free Zone company formation has never been easier. We’re here to help you transform your business dreams into reality. Just follow these 3 simple steps:</p>
+                <div className="row">
+                    <div className="col-md-4 col-xl-4 col-lg-4 col-sm-12">
+                        <div className="cmpsetupbox">
+                            <h5>Choose Your Business Type</h5>
+                            <p>Select the best option for company formation in Ajman Free Zone, tailored to your specific needs.</p>
+                        </div>
+                    </div>
+                    <div className="col-md-4 col-xl-4 col-lg-4 col-sm-12">
+                        <div className="cmpsetupbox">
+                            <h5>Submit Your Application with Documents</h5>
+                            <p>Provide the required documents to complete your business setup in Ajman Free Zone</p>
+                        </div>
+                    </div>
+                    <div className="col-md-4 col-xl-4 col-lg-4 col-sm-12">
+                        <div className="cmpsetupbox">
+                            <h5>Obtain Your Business License</h5>
+                            <p>Secure your business license and begin operations, benefiting from a streamlined company setup in Ajman Free Zone, UAE.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div className="start-business">
+            <div className="container">
+            <h2>Start Your Business in Ajman Freezone with Elevate Business Solutions</h2>
+            <p>Elevate Business Solutions assists clients with company formation in Ajman Free Zone and offers comprehensive PRO consultancy services throughout the year. We help navigate your business setup in Ajman Freezone, ensuring smooth interactions with Freezone authorities and other relevant entities.</p>
+            </div>
+        </div>
         </>
     )
 }
