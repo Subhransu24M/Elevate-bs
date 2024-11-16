@@ -1,0 +1,21 @@
+/* Ajman Slider CSS */
+.ajmanimgsld-blk{
+    position: relative;
+}
+.ajman-sld-img-tlt-blk{
+    position: absolute;
+    /* bottom: 0px; */
+    text-align: center;
+    width: 100%;
+    background: #0000008a;
+    min-height: 100vh;
+    padding: 20px;
+
+}
+.ajman-sld-img-tlt-blk h5{
+    color: #fff;
+    font-weight: 600;
+    font-size: 18px;
+    
+    
+}
