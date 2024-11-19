@@ -45,14 +45,14 @@ const StickyFooter = () => {
             </div>
 
             <div className="sticky-left-mail-blk">
-                <Link href="info@elevatebs.com"><Image className="desk-stickicon" src={stickyemailicon} /></Link>
-                <Link href="#"><Image className="desk-stickicon" src={stickywhatsappicon} /></Link>
+                <Link href="mailto:info@elevatebs.com"><Image className="desk-stickicon" src={stickyemailicon} /></Link>
+                <Link href="https://api.whatsapp.com/send?phone=971561672533" target="_blank"><Image className="desk-stickicon" src={stickywhatsappicon} /></Link>
             </div>
             <div className="sticky-right-social-blk">
-            <Link href="#"><Image className="desk-stickicon" src={stickylinkdicon} /></Link>
-            <Link href="#"><Image className="desk-stickicon" src={stickyficon} /></Link>
-            <Link href="#"><Image className="desk-stickicon" src={stickyticon} /></Link>
-            <Link href="#"><Image className="desk-stickicon" src={stickyinsticon} /></Link>
+            <Link href="https://www.linkedin.com/company/elevate-business-solutions-dmcc/" target="_blank"><Image className="desk-stickicon" src={stickylinkdicon} /></Link>
+            <Link href="https://www.facebook.com/elevatebs/" target="_blank"><Image className="desk-stickicon" src={stickyficon} /></Link>
+            <Link href="https://x.com/i/flow/login?redirect_after_login=%2Felevatebs" target="_blank"><Image className="desk-stickicon" src={stickyticon} /></Link>
+            <Link href="https://www.instagram.com/elevateauditing/" target="_blank"><Image className="desk-stickicon" src={stickyinsticon} /></Link>
             
             </div>
         </>
