@@ -1,19 +1,31 @@
 .heroic-bg {
     /* background-color: #075b68; */
-    background-image: url(../../../../public/hd-bg.svg);
+    /* background-image: url(../../../../public/hd-bg.svg); */
+    background-image: url(./images/subhero-banner.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
+    max-width: 1900px;
+    margin: auto;
+    display: block;
 }
 .header-banner-blk {
-    background: #041026d6;
+    background: #04102647;
 }
 
 .heroic-sec {
     text-align: center;
-    padding-top: 40px;
-    padding-bottom: 40px;
+    /* padding-top: 40px;
+    padding-bottom: 40px; */
     color: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 350px;
+}
+.heroic-sec h2 {
+    font-size: 50px !important;
+    /* position: relative; */
 }
 
 .heroic-sec a {

@@ -1,6 +1,7 @@
 "use client"
-import slider1 from '../../../../public/slider-banner/slider-1.webp';
-import diwalislider from '../../../../public/slider-banner/EBS-diwali-slider-24.jpg';
+// import slider1 from '../../../../public/slider-banner/slider-1.webp';
+import slider1 from './sliderimage/dubai-img-c.jpg';
+// import diwalislider from '../../../../public/slider-banner/EBS-diwali-slider-24.jpg';
 import Image from 'next/image';
 import Link from 'next/link';
 import './slider.css';

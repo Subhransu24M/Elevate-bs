@@ -4,6 +4,8 @@ import NavBar from '@/app/components/NavBar/NavBar'
 import BreadCrumb from '@/app/components/BreadCrumbs/BreadCrumb'
 import CompanyFormationCnt from './CompanyFormationCnt'
 import Footer from '@/app/components/Footer/Footer'
+import NewNavbar from '@/app/components/NavBar/NewNavbar'
+import FooterNew from '@/app/components/Footer/FooterNew'
 
 export const metadata = {
   title: "Company Formation in Dubai | usiness setup consultant in Dubai,UAE",
@@ -13,11 +15,13 @@ export const metadata = {
 const page = () => {
   return (
     <>
-    <TopBar/>
-    <NavBar/>
+    {/* <TopBar/>
+    <NavBar/> */}
+    <NewNavbar/>
     <BreadCrumb page="Company Formation" />
     <CompanyFormationCnt/>
-    <Footer/>
+    {/* <Footer/> */}
+    <FooterNew/>
     </>
   )
 }

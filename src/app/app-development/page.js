@@ -4,6 +4,8 @@ import Footer from '../components/Footer/Footer'
 import NavBar from '../components/NavBar/NavBar'
 import TopBar from '../components/TopBar/TopBar'
 import AppContent from './AppContent';
+import NewNavbar from '../components/NavBar/NewNavbar';
+import FooterNew from '../components/Footer/FooterNew';
 
 export const metadata = {
   title: "Top Mobile App Development Companies in UK ",
@@ -13,11 +15,13 @@ export const metadata = {
 const page = () => {
   return (
     <>
-    <TopBar/>
-    <NavBar/>
+    {/* <TopBar/>
+    <NavBar/> */}
+    <NewNavbar/>
     <BreadCrumb page="App Development" />
     <AppContent/>
-    <Footer/>
+    {/* <Footer/> */}
+    <FooterNew/>
     </>
   )
 }

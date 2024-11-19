@@ -5,6 +5,14 @@ import { IoCallOutline } from "react-icons/io5";
 import { MdAttachEmail } from "react-icons/md";
 import './footerbottomsticky.css';
 import Link from "next/link";
+import stickyemailicon from './social/mail.png';
+import stickylinkdicon from './social/linkedin.png';
+import stickyficon from './social/facebook.png';
+import stickyinsticon from './social/instagram.png';
+import stickyticon from './social/twitter.png';
+import stickywhatsappicon from './social/whatsapp.png';
+import Image from "next/image";
+
 
 const StickyFooter = () => {
     return (
@@ -34,6 +42,18 @@ const StickyFooter = () => {
 
                 </div>
 
+            </div>
+
+            <div className="sticky-left-mail-blk">
+                <Link href="info@elevatebs.com"><Image className="desk-stickicon" src={stickyemailicon} /></Link>
+                <Link href="#"><Image className="desk-stickicon" src={stickywhatsappicon} /></Link>
+            </div>
+            <div className="sticky-right-social-blk">
+            <Link href="#"><Image className="desk-stickicon" src={stickylinkdicon} /></Link>
+            <Link href="#"><Image className="desk-stickicon" src={stickyficon} /></Link>
+            <Link href="#"><Image className="desk-stickicon" src={stickyticon} /></Link>
+            <Link href="#"><Image className="desk-stickicon" src={stickyinsticon} /></Link>
+            
             </div>
         </>
     )

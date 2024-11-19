@@ -4,6 +4,8 @@ import NavBar from '@/app/components/NavBar/NavBar'
 import BreadCrumb from '@/app/components/BreadCrumbs/BreadCrumb'
 import Footer from '@/app/components/Footer/Footer'
 import TaxContent from './TaxContent'
+import NewNavbar from '@/app/components/NavBar/NewNavbar'
+import FooterNew from '@/app/components/Footer/FooterNew'
 
 export const metadata = {
   title: "Tax Consultancy in Dubai - Trusted tax advisor in the UAE",
@@ -13,11 +15,13 @@ export const metadata = {
 const page = () => {
   return (
     <>
-    <TopBar/>
-    <NavBar/>
+    {/* <TopBar/>
+    <NavBar/> */}
+    <NewNavbar/>
     <BreadCrumb page="Corporate TAX Service"/>
     <TaxContent/>
-    <Footer/>
+    {/* <Footer/> */}
+    <FooterNew/>
     </>
   )
 }

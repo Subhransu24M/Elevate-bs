@@ -5,6 +5,8 @@ import NavBar from '@/app/components/NavBar/NavBar';
 import BreadCrumb from '@/app/components/BreadCrumbs/BreadCrumb';
 import Footer from '@/app/components/Footer/Footer';
 import CfoContent from './CfoContent';
+import NewNavbar from '@/app/components/NavBar/NewNavbar';
+import FooterNew from '@/app/components/Footer/FooterNew';
 
 export const metadata = {
   title: "Outsourced CFO Services in Dubai | Elevate Business Solutions",
@@ -14,11 +16,13 @@ export const metadata = {
 const page = () => {
   return (
     <>
-    <TopBar/>
-    <NavBar/>
+    {/* <TopBar/>
+    <NavBar/> */}
+    <NewNavbar/>
     <BreadCrumb page="CFO Services"/>
     <CfoContent/>
-    <Footer/>
+    {/* <Footer/> */}
+    <FooterNew/>
     </>
   )
 }

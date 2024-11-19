@@ -9,6 +9,8 @@ import NavBar from "../../components/NavBar/NavBar";
 import { client } from "../../../../sanity/lib/client";
 import { urlForImage } from "../../../../sanity/lib/image";
 import BlogBreadcrumb from "@/app/components/BreadCrumbs/BlogBreadcrumb";
+import NewNavbar from "@/app/components/NavBar/NewNavbar";
+import FooterNew from "@/app/components/Footer/FooterNew";
 
 export async function generateMetadata({ params }) {
   const query = `*[_type=='post' && slug.current == "${params.slug}"]{
@@ -61,8 +63,9 @@ export default async function singlePost({ params }) {
 
     return (
       <>
-        <TopBar />
-        <NavBar />
+        {/* <TopBar />
+        <NavBar /> */}
+        <NewNavbar/>
         <div className="container-fluid p-0">
           <div className="sngl-pst-img-blk">
             <Image src={urlForImage(singlePost.image)} alt={singlePost.image.attribution} priority className="sngl-post-bnr-img" width={800} height={300}/>
@@ -92,7 +95,8 @@ export default async function singlePost({ params }) {
           </div>
 
         </div>
-        <Footer />
+        {/* <Footer /> */}
+        <FooterNew/>
       </>
 
     );

@@ -4,7 +4,7 @@ import './breadcrumb.css';
 const BreadCrumb = ({ page }) => {
   return (
     <>
-    <div className='heroic-bg img-fluid'>
+    <div className='heroic-bg'>
                 <div className='header-banner-blk'>
                     <div className="container">
                         <div className="row">

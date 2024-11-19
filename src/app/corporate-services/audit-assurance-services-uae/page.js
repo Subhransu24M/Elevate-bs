@@ -4,6 +4,8 @@ import NavBar from "@/app/components/NavBar/NavBar"
 import TopBar from "@/app/components/TopBar/TopBar"
 import AuditAssurancecnt from "./AuditAssuranceCnt"
 import './auditassurance.css';
+import NewNavbar from "@/app/components/NavBar/NewNavbar"
+import FooterNew from "@/app/components/Footer/FooterNew"
 
 
 export const metadata = {
@@ -14,12 +16,13 @@ export const metadata = {
 const page = () => {
   return (
     <>
-    <TopBar/>
-    <NavBar/>
+    {/* <TopBar/>
+    <NavBar/> */}
+    <NewNavbar/>
     <BreadCrumb page='Audit & Assurance Service'/>
     <AuditAssurancecnt/>
-    
-    <Footer/>
+    <FooterNew/>
+    {/* <Footer/> */}
 
     </>
   )

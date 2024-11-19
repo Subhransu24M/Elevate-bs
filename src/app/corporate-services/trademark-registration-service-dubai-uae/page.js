@@ -4,6 +4,8 @@ import NavBar from '@/app/components/NavBar/NavBar'
 import BreadCrumb from '@/app/components/BreadCrumbs/BreadCrumb'
 import TrademarkContent from './TrademarkContent'
 import Footer from '@/app/components/Footer/Footer'
+import NewNavbar from '@/app/components/NavBar/NewNavbar'
+import FooterNew from '@/app/components/Footer/FooterNew'
 
 export const metadata = {
   title: "Trademark Registration Service in Dubai, UAE | Register Today",
@@ -13,11 +15,13 @@ export const metadata = {
 const page = () => {
   return (
     <>
-    <TopBar/>
-    <NavBar/>
+    {/* <TopBar/>
+    <NavBar/> */}
+    <NewNavbar/>
     <BreadCrumb page="Trademark Registration"/>
     <TrademarkContent/>
-    <Footer/>
+    {/* <Footer/> */}
+    <FooterNew/>
     </>
   )
 }

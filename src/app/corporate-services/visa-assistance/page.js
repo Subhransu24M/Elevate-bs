@@ -4,6 +4,8 @@ import NavBar from '@/app/components/NavBar/NavBar'
 import BreadCrumb from '@/app/components/BreadCrumbs/BreadCrumb'
 import VisaAsstCnt from './VisaAsstCnt'
 import Footer from '@/app/components/Footer/Footer'
+import NewNavbar from '@/app/components/NavBar/NewNavbar'
+import FooterNew from '@/app/components/Footer/FooterNew'
 
 export const metadata = {
   title: "Get UAE Visa Assistance with  Elevate Business Solutions",
@@ -13,11 +15,13 @@ export const metadata = {
 const page = () => {
   return (
     <>
-    <TopBar/>
-    <NavBar/>
+    {/* <TopBar/>
+    <NavBar/> */}
+    <NewNavbar/>
     <BreadCrumb page="Visa Assistance" />
     <VisaAsstCnt/>
-    <Footer/>
+    {/* <Footer/> */}
+    <FooterNew/>
     </>
   )
 }

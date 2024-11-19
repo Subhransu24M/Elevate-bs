@@ -4,6 +4,8 @@ import NavBar from '@/app/components/NavBar/NavBar';
 import BreadCrumb from '@/app/components/BreadCrumbs/BreadCrumb';
 import Footer from '@/app/components/Footer/Footer';
 import MiddleEastDeskCnt from './MiddleEastDeskCnt';
+import NewNavbar from '@/app/components/NavBar/NewNavbar';
+import FooterNew from '@/app/components/Footer/FooterNew';
 export const metadata = {
   title: "Middle East Desk services in UK, London | Elevate Business Solutions",
   description: "Enhance your global business reach with our Middle East Desk Service in London, UK. Elevate Business Services connects you to the heart of Middle Eastern opportunities.",
@@ -12,11 +14,13 @@ export const metadata = {
 const page = () => {
   return (
     <>
-    <TopBar/>
-    <NavBar/>
+    {/* <TopBar/>
+    <NavBar/> */}
+    <NewNavbar/>
     <BreadCrumb page="Middle East Desk Services"/>
     <MiddleEastDeskCnt/>
-    <Footer/>
+    {/* <Footer/> */}
+    <FooterNew/>
     </>
   )
 }

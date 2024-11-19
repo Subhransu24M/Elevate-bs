@@ -4,6 +4,8 @@ import NavBar from '@/app/components/NavBar/NavBar'
 import BreadCrumb from '@/app/components/BreadCrumbs/BreadCrumb'
 import VatDeRegCnt from './VatDeRegCnt'
 import Footer from '@/app/components/Footer/Footer'
+import NewNavbar from '@/app/components/NavBar/NewNavbar'
+import FooterNew from '@/app/components/Footer/FooterNew'
 
 export const metadata = {
   title: "VAT deregistration Services in Dubai, UAE | Dubai VAT Consultants",
@@ -13,11 +15,13 @@ export const metadata = {
 const page = () => {
   return (
     <>
-    <TopBar/>
-    <NavBar/>
+    {/* <TopBar/>
+    <NavBar/> */}
+    <NewNavbar/>
     <BreadCrumb page="VAT De-Registration"/>
     <VatDeRegCnt/>
-    <Footer/>
+    {/* <Footer/> */}
+    <FooterNew/>
     </>
   )
 }

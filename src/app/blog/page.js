@@ -4,6 +4,8 @@ import NavBar from '../components/NavBar/NavBar'
 import BreadCrumb from '../components/BreadCrumbs/BreadCrumb'
 import Footer from '../components/Footer/Footer'
 import Blog from './Blog'
+import NewNavbar from '../components/NavBar/NewNavbar'
+import FooterNew from '../components/Footer/FooterNew'
 
 export const metadata = {
   title: "Blog - Elevate Business Solutions ",
@@ -13,11 +15,13 @@ export const metadata = {
 const page = () => {
   return (
     <>
-    <TopBar/>
-    <NavBar/>
+    {/* <TopBar/>
+    <NavBar/> */}
+    <NewNavbar/>
     <BreadCrumb page="Blog"/>
     <Blog/>
-    <Footer/>
+    {/* <Footer/> */}
+    <FooterNew/>
     </>
   )
 }

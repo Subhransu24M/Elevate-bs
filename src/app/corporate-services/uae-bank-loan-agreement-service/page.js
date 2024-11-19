@@ -5,6 +5,8 @@ import NavBar from '@/app/components/NavBar/NavBar';
 import BreadCrumb from '@/app/components/BreadCrumbs/BreadCrumb';
 import Footer from '@/app/components/Footer/Footer';
 import { BankLoanCnt } from './BankLoanCnt';
+import NewNavbar from '@/app/components/NavBar/NewNavbar';
+import FooterNew from '@/app/components/Footer/FooterNew';
 export const metadata = {
   title: "Bank Loan Arrangement Services in Dubai, UAE",
   description: "Secure your Bank Loan Arrangement Services in Dubai, UAE. Elevate Business Services offers expert assistance in crafting and navigating loan agreements for businesses in the UAE.",
@@ -13,11 +15,13 @@ export const metadata = {
 const page = () => {
   return (
     <>
-    <TopBar/>
-    <NavBar/>
+    {/* <TopBar/>
+    <NavBar/> */}
+    <NewNavbar/>
     <BreadCrumb page="Bank Loan Agreement Service"/>
     <BankLoanCnt/>
-    <Footer/>
+    {/* <Footer/> */}
+    <FooterNew/>
     </>
   )
 }

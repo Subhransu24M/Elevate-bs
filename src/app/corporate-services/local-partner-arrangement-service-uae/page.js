@@ -4,6 +4,8 @@ import NavBar from '@/app/components/NavBar/NavBar';
 import BreadCrumb from '@/app/components/BreadCrumbs/BreadCrumb';
 import Footer from '@/app/components/Footer/Footer';
 import LocalPartnerCnt from './LocalPartnerCnt';
+import NewNavbar from '@/app/components/NavBar/NewNavbar';
+import FooterNew from '@/app/components/Footer/FooterNew';
 
 export const metadata = {
   title: "Find Local Sponsor in Dubai, UAE | Elevate Business Solutions",
@@ -13,11 +15,13 @@ export const metadata = {
 const page = () => {
   return (
     <>
-    <TopBar/>
-    <NavBar/>
+    {/* <TopBar/>
+    <NavBar/> */}
+    <NewNavbar/>
     <BreadCrumb page="Local Partner Arrangement" />
     <LocalPartnerCnt/>
-    <Footer/>
+    {/* <Footer/> */}
+    <FooterNew/>
     </>
   )
 }

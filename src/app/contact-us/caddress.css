@@ -1,0 +1,42 @@
+.cadd-box {
+    border: 1px solid #ecfbff;
+    /* padding: 0px 10px; */
+    border-radius: 10px;
+    min-height: 310px;
+    margin: 10px 0px;
+    background: #f5fdff;
+}
+.caddr-loc {
+    background: #850000;
+    color: #fff;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    text-align: center;
+    padding: 10px 0px;
+}
+.cpmname-tlt {
+    font-size: 16px;
+    font-family: 'Poppins';
+    font-weight: 600;
+    padding: 0px 10px;
+}
+.cpmname-addr-p {
+    font-size: 14px;
+    padding: 0px 10px;
+    text-align: left;
+}
+.caddr-cnt {
+    padding: 0px 10px;
+}
+.caddr-cnt p {
+    margin-bottom: 3px;
+    color: #2e2e2e;
+}
+.caddr-cnt p a{
+    color: #2e2e2e;
+}
+.caddr-cta-icn {
+    margin-right: 7px;
+    border-right: 1px dotted #000;
+    font-size: 18px;
+}

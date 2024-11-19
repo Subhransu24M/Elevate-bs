@@ -4,6 +4,8 @@ import NavBar from '@/app/components/NavBar/NavBar';
 import BreadCrumb from '@/app/components/BreadCrumbs/BreadCrumb';
 import CompanyLiquidation from './CompanyLiquidation';
 import Footer from '@/app/components/Footer/Footer';
+import NewNavbar from '@/app/components/NavBar/NewNavbar';
+import FooterNew from '@/app/components/Footer/FooterNew';
 
 export const metadata = {
   title: "Company Liquidation Services in Dubai, UAE | Auditor and Company Liquidator in Dubai",
@@ -13,11 +15,13 @@ export const metadata = {
 const page = () => {
   return (
     <>
-    <TopBar/>
-    <NavBar/>
+    {/* <TopBar/>
+    <NavBar/> */}
+    <NewNavbar/>
     <BreadCrumb page="Company Liquidation Service" />
     <CompanyLiquidation/>
-    <Footer/>
+    {/* <Footer/> */}
+    <FooterNew/>
     </>
   )
 }

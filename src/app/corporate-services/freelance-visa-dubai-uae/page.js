@@ -3,6 +3,8 @@ import Footer from "@/app/components/Footer/Footer"
 import NavBar from "@/app/components/NavBar/NavBar"
 import TopBar from "@/app/components/TopBar/TopBar"
 import FreelancevisaCnt from "./FreelancevisaCnt"
+import NewNavbar from "@/app/components/NavBar/NewNavbar"
+import FooterNew from "@/app/components/Footer/FooterNew"
 
 export const metadata = {
   title: "Freelance Visa Dubai, UAE | Elevate Business Solutions",
@@ -13,11 +15,13 @@ export const metadata = {
 const page = () => {
   return (
     <>
-    <TopBar/>
-    <NavBar/>
+    {/* <TopBar/>
+    <NavBar/> */}
+    <NewNavbar/>
     <BreadCrumb page="Freelance Visa Dubai" />
     <FreelancevisaCnt/>
-    <Footer/>
+    {/* <Footer/> */}
+    <FooterNew/>
     </>
   )
 }
