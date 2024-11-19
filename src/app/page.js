@@ -20,18 +20,22 @@ export const metadata = {
 export default function Home() {
   return (
     <>
+    <div className="fullwrapper">
     {/* <TopBar/> */}
     {/* <NavbarNew/> */}
     {/* <NavBar/> */}
     <NewNavbar/>
+    <div className="hm-slider-blk">
     <Slider/>
+    </div>
+   
     {/* <SliderVideo/> */}
     {/* <marquee className="marquee-text">May the beauty of Diwali fill your heart with happiness, warmth, and endless memories with loved ones.</marquee> */}
     <HomeContent />
     <CorporateService/>
     {/* <Footer/> */}
     <FooterNew/>
-    
+    </div>
     </>
   );
 }

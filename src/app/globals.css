@@ -117,3 +117,13 @@ ul li {
     flex-direction: column-reverse;
   }
 }
+
+
+/* Full Wrapper CSS */
+.fullwrapper {
+  max-width: 1900px;
+  height: 100vh;
+  margin: auto;
+  display: block;
+  position: relative;
+}
