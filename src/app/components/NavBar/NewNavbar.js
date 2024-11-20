@@ -38,7 +38,7 @@ const NewNavbar = () => {
 
                                     </li>
 
-                                    <li><Link className="dropdown-item my-nav-li" href="#">ADGM</Link></li>
+                                    <li><Link className="dropdown-item my-nav-li" href="/adgm-company-service-provider">ADGM</Link></li>
                                 </ul>
                             </li>
                             <li className="nav-item dropdown">

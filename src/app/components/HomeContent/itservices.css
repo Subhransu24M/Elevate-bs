@@ -41,8 +41,10 @@
 }
 
 .dev-digi-blk {
-    /* padding: 25px 0px; */
     text-align: center;
     font-family: system-ui;
     color: #fff;
+    max-width: 800px;
+    margin: auto;
+    display: block;
 }

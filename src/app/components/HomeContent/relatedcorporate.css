@@ -1,0 +1,24 @@
+.related-tlt h4 {
+    text-align: left;
+}
+.relt-serv-box {
+    background: #e4f6ff;
+    margin: 6px;
+    padding: 15px;
+    min-height: 110px;
+    position: relative;
+    border-radius: 15px;
+}
+.relt-serv-box h5{
+    text-align: left;
+    font-size: 18px !important;
+}
+.relt-serv-box a{
+    position: absolute;
+    bottom: 10px;
+    color: #000832;
+    border: 1px solid #a10000;
+    padding: 2px 20px;
+    border-radius: 25px;
+    font-size: 14px;
+}

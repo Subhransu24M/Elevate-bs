@@ -1,0 +1,80 @@
+
+.hm-cor-hd {
+    padding: 0px 0px 25px 0px;
+    max-width: 800px;
+    margin: auto;
+    display: block;
+    padding-top: 40px;
+}
+.hm-cor-hd p {
+    text-align: center;
+}
+.hm-cor-hd h2,h4{
+    text-align:center;
+}
+
+.hm-cor-hd h4 {
+    font-family: system-ui;
+    font-size: 20px;
+    padding-bottom: 15px;
+}
+.cor-cta-blk {
+    text-align: center;
+    color: #fff;
+    margin-top: 50px;
+    background: linear-gradient(90deg, #070426 60%, #cb2020 119%);
+}
+
+.cor-cta-btn-lst {
+    border: none;
+    border-radius: 23px;
+    padding: 11px 25px;
+    font-weight: 700;
+    margin: 20px 0px 0px 0px;
+    box-shadow: 0px 2px 0px 1px #040f1c61;
+    background: linear-gradient(90deg, #253274d9 40%, #c72020d6 119%);
+}
+.hm-corp-imgblk img{
+    max-width: 100%;
+    object-fit: cover;
+    object-position: 50%;
+    max-height: 400px;
+    border-radius: 10px;
+}
+.hm-corp-box-blk{
+    position: relative;
+    margin: 10px 0px;
+}
+.hm-corp-nameblk {
+    position: absolute;
+    bottom: 20px;
+    color: #fff;
+    width: 100%;
+}
+.hm-corp-nameblk h5 {
+    text-align: center;
+    font-size: 26px;
+    font-weight: 500;
+    padding: 0px 70px;
+    line-height: 1.3;
+}
+
+.hm-corp-linkblk {
+    text-align: center;
+    padding: 15px;
+}
+.hm-corp-linkblk a {
+    color: #ffd535fc;
+    border: 1px dotted #fff;
+    padding: 8px 25px;
+    border-radius: 25px;
+}
+
+@media(min-width:768px) and (max-width:1200px){
+    .hm-corp-nameblk h5{
+        padding: 0px 5px;
+    }
+    .hm-corp-linkblk{
+        padding: 15px 5px;
+    }
+}
