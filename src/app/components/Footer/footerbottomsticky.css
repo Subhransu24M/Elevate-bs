@@ -49,7 +49,7 @@
     justify-items: center;
     justify-content: center;
     align-content: center;
-    position: absolute;
+    /* position: absolute; */
     /* border-top-right-radius: 10px;
     border-bottom-right-radius: 10px; */
 }
@@ -74,7 +74,7 @@
     display: block;
     align-items: center;
     right: 0;
-    position: absolute;
+    /* position: absolute; */
 }
 
 @media(max-width:576px){

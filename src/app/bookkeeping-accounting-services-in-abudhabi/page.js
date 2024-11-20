@@ -9,6 +9,7 @@ import BookkeepingabudhabiCnt from "./BookkeepingabudhabiCnt"
 const page = () =>{
     return (
         <>
+        <div className="fullwrapper">
         {/* <TopBar/>
         <NavBar/> */}
         <NewNavbar/>
@@ -16,6 +17,7 @@ const page = () =>{
         <BookkeepingabudhabiCnt/>
         {/* <Footer/> */}
         <FooterNew/>
+        </div>
         </>
     )
 }

@@ -63,6 +63,7 @@ export default async function singlePost({ params }) {
 
     return (
       <>
+      <div className="fullwrapper">
         {/* <TopBar />
         <NavBar /> */}
         <NewNavbar/>
@@ -97,6 +98,7 @@ export default async function singlePost({ params }) {
         </div>
         {/* <Footer /> */}
         <FooterNew/>
+        </div>
       </>
 
     );

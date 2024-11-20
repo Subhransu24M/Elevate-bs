@@ -45,8 +45,10 @@ const StickyFooter = () => {
             </div>
 
             <div className="sticky-left-mail-blk">
+                
                 <Link href="mailto:info@elevatebs.com"><Image className="desk-stickicon" src={stickyemailicon} /></Link>
                 <Link href="https://api.whatsapp.com/send?phone=971561672533" target="_blank"><Image className="desk-stickicon" src={stickywhatsappicon} /></Link>
+                
             </div>
             <div className="sticky-right-social-blk">
             <Link href="https://www.linkedin.com/company/elevate-business-solutions-dmcc/" target="_blank"><Image className="desk-stickicon" src={stickylinkdicon} /></Link>

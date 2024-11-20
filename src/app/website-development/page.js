@@ -14,6 +14,7 @@ export const metadata = {
 const page = () => {
   return (
     <>
+    <div className="fullwrapper">
     {/* <TopBar/>
     <NavBar/> */}
     <NewNavbar/>
@@ -21,6 +22,7 @@ const page = () => {
     <WebDevelopContent/>
     {/* <Footer/> */}
     <FooterNew/>
+    </div>
     </>
   )
 }

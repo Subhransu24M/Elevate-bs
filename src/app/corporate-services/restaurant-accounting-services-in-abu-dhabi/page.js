@@ -10,6 +10,7 @@ import FooterNew from '@/app/components/Footer/FooterNew'
 const page = () => {
   return (
     <>
+    <div className="fullwrapper">
     {/* <TopBar/>
     <NavBar/> */}
     <NewNavbar/>
@@ -17,6 +18,7 @@ const page = () => {
     <RasaBdcnt/>
     {/* <Footer/> */}
     <FooterNew/>
+    </div>
     </>
   )
 }
