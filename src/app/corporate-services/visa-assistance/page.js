@@ -13,13 +13,14 @@ export const metadata = {
   keywords: "Best Visa Agencies in Dubai UAE, Visa Assistance Services in Dubai,apply online for Dubai visa,Dubai Visa Assistance Service,Dubai Visa Assistance Services and Consultants in Dubai"
 };
 const page = () => {
+  const breadcrumbBackground = "/images/breadcrump-bg/corporate.jpg";
   return (
     <>
     <div className="fullwrapper">
     {/* <TopBar/>
     <NavBar/> */}
     <NewNavbar/>
-    <BreadCrumb page="Visa Assistance" />
+    <BreadCrumb page="Visa Assistance" backgroundImage={breadcrumbBackground}/>
     <VisaAsstCnt/>
     {/* <Footer/> */}
     <FooterNew/>

@@ -13,13 +13,14 @@ export const metadata = {
   keywords: "corporate services in uae"
 };
 const page = () => {
+  const breadcrumbBackground = "/images/breadcrump-bg/corporate.jpg";
   return (
     <>
     <div className="fullwrapper">
     {/* <TopBar/>
     <NavBar/> */}
     <NewNavbar/>
-    <BreadCrumb page="Corporate Services" />
+    <BreadCrumb page="Corporate Services" backgroundImage={breadcrumbBackground}/>
     <CorporateContent/>
     {/* <Footer/> */}
     <FooterNew/>

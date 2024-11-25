@@ -13,13 +13,14 @@ export const metadata = {
   keywords: "ISO Certification in UAE,ISO Consulting in UAE, ISO Consultants in UAE,ISO Certificate in UAE, ISO certification consultant in uae"
 };
 const page = () => {
+  const breadcrumbBackground = "/images/breadcrump-bg/corporate.jpg";
   return (
     <>
     <div className="fullwrapper">
     {/* <TopBar/>
     <NavBar/> */}
     <NewNavbar/>
-    <BreadCrumb page='ISO Certification'/>
+    <BreadCrumb page='ISO Certification' backgroundImage={breadcrumbBackground}/>
     <IsoCnt/>
     {/* <Footer/> */}
     <FooterNew/>

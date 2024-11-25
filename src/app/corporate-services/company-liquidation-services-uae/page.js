@@ -13,13 +13,14 @@ export const metadata = {
   keywords: "Liquidation Services in UAE,Company Liquidation Services in Dubai,Company Liquidator in Dubai UAE,company liquidation in dubai,company liquidation process in UAE"
 };
 const page = () => {
+  const breadcrumbBackground = "/images/breadcrump-bg/corporate.jpg";
   return (
     <>
     <div className="fullwrapper">
     {/* <TopBar/>
     <NavBar/> */}
     <NewNavbar/>
-    <BreadCrumb page="Company Liquidation Service" />
+    <BreadCrumb page="Company Liquidation Service" backgroundImage={breadcrumbBackground}/>
     <CompanyLiquidation/>
     {/* <Footer/> */}
     <FooterNew/>

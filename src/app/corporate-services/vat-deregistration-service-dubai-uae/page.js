@@ -13,13 +13,14 @@ export const metadata = {
   keywords: "Deregistration of vat in uae, VAT Deregistration Services in Dubai UAE,VAT Deregistration Services in UAE,uae vat deregistration,vat deregistration guide,Documents required for vat deregistration in uae"
 };
 const page = () => {
+  const breadcrumbBackground = "/images/breadcrump-bg/corporate.jpg";
   return (
     <>
     <div className="fullwrapper">
     {/* <TopBar/>
     <NavBar/> */}
     <NewNavbar/>
-    <BreadCrumb page="VAT De-Registration"/>
+    <BreadCrumb page="VAT De-Registration" backgroundImage={breadcrumbBackground}/>
     <VatDeRegCnt/>
     {/* <Footer/> */}
     <FooterNew/>

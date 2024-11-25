@@ -14,13 +14,14 @@ export const metadata = {
   keywords: "CFO Services in Dubai UAE,CFO Services in UAE,Virtual CFO services in Dubai,CFO In UAE"
 };
 const page = () => {
+  const breadcrumbBackground = "/images/breadcrump-bg/corporate.jpg";
   return (
     <>
     <div className="fullwrapper">
     {/* <TopBar/>
     <NavBar/> */}
     <NewNavbar/>
-    <BreadCrumb page="CFO Services"/>
+    <BreadCrumb page="CFO Services" backgroundImage={breadcrumbBackground}/>
     <CfoContent/>
     {/* <Footer/> */}
     <FooterNew/>

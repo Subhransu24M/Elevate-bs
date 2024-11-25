@@ -13,13 +13,14 @@ export const metadata = {
   keywords: "Tax Consultants in Dubai UAE,Tax Consultancy in Dubai UAE,Tax Consulting Services in UAE,Tax Consultant Firms in Dubai UAE,Corporate Tax Consultants in Dubai UAE,Best Corporate Tax Consultants in Dubai UAE,Tax Advisors in UAE,Tax Consultant in Dubai"
 };
 const page = () => {
+  const breadcrumbBackground = "/images/breadcrump-bg/corporate.jpg";
   return (
     <>
     <div className="fullwrapper">
     {/* <TopBar/>
     <NavBar/> */}
     <NewNavbar/>
-    <BreadCrumb page="Corporate TAX Service"/>
+    <BreadCrumb page="Corporate TAX Service" backgroundImage={breadcrumbBackground}/>
     <TaxContent/>
     {/* <Footer/> */}
     <FooterNew/>

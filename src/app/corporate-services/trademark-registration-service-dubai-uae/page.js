@@ -13,13 +13,14 @@ export const metadata = {
   keywords: "Trademark Registration in the Dubai UAE,Trademark Registration in UAE,Trademark registration UAE cost,how to register trademark in UAE"
 };
 const page = () => {
+  const breadcrumbBackground = "/images/breadcrump-bg/corporate.jpg";
   return (
     <>
     <div className="fullwrapper">
     {/* <TopBar/>
     <NavBar/> */}
     <NewNavbar/>
-    <BreadCrumb page="Trademark Registration"/>
+    <BreadCrumb page="Trademark Registration" backgroundImage={breadcrumbBackground}/>
     <TrademarkContent/>
     {/* <Footer/> */}
     <FooterNew/>

@@ -13,13 +13,14 @@ export const metadata = {
   keywords: "Company Formation in Dubai,UAE Free Zone Company Setup,Mainland Company Setup,Offshore company setup in Dubai"
 };
 const page = () => {
+  const breadcrumbBackground = "/images/breadcrump-bg/corporate.jpg";
   return (
     <>
     <div className="fullwrapper">
     {/* <TopBar/>
     <NavBar/> */}
     <NewNavbar/>
-    <BreadCrumb page="Company Formation" />
+    <BreadCrumb page="Company Formation" backgroundImage={breadcrumbBackground}/>
     <CompanyFormationCnt/>
     {/* <Footer/> */}
     <FooterNew/>

@@ -16,13 +16,14 @@ export const metadata = {
   keywords:"We have above 11 years of experience in providing IT and accounting services over the global."
 };
 const page = () => {
+  const breadcrumbBackground = "/images/breadcrump-bg/contact.jpg";
   return (
     <>
     <div className="fullwrapper">
     {/* <TopBar/>
     <NavBar/> */}
     <NewNavbar/>
-    <BreadCrumb page="Contact us" />
+    <BreadCrumb page="Contact us" backgroundImage={breadcrumbBackground}/>
     <ContactContent/>
     <FooterNew/>
     {/* <div>

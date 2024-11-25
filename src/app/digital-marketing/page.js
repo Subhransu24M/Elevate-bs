@@ -13,13 +13,14 @@ export const metadata = {
   keywords:"Digital Marketing Agency in London UK,Digital Marketing Agency in London,top digital marketing agencies in London,Digital Marketing Company in London",
 };
 const page = () => {
+  const breadcrumbBackground = "/images/breadcrump-bg/digital-marketing.jpg";
   return (
     <>
     <div className="fullwrapper">
     {/* <TopBar/>
     <NavBar/> */}
     <NewNavbar/>
-    <BreadCrumb page="Digital Marketing" />
+    <BreadCrumb page="Digital Marketing" backgroundImage={breadcrumbBackground}/>
     <DmContent/>
     {/* <Footer/> */}
     <FooterNew/>

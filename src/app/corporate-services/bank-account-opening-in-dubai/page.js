@@ -13,13 +13,14 @@ export const metadata = {
   keywords: "Bank account opening assistance in dubai,UAE bank account opening services, corporate bank account opening in dubai(UAE Corporate Bank Account),corporate bank account open in uae"
 };
 const page = () => {
+  const breadcrumbBackground = "/images/breadcrump-bg/corporate.jpg";
   return (
     <>
     <div className="fullwrapper">
     {/* <TopBar/>
     <NavBar/> */}
     <NewNavbar/>
-    <BreadCrumb page="Bank Account Opening" />
+    <BreadCrumb page="Bank Account Opening" backgroundImage={breadcrumbBackground}/>
     <BankAccOpenContent/>
     {/* <Footer/> */}
     <FooterNew/>

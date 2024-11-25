@@ -1,10 +1,14 @@
 import Link from "next/link";
 import { HiHome } from 'react-icons/hi';
 import './breadcrumb.css';
-const BreadCrumb = ({ page }) => {
+const BreadCrumb = ({ page,backgroundImage }) => {
   return (
     <>
-    <div className='heroic-bg'>
+    <div style={{
+          backgroundImage: `url(${backgroundImage})`,
+          backgroundSize: "cover",
+          backgroundPosition: "center",
+        }}>
                 <div className='header-banner-blk'>
                     <div className="container">
                         <div className="row">

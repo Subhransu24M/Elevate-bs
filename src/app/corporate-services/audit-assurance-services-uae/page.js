@@ -14,13 +14,14 @@ export const metadata = {
   keywords: "Auditing Firms in UAE,Audit Services in UAE, Audit and Assurance Services in UAE, Auditors in UAE, Audit Firm in UAE"
 };
 const page = () => {
+  const breadcrumbBackground = "/images/breadcrump-bg/corporate.jpg";
   return (
     <>
     <div className="fullwrapper">
     {/* <TopBar/>
     <NavBar/> */}
     <NewNavbar/>
-    <BreadCrumb page='Audit & Assurance Service'/>
+    <BreadCrumb page='Audit & Assurance Service' backgroundImage={breadcrumbBackground}/>
     <AuditAssurancecnt/>
     <FooterNew/>
     {/* <Footer/> */}

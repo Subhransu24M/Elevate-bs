@@ -6,11 +6,18 @@
 .hm-it-serv-card-blk p {
     text-align: center;
     font-size: 15px;
+    max-width: 230px;
+    margin: auto;
+    padding: 10px 0px;
+    display: block;
 }
 .it-ser-cta {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    position: absolute;
+    bottom: 20px;
+    width: 90%;
 }
 .hm-it-serv-card-blk {
     background: #fff;
@@ -21,6 +28,7 @@
     border-radius: 5px;
     margin: 10px 0px;
     min-height: 245px;
+    position: relative;
 }
 .it-ser-img img {
     width: 45px;
@@ -48,3 +56,4 @@
     margin: auto;
     display: block;
 }
+

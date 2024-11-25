@@ -1,7 +1,8 @@
 "use client"
 // import slider1 from '../../../../public/slider-banner/slider-1.webp';
-import slider1 from './sliderimage/dubai-img-c.jpg';
+// import slider1 from '../../../../public/images/dubai-img-c.jpg';
 // import diwalislider from '../../../../public/slider-banner/EBS-diwali-slider-24.jpg';
+import slider1 from './sliderimage/dubai-img-c.jpg';
 import Image from 'next/image';
 import Link from 'next/link';
 import './slider.css';
@@ -23,7 +24,7 @@ const Slider = () => {
                     </div> */}
 
                     <div className="carousel-item active">
-                        <Image src={slider1} className="d-block w-100 sldimg" alt="innovative support system" />
+                        <Image src={slider1} className="d-block w-100 sldimg" alt="innovative support system" priority/>
                         <div className="carousel-caption d-none d-md-block">
                             <h2 className='animationsldrtlt' data-aos="fade-up" data-aos-duration="800" data-aos-easing="linear" data-aos-delay="100"><span className='sl-hd-spn '>INNOVATIVE</span> SUPPORT SYSTEM</h2>
                             <p className='animationsldrp' data-aos="fade-up" data-aos-duration="800" data-aos-easing="linear" data-aos-delay="600">We provide innovative support system to any business.</p>

@@ -13,13 +13,14 @@ export const metadata = {
   keywords: "Bookkeeping firms in dubai, Bookkeeping companies in dubai,Accounting & bookkeeping services in dubai,Bookkeeping services in dubai,Best Accounting and Bookkeeping Services in Dubai UAE,Bookkeeping service provider in Dubai UAE,outsourced bookkeeping services in Dubai UAE"
 };
 const page = () => {
+  const breadcrumbBackground = "/images/breadcrump-bg/corporate.jpg";
   return (
     <>
     <div className="fullwrapper">
     {/* <TopBar/>
     <NavBar/> */}
     <NewNavbar/>
-    <BreadCrumb page="Bookkeeping Service" />
+    <BreadCrumb page="Bookkeeping Service" backgroundImage={breadcrumbBackground}/>
     <BookKeepingCnt/>
     {/* <Footer/> */}
     <FooterNew/>

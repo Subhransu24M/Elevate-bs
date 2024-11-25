@@ -13,13 +13,14 @@ export const metadata = {
   keywords:"Mobile App Development Company in UK, App Development Companies in London uk,App development agency in London,App Development Companies in London,Best Mobile App Developers in London,Best Mobile App Development Company in London",
 };
 const page = () => {
+  const breadcrumbBackground = "/images/breadcrump-bg/app-development.jpg";
   return (
     <>
     <div className="fullwrapper">
     {/* <TopBar/>
     <NavBar/> */}
     <NewNavbar/>
-    <BreadCrumb page="App Development" />
+    <BreadCrumb page="App Development" backgroundImage={breadcrumbBackground}/>
     <AppContent/>
     {/* <Footer/> */}
     <FooterNew/>

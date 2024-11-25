@@ -8,13 +8,14 @@ import NewNavbar from '@/app/components/NavBar/NewNavbar'
 import FooterNew from '@/app/components/Footer/FooterNew'
 
 const page = () => {
+  const breadcrumbBackground = "/images/breadcrump-bg/corporate.jpg";
   return (
     <>
     <div className="fullwrapper">
     {/* <TopBar/>
     <NavBar/> */}
     <NewNavbar/>
-    <BreadCrumb page="Restaurant Accounting Service in ADGM" />
+    <BreadCrumb page="Restaurant Accounting Service in ADGM" backgroundImage={breadcrumbBackground}/>
     <RasaBdcnt/>
     {/* <Footer/> */}
     <FooterNew/>

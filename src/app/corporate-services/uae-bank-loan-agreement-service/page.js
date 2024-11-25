@@ -13,13 +13,14 @@ export const metadata = {
   keywords: "Bank Loan Arrangement Services in dubai,UAE Bank Loan Arrangement Services,Loan Brokers in Dubai UAE,Business loans in Dubai,Corporate Finance Services in Dubai,Commercial Broker in Dubai"
 };
 const page = () => {
+  const breadcrumbBackground = "/images/breadcrump-bg/corporate.jpg";
   return (
     <>
     <div className="fullwrapper">
     {/* <TopBar/>
     <NavBar/> */}
     <NewNavbar/>
-    <BreadCrumb page="Bank Loan Agreement Service"/>
+    <BreadCrumb page="Bank Loan Agreement Service" backgroundImage={breadcrumbBackground}/>
     <BankLoanCnt/>
     {/* <Footer/> */}
     <FooterNew/>

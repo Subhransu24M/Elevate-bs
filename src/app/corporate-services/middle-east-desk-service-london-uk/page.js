@@ -12,13 +12,14 @@ export const metadata = {
   keywords: "Middle east desk services in UK,Middle east desk services in London UK"
 };
 const page = () => {
+  const breadcrumbBackground = "/images/breadcrump-bg/corporate.jpg";
   return (
     <>
     <div className="fullwrapper">
     {/* <TopBar/>
     <NavBar/> */}
     <NewNavbar/>
-    <BreadCrumb page="Middle East Desk Services"/>
+    <BreadCrumb page="Middle East Desk Services" backgroundImage={breadcrumbBackground}/>
     <MiddleEastDeskCnt/>
     {/* <Footer/> */}
     <FooterNew/>

@@ -14,13 +14,14 @@ export const metadata = {
 };
 
 const page = () => {
+  const breadcrumbBackground = "/images/breadcrump-bg/corporate.jpg";
   return (
     <>
     <div className="fullwrapper">
     {/* <TopBar/>
     <NavBar/> */}
     <NewNavbar/>
-    <BreadCrumb page="Accounting software Implementation" />
+    <BreadCrumb page="Accounting software Implementation" backgroundImage={breadcrumbBackground}/>
     <AccnSoftImplCnt/>
     {/* <Footer/> */}
     <FooterNew/>

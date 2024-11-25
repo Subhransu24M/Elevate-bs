@@ -13,13 +13,14 @@ export const metadata = {
   keywords: "Compliance Services in Dubai UAE,Aml Compliance Services in Dubai,Compliance services in UAE,Tax Compliance Services in Dubai,UBO Compliance Services in Dubai,ESR Compliance Services in Dubai"
 };
 const page = () => {
+  const breadcrumbBackground = "/images/breadcrump-bg/corporate.jpg";
   return (
     <>
     <div className="fullwrapper">
     {/* <TopBar/>
     <NavBar/> */}
     <NewNavbar/>
-    <BreadCrumb page="Compliance Services" />
+    <BreadCrumb page="Compliance Services" backgroundImage={breadcrumbBackground}/>
     <ComplianceCnt/>
     {/* <Footer/> */}
     <FooterNew/>

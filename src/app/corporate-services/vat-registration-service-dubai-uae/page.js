@@ -13,13 +13,14 @@ export const metadata = {
   keywords: "uae vat registration online,vat registration process in uae,online vat registration uae,vat registration fee in uae,vat registration in uae for new companies,documents for vat registration in uae,vat registration services in Dubai UAE"
 };
 const page = () => {
+  const breadcrumbBackground = "/images/breadcrump-bg/corporate.jpg";
   return (
     <>
     <div className="fullwrapper">
     {/* <TopBar/>
     <NavBar/> */}
     <NewNavbar/>
-    <BreadCrumb page="VAT Registration Service"/>
+    <BreadCrumb page="VAT Registration Service" backgroundImage={breadcrumbBackground}/>
     <VatRegistrationCnt/>
     {/* <Footer/> */}
     <FooterNew/>

@@ -13,13 +13,14 @@ export const metadata = {
   keywords: "Local service agent cost in Dubai,Local service agents in Dubai,Local service agent agreement"
 };
 const page = () => {
+  const breadcrumbBackground = "/images/breadcrump-bg/corporate.jpg";
   return (
     <>
     <div className="fullwrapper">
     {/* <TopBar/>
     <NavBar/> */}
     <NewNavbar/>
-    <BreadCrumb page="Local Partner Arrangement" />
+    <BreadCrumb page="Local Partner Arrangement" backgroundImage={breadcrumbBackground}/>
     <LocalPartnerCnt/>
     {/* <Footer/> */}
     <FooterNew/>

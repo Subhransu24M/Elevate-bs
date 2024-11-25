@@ -14,13 +14,14 @@ export const metadata = {
   keywords: "Accounting Services for Restaurants in UAE,Accounting & bookkeeping services for restaurant,Restaurant Accounting Services in Dubai,Accounting Services for Restaurants in Dubai UAE,Accounting and Bookkeeping Services in Dubai UAE,Restaurant audit companies in Dubai"
 };
 const page = () => {
+  const breadcrumbBackground = "/images/breadcrump-bg/corporate.jpg";
   return (
    <>
    <div className="fullwrapper">
    {/* <TopBar/>
    <NavBar/> */}
    <NewNavbar/>
-   <BreadCrumb page="Restaurant Accounting"/>
+   <BreadCrumb page="Restaurant Accounting" backgroundImage={breadcrumbBackground}/>
    <RestaurantContent/>
    {/* <Footer/> */}
    <FooterNew/>

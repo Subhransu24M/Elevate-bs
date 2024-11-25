@@ -1,0 +1,133 @@
+.saifzone-cnt-blk-tlt {
+    max-width: 900px;
+    margin: auto;
+    text-align: center;
+    padding: 30px 0px;
+}
+.saifzone-cnt-blk-tlt p {
+    text-align: center;
+}
+.saif-zone-fst-img img{
+    max-width: 100%;
+    height: auto;
+    border-radius: 15px;
+}
+.saif-zone-snd-blk-img img{
+    max-width: 100%;
+    height: auto;
+}
+.whychose-blk{
+    margin: 30px 0px;
+}
+.saifzone-actv-faci-blk {
+    background: #f4fdff;
+    padding: 30px 0px;
+}
+.saifzone-type-proc-blk {
+    padding: 30px 0px;
+}
+/* Saif Zone CSS */
+
+/* ADGM Accordian Style */
+.adgm-key-points-hd {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1px solid #ffc137;
+    /* padding: 5px 0px; */
+    padding: 5px 10px;
+    background: #77ade712;
+    border-radius: 0px 0px 10px 10px;
+    /* box-shadow: 0px 1px 0px 1px #8b6001; */
+    /* margin: 5px 0px; */
+}
+.adgm-up-block{
+    margin: 5px 0px;
+}
+.adgm-key-points-hd h6{
+    margin-bottom: 0px;
+    font-size: 15px;
+    font-weight: 500;
+}
+.adgm-key-points-hd:hover {
+    cursor: pointer;
+}
+span.benefits-symbol #plus {
+    color: #ffc137;
+    font-size: 17px;
+}
+span.benefits-symbol #minus {
+    color: #010846;
+    font-size: 17px;
+}
+.adgm-key-points-cnt p {
+    margin-bottom: 0px;
+    font-size: 13px;
+}
+.adgm-key-points-cnt {
+    padding: 10px 10px;
+    background: #ffd24e2e;
+    border-radius: 0px 0px 10px 10px;
+    box-shadow: 0px 1px 0px 1px #8b6001;
+    margin-top: -1px;
+}
+
+/* SAIF Zone Business Setup Cost Table */
+/* Ajman Company Cost Table */
+
+.saifzone-comp-cost-tbl tr th{
+    padding: 10px;
+    border: 1px solid #000;
+}
+.saifzone-comp-cost-tbl tr td{
+    padding: 10px;
+    border: 1px solid #000;
+}
+.saifzone-comp-cost-tbl{
+    width: 100%;
+    margin: 20px 0px;
+}
+.physical-off-ul ul{
+    padding-left: 0px;
+}
+.saifzone-hand{
+    margin-right: 10px;
+}
+
+/* Imigration, Employee and Investor Table */
+.saif-zone-tr td{
+    border: 1px solid #000;
+}
+
+/* Saifzone Pro */
+.saifzone-rpo-imgblk img{
+    max-width: 100%;
+    height: auto;
+    border-radius: 15px;
+}
+
+/* SaifZone Table */
+.saifzone-comp-cost-tbl tr th {
+    background: #890101;
+    color: #fff;
+}
+.saif-pkg-bg {
+    background: #ffb831;
+    padding: 20px !important;
+    margin: 20px 0px;
+}
+
+/* Why Chose Elevate saif zone */
+.whychoselvblk-saif {
+    padding: 30px 0px;
+    background: #01041c;
+    color: #fff;
+}
+
+.proservc-blk {
+    padding: 30px 0px;
+}
+.imigr-invs-empl-blk {
+    background: #f4fdff;
+    padding: 30px 0px;
+}

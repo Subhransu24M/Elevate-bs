@@ -12,13 +12,14 @@ export const metadata = {
   description: "Capitalizing on its 15 years of cutting edge expertise in Corporate Services, IT Services & Digital Marketing.We have experienced team members giving their hands in enabling the business grow.",
 };
 const page = () => {
+  const breadcrumbBackground = "/images/breadcrump-bg/about-dubai.jpg";
   return (
     <>
     <div className="fullwrapper">
       {/* <TopBar />
       <NavBar /> */}
       <NewNavbar/>
-      <BreadCrumb page="About Us" />
+      <BreadCrumb page="About Us" backgroundImage={breadcrumbBackground} />
       <AboutContent/>
       {/* <Footer /> */}
       <FooterNew/>

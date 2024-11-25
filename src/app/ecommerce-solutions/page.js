@@ -13,13 +13,14 @@ export const metadata = {
   keywords:"ecommerce website development company london uk,ecommerce website development london,ecommerce website agency london,ecommerce website design in london,ecommerce website development services uk",
 };
 const page = () => {
+  const breadcrumbBackground = "/images/breadcrump-bg/web-development.jpg";
   return (
     <>
     <div className="fullwrapper">
     {/* <TopBar/>
     <NavBar/> */}
     <NewNavbar/>
-    <BreadCrumb page="ECommerce Solutions" />
+    <BreadCrumb page="ECommerce Solutions" backgroundImage={breadcrumbBackground}/>
     <EcommContent/>
     <FooterNew/>
     {/* <Footer/> */}
