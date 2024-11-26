@@ -1,7 +1,7 @@
 "use client"
 import Image from 'next/image';
 import Link from 'next/link';
-import './footer.css';
+// import './footer.css';
 import ftrlogo from '../../../../public/logo/ebs-logo.png';
 import ftrfacebook from '../../../../public/social-icons/facebook-1.png';
 import ftrinstagram from '../../../../public/social-icons/instagram-1.png';

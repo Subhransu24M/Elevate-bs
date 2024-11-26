@@ -1,9 +1,9 @@
-import './adgmform.css';
+import './jafzaform.css';
 import { FaRegBuilding } from "react-icons/fa";
 import { FaRegUser } from "react-icons/fa";
 import { FaLink } from "react-icons/fa";
 import { FaPhone } from "react-icons/fa";
-const AdgmForm = () => {
+const JafzaForm = () => {
   return (
     <>
       <div className="cmn-frm-blk">
@@ -70,4 +70,4 @@ const AdgmForm = () => {
   )
 }
 
-export default AdgmForm
+export default JafzaForm

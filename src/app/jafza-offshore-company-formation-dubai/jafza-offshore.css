@@ -1,0 +1,75 @@
+.jafza-fst-blk h1{
+    text-align: center;
+}
+.jafza-fst-blk p{
+    text-align: center;
+}
+.jafza-fst-blk-lft-cnt {
+    max-width: 900px;
+    margin: auto;
+}
+
+/* Jafza Accordian Style */
+.jafza-key-points-hd {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1px solid #ffc137;
+    padding: 5px 10px;
+    background: #77ade712;
+    border-radius: 0px 0px 10px 10px;
+}
+.jafza-up-block{
+    margin: 5px 0px;
+}
+.jafza-key-points-hd h6{
+    margin-bottom: 0px;
+    font-size: 15px;
+    font-weight: 500;
+}
+.jafza-key-points-hd:hover {
+    cursor: pointer;
+}
+span.benefits-symbol #plus {
+    color: #ffc137;
+    font-size: 17px;
+}
+span.benefits-symbol #minus {
+    color: #010846;
+    font-size: 17px;
+}
+.jafza-key-points-cnt p {
+    margin-bottom: 0px;
+    font-size: 13px;
+}
+.jafza-key-points-cnt {
+    padding: 10px 10px;
+    background: #ffd24e2e;
+    border-radius: 0px 0px 10px 10px;
+    box-shadow: 0px 1px 0px 1px #8b6001;
+    margin-top: -1px;
+}
+
+/* Jafza Image Adjustment */
+.jafza-img-blk img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 15px;
+    object-fit: cover;
+}
+
+/* JAFZA Options Logo */
+.jafza-option-blk {
+    display: flex;
+}
+.option-blk img {
+    max-width: 259px;
+    max-height: 154px;
+    display: block;
+    margin: auto;
+}
+@media(max-width:567px){
+    .option-blk img {
+        max-width: 120px;
+    }
+}

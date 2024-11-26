@@ -7,13 +7,14 @@ import TopBar from "../components/TopBar/TopBar"
 import BookkeepingabudhabiCnt from "./BookkeepingabudhabiCnt"
 
 const page = () =>{
+    const breadcrumbBackground = "/images/breadcrump-bg/bookkeeping.jpg";
     return (
         <>
         <div className="fullwrapper">
         {/* <TopBar/>
         <NavBar/> */}
         <NewNavbar/>
-        <BreadCrumb page ="Bookkeeping & Accounting Service in Abu Dhabi"/>
+        <BreadCrumb page ="Bookkeeping & Accounting Service in Abu Dhabi" backgroundImage={breadcrumbBackground}/>
         <BookkeepingabudhabiCnt/>
         {/* <Footer/> */}
         <FooterNew/>
