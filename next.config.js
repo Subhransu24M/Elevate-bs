@@ -11,7 +11,7 @@ module.exports = {
                 hostname:'cdn.sanity.io'
             },
         ],
-        domains: ['elevatebs.com'], 
+        // domains: ['elevatebs.com'], 
         // loader: 'default', 
         // path: '/images/', 
     },
