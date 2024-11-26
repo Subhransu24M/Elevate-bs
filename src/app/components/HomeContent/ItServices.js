@@ -4,7 +4,9 @@ import webicon from '../../../../public/icons/web-development.png'
 import ecomicon from '../../../../public/icons/ecommerce-solutions.png'
 import marketingicon from '../../../../public/icons/seo.png'
 import appicon from '../../../../public/icons/app-development.png'
-import './itservices.css'
+import './itservices.css';
+import { CiLocationArrow1 } from "react-icons/ci";
+
 const ItServices = () => {
 
     return (
@@ -19,7 +21,7 @@ const ItServices = () => {
                                 <Image src={webicon} alt="website development service uae"/>
                             </div>
                             <div className='it-ser-link'>
-                                <Link type="button" href="/website-development" className='btn btn-primary'>Read More</Link>
+                                <Link type="button" href="/website-development" className='btn btn-primary'>Read More <CiLocationArrow1 /></Link>
                             </div>
                         </div>
                     </div>
@@ -33,7 +35,7 @@ const ItServices = () => {
                                 <Image src={ecomicon} alt="ecommerce solutions uae"/>
                             </div>
                             <div className='it-ser-link'>
-                                <Link type="button" href="/ecommerce-solutions" className='btn btn-primary'>Read More</Link>
+                                <Link type="button" href="/ecommerce-solutions" className='btn btn-primary'>Read More <CiLocationArrow1 /></Link>
                             </div>
                         </div>
                     </div>
@@ -47,7 +49,7 @@ const ItServices = () => {
                                 <Image src={marketingicon} alt="digital marketing service uae"/>
                             </div>
                             <div className='it-ser-link'>
-                                <Link type="button" href="/digital-marketing" className='btn btn-primary'>Read More</Link>
+                                <Link type="button" href="/digital-marketing" className='btn btn-primary'>Read More <CiLocationArrow1 /></Link>
                             </div>
                         </div>
                     </div>
@@ -61,7 +63,7 @@ const ItServices = () => {
                                 <Image src={appicon} alt="app development service uae"/>
                             </div>
                             <div className='it-ser-link'>
-                                <Link type="button" href="/app-development" className='btn btn-primary'>Read More</Link>
+                                <Link type="button" href="/app-development" className='btn btn-primary'>Read More <CiLocationArrow1 /></Link>
                             </div>
                         </div>
                     </div>
