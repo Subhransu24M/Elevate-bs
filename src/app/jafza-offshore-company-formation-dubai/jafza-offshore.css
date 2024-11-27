@@ -170,4 +170,5 @@ span.benefits-symbol #minus {
 }
 .reg-pric-blk {
     margin: 20px 0px;
+    overflow-x: auto;
 }
