@@ -172,3 +172,139 @@ span.benefits-symbol #minus {
     margin: 20px 0px;
     overflow-x: auto;
 }
+
+/* JAFZA Company Process Box */
+.jafza-comp-proc-blk {
+    margin: 50px 0px;
+}
+h2.jafza-comp-proc-tlt {
+    text-align: center;
+}
+.jafza-com-procs-box-blk {
+    display: flex;
+}
+.jafza-com-procs-box {
+    width: 300px;
+    margin: 40px;
+    padding: 20px 20px;
+    text-align: center;
+    position: relative;
+    height: 220px;
+    display: flex;
+    align-content: center;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    justify-content: center;
+    border-radius: 50px;
+}
+.box-one-clr {
+    background: #091138;
+    color: #fff;
+}
+.box-two-clr {
+    background: #bf800a;
+}
+.box-three-clr {
+    background: #b91d1d;
+}
+.box-four-clr {
+    background: #09448f;
+}
+.box-five-clr {
+    background: #0d760d;
+}
+.arowscheduo::after {
+    content: url(../../../public/icons/arrows-red.png);
+    display: block; /* Ensures the arrow behaves like an inline-block */
+    position: absolute;
+    top: 50%; /* Centers the arrow vertically */
+    transform: translateY(-50%); /* Adjust for vertical alignment */
+    width: 20px; /* Set arrow width */
+    height: auto; /* Maintain aspect ratio */
+    right: -25px; /* Position arrow to the right of the box */
+}
+
+@media(max-width:567px){
+    .arowscheduo::after {
+        content: url(../../../public/icons/arrows-red.png);
+        display: block;
+        position: absolute;
+        top: 85%;
+        transform: translateY(20%);
+        width: 20px;
+        height: auto;
+        right: 130px;
+        display: flex;
+        flex-direction: column;
+        bottom: -66px;
+        rotate: 90deg;
+    }
+    .jafza-com-procs-box-blk{
+        display: block;
+    }
+}
+.jafza-com-procs-box h5 {
+    font-size: 18px;
+    color: #fff;
+    line-height: 28px;
+}
+.jafza-com-procs-box-one,.jafza-com-procs-box-two,.jafza-com-procs-box-three,.jafza-com-procs-box-four,.jafza-com-procs-box-five {
+    position: absolute;
+    right: 0;
+    margin-right: 35px;
+    bottom: -3px;
+    font-size: 60px;
+    
+}
+.jafza-com-procs-box-one{
+    color: #f5f6ff2b;
+}
+.jafza-com-procs-box-two {
+    color: #ffaa279c;
+}
+
+.jafza-com-procs-box-three {
+    color: #760f0f85;
+}
+.jafza-com-procs-box-four {
+    color: #559fe154;
+}
+.jafza-com-procs-box-five {
+    color: #081a084f;
+}
+
+/* What is Ifza Cost Block */
+.whatifza-cost-blk {
+    background: #060530;
+    padding: 50px 0px;
+}
+.whatifza-cost-blk h2 {
+    text-align: center;
+    color: #fff;
+}
+.whatis-p {
+    max-width: 900px;
+    margin: auto;
+    padding: 10px 0px;
+}
+.whatis-p p{
+    color: #fff;
+    text-align: center;
+    line-height: 25px;
+}
+.whatis-ifza-cost-btn-blk {
+    text-align: center;
+    margin: 20px 0px;
+}
+.whatis-ifza-cost-btn-blk a{
+    color: rgb(212, 162, 24);
+    background: none;
+    border: 1px solid rgb(212, 162, 24);
+    border-radius: 25px;
+    padding: 10px 25px;
+    font-weight: 600;
+}
+.whatis-ifza-cost-btn-blk a svg{
+    font-size: 25px;
+    margin-left: 12px;
+}

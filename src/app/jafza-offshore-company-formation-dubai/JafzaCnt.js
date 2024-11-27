@@ -4,6 +4,8 @@ import { IoIosArrowDown } from "react-icons/io";
 import { HiMiniArrowLongRight } from "react-icons/hi2";
 import JafzatypesDocuments from "./JafzatypesDocuments";
 import JafzaPrice from "./JafzaPrice";
+import JafzacompanyformationProcess from "./JafzacompanyformationProcess";
+import WhatisifzaCost from "./WhatisifzaCost";
 
 
 const JafzaCnt = () => {
@@ -84,6 +86,8 @@ const JafzaCnt = () => {
             </div>
             <JafzatypesDocuments/>
             <JafzaPrice/>
+            <JafzacompanyformationProcess/>
+            <WhatisifzaCost/>
         </>
     )
 }
