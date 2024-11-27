@@ -1,3 +1,8 @@
+.hd-cnt {
+    max-width: 750px;
+    margin: auto;
+    padding: 20px 0px;
+}
 .abut-blk{
     background-image: url(../../../public/images/bgimages/abt-bg.webp);
     background-size: cover;
