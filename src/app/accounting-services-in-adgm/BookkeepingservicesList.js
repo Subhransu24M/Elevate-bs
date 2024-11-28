@@ -17,6 +17,18 @@ const BookkeepingservicesList = () => {
     ]
 
     const bookingservicesNeeds = [
+        { points: "Preparing Financial Statements." },
+        { points: "Managing Cost." },
+        { points: "Invoicing" },
+        { points: "Computerized Accounting System Analysis and Installation." },
+        { points: "Budgeting & Financial Forecasting." },
+        { points: "Managing Accounts Receivable." },
+        { points: "Managing Accounts Payables." },
+        { points: "Verification and Valuation of Inventory." },
+        { points: "Preparation of Monthly Bank Reconciliation Statements." },
+        { points: "Payroll Processing." },
+        { points: "Banking and Credit Card Reconciliation." },
+        { points: "Supervision & Review of Financial Accounting Records." },
         { points: "Maintain Accurate Records." },
         { points: "Bank Accounts Management." },
         { points: "Compliance with Laws." },
@@ -25,7 +37,6 @@ const BookkeepingservicesList = () => {
         { points: "Management of Invoices." },
         { points: "Foreign Currency Transactions." },
         { points: "Cash Flow Maintenance." },
-        { points: "Preparation of Financial Statements." },
         { points: "Books Ready for Accountants." },
     ]
 
@@ -50,38 +61,25 @@ const BookkeepingservicesList = () => {
 
     return (
         <>
-            <div className="book-services-main-list">
-                <div className="container">
-                    <div className="row">
-                        <h2>Complete Suite of Accounting & Bookkeeping Services in Abu Dhabi</h2>
-                    </div>
-                    <div className="row">
-                        <div className="col-md-6 col-lg-6 col-xl-6 col-sm-12">
-                            <div className="book-services-list-blk">
-                                <ul>
-                                    {bookingservicesList.map((lists, index) =>
-                                        <li className="book-services-list" key={index}>
-                                            <MdDoubleArrow /> {lists.points}
-                                        </li>
-                                    )}
-                                </ul>
-                            </div>
-                        </div>
-                        <div className="col-md-6 col-lg-6 col-xl-6 col-sm-12">
-                            <Image className="bookkeepingimg" src={bookimg} alt="accounting and bookkeeping services in abu dhabi" />
-                        </div>
-                    </div>
 
+        <div className="why-need-accnt-adgm-blk">
+            <div className="container">
+                <div className="row">
+                    <div className="why-need-acnt-adgm-tlt">
+                    <h2>Why Do You Need Accounting and Bookkeeping Services in ADGM?</h2>
+                    </div>
+                    <div className="why-need-acnt-adgm-p">
+                    <p>In the bustling business hubs of Dubai and Abu Dhabi, effective management of accounting and bookkeeping is essential for maintaining financial health and ensuring compliance. Outsourcing to expert bookkeeping and accounting firms in Abu Dhabi offers critical advantages. Professional accounting services in Abu Dhabi ensure precise record-keeping and adherence to legal standards, while bookkeeping services in Abu Dhabi streamline financial management. Here’s why leveraging these services is a strategic move for your business:</p>
+                    </div>
                 </div>
-            </div>
-
-            <div className="book-services-main-needs">
-                <div className="container">
-                    <div className="row">
-                        <div className="col-md-6 col-lg-6 col-xl-6 col-sm-12">
-                            <h2>Why Do You Need Accounting and Bookkeeping Services in Abu Dhabi?</h2>
-                            <p>In the bustling business hubs of Dubai and Abu Dhabi, effective management of accounting and bookkeeping is essential for maintaining financial health and ensuring compliance. Outsourcing to expert bookkeeping and accounting firms in Abu Dhabi offers critical advantages. Professional accounting services in Abu Dhabi ensure precise record-keeping and adherence to legal standards, while bookkeeping services in Abu Dhabi streamline financial management. Here’s why leveraging these services is a strategic move for your business:</p>
-                            <div className="book-services-list-blk-why">
+                <div className="row">
+                    <div className="col-md-6 col-xl-6 col-lg-6 col-sm-12">
+                        <div className="why-need-acnt-adgm-img">
+                            <img src="/images/adgm/adgm-accounting.jpg" alt="accounting services in adgm" loading="lazy" fetchPriority="high"/>
+                        </div>
+                    </div>
+                    <div className="col-md-6 col-xl-6 col-lg-6 col-sm-12">
+                    <div className="book-services-list-blk-why">
                                 <ul>
                                     {bookingservicesNeeds.map((needs, needsIndex) =>
                                         <li className="book-services-list" key={needsIndex}>
@@ -90,10 +88,14 @@ const BookkeepingservicesList = () => {
                                     )}
                                 </ul>
                             </div>
-                        </div>
-
-
-                        <div className="col-md-6 col-lg-6 col-xl-6 col-sm-12">
+                    </div>
+                </div>
+            </div>
+        </div>
+            <div className="book-services-main-needs">
+                <div className="container">
+                    <div className="row">
+                    <div className="col-md-6 col-lg-6 col-xl-6 col-sm-12">
                             <h2>Role of Accounting Firms in Abu Dhabi</h2>
                             <p>Bookkeeping and Accounting firms in Abu Dhabi are essential for keeping your financial records accurate and up-to-date, while ensuring transparency and compliance. Top accounting firms in Abu Dhabi offer a range of crucial services, including:</p>
                             <div className="book-services-list-blk-role">
@@ -106,6 +108,11 @@ const BookkeepingservicesList = () => {
                                 </ul>
                             </div>
                         </div>
+                        
+                        <div className="col-md-6 col-lg-6 col-xl-6 col-sm-12">
+                            <img  className="adgm-accnt-snd-img" src="/images/adgm/adgm-accounting-2.jpg" alt="accounting and bookkeeping service in adgm" loading="lazy" fetchPriority="high" />
+                        </div>
+                        
                     </div>
 
                 </div>

@@ -1,0 +1,188 @@
+/* Why Chose us Dropdwon Style */
+
+/* ADGM Accordian Style */
+.adgm-key-points-hd {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1px solid #ffc137;
+    /* padding: 5px 0px; */
+    padding: 5px 10px;
+    background: #77ade712;
+    border-radius: 0px 0px 10px 10px;
+    /* box-shadow: 0px 1px 0px 1px #8b6001; */
+    /* margin: 5px 0px; */
+}
+.adgm-up-block{
+    margin: 5px 0px;
+}
+.adgm-key-points-hd h6{
+    margin-bottom: 0px;
+    font-size: 15px;
+    font-weight: 500;
+}
+.adgm-key-points-hd:hover {
+    cursor: pointer;
+}
+span.benefits-symbol #plus {
+    color: #ffc137;
+    font-size: 17px;
+}
+span.benefits-symbol #minus {
+    color: #010846;
+    font-size: 17px;
+}
+.adgm-key-points-cnt p {
+    margin-bottom: 0px;
+    font-size: 13px;
+}
+.adgm-key-points-cnt {
+    padding: 10px 10px;
+    background: #ffd24e2e;
+    border-radius: 0px 0px 10px 10px;
+    box-shadow: 0px 1px 0px 1px #8b6001;
+    margin-top: -1px;
+}
+.adgm-accont-fst-blk {
+    padding: 40px 0px;
+}
+.why-need-accnt-adgm-blk {
+    background: aliceblue;
+    padding: 30px 0px;
+}
+.why-need-acnt-adgm-img img{
+    max-width: 100%;
+    height: auto;
+    border-radius: 15px;
+    margin: 20px 0px;
+}
+.adgm-accnt-snd-img{
+    max-width: 100%;
+    height: auto;
+    border-radius: 15px;
+    margin: 20px 0px;
+}
+.why-need-acnt-adgm-tlt {
+    text-align: center;
+    max-width: 700px;
+    margin: auto;
+}
+.why-need-acnt-adgm-p {
+    max-width: 1300px;
+    margin: auto;
+    padding: 20px;
+}
+
+.bookkeepingimg {
+    max-width: 100%;
+    height: auto;
+    object-fit: cover;
+    object-position: 30%;
+    margin: 20px 0px;
+    border-radius: 15px;
+}
+
+.book-abd-block {
+    padding: 30px 0px;
+}
+.book-services-list-blk {
+    padding: 20px 0px;
+}
+.book-services-list-blk ul{
+    padding-left: 0px;
+}
+.opti-accn-book-blk {
+    padding: 20px 0px;
+}
+.book-services-main-list {
+    padding-bottom: 20px;
+}
+.book-services-main-needs {
+    margin: 50px 0px;
+}
+.whychos-book-blk {
+    margin: 50px 0px;
+}
+.adgm-special-serv-blk {
+    background: aliceblue;
+    padding: 50px 0px;
+}
+
+.indut-serve-blk {
+    margin: 50px 0px;
+}
+
+.indus-serv-tlt-blk {
+    max-width: 800px;
+    margin: auto;
+}
+.indus-serv-tlt-blk h2{
+text-align: center;
+}
+.indus-serv-tlt-blk p{
+    text-align: center;
+    font-weight: 600;
+    font-size: 18px;
+}
+.indus-serv-blk-p {
+    max-width: 1300px;
+    margin: auto;
+}
+.indus-serv-blk-p p {
+    text-align: center;
+}
+.indus-serv-last-p {
+    max-width: 1300px;
+}
+.indus-serv-last-p p {
+    text-align: center;
+    color: #010526;
+    font-weight: 600;
+}
+
+.why-chos-ebs-adgm-tlt {
+    max-width: 680px;
+    margin: auto;
+    text-align: center;
+}
+
+.opti-accn-book-blk {
+    padding: 20px 0px;
+    background: #050a30;
+    text-align: center;
+    padding: 30px 0px;
+}
+.opti-accn-book-blk h2 {
+    color: #fff;
+}
+.opti-accn-book-blk-p{
+    max-width: 1030px;
+    margin: auto;
+}
+.opti-accn-book-blk-p p{
+    color: #fff;
+    text-align: center;
+}
+.opti-accn-book-blk-lastp {
+    margin: 20px 0px;
+    color: #ffbf29 !important;
+    font-size: 18px;
+    font-weight: 600;
+}
+.opti-accn-book-btnblk {
+    margin: 30px 0px;
+}
+.opti-accn-book-btnblk a {
+    color: #ffbf29;
+    border: 1px solid #fff;
+    padding: 8px 25px;
+    border-radius: 25px;
+}
+.opti-accn-book-btnblk a svg{
+    font-size: 25px;
+    margin-left: 12px;
+}
+
+.adgm-key-benefits-blk {
+    margin: 20px 50px;
+}

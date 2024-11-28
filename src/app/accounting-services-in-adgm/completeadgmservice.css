@@ -1,0 +1,24 @@
+.compl-adgm-serv-blk {
+    background: linear-gradient(90deg, #070426 60%, #cb2020 119%);
+    padding: 50px 0px;
+}
+.compl-adgm-serv-blk h2 {
+    color: #fff;
+    text-align: center;
+    padding-bottom: 20px;
+}
+.compl-adgm-serv-inrbox {
+    background: #f3cb31;
+    margin: 10px;
+    min-height: 235px;
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    max-width: 190px;
+    border-radius: 50px;
+}
+.compl-adgm-serv-inrbox h6{
+    text-align: center;
+    font-weight: 600;
+    line-height: 26px;
+}

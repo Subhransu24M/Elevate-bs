@@ -57,7 +57,10 @@ const WhyChose = () => {
         <>
             <div className="whychos-book-blk">
                 <div className="container">
-                <h2>Why Choose Elevate Business Solutions for Expert Outsourced Accounting & Bookkeeping Services in the UAE?</h2>
+                    <div className='why-chos-ebs-adgm-tlt'>
+                    <h2>Why Choose Elevate Business Solutions for Expert Outsourced Accounting & Bookkeeping Services in ADGM?</h2>
+                    </div>
+                
                     <div className='row'>
                         <div className='col-md-8 col-xl-8 col-lg-8 col-sm-12'>
                             <div className='adgm-key-benefits-blk'>

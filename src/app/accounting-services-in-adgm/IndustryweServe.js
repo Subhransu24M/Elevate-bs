@@ -85,11 +85,16 @@ const IndustryweServe = () =>{
         <>
         <div className="indut-serve-blk">
             <div className="container">
-                <h2>Industries We Serve: Tailored Accounting Solutions for Your Unique Needs</h2>
-                <p>At Elevate Business Solutions, we understand that each industry has its own unique challenges and requirements.</p>
+                <div className="indus-serv-tlt-blk">
+                <h2>Industries We Serve</h2> 
+                <p>(Tailored Accounting Solutions for Your Unique Needs)</p>
+                </div>
+                <div className="indus-serv-blk-p">
                 <p>
-                We recognize that no two organizations are alike, which is why we offer bespoke Accounting Services in Abu Dhabi designed to meet the specific needs of your industry. Our tailored approach combines our deep knowledge and experience to manage your accounts efficiently while supporting your business growth.
+                At Elevate Business Solutions, we understand that each industry has its own unique challenges and requirements. We recognize that no two organizations are alike, which is why we offer bespoke accounting services in Abu Dhabi designed to meet the specific needs of your industry. Our tailored approach combines our deep knowledge and experience to manage your accounts efficiently while supporting your business growth
                 </p>
+                </div>
+                
                 <div className="indut-serv-slider">
                 <Slider {...settings}>
                     {industryNeeds.map((needs, index) =>
@@ -105,7 +110,10 @@ const IndustryweServe = () =>{
 
                 </Slider>
                 </div>
+                <div className="indus-serv-last-p">
                 <p className="pt-3">No matter your sector, we understand your unique challenges and offer bespoke Accounting & Bookkeeping Services in Abu Dhabi to manage your accounts efficiently and support your business growth.</p>
+                </div>
+                
             </div>
         </div>
         </>
