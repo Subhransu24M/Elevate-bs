@@ -1,0 +1,50 @@
+/* ADGM Accordian Style */
+.rakez-key-points-hd {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1px solid #ffc137;
+    /* padding: 5px 0px; */
+    padding: 5px 10px;
+    background: #77ade712;
+    border-radius: 0px 0px 10px 10px;
+    /* box-shadow: 0px 1px 0px 1px #8b6001; */
+    /* margin: 5px 0px; */
+}
+.license-types-rakez-img img{
+    max-width: 100%;
+    height: 600px;
+}
+.rakez-benf-blk {
+    margin-bottom: 50px;
+}
+.rakez-up-block{
+    margin: 5px 0px;
+}
+.rakez-key-points-hd h6{
+    margin-bottom: 0px;
+    font-size: 15px;
+    font-weight: 500;
+}
+.rakez-key-points-hd:hover {
+    cursor: pointer;
+}
+span.benefits-symbol #plus {
+    color: #ffc137;
+    font-size: 17px;
+}
+span.benefits-symbol #minus {
+    color: #010846;
+    font-size: 17px;
+}
+.rakez-key-points-cnt p {
+    margin-bottom: 0px;
+    font-size: 13px;
+}
+.rakez-key-points-cnt {
+    padding: 10px 10px;
+    background: #ffd24e2e;
+    border-radius: 0px 0px 10px 10px;
+    box-shadow: 0px 1px 0px 1px #8b6001;
+    margin-top: -1px;
+}
