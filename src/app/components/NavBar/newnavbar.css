@@ -52,6 +52,14 @@ ul.navbar-nav.mb-2.mb-lg-0 li a:hover {
 .menu-close-btn-blk {
     padding: 0px 0px 50px 0px;
 }
+@media(max-width:991px){
+    button.btn-close.mn-close-btn{
+        display: block;
+    }
+    .nav-item{
+        margin: 10px 0px;
+    }
+}
 
 button.btn-close.mn-close-btn {
     z-index: -999 !important;
