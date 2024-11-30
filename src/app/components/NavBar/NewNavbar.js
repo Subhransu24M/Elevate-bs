@@ -30,10 +30,12 @@ const NewNavbar = () => {
                                     <li className="nav-item dropdown dropend">
                                         <Link className="nav-link dropdown-toggle my-nav-li" href="#" id="businessDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false" >Business</Link>
                                         <ul className="dropdown-menu" aria-labelledby="businessDropdown">
+                                        <li><Link className="dropdown-item my-nav-li" href="#">Business Plan</Link></li>
+                                        <li><Link className="dropdown-item my-nav-li" href="#">Trade Mark Registration</Link></li>
                                             <li><Link className="dropdown-item my-nav-li" href="#">Business Formation</Link></li>
                                             <li><Link className="dropdown-item my-nav-li" href="#">Business Liquidation</Link></li>
-                                            <li><Link className="dropdown-item my-nav-li" href="#">Trade Mark Registration</Link></li>
-                                            <li><Link className="dropdown-item my-nav-li" href="#">Business Plan</Link></li>
+                                            
+                                            
                                         </ul>
 
                                     </li>
