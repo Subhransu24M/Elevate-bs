@@ -2,7 +2,7 @@ import Link from 'next/link';
 import Image from 'next/image';
 
 import cfoicon from '../../../public/icons/corporate-icons/cfo.png';
-import investiment from '../../../public/icons/corporate-icons/investiment.png';
+// import investiment from '../../../public/icons/corporate-icons/investiment.png';
 import resturant from '../../../public/icons/corporate-icons/resturant.png';
 // import fund from '../../../public/icons/corporate-icons/fundrising.png';
 import bankaccount from '../../../public/icons/corporate-icons/bankaccount.png';
@@ -32,8 +32,6 @@ const CorporateContent = () => {
                                     </div>
                                     <h4 className='bs-serv-tlt'>CFO Services - Out Sourced</h4>
                                     <p className='bs-serv-p'>Achieve financial success and stability with Elevate's CFO services, tailored to your business's needs in the UAE.</p>
-
-
                                     <div className='btn-blk-row'>
                                         <div className='btn-blk'>
                                             <button className='btn btn-danger bs-serv-btn-clr'><Link className="corp-serv-lrn-btn" href="/corporate-services/cfo-services">Learn More</Link></button>
@@ -52,32 +50,7 @@ const CorporateContent = () => {
                             </div>
 
                             <div className='col-md-6 col-lg-3 col-lg-3'>
-                                <div className='bs-ser-blk'>
-                                    <div className='bs-ser-img-blk'>
-                                        <Image src={investiment} className="bs-serv-icon" alt="cfo-services-out-sourced" data-aos="zoom-in" data-aos-easing="linear"
-                                            data-aos-duration="800" />
-                                    </div>
-                                    <h4 className='bs-serv-tlt'>Trademark Registration</h4>
-                                    <p className='bs-serv-p'>Elevate helps clients achieve financial goals and maximize returns through its Investment officer services in the UAE.</p>
-
-                                    <div className='btn-blk-row'>
-                                        <div className='btn-blk'>
-                                            <button className='btn btn-danger bs-serv-btn-clr'><Link className="corp-serv-lrn-btn" href="/corporate-services/trademark-registration-service-dubai-uae">Learn More</Link></button>
-                                        </div>
-                                        <div className='action-btn-blk'>
-                                            <Link href="https://api.whatsapp.com/send?phone=971561672533" target="_blank" data-toggle="tooltip" data-placement="top" title="Chat with us"><Image className='action-icon' src={chaticon} data-aos="zoom-in" data-aos-easing="linear"
-                                                data-aos-duration="3000" alt="icon" /></Link>
-                                            <Link href="tel:971561672533" data-toggle="tooltip" data-placement="top" title="Call us"><Image className='action-icon call-icon' src={callicon} data-aos="zoom-in" data-aos-easing="linear"
-                                                data-aos-duration="3000" alt="icon" /></Link>
-                                            <Link href="mailto:info@elevateauditing.com" data-toggle="tooltip" data-placement="top" title="Mail us"><Image className='action-icon gmail-icon' src={gmailicon} data-aos="zoom-in" data-aos-easing="linear"
-                                                data-aos-duration="3000" alt="icon" /></Link>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-
-                            <div className='col-md-6 col-lg-3 col-lg-3'>
-                                <div className='bs-ser-blk'>
+                            <div className='bs-ser-blk'>
                                     <div className='bs-ser-img-blk'>
                                         <Image src={resturant} className="bs-serv-icon" alt="cfo-services-out-sourced" data-aos="zoom-in" data-aos-easing="linear"
                                             data-aos-duration="800" />
@@ -102,17 +75,42 @@ const CorporateContent = () => {
                             </div>
 
                             <div className='col-md-6 col-lg-3 col-lg-3'>
-                                <div className='bs-ser-blk'>
-                                <div className='bs-ser-img-blk'>
+                            <div className='bs-ser-blk'>
+                                    <div className='bs-ser-img-blk'>
                                         <Image src={localpartner} className="bs-serv-icon" alt="cfo-services-out-sourced" data-aos="zoom-in" data-aos-easing="linear"
                                             data-aos-duration="800" />
                                     </div>
-                                    <h4 className='bs-serv-tlt'>Abu Dhabi Restaurant Accounting</h4>
-                                    <p className='bs-serv-p'>Our tailored solutions are designed to streamline your financial operations and support the success of your restaurant or bar. </p>
+                                    <h4 className='bs-serv-tlt'>Audit & Assurance Services</h4>
+                                    <p className='bs-serv-p'>Ensure financial transparency and accountability with our comprehensive Audit & Assurance services in UAE.</p>
 
                                     <div className='btn-blk-row'>
                                         <div className='btn-blk'>
-                                            <button className='btn btn-danger bs-serv-btn-clr'><Link href="/corporate-services/restaurant-accounting-services-in-abu-dhabi">Learn More</Link></button>
+                                            <button className='btn btn-danger bs-serv-btn-clr'><Link className="corp-serv-lrn-btn" href="/corporate-services/audit-assurance-services-uae">Learn More</Link></button>
+                                        </div>
+                                        <div className='action-btn-blk'>
+                                            <Link href="https://api.whatsapp.com/send?phone=971561672533" target="_blank" data-toggle="tooltip" data-placement="top" title="Chat with us"><Image className='action-icon' src={chaticon} data-aos="zoom-in" data-aos-easing="linear"
+                                                data-aos-duration="3000" alt="icon" /></Link>
+                                            <Link href="tel:971561672533" data-toggle="tooltip" data-placement="top" title="Call us"><Image className='action-icon call-icon' src={callicon} data-aos="zoom-in" data-aos-easing="linear"
+                                                data-aos-duration="3000" alt="icon" /></Link>
+                                            <Link href="mailto:info@elevateauditing.com" data-toggle="tooltip" data-placement="top" title="Mail us"><Image className='action-icon gmail-icon' src={gmailicon} data-aos="zoom-in" data-aos-easing="linear"
+                                                data-aos-duration="3000" alt="icon" /></Link>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div className='col-md-6 col-lg-3 col-lg-3'>
+                            <div className='bs-ser-blk'>
+                                    <div className='bs-ser-img-blk'>
+                                        <Image src={tax} className="bs-serv-icon" alt="cfo-services-out-sourced" data-aos="zoom-in" data-aos-easing="linear"
+                                            data-aos-duration="800" />
+                                    </div>
+                                    <h4 className='bs-serv-tlt'>Tax Consultancy</h4>
+                                    <p className='bs-serv-p'>Maximize your company's profits and minimize your tax burden with Elevate's consultancy services in the UAE.</p>
+
+                                    <div className='btn-blk-row'>
+                                        <div className='btn-blk'>
+                                            <button className='btn btn-danger bs-serv-btn-clr'><Link className="corp-serv-lrn-btn" href="/corporate-services/best-corporate-tax-consultants-dubai-uae">Learn More</Link></button>
                                         </div>
                                         <div className='action-btn-blk'>
                                             <Link href="https://api.whatsapp.com/send?phone=971561672533" target="_blank" data-toggle="tooltip" data-placement="top" title="Chat with us"><Image className='action-icon' src={chaticon} data-aos="zoom-in" data-aos-easing="linear"
@@ -129,17 +127,17 @@ const CorporateContent = () => {
 
                         <div className="row bs-ser-row-blk">
                             <div className='col-md-6 col-lg-3 col-lg-3'>
-                                <div className='bs-ser-blk'>
+                            <div className='bs-ser-blk'>
                                     <div className='bs-ser-img-blk'>
-                                        <Image src={tax} className="bs-serv-icon" alt="cfo-services-out-sourced" data-aos="zoom-in" data-aos-easing="linear"
+                                        <Image src={bookkeeping} className="bs-serv-icon" alt="cfo-services-out-sourced" data-aos="zoom-in" data-aos-easing="linear"
                                             data-aos-duration="800" />
                                     </div>
-                                    <h4 className='bs-serv-tlt'>Tax Consultancy</h4>
-                                    <p className='bs-serv-p'>Maximize your company's profits and minimize your tax burden with Elevate's consultancy services in the UAE.</p>
+                                    <h4 className='bs-serv-tlt'>Bookkeeping Services</h4>
+                                    <p className='bs-serv-p'>Elevate offers professional bookkeeping services in the UAE to help businesses keep accurate financial records.</p>
 
                                     <div className='btn-blk-row'>
                                         <div className='btn-blk'>
-                                            <button className='btn btn-danger bs-serv-btn-clr'><Link className="corp-serv-lrn-btn" href="/corporate-services/best-corporate-tax-consultants-dubai-uae">Learn More</Link></button>
+                                            <button className='btn btn-danger bs-serv-btn-clr'><Link className="corp-serv-lrn-btn" href="/corporate-services/bookkeeping-service-uae">Learn More</Link></button>
                                         </div>
                                         <div className='action-btn-blk'>
                                             <Link href="https://api.whatsapp.com/send?phone=971561672533" target="_blank" data-toggle="tooltip" data-placement="top" title="Chat with us"><Image className='action-icon' src={chaticon} data-aos="zoom-in" data-aos-easing="linear"
@@ -202,17 +200,17 @@ const CorporateContent = () => {
                                 </div>
                             </div>
                             <div className='col-md-6 col-lg-3 col-lg-3'>
-                                <div className='bs-ser-blk'>
-                                <div className='bs-ser-img-blk'>
-                                        <Image src={localpartner} className="bs-serv-icon" alt="cfo-services-out-sourced" data-aos="zoom-in" data-aos-easing="linear"
+                            <div className='bs-ser-blk'>
+                                    <div className='bs-ser-img-blk'>
+                                        <Image src={bookkeeping} className="bs-serv-icon" alt="cfo-services-out-sourced" data-aos="zoom-in" data-aos-easing="linear"
                                             data-aos-duration="800" />
                                     </div>
-                                    <h4 className='bs-serv-tlt'>SPC Freezone</h4>
-                                    <p className='bs-serv-p'>SPC Free Zone is the smarter, easier, simpler, and faster choice for entrepreneurs looking to set up their business in the UAE </p>
+                                    <h4 className='bs-serv-tlt'>ISO Certification</h4>
+                                    <p className='bs-serv-p'>Elevate offers ISO Certification in the UAE to help businesses keep accurate financial records.</p>
 
                                     <div className='btn-blk-row'>
                                         <div className='btn-blk'>
-                                            <button className='btn btn-danger bs-serv-btn-clr'><Link href="/corporate-services/sharjah-publishing-city-free-zone">Learn More</Link></button>
+                                            <button className='btn btn-danger bs-serv-btn-clr'><Link className="corp-serv-lrn-btn" href="/corporate-services/iso-certification-uae">Learn More</Link></button>
                                         </div>
                                         <div className='action-btn-blk'>
                                             <Link href="https://api.whatsapp.com/send?phone=971561672533" target="_blank" data-toggle="tooltip" data-placement="top" title="Chat with us"><Image className='action-icon' src={chaticon} data-aos="zoom-in" data-aos-easing="linear"
@@ -301,17 +299,17 @@ const CorporateContent = () => {
                                 </div>
                             </div>
                             <div className='col-md-6 col-lg-3 col-lg-3'>
-                                <div className='bs-ser-blk'>
+                            <div className='bs-ser-blk'>
                                     <div className='bs-ser-img-blk'>
-                                        <Image src={bookkeeping} className="bs-serv-icon" alt="cfo-services-out-sourced" data-aos="zoom-in" data-aos-easing="linear"
+                                        <Image src={complianceservices} className="bs-serv-icon" alt="cfo-services-out-sourced" data-aos="zoom-in" data-aos-easing="linear"
                                             data-aos-duration="800" />
                                     </div>
-                                    <h4 className='bs-serv-tlt'>Bookkeeping Services</h4>
-                                    <p className='bs-serv-p'>Elevate offers professional bookkeeping services in the UAE to help businesses keep accurate financial records.</p>
+                                    <h4 className='bs-serv-tlt'>Accounting Implementation</h4>
+                                    <p className='bs-serv-p'>Optimize your financial performance with our comprehensive Accounting Implementation services in UAE. </p>
 
                                     <div className='btn-blk-row'>
                                         <div className='btn-blk'>
-                                            <button className='btn btn-danger bs-serv-btn-clr'><Link className="corp-serv-lrn-btn" href="/corporate-services/bookkeeping-service-uae">Learn More</Link></button>
+                                            <button className='btn btn-danger bs-serv-btn-clr'><Link className="corp-serv-lrn-btn" href="/corporate-services/accounting-software-implementation-uae">Learn More</Link></button>
                                         </div>
                                         <div className='action-btn-blk'>
                                             <Link href="https://api.whatsapp.com/send?phone=971561672533" target="_blank" data-toggle="tooltip" data-placement="top" title="Chat with us"><Image className='action-icon' src={chaticon} data-aos="zoom-in" data-aos-easing="linear"
@@ -352,17 +350,17 @@ const CorporateContent = () => {
                                 </div>
                             </div>
                             <div className='col-md-6 col-lg-3 col-lg-3'>
-                                <div className='bs-ser-blk'>
+                            <div className='bs-ser-blk'>
                                     <div className='bs-ser-img-blk'>
                                         <Image src={localpartner} className="bs-serv-icon" alt="cfo-services-out-sourced" data-aos="zoom-in" data-aos-easing="linear"
                                             data-aos-duration="800" />
                                     </div>
-                                    <h4 className='bs-serv-tlt'>Liquidation Services</h4>
-                                    <p className='bs-serv-p'>Our team of experts will guide you through the liquidation process and ensure compliance with local laws and regulations.</p>
+                                    <h4 className='bs-serv-tlt'>Visa Assistance</h4>
+                                    <p className='bs-serv-p'>Visa Assistance for UAE & Singapore. Get Tourist Visa & Business Visa for 14 Days, 30 Days, 90 Days,etc...</p>
 
                                     <div className='btn-blk-row'>
                                         <div className='btn-blk'>
-                                            <button className='btn btn-danger bs-serv-btn-clr'><Link className="corp-serv-lrn-btn" href="/corporate-services/company-liquidation-services-uae">Learn More</Link></button>
+                                            <button className='btn btn-danger bs-serv-btn-clr'><Link href="/corporate-services/visa-assistance">Learn More</Link></button>
                                         </div>
                                         <div className='action-btn-blk'>
                                             <Link href="https://api.whatsapp.com/send?phone=971561672533" target="_blank" data-toggle="tooltip" data-placement="top" title="Chat with us"><Image className='action-icon' src={chaticon} data-aos="zoom-in" data-aos-easing="linear"
@@ -427,106 +425,7 @@ const CorporateContent = () => {
 
                         <div className='row bs-ser-row-blk blk-3'>
                             <div className='col-md-6 col-lg-3 col-lg-3'>
-                                <div className='bs-ser-blk'>
-                                    <div className='bs-ser-img-blk'>
-                                        <Image src={localpartner} className="bs-serv-icon" alt="cfo-services-out-sourced" data-aos="zoom-in" data-aos-easing="linear"
-                                            data-aos-duration="800" />
-                                    </div>
-                                    <h4 className='bs-serv-tlt'>Visa Assistance</h4>
-                                    <p className='bs-serv-p'>Visa Assistance for UAE & Singapore. Get Tourist Visa & Business Visa for 14 Days, 30 Days, 90 Days,etc...</p>
-
-                                    <div className='btn-blk-row'>
-                                        <div className='btn-blk'>
-                                            <button className='btn btn-danger bs-serv-btn-clr'><Link href="/corporate-services/visa-assistance">Learn More</Link></button>
-                                        </div>
-                                        <div className='action-btn-blk'>
-                                            <Link href="https://api.whatsapp.com/send?phone=971561672533" target="_blank" data-toggle="tooltip" data-placement="top" title="Chat with us"><Image className='action-icon' src={chaticon} data-aos="zoom-in" data-aos-easing="linear"
-                                                data-aos-duration="3000" alt="icon" /></Link>
-                                            <Link href="tel:971561672533" data-toggle="tooltip" data-placement="top" title="Call us"><Image className='action-icon call-icon' src={callicon} data-aos="zoom-in" data-aos-easing="linear"
-                                                data-aos-duration="3000" alt="icon" /></Link>
-                                            <Link href="mailto:info@elevateauditing.com" data-toggle="tooltip" data-placement="top" title="Mail us"><Image className='action-icon gmail-icon' src={gmailicon} data-aos="zoom-in" data-aos-easing="linear"
-                                                data-aos-duration="3000" alt="icon" /></Link>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div className='col-md-6 col-lg-3 col-lg-3'>
-                                <div className='bs-ser-blk'>
-                                    <div className='bs-ser-img-blk'>
-                                        <Image src={localpartner} className="bs-serv-icon" alt="cfo-services-out-sourced" data-aos="zoom-in" data-aos-easing="linear"
-                                            data-aos-duration="800" />
-                                    </div>
-                                    <h4 className='bs-serv-tlt'>Audit & Assurance Services</h4>
-                                    <p className='bs-serv-p'>Ensure financial transparency and accountability with our comprehensive Audit & Assurance services in UAE.</p>
-
-                                    <div className='btn-blk-row'>
-                                        <div className='btn-blk'>
-                                            <button className='btn btn-danger bs-serv-btn-clr'><Link className="corp-serv-lrn-btn" href="/corporate-services/audit-assurance-services-uae">Learn More</Link></button>
-                                        </div>
-                                        <div className='action-btn-blk'>
-                                            <Link href="https://api.whatsapp.com/send?phone=971561672533" target="_blank" data-toggle="tooltip" data-placement="top" title="Chat with us"><Image className='action-icon' src={chaticon} data-aos="zoom-in" data-aos-easing="linear"
-                                                data-aos-duration="3000" alt="icon" /></Link>
-                                            <Link href="tel:971561672533" data-toggle="tooltip" data-placement="top" title="Call us"><Image className='action-icon call-icon' src={callicon} data-aos="zoom-in" data-aos-easing="linear"
-                                                data-aos-duration="3000" alt="icon" /></Link>
-                                            <Link href="mailto:info@elevateauditing.com" data-toggle="tooltip" data-placement="top" title="Mail us"><Image className='action-icon gmail-icon' src={gmailicon} data-aos="zoom-in" data-aos-easing="linear"
-                                                data-aos-duration="3000" alt="icon" /></Link>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div className='col-md-6 col-lg-3 col-lg-3'>
-                                <div className='bs-ser-blk'>
-                                    <div className='bs-ser-img-blk'>
-                                        <Image src={complianceservices} className="bs-serv-icon" alt="cfo-services-out-sourced" data-aos="zoom-in" data-aos-easing="linear"
-                                            data-aos-duration="800" />
-                                    </div>
-                                    <h4 className='bs-serv-tlt'>Accounting Implementation</h4>
-                                    <p className='bs-serv-p'>Optimize your financial performance with our comprehensive Accounting Implementation services in UAE. </p>
-
-                                    <div className='btn-blk-row'>
-                                        <div className='btn-blk'>
-                                            <button className='btn btn-danger bs-serv-btn-clr'><Link className="corp-serv-lrn-btn" href="/corporate-services/accounting-software-implementation-uae">Learn More</Link></button>
-                                        </div>
-                                        <div className='action-btn-blk'>
-                                            <Link href="https://api.whatsapp.com/send?phone=971561672533" target="_blank" data-toggle="tooltip" data-placement="top" title="Chat with us"><Image className='action-icon' src={chaticon} data-aos="zoom-in" data-aos-easing="linear"
-                                                data-aos-duration="3000" alt="icon" /></Link>
-                                            <Link href="tel:971561672533" data-toggle="tooltip" data-placement="top" title="Call us"><Image className='action-icon call-icon' src={callicon} data-aos="zoom-in" data-aos-easing="linear"
-                                                data-aos-duration="3000" alt="icon" /></Link>
-                                            <Link href="mailto:info@elevateauditing.com" data-toggle="tooltip" data-placement="top" title="Mail us"><Image className='action-icon gmail-icon' src={gmailicon} data-aos="zoom-in" data-aos-easing="linear"
-                                                data-aos-duration="3000" alt="icon" /></Link>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div className='col-md-6 col-lg-3 col-lg-3'>
-                                <div className='bs-ser-blk'>
-                                    <div className='bs-ser-img-blk'>
-                                        <Image src={bookkeeping} className="bs-serv-icon" alt="cfo-services-out-sourced" data-aos="zoom-in" data-aos-easing="linear"
-                                            data-aos-duration="800" />
-                                    </div>
-                                    <h4 className='bs-serv-tlt'>ISO Certification</h4>
-                                    <p className='bs-serv-p'>Elevate offers ISO Certification in the UAE to help businesses keep accurate financial records.</p>
-
-                                    <div className='btn-blk-row'>
-                                        <div className='btn-blk'>
-                                            <button className='btn btn-danger bs-serv-btn-clr'><Link className="corp-serv-lrn-btn" href="/corporate-services/iso-certification-uae">Learn More</Link></button>
-                                        </div>
-                                        <div className='action-btn-blk'>
-                                            <Link href="https://api.whatsapp.com/send?phone=971561672533" target="_blank" data-toggle="tooltip" data-placement="top" title="Chat with us"><Image className='action-icon' src={chaticon} data-aos="zoom-in" data-aos-easing="linear"
-                                                data-aos-duration="3000" alt="icon" /></Link>
-                                            <Link href="tel:971561672533" data-toggle="tooltip" data-placement="top" title="Call us"><Image className='action-icon call-icon' src={callicon} data-aos="zoom-in" data-aos-easing="linear"
-                                                data-aos-duration="3000" alt="icon" /></Link>
-                                            <Link href="mailto:info@elevateauditing.com" data-toggle="tooltip" data-placement="top" title="Mail us"><Image className='action-icon gmail-icon' src={gmailicon} data-aos="zoom-in" data-aos-easing="linear"
-                                                data-aos-duration="3000" alt="icon" /></Link>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div className='row bs-ser-row-blk blk-3'>
-                            <div className='col-md-6 col-lg-3 col-lg-3'>
-                                <div className='bs-ser-blk'>
+                            <div className='bs-ser-blk'>
                                     <div className='bs-ser-img-blk'>
                                         <Image src={localpartner} className="bs-serv-icon" alt="cfo-services-out-sourced" data-aos="zoom-in" data-aos-easing="linear"
                                             data-aos-duration="800" />
@@ -552,8 +451,8 @@ const CorporateContent = () => {
                             <div className='col-md-6 col-lg-3 col-lg-3'></div>
                             <div className='col-md-6 col-lg-3 col-lg-3'></div>
                             <div className='col-md-6 col-lg-3 col-lg-3'></div>
-
                         </div>
+
                     </div>
                 </div>
             </div>

@@ -27,20 +27,20 @@ const NewNavbar = () => {
                                 <Link className="nav-link dropdown-toggle my-nav-li" href="#" id="businessessentialsDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false" data-bs-auto-close="outside">Business Essentials</Link>
                                 <ul className="dropdown-menu" aria-labelledby="businessessentialsDropdown">
                                     <li><Link className="dropdown-item my-nav-li" href="/corporate-services">Corporate Services</Link></li>
+
                                     <li className="nav-item dropdown dropend">
                                         <Link className="nav-link dropdown-toggle my-nav-li" href="#" id="businessDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false" >Business</Link>
                                         <ul className="dropdown-menu" aria-labelledby="businessDropdown">
-                                        <li><Link className="dropdown-item my-nav-li" href="#">Business Plan</Link></li>
-                                        <li><Link className="dropdown-item my-nav-li" href="#">Trade Mark Registration</Link></li>
-                                            <li><Link className="dropdown-item my-nav-li" href="#">Business Formation</Link></li>
-                                            <li><Link className="dropdown-item my-nav-li" href="#">Business Liquidation</Link></li>
-                                            
-                                            
+                                            <li><Link className="dropdown-item my-nav-li" href="#">Business Plan</Link></li>
+                                            <li><Link className="dropdown-item my-nav-li" href="/corporate-services/trademark-registration-service-dubai-uae">Trade Mark Registration</Link></li>
+                                            <li><Link className="dropdown-item my-nav-li" href="/business-formation">Business Formation</Link>
+                                            </li>
+                                            <li><Link className="dropdown-item my-nav-li" href="/corporate-services/company-liquidation-services-uae">Business Liquidation</Link></li>
                                         </ul>
 
                                     </li>
 
-                                    <li><Link className="dropdown-item my-nav-li" href="/adgm-company-service-provider">ADGM</Link></li>
+                                    <li><Link className="dropdown-item my-nav-li" href="/adgm">ADGM</Link></li>
                                 </ul>
                             </li>
                             <li className="nav-item dropdown">
