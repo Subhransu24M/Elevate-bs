@@ -2,7 +2,18 @@
     max-width: 100%;
     height: auto;
 }
-
+.rasabdcntblk {
+    margin: 50px 0px;
+}
+.tdlblkmnblk h2 {
+    color: #fff;
+}
+.how-toavoid-tlt{
+    color: #fff;
+}
+.tdllstcnt h4 {
+    text-align: left;
+}
 /* .resabdservlistblk {
     display: inline-flex;
    
@@ -79,9 +90,96 @@ p.tdllstcntp {
 .todolistblk {
     /* background: #edfbff73; */
     padding: 50px 0px;
-    background: linear-gradient(90deg, rgb(0 28 62 / 82%) 30%, rgb(2 71 120) 70%);
+    background: linear-gradient(90deg, #070426 60%, #cb2020 119%);
+}
+
+.whyoutsrcaccelvbenfblk {
+    text-align: center;
+    margin-top: 30px;
+}
+.whyoutsrcaccelvbenfblk .btn{
+    background: none;
+    color: #070426;
+    border: 1px solid #7a0000;
+    font-weight: 600;
+}
+.outsrcelvcntul li {
+    text-align: left;
+}
+.outsrcelvcntul li svg{
+    margin-right: 10px;
+}
+.outsourceblkcntul li {
+    text-align: left;
+}
+.outsourceblkcntul li svg{
+    margin-right: 12px;
+}
+.resservabdbtn .btn {
+    background: #931010;
+    color: #ffffff;
+    border: none;
+    padding: 8px 20px;
+}
+
+.adgm-rest-accnt-benefitsblk {
+    margin: 50px 0px;
+}
+
+.whyoutsrcaccelvblk-tlt {
+    max-width: 750px;
+    margin: auto;
+    text-align: center;
+}
+.whyoutsrcaccelvblk-p {
+    max-width: 800px;
+    margin: auto;
+    /* text-align: center; */
+}
+.whyoutsrcaccelvblk-p p{
+    text-align: center;
 }
 
 .outsresaccntblk {
-    padding: 50px 0px;
+    display: flex;
+    max-width: 1900px;
+}
+.whyoutsrcacc-leftblk {
+    width: 60%;
+    background: #7a0000;
+    padding: 50px 20px 50px 100px;
+}
+.whyoutsrcacc-rightblk {
+    width: 40%;
+}
+.adgm-rest-accnt-frmblk {
+    margin: 30px 100px 30px 0px;
+}
+.whyoutsrcaccblk h2 {
+    color: #fff;
+    text-align: center;
+}
+.whyoutsrcaccblk-p{
+    color: #fff;
+    padding-top: 30px;
+}
+.explbenfblk{
+    text-align: center;
+    margin-top: 30px;
+}
+.explbenfblk .btn {
+    background: none;
+    border: 1px solid #ffc220;
+    /* text-align: center; */
+}
+@media(max-width:567px){
+    .outsresaccntblk {
+        flex-direction: column;
+    }
+    .whyoutsrcacc-leftblk {
+        width: 100% !important;
+    }
+    .whyoutsrcacc-rightblk {
+        width: 100% !important;
+    }
 }

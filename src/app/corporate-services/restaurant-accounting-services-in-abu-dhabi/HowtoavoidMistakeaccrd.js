@@ -44,7 +44,7 @@ const HowtoavoidMistakeaccrd = () => {
                         </button>
                     </h2>
                     <div id="howavoid-collapseFour" className="accordion-collapse collapse" aria-labelledby="how-avoidFour" data-bs-parent="#accordionFlushExample">
-                        <div className="accordion-body">Implement a system to manage inventory effectively..</div>
+                        <div className="accordion-body">Implement a system to manage inventory effectively.</div>
                     </div>
                 </div>
 
@@ -66,7 +66,7 @@ const HowtoavoidMistakeaccrd = () => {
                         </button>
                     </h2>
                     <div id="howavoid-collapseSix" className="accordion-collapse collapse" aria-labelledby="how-avoidSix" data-bs-parent="#accordionFlushExample">
-                        <div className="accordion-body">: Keep comprehensive records for accurate reporting and tax preparation.</div>
+                        <div className="accordion-body">Keep comprehensive records for accurate reporting and tax preparation.</div>
                     </div>
                 </div>
 
