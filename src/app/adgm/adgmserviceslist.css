@@ -1,0 +1,94 @@
+/* Button Block */
+
+
+.btn-blk{margin: auto;display: block;}
+.action-icon {
+    width: 45px;
+    height: 45px;
+    max-width: 100%;
+    margin-left: 7px;
+    margin-right: 7px; 
+}
+.action-btn-blk {
+    margin-left: auto;
+    margin-right: auto; 
+    margin-top:auto;
+    margin-bottom: auto;
+}
+.btn-blk-row {
+    background: #05407c;
+    border-radius: 6px;
+    box-shadow: 0px 3px 1px 0px #0000004d;
+    display: flex;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    left: 0;
+}
+.bs-serv-btn-clr {
+    background-color: #ffffff;
+    border-color: none;
+    font-weight: 600;
+    color: #000;
+    border: 1px solid #00447e;
+}
+.corp-serv-lrn-btn:hover {
+    color: #fff;
+    text-decoration: none;
+}
+@media screen and (min-width: 1180px) {
+    .call-icon {
+      display: none;
+    }
+  }
+
+  @media screen and (max-width: 1180px) {
+    .gmail-icon {
+      display: none;
+    }
+  }
+
+  .bs-ser-img-blk {
+    width: 65px;
+    height: 65px;
+    background: #00447e;
+    border-radius: 50%;
+    display: inline-block;
+    box-shadow: 0px 0px 0px 4px #00c4ff;
+    margin-bottom: 10px;
+}
+.bs-serv-icon {
+    width: 45px;
+    height: 45px; 
+   max-width: 100%; 
+   display: block;
+   margin-left: auto;
+   margin-right: auto;
+   margin-top: 9px;
+}
+
+/* Box Style */
+.adgm-serv-list-box {
+    height: 380px;
+    background: #e8f9ff;
+    padding: 30px;
+    margin: 50px 0px;
+    position: relative;
+    border-radius: 15px 15px 0px 0px;
+}
+.adgm-serv-img-box {
+    display: flex;
+    justify-content: center;
+}
+.tlt-blk h5 {
+    text-align: center;
+}
+
+.tlt-blk h5 {
+    text-align: center;
+    font-size: 18px;
+    font-weight: 600;
+}
+.tlt-blk {
+    margin: 12px 0px;
+}
