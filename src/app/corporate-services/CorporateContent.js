@@ -107,7 +107,7 @@ const CorporateContent = () => {
                                         <Image src={localpartner} className="bs-serv-icon" alt="cfo-services-out-sourced" data-aos="zoom-in" data-aos-easing="linear"
                                             data-aos-duration="800" />
                                     </div>
-                                    <h4 className='bs-serv-tlt'>ADGM Restaurant Accounting</h4>
+                                    <h4 className='bs-serv-tlt'>Abu Dhabi Restaurant Accounting</h4>
                                     <p className='bs-serv-p'>Our tailored solutions are designed to streamline your financial operations and support the success of your restaurant or bar. </p>
 
                                     <div className='btn-blk-row'>
