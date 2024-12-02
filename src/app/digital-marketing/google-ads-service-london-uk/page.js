@@ -1,9 +1,11 @@
 import BreadCrumb from "@/app/components/BreadCrumbs/BreadCrumb"
-import Footer from "@/app/components/Footer/Footer"
-import NavBar from "@/app/components/NavBar/NavBar"
-import TopBar from "@/app/components/TopBar/TopBar"
+// import Footer from "@/app/components/Footer/Footer"
+// import NavBar from "@/app/components/NavBar/NavBar"
+// import TopBar from "@/app/components/TopBar/TopBar"
 import GoogleAdsCnt from "./GoogleAdsCnt"
 import './googleads.css';
+import NewNavbar from "@/app/components/NavBar/NewNavbar"
+import FooterNew from "@/app/components/Footer/FooterNew"
 
 export const metadata = {
   title: "PPC Agency in London, UK | Elevate Business Solutions ",
@@ -11,13 +13,18 @@ export const metadata = {
   keywords: "PPC Agency in London"
 };
 const page = () => {
+  const breadcrumbBackground = "/images/breadcrump-bg/google-ads.jpg";
   return (
     <>
-    <TopBar/>
-    <NavBar/>
-    <BreadCrumb page="Google Ads Service"/>
+    <div className="fullwrapper">
+    {/* <TopBar/>
+    <NavBar/> */}
+    <NewNavbar/>
+    <BreadCrumb page="Google Ads Service" backgroundImage={breadcrumbBackground}/>
     <GoogleAdsCnt/>
-    <Footer/>
+    {/* <Footer/> */}
+    <FooterNew/>
+    </div>
     </>
   )
 }

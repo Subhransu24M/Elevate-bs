@@ -1,9 +1,11 @@
+import NewNavbar from '@/app/components/NavBar/NewNavbar'
 import BreadCrumb from '../../components/BreadCrumbs/BreadCrumb'
-import Footer from '../../components/Footer/Footer'
-import NavBar from '../../components/NavBar/NavBar'
-import TopBar from '../../components/TopBar/TopBar'
+// import Footer from '../../components/Footer/Footer'
+// import NavBar from '../../components/NavBar/NavBar'
+// import TopBar from '../../components/TopBar/TopBar'
 import SeoCnt from './SeoCnt'
 import './seo.css'
+import FooterNew from '@/app/components/Footer/FooterNew'
 
 export const metadata = {
   title: "SEO Agency in London, UK | Elevate Business Solutions ",
@@ -11,13 +13,18 @@ export const metadata = {
   keywords: "SEO Agency in London"
 };
 const page = () => {
+  const breadcrumbBackground = "/images/breadcrump-bg/seo.jpg";
   return (
     <>
-    <TopBar/>
-    <NavBar/>
-    <BreadCrumb page='SEO Service'/>
+    <div className='fullwrapper'>
+    <NewNavbar/>
+    {/* <TopBar/>
+    <NavBar/> */}
+    <BreadCrumb page='SEO Service' backgroundImage={breadcrumbBackground}/>
     <SeoCnt/>
-    <Footer/>
+    <FooterNew/>
+    {/* <Footer/> */}
+    </div>
     </>
   )
 }
