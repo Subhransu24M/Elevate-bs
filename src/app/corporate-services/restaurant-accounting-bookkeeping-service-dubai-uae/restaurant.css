@@ -94,12 +94,3 @@ h2.rest-hd2 {
         width: 100% !important;
     }
 }
-.whychos-rght-frm-blk {
-    max-width: 450px;
-    margin: auto;
-}
-.whychos-left-col .rest-ul{
-    list-style: none;
-    position: absolute;
-    right: 50px;
-}
