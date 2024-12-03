@@ -1,21 +1,128 @@
+.corp-cfo-fst-blk {
+    margin: 30px 0px;
+}
+.cfo-top-main-box {
+    margin: 15px 0px;
+}
 .cfo-top-main-box h1 {
     text-align: center;
+}
+.corp-cfo-rgt-img img {
+    border-radius: 15px;
+    margin: 20px 20px;
+}
+
+@media(max-width:567px){
+    .corp-cfo-rgt-img img{
+        margin: 20px 0px !important;
+    }
+}
+.cfo-cta-blk{
+    margin-top: 40px;
+}
+.cfo-cta-blk a {
+    /* border: 1px dotted #950f0f; */
+    color: #ffffff;
+    padding: 10px 25px;
+    border-radius: 25px;
+    font-weight: 700;
+    background: #a90d0d;
+    display: inline-flex;
+    align-items: center;
+}
+.cfo-cta-blk a svg {
+    font-size: 25px;
+    margin-left: 6px;
+    color: #ff9712;
+}
+
+.cntr-out-layout-2 {
+    display: flex;
+    max-width: 1900px;
+}
+@media(max-width:991px){
+    .cntr-out-layout-2 {
+        display: block !important;
+    }
+    .cfo-left-blk {
+        width: 100% !important;
+        padding: 50px 20px !important;
+    } 
+    .cfo-right-blk {
+        width: 100% !important;
+        padding: 50px 20px !important;
+    }
+}
+.cfo-left-blk {
+    width: 50%;
+    background: #870505;
+    color: #fff;
+    padding: 50px 20px 50px 100px;
+}
+.cfo-right-blk {
+    width: 50%;
+    color: #04021f;
+    padding: 50px 100px 50px 20px;
+}
+.cfo-benf-btn {
+    background: none;
+    border: 1px solid #fff;
+    padding: 10px 25px;
+    border-radius: 25px;
+    font-weight: 600;
+    color: #fda721;
+    margin: 30px 0px;
+}
+.whychos-cfo-btn {
+    background: #04021f;
+    border: none;
+    padding: 10px 25px;
+    border-radius: 25px;
+    font-weight: 600;
+    color: #ffffff;
+    margin: 30px 0px;
+}
+.whychos-cfo-btn svg {
+    margin-left: 10px;
+    font-size: 25px;
+    color: #fb8d18;
+}
+.outsource-cfo-benefitsblk ul {
+    color: #000;
+    list-style: none;
 }
 .cfo-ul {list-style: none;}
 img{max-width: 100%;height: auto;background-repeat: no-repeat;background-size: cover;}
 .cntr-out-layout-1 {
-    background: #ededed;
-    padding: 20px 0px 20px 0px;
-    margin: 5px 0px 5px 0px;
+    display: flex;
+}
+@media(max-width:991px){
+    .cntr-out-layout-1 {
+        display: block;
+    }
+    .cfo-responsiblity-left-blk {
+        width: 100% !important;
+        padding: 50px 20px !important;
+    }
+    .cfo-responsiblity-rght-blk {
+        width: 100% !important;
+        padding: 50px 20px !important;
+    }
+}
+.cfo-responsiblity-left-blk {
+    width: 50%;
+    padding: 50px 20px 50px 100px;
+}
+.cfo-responsiblity-rght-blk {
+    width: 50%;
+    padding: 50px 100px 50px 20px;
+    background: #effaff;
+}
+.cfo-frm {
+    max-width: 440px;
+    margin: auto;
 }
 
-.cntr-out-layout-1 {
-    background: #ededed;
-    padding: 20px 0px 20px 0px;
-    margin: 5px 0px 5px 0px;
-    background: linear-gradient(90deg, rgb(7 55 106) 0%, rgb(26 99 151) 47%, rgb(8 93 143) 100%);
-    color: #fff;
-}
 
 .cntr-out-layout-4{
     background-image: url(./images/cfo-bg.png);

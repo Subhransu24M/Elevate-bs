@@ -1,7 +1,8 @@
 .restau-accn-sec4 {
     padding: 30px 0px;
-    background: linear-gradient(90deg, rgb(7 55 106) 0%, rgb(26 99 151) 47%, rgb(8 93 143) 100%);
-    color: #fff;
+    /* background: linear-gradient(90deg, rgb(7 55 106) 0%, rgb(26 99 151) 47%, rgb(8 93 143) 100%);
+    color: #fff; */
+    /* background: blue; */
 }
 .restau-accn-sec2 {
     padding: 30px 0px;
@@ -50,8 +51,55 @@ h2.rest-hd2 {
 
 .rest-ul{
     list-style: none;
-    padding-left: 0px;
+    /* padding-left: 0px; */
+    /* position: absolute;
+    right: 50px; */
 }
 .rest-arrow{
     margin-right: 10px;
+}
+.chos-elv-rest-cnt-tltblk {
+    max-width: 750px;
+    margin: auto;
+    text-align: center;
+}
+.chos-elv-rest-cnt-pblk {
+    max-width: 1250px;
+    margin: auto;
+}
+.chos-elv-rest-cnt-pblk p {
+    text-align: center;
+}
+.whychos-row {
+    display: flex;
+}
+.whychos-left-col {
+    width: 50%;
+    position: relative;
+}
+.whychos-right-col {
+    width: 50%;
+    background: #eef8ff;
+    padding: 30px 0px;
+}
+
+@media (max-width:991px){
+    .whychos-row {
+        display: block;
+    }
+    .whychos-left-col {
+        width: 100% !important;
+    }
+    .whychos-right-col {
+        width: 100% !important;
+    }
+}
+.whychos-rght-frm-blk {
+    max-width: 450px;
+    margin: auto;
+}
+.whychos-left-col .rest-ul{
+    list-style: none;
+    position: absolute;
+    right: 50px;
 }
