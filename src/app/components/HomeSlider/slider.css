@@ -95,6 +95,8 @@ a.btn.sld-cta-btn {
     padding: 6px 25px;
     margin-top: 30px;
     background: #00000029;
+    display: inline-flex;
+    align-items: center;
 }
 
 .carousel-control-next,
