@@ -1,22 +1,24 @@
 import CorporateForm from "@/app/components/CorporateForm/CorporateForm"
 import Image from 'next/image';
-import approvedzome1 from './images/1.png';
-import approvedzome2 from './images/2.png';
-import approvedzome3 from './images/3.png';
-import approvedzome4 from './images/4.png';
-import approvedzome5 from './images/5.png';
-import approvedzome6 from './images/6.png';
+// import approvedzome1 from './images/1.png';
+// import approvedzome2 from './images/2.png';
+// import approvedzome3 from './images/3.png';
+// import approvedzome4 from './images/4.png';
+// import approvedzome5 from './images/5.png';
+// import approvedzome6 from './images/6.png';
 import auditassuranceimg from './images/audit-assurance.jpg';
 import { BsCheck2Square } from "react-icons/bs";
 import ClientlogoSlider from "./ClientlogoSlider";
+import { CiLocationArrow1 } from "react-icons/ci";
+
 const AuditAssurancecnt = () => {
   return (
     <>
     <div className="aud-ass-sec1">
                 <div className="container">
-                    <h1 className="audt-assr-hd">Trustworthy Audit and Assurance Services in UAE for Your Business</h1>
                     <div className="row">
                         <div className="col-md-12 col-lg-6 col-xl-6 col-sm-12 col-xs-12">
+                        <h1 className="audt-assr-hd">Trustworthy Audit and Assurance Services in UAE for Your Business</h1>
                             <p>Every business requires Audit and Assurance Services as a core service to effectively monitor their financial transactions. Elevate offers comprehensive Audit and Assurance Services in the UAE that go beyond mere inspection and approval of financial records. Our Audit Services in UAE are designed to provide transparent and systematic financial statement audits, along with other assurance services, that offer valuable insights into your business. With our expertise, you can track your financial transactions with ease and confidence. Businesses require auditors who possess a deep understanding of their specific industry, geographical context, political and economic dynamics, long-term strategic goals, and the potential risks that necessitate evaluation and mitigation. They seek advisors who can adeptly leverage this critical information to conduct audits with the highest degree of accuracy and efficiency.</p>
                         </div>
                         <div className="col-md-12 col-lg-6 col-xl-6 col-sm-12 col-xs-12">
@@ -38,8 +40,8 @@ const AuditAssurancecnt = () => {
                                 <h6>External Audit</h6>
                                 {/* Modal Starts */}
 
-                                <button type="button" className="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModalLong">
-                                    Learn More
+                                <button type="button" className="btn btn-primary audit-assurna-btn-mdl" data-bs-toggle="modal" data-bs-target="#exampleModalLong">
+                                    Learn More <CiLocationArrow1 />
                                 </button>
 
                                 <div className="modal fade" id="exampleModalLong" tabIndex="-1" role="dialog" aria-labelledby="exampleModalLongTitle" aria-hidden="true">
@@ -72,8 +74,9 @@ const AuditAssurancecnt = () => {
                                 <h6>Internal Audit</h6>
                                 {/* Modal Starts */}
 
-                                <button type="button" className="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModalLong2">
-                                    Learn More
+                                <button type="button" className="btn btn-primary audit-assurna-btn-mdl" data-bs-toggle="modal" data-bs-target="#exampleModalLong2">
+                                    Learn More <CiLocationArrow1 />
+
                                 </button>
 
                                 <div className="modal fade" id="exampleModalLong2" tabIndex="-1" role="dialog" aria-labelledby="exampleModalLongTitle" aria-hidden="true">
@@ -106,8 +109,8 @@ const AuditAssurancecnt = () => {
                                 <h6>Inventory/Stock Audit</h6>
                                 {/* Modal Starts */}
 
-                                <button type="button" className="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModalLong3">
-                                    Learn More
+                                <button type="button" className="btn btn-primary audit-assurna-btn-mdl" data-bs-toggle="modal" data-bs-target="#exampleModalLong3">
+                                    Learn More <CiLocationArrow1 />
                                 </button>
 
                                 <div className="modal fade" id="exampleModalLong3" tabIndex="-1" role="dialog" aria-labelledby="exampleModalLongTitle" aria-hidden="true">
@@ -140,8 +143,8 @@ const AuditAssurancecnt = () => {
                                 <h6>Revenue Audit</h6>
                                 {/* Modal Starts */}
 
-                                <button type="button" className="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModalLong4">
-                                    Learn More
+                                <button type="button" className="btn btn-primary audit-assurna-btn-mdl" data-bs-toggle="modal" data-bs-target="#exampleModalLong4">
+                                    Learn More <CiLocationArrow1 />
                                 </button>
 
                                 <div className="modal fade" id="exampleModalLong4" tabIndex="-1" role="dialog" aria-labelledby="exampleModalLongTitle" aria-hidden="true">
@@ -173,8 +176,8 @@ const AuditAssurancecnt = () => {
                                 <h6>Due Diligence Services</h6>
                                 {/* Modal Starts */}
 
-                                <button type="button" className="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModalLong5">
-                                    Learn More
+                                <button type="button" className="btn btn-primary audit-assurna-btn-mdl" data-bs-toggle="modal" data-bs-target="#exampleModalLong5">
+                                    Learn More <CiLocationArrow1 />
                                 </button>
 
                                 <div className="modal fade" id="exampleModalLong5" tabIndex="-1" role="dialog" aria-labelledby="exampleModalLongTitle" aria-hidden="true">
@@ -206,8 +209,8 @@ const AuditAssurancecnt = () => {
                                 <h6>Forensic Audit</h6>
                                 {/* Modal Starts */}
 
-                                <button type="button" className="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModalLong6">
-                                    Learn More
+                                <button type="button" className="btn btn-primary audit-assurna-btn-mdl" data-bs-toggle="modal" data-bs-target="#exampleModalLong6"> 
+                                    Learn More <CiLocationArrow1 />
                                 </button>
 
                                 <div className="modal fade" id="exampleModalLong6" tabIndex="-1" role="dialog" aria-labelledby="exampleModalLongTitle" aria-hidden="true">
