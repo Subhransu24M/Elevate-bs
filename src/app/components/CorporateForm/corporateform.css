@@ -1,5 +1,6 @@
 .cmn-frm-blk {
-    background: linear-gradient(90deg, rgb(7 43 70) 0%, rgb(16 97 181 / 78%) 47%, rgb(3 41 74) 100%);
+    /* background: linear-gradient(90deg, rgb(7 43 70) 0%, rgb(16 97 181 / 78%) 47%, rgb(3 41 74) 100%); */
+    background: linear-gradient(90deg, #03062c, rgb(38 49 110 / 78%) 47%, #03082c);
     padding: 20px;
     box-shadow: 0px 1px 9px 1px #051b2eb0;
     border-radius: 15px;
@@ -52,6 +53,7 @@ label.form-check-label {
     text-align: center;
     padding: 15px;
     border-bottom: 1px dotted;
+    color: #fff;
 }
 .cmn-frm-slt{
     border-radius: 0px;
