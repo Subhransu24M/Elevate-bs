@@ -1,10 +1,10 @@
-
+import { CiLocationArrow1 } from "react-icons/ci";
 import { FaLongArrowAltRight } from "react-icons/fa";
 const TaxModal3 = () => {
   return (
     <>
     <button type="button" className="btn btn-primary tax-cons-mdl-btn" data-bs-toggle="modal" data-bs-target="#exampleModal3">
-                Learn more
+                Read more <CiLocationArrow1 />
             </button>
 
 
@@ -19,26 +19,26 @@ const TaxModal3 = () => {
                         <div className="modal-body tax-cons-mdl-cnt">
                             <p>Excise tax is applied to items considered harmful to individuals or the environment. Excisable goods include:</p>
                             <ul>
-                                <li>Tobacco-based products.</li>
-                                <li>Carbonated beverages excluding plain aerated water.</li>
-                                <li>Electronic smoking devices and equipment.</li>
-                                <li>Sweetened beverages.</li>
-                                <li>Energy drinks containing stimulant ingredients.</li>
+                                <li><FaLongArrowAltRight/> Tobacco-based products.</li>
+                                <li><FaLongArrowAltRight/> Carbonated beverages excluding plain aerated water.</li>
+                                <li><FaLongArrowAltRight/> Electronic smoking devices and equipment.</li>
+                                <li><FaLongArrowAltRight/> Sweetened beverages.</li>
+                                <li><FaLongArrowAltRight/> Energy drinks containing stimulant ingredients.</li>
                             </ul>
                             <h6><strong>Items Exempt from Excise Tax in the UAE:</strong></h6>
                             <ul>
-                                <li>Beverages designed for specific dietary needs (GCC Standardization Org. Standard 654).</li>
-                                <li>Medicinal purpose beverages (GCC Standardization Org. Standard 1366).</li>
-                                <li>Ready-to-drink beverages with at least 75% milk or milk substitutes.</li>
-                                <li>Baby formula or baby food.</li>
+                                <li><FaLongArrowAltRight/> Beverages designed for specific dietary needs (GCC Standardization Org. Standard 654).</li>
+                                <li><FaLongArrowAltRight/> Medicinal purpose beverages (GCC Standardization Org. Standard 1366).</li>
+                                <li><FaLongArrowAltRight/> Ready-to-drink beverages with at least 75% milk or milk substitutes.</li>
+                                <li><FaLongArrowAltRight/> Baby formula or baby food.</li>
                             </ul>
                             <h6><strong>Excise Tax Rates in the UAE:</strong></h6>
                             <ul>
-                                <li>100% on tobacco products.</li>
-                                <li>100% on e-cigarettes and accessories.</li>
-                                <li>50% on carbonated beverages.</li>
-                                <li>50% on products with added sugar or sweeteners.</li>
-                                <li>100% on energy drinks.</li>
+                                <li><FaLongArrowAltRight/> 100% on tobacco products.</li>
+                                <li><FaLongArrowAltRight/> 100% on e-cigarettes and accessories.</li>
+                                <li><FaLongArrowAltRight/> 50% on carbonated beverages.</li>
+                                <li><FaLongArrowAltRight/> 50% on products with added sugar or sweeteners.</li>
+                                <li><FaLongArrowAltRight/> 100% on energy drinks.</li>
                             </ul>
                             <p>The UAE's tax landscape reflects a deliberate effort to attract businesses while adapting to fiscal needs and international standards.</p>
                         </div>
