@@ -127,9 +127,14 @@ export const BankLoanCnt = () => {
 
             <div className="bnk-ln-agr-sec4">
                 <div className="container">
+                    <div className="bnk-ln-agr-sec4-tlt">
                     <h2 className="bnk-loan-hd">Why choose Elevate for business loan requirements in Dubai, UAE?</h2>
+                    </div>
+                    <div className="bnk-ln-agr-sec4-pblk">
                     <p>At Elevate, we recognize the complexities and challenges of securing a bank loan in Dubai. Our experienced team is well-versed in the local financial landscape, regulations, and cultural nuances. We leverage our expertise to simplify the process and increase your chances of loan approval.</p>
                     <p>We guide you through every step, from preparing the necessary documents to negotiating terms with banks. Our goal is to demystify the process, mitigate complications, and ensure you receive the financing you need to achieve your goals in Dubai.</p>
+                    </div>
+                    
                     <div className="row">
                         <div className="col-md-12 col-lg-8 col-xl-8 col-sm-12 col-xs-12">
                             <div className="bnk-ln-agr-sec3-chk-blk sec4">

@@ -2,6 +2,8 @@
 
 .bkp-accord-blk-cnt {
     padding: 0px;
+    box-shadow: none;
+    border: none;
 }
 .bkp-accord-btn{
     color: #fff;
@@ -15,12 +17,26 @@
 .bkp-accrd-arw-icon {
     float: right;
 }
-.bk-kp-sec3 {
+/* .bk-kp-sec3 {
     background: #000516;
     color: #fff;
-}
+} */
 .bkp-accord-cardbd-cnt {
     color: #000;
+}
+.bkp-hd-btnblk {
+    margin: 40px 0px;
+}
+.bkp-hd-btnblk a {
+    background: #950606;
+    padding: 10px 25px;
+    border-radius: 25px;
+    color: #fff;
+}
+.bkp-hd-btnblk a svg{
+    color: #eb9c13;
+    font-size: 25px;
+    margin-left: 10px;
 }
 
 /* Bookkepping CSS */
@@ -28,9 +44,34 @@
     padding: 30px 0px;
 }
 .bk-kp-sec4 {
-    padding: 30px 0px;
+    /* padding: 30px 0px;
     background: linear-gradient(90deg, rgb(0 58 120) 0%, rgb(10 82 133) 47%, rgb(2 54 118) 100%);
+    color: #fff; */
+    display: flex;
+}
+.bk-kp-sec4-left{
+    width: 65%;
+    padding: 30px 20px 30px 100px;
+    background: #03031c;
     color: #fff;
+}
+.bk-kp-sec4-right{
+    width: 35%;
+    padding: 30px 100px 30px 20px;
+    background: #e8f4ff;
+}
+@media(max-width:991px){
+    .bk-kp-sec4 {
+        display: block;
+    }
+    .bk-kp-sec4-left{
+        width: 100% !important;
+        padding: 30px 10px;
+    }
+    .bk-kp-sec4-right{
+        width: 100% !important;
+        padding: 30px 10px;
+    }
 }
 .bkp-frm-blk {
     margin: 40px 0px;
@@ -47,20 +88,49 @@
 } */
 
 .bk-kp-sec2 {
-    padding: 30px 0px;
+    /* padding: 30px 0px;
     background: linear-gradient(90deg, rgb(0 58 120) 0%, rgb(10 82 133) 47%, rgb(2 54 118) 100%);
+    color: #fff; */
+    display: flex;
+}
+.bk-kp-sec2-left{
+    width: 50%;
+    padding: 30px 20px 30px 100px;
+    background: #e8f4ff;
+}
+.bk-kp-sec2-right{
+    width: 50%;
+    padding: 30px 100px 30px 20px;
+    background: #780404;
     color: #fff;
 }
+@media(max-width:991px){
+    .bk-kp-sec2{
+        display: block;
+    }
+    .bk-kp-sec2-left{
+        width: 100% !important;
+        padding: 30px 10px;
+    }
+    .bk-kp-sec2-right{
+        width: 100% !important;
+        padding: 30px 10px;
+    }
+}
 .bkp-lft-img {
-    margin-top: 20px;
+    display: block;
+    margin: auto;
     max-width: 100%;
     height: auto;
 }
 
 .bkp-accord-btn {
-    background: #580000;
+    background: #fff;
     /* border: none; */
     text-decoration: none;
+    color: #03031c;
+    border: 1px solid #eb9c13;
+    box-shadow: none;
 }
 .bkp-accord-btn:hover {
     background: #580000;

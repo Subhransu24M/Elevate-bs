@@ -4,6 +4,9 @@ import bookkeepingimguae from './images/bookkeeping-service-uae.jpg';
 import Image from 'next/image';
 import BookKeepingAccord from './BookKeepingAccord';
 import { BsCheck2Square } from "react-icons/bs";
+import { CiLocationArrow1 } from "react-icons/ci";
+import Link from 'next/link';
+
 const BookKeepingCnt = () => {
   return (
     <>
@@ -13,6 +16,10 @@ const BookKeepingCnt = () => {
                         <div className="col-md-12 col-lg-6 col-xl-6 col-sm-12 col-xs-12">
                             <h1 className='bkp-hd'>Expert Bookkeeping Services in Dubai,UAE</h1>
                             <p>Bookkeeping is an integral component of the accounting process within businesses, involving the meticulous recording of financial transactions. Elevate is one of the renowned Bookkeeping firms in dubai for providing the most dependable bookkeeping services in the UAE. They assist in maintaining precise records of financial transactions, facilitating efficient accounting and tax preparation while adhering to UAE's tax regulations. Beyond merely documenting payables and receivables, Elevate ensures the security and prosperity of your business through accurate bookkeeping and comprehensive accounts management. As one of the foremost Bookkeeping service provider in Dubai, UAE, Elevate excels in delivering exceptional accounting and bookkeeping services, diligently tracking day-to-day business transactions.</p>
+                            <div className='bkp-hd-btnblk'>
+                                <Link href="/contact-us">Contact us <CiLocationArrow1 />
+                                </Link>
+                            </div>
                         </div>
                         <div className="col-md-12 col-lg-6 col-xl-6 col-sm-12 col-xs-12">
                             <Image src={bookkeepingimguae} className="bkp-rgt-img" alt="bookkeeping service uae"/>
@@ -22,12 +29,11 @@ const BookKeepingCnt = () => {
             </div>
 
             <div className="bk-kp-sec2">
-                <div className="container">
-                    <div className="row">
-                        <div className="col-md-12 col-lg-6 col-xl-6 col-sm-12 col-xs-12">
+                
+                        <div className="bk-kp-sec2-left">
                             <Image src={bookkeepingimgleft} className="bkp-lft-img" alt="bookkeeping service uae"/>
                         </div>
-                        <div className="col-md-12 col-lg-6 col-xl-6 col-sm-12 col-xs-12">
+                        <div className="bk-kp-sec2-right">
                             <h2 className='bkp-hd'>What is Bookkeeping?</h2>
                             <p>Bookkeeping is the systematic process of recording, organizing, and maintaining financial transactions and records of a business or organization. It involves documenting all financial activities, such as income, expenses, purchases, and sales, in a structured and chronological manner.</p>
                             <h4>Key aspects of Bookkeeping include</h4>
@@ -42,8 +48,7 @@ const BookKeepingCnt = () => {
                             </ul>
                             <p>Bookkeeping is a fundamental aspect of accounting, serving as the foundation upon which more complex financial analysis and reporting are built. It ensures that a company's financial records are accurate, transparent, and up-to-date, which is essential for both internal management and external stakeholders, such as investors, creditors, and tax authorities.</p>
                         </div>
-                    </div>
-                </div>
+                    
             </div>
 
             <div className="bk-kp-sec3">
@@ -63,9 +68,8 @@ const BookKeepingCnt = () => {
             </div>
 
             <div className="bk-kp-sec4">
-                <div className="container">
-                    <div className="row">
-                        <div className="col-md-12 col-lg-8 col-xl-8 col-sm-12 col-xs-12">
+                
+                        <div className="bk-kp-sec4-left">
                             <h2 className='bkp-hd'>Why Outsource Bookkeeping to Elevate Team?</h2>
                             <p>From fundamental to advanced bookkeeping services, we extend equal care and consideration to all our clients, ensuring that they receive the best accounting and bookkeeping services in Dubai, UAE.</p>
                             <ul className='bookkeep-ul'>
@@ -101,14 +105,13 @@ const BookKeepingCnt = () => {
                                 </div>
                             </div>
                         </div>
-                        <div className="col-md-12 col-lg-4 col-xl-4 col-sm-12 col-xs-12">
+                        <div className="bk-kp-sec4-right">
                             <div className="bkp-frm-blk">
                                 <CorporateForm/>
                             </div>
 
                         </div>
-                    </div>
-                </div>
+                    
             </div>
             <div className="bank-accnt-opn-boc-lay-4 pt-3 pb-3">
                 <div className="container">

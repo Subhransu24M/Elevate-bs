@@ -1,7 +1,39 @@
 .mdl-east-des-sec3 {
-    padding: 30px 0px;
+    /* padding: 30px 0px;
     background: linear-gradient(90deg, rgb(7 55 106) 0%, rgb(26 99 151) 47%, rgb(8 93 143) 100%);
+    color: #fff; */
+    display: flex;
+}
+.mdl-east-des-sec3-left{
+    width:50%;
+    padding: 30px 20px 30px 100px;
+    background: #03041e;
+    
+}
+.mdl-east-des-sec3-left p {
+    margin: 40px 0px;
     color: #fff;
+}
+.mdl-east-des-sec3-right{
+    width:50%;
+    padding: 30px 100px 30px 20px;
+    background: #e5f3ff;
+}
+.mdl-east-des-sec3-right-cta{
+    margin: 40px 100px;
+}
+@media(max-width:991px){
+    .mdl-east-des-sec3{
+        display: block;
+    }
+    .mdl-east-des-sec3-left{
+        width:100% !important;
+        padding: 30px 10px;
+    }
+    .mdl-east-des-sec3-right{
+        width:100% !important;
+        padding: 30px 10px;
+    }
 }
 .mdl-east-des-sec2 {
     padding: 30px 0px;
@@ -23,4 +55,22 @@
 }
 .mdl-east-hd {
     font-size: 28px;
+    color: #000000;
+}
+.mdl-east-sec3-hd{
+    color: #fff;
+}
+.md-east-sec1-ctablk{
+    margin-top: 40px;
+}
+.md-east-sec1-ctablk a{
+    background:rgb(124, 2, 2);
+    color: #fff;
+    padding: 10px 25px;
+    border-radius: 25px;
+}
+.md-east-sec1-ctablk a svg{
+    color: rgb(248, 188, 22);
+    font-size: 25px;
+    margin-left: 10px;
 }

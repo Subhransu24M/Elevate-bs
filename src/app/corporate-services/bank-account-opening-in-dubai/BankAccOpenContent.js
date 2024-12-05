@@ -22,11 +22,11 @@ const BankAccOpenContent = () => {
 
             <div className="bank-accnt-opn-blk-5 pt-3 pb-3">
                 <div className="bnk-accnt-bg">
-                    <h2>Major Challenges in Opening a New Corporate Bank Account in UAE</h2>
+                    
                     <div className="container">
                         <div className="row mt-4 mb-4">
                             <div className="col-md-12 col-lg-6 col-xl-6 col-sm-12">
-
+                            <h2>Major Challenges in Opening a New Corporate Bank Account in UAE</h2>
                                 {/* Accordian */}
 
                                 <div className="accordion accordion-flush" id="accordionFlushExample">
@@ -95,7 +95,8 @@ const BankAccOpenContent = () => {
                                 </div>
                             </div>
                             <div className="col-md-12 col-lg-6 col-xl-6 col-sm-12 bnk-acnt-bg-img">
-                                <Image src={bnkacntimg} alt="bank account opening service dubai" />
+                                {/* <Image src={bnkacntimg} alt="bank account opening service dubai" /> */}
+                                <img src="/images/bank-account-opening/bank-account-opening.jpg" alt="bank account opening service dubai" fetchPriority='high' loading='lazy'/>
                             </div>
                         </div>
                     </div>
