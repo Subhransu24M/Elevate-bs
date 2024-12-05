@@ -20,7 +20,7 @@ const page = () => {
     {/* <TopBar/>
     <NavBar/> */}
     <NewNavbar/>
-    <BreadCrumb page="Corporate TAX Service" backgroundImage={breadcrumbBackground}/>
+    <BreadCrumb page="TAX Consultancy" backgroundImage={breadcrumbBackground}/>
     <TaxContent/>
     {/* <Footer/> */}
     <FooterNew/>
