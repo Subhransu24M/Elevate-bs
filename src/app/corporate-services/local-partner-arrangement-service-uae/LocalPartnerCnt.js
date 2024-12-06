@@ -4,6 +4,8 @@ import LocalPartModal2 from "./LocalPartModal2"
 import LocalPartnerComp from "./LocalPartnerComp"
 import localpartimg from './images/local-partner-arrangement.jpg';
 import Image from 'next/image';
+import Link from "next/link";
+import { CiLocationArrow1 } from "react-icons/ci";
 
 const LocalPartnerCnt = () => {
   return (
@@ -15,6 +17,10 @@ const LocalPartnerCnt = () => {
                             <h1>Local Sponsor in Dubai, UAE</h1>
                             <p>Setting up a business on your own can be a complex endeavor, with numerous legal considerations to address. When it comes to establishing a business in a foreign country like Dubai, the process becomes even more challenging. Dubai, home to a significant expat population, is a popular choice for international entrepreneurs looking to start their companies. One of the primary challenges expats face when setting up a business in Dubai is foreign ownership restrictions. In the city's mainland, businesses with commercial or industrial licenses can only be 49% owned by expatriates, while the remaining 51% must be owned by a local sponsor in the UAE. However, it's important to note that, as of June 2021, regulations have allowed for 100% foreign ownership of commercial and manufacturing licenses in the UAE.</p>
                             <p>To establish a business in Dubai, you'll need an Emirati sponsor, who can either act as a sleeping partner with an agreed annual remuneration and an investor protection agreement or as a local service agent, depending on the type of license your company requires by law. If you choose to set up your business in one of the free zones in Dubai, you won't need a local sponsor, as free zones operate independently from mainland laws, and you have the flexibility to define your geographical boundaries as you see fit.</p>
+                            <div className="lcl-par-sec1-bnt-blk">
+                                <Link href="/contact-us">Contact us <CiLocationArrow1 />
+                                </Link>
+                            </div>
                         </div>
                         <div className="col-md-12 col-lg-6 col-xl-6 colsm-12 col-xs-12">
                            <Image src={localpartimg} className="lcl-part-img" alt="local partner arrangement service uae"/>
@@ -22,6 +28,7 @@ const LocalPartnerCnt = () => {
                     </div>
                 </div>
             </div>
+
 
             <div className="lcl-par-sec2">
                 <div className="container">
@@ -55,18 +62,18 @@ const LocalPartnerCnt = () => {
             </div>
 
             <div className="lcl-par-sec4">
-                <div className="container">
-                    <div className="row">
-                        <div className="col-md-12 col-lg-8 col-xl-8 col-sm-12 col-xs-12">
+                        <div className="lcl-par-sec4-left">
                            <h2 className="lcl-part-sec4-tlt">Why opt for Elevate as your choice for a local sponsor in Dubai? </h2>
                            <p className="lcl-part-sec4-cnt">Whether you require a local sponsor or aim to establish a business without one, Elevate is your ideal partner. We offer comprehensive guidance and support for all aspects of business setup in Dubai, equipping you with the essential tools to initiate, operate, and expand your enterprise in the UAE.</p>
                            <p className="lcl-part-sec4-cnt">Our commitment lies in providing our clients with the most optimal start to business ownership. Therefore, we prioritize understanding your specific needs before recommending the most appropriate solution.</p>
                         </div>
-                        <div className="col-md-12 col-lg-4 col-xl-4 col-sm-12 col-xs-12">
+                        <div className="lcl-par-sec4-right">
+                            <div className="lcl-par-sec4-right-frm">
                             <CorporateForm/>
+                            </div>
+                            
                         </div>
-                    </div>
-                </div>
+                    
             </div>
     </>
   )

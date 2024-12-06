@@ -7,6 +7,7 @@
 .lcl-part-acrd-btn:hover{
     color: #fff;
     text-decoration: none;
+    background: #620000;
 }
 .lcl-part-acrd-icon {
     float: right;
@@ -25,24 +26,56 @@
 /* Local Partner */
 
 .lcl-par-sec4 {
-    padding: 30px 0px;
+    /* padding: 30px 0px;
     background: linear-gradient(90deg, rgb(0 58 120) 0%, rgb(10 82 133) 47%, rgb(2 54 118) 100%);
+    color: #fff; */
+    display: flex;
+}
+.lcl-par-sec4-left{
+    padding: 30px 20px 30px 100px;
+    width: 60%;
+    background: #050528;
     color: #fff;
+}
+.lcl-par-sec4-right{
+    padding: 30px 100px 30px 20px;
+    width: 40%;
+    background: #dbeaf7;
+}
+@media(max-width:567px){
+    .lcl-par-sec4{
+        display: block;
+    }
+    .lcl-par-sec4-left{
+        padding: 30px 10px;
+        width: 100% !important;
+    }
+    .lcl-par-sec4-right{
+        padding: 30px 10px;
+        width: 100% !important;
+    }
 }
 .lcl-par-sec3 {
     padding: 30px 0px;
-    background: #000b18;
+    /* background: #000b18; */
 }
 .lcl-par-sec3-tlt{
-    color: #fff;
+    color: #000;
     text-align: center;
 }
 .lcl-par-sec3-cnt{
-    color: #fff;
+    color: #000;
 }
 .lcl-part-mdl-btn {
     background: none;
     font-weight: 500;
+    color: rgb(4, 3, 39);
+    border: 1px solid rgb(110, 6, 6);
+}
+.lcl-part-mdl-btn:hover{
+    background-color: #620000;
+    color: #fff;
+    border: none;
 }
 .lcl-mdl-btn-clmn {
     text-align: center;
@@ -52,13 +85,14 @@
 }
 .lcl-par-sec2 {
     padding: 30px 0px;
-    background: linear-gradient(90deg, rgb(0 58 120) 0%, rgb(10 82 133) 47%, rgb(2 54 118) 100%);
+    /* background: linear-gradient(90deg, rgb(0 58 120) 0%, rgb(10 82 133) 47%, rgb(2 54 118) 100%); */
+    background: #dff2ff;
 }
 .lcl-part-sec2-tlt{
-    color: #fff;
+    color: #000;
 }
 .lcl-part-sec2-cnt{
-    color: #fff;
+    color: #000;
 }
 .lcl-part-sec4-tlt {
     margin-top: 40px;
@@ -66,6 +100,10 @@
 .lcl-part-img{
     max-width: 100%;
     height: auto;
+    max-height: 580px;
+    border-radius: 15px;
+    display: block;
+    margin: auto;
 }
 
 /* Local Partner Modal */
@@ -73,4 +111,19 @@
     text-align: left;
     list-style: none;
     padding-left: 0px;
+}
+.lcl-par-sec1-bnt-blk{
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
+.lcl-par-sec1-bnt-blk a {
+    background: #6c0404;
+    padding: 10px 25px;
+    border-radius: 25px;
+    color: #fff;
+}
+.lcl-par-sec1-bnt-blk a svg{
+    color: rgb(250, 160, 25);
+    font-size: 25px;
+    margin-left: 10px;
 }
