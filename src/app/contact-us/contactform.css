@@ -1,0 +1,53 @@
+.mgnt-migr-frm-icon {
+    border: 1px solid lightgrey;
+    padding: 0px 10px 0px 10px;
+    background: #e1e1e1;
+    border-right: 1px dotted #cb9552;
+}
+.text-blk {
+    display: flex;
+}
+.mgnt-frm-input{
+    border-radius: 0px;
+    border: none;
+}
+.radio-btn-blk {
+    margin-left: 25px;
+}
+.rdo-btn-hd {
+    font-weight: 500;
+    color: #fff;
+}
+.mgntmigrationfrm-blk {
+    padding: 20px;
+    background: #000d26;
+}
+select#services {
+    border-radius: 0px;
+    
+}
+label.form-check-label {
+    color: #fff;
+}
+.mgn-mgr-frm-btn {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    font-weight: 600;
+    background: #fff;
+    border: none;
+    color: #000;
+}
+
+.mgn-mgr-frm-btn:hover{background-color: rgb(97, 5, 5);}
+.mgntmigrationfrm-blk h4 {
+    color: #fff;
+    text-align: center;
+    margin-bottom: 20px;
+    border-bottom: 1px dotted #f5f5f561;
+    padding-bottom: 10px
+}
+.error-clr{
+    color: #fff;
+}

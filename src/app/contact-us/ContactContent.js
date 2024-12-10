@@ -1,5 +1,6 @@
-import ItForm from "../components/WebForm/ItForm";
+// import ItForm from "../components/WebForm/ItForm";
 import Caddress from "./Caddress";
+import ContactForm from "./ContactForm";
 import cntimgbs from './images/support.png';
 import Image from "next/image";
 const ContactContent = () => {
@@ -20,7 +21,7 @@ const ContactContent = () => {
               </div>
               <div className="col-md-6 col-lg-4 col-xl-4 col-sm-12 col-xs-12">
                 <div className="cnt-blkinrpart">
-                  <ItForm />
+                  <ContactForm/>
                 </div>
               </div>
               <div className="col-md-6 col-lg-4 col-xl-4 col-sm-12 col-xs-12 map-responsive">
