@@ -1,5 +1,5 @@
 
-
+import { MdOutlineKeyboardArrowDown } from "react-icons/md";
 const AccountingImplAccord = () => {
   return (
     <>
@@ -8,7 +8,7 @@ const AccountingImplAccord = () => {
                     <div className="card-header acnt-impl-hdr" id="headingOne">
                         <h5 className="mb-0">
                             <button className="btn btn-link acnt-impl-btn" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-                            Efficiency and Automation
+                            Efficiency and Automation <MdOutlineKeyboardArrowDown />
                             </button>
                         </h5>
                     </div>
@@ -23,7 +23,7 @@ const AccountingImplAccord = () => {
                     <div className="card-header acnt-impl-hdr" id="headingTwo">
                         <h5 className="mb-0">
                             <button className="btn btn-link acnt-impl-btn collapsed" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-                            Accurate Financial Data
+                            Accurate Financial Data <MdOutlineKeyboardArrowDown />
                             </button>
                         </h5>
                     </div>
@@ -37,7 +37,7 @@ const AccountingImplAccord = () => {
                     <div className="card-header acnt-impl-hdr" id="headingThree">
                         <h5 className="mb-0">
                             <button className="btn btn-link acnt-impl-btn collapsed" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-                            Improved Financial Reporting
+                            Improved Financial Reporting <MdOutlineKeyboardArrowDown />
                             </button>
                         </h5>
                     </div>
@@ -51,7 +51,7 @@ const AccountingImplAccord = () => {
                     <div className="card-header acnt-impl-hdr" id="headingFour">
                         <h5 className="mb-0">
                             <button className="btn btn-link acnt-impl-btn collapsed" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
-                            Cost Savings
+                            Cost Savings <MdOutlineKeyboardArrowDown />
                             </button>
                         </h5>
                     </div>
@@ -65,7 +65,7 @@ const AccountingImplAccord = () => {
                     <div className="card-header acnt-impl-hdr" id="headingFive">
                         <h5 className="mb-0">
                             <button className="btn btn-link acnt-impl-btn collapsed" data-bs-toggle="collapse" data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
-                            Scalability
+                            Scalability <MdOutlineKeyboardArrowDown />
                             </button>
                         </h5>
                     </div>

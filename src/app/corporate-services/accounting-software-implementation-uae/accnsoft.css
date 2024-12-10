@@ -8,7 +8,7 @@
 /* Common */
 .acnt-impl-sec2 {
     padding: 30px 0px;  
-    background: #000810;
+    background: #e6f3ff;
 }
 .acnt-impl-sec2-bg{
     /* background-image: url(../../bgimages//sps-bg-2.png); */
@@ -18,7 +18,7 @@
     background-size: 70%;
 }
 .acnt-impl-sec3 {
-    background: linear-gradient(90deg, rgb(0 58 120) 0%, rgb(10 82 133) 47%, rgb(2 54 118) 100%);
+    background: linear-gradient(90deg, #d90909 -24%, #070426 44%);
     padding: 30px 0px;
     color: #fff;
 }
@@ -29,31 +29,44 @@
 .acnt-impl-sec2-rght {
     text-align: center;
     background: #fff;
-    padding: 32px;
+    padding: 32px 70px;
+    min-height: 180px;
+    margin: 20px 0px;
+    position: relative;
+}
+.acnt-impl-sec2-rght-btnblk {
+    display: flex;
+    justify-content: center;
 }
 .acnt-impl-hd {
     text-align: center;
-    color: #fff;
+    color: #03021b;
     font-size: 28px;
 }
-.acnt-impl-sec2-hd {
+.acnt-impl-sec3-hd{
     color: #fff;
+}
+.acnt-impl-sec2-hd {
+    color: #03021b;
     font-size: 28px;
 }
 .acnt-impl-btn {
     color: #fff;
     width: 100%;
     text-align: left;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.acnt-impl-btn svg {
+    color: #fdb01d;
+    font-size: 25px;
 }
 .acnt-impl-btn:hover{
     color:#fff;
     text-decoration: none;
 }
-.acnt-impl-mdlbtn {
-    background: none;
-    color: #000;
-    margin-top: 13px;
-}
+
 .acnt-impl-sec2-rght h5 {
     font-size: 15px !important;
 }
@@ -65,18 +78,29 @@
     max-width: 100%;
     height: auto;
 }
-.acnt-impl-sec2-rght {
-    margin-top: 22px;
-}
+
 .accn-impl-hd{
     font-size: 28px;
 }
 /* Modal */
 .acnt-impl-mdlbtn {
     margin-top: 15px;
-    /* background: no-repeat; */
     background: none;
     color: #000;
+    border: 1px solid #f9a615;
+    display: flex;
+    align-items: center;
+    position: absolute;
+    bottom: 20px;
+}
+.acnt-impl-mdlbtn svg {
+    font-size: 25px;
+    margin-left: 10px;
+    color: #fd8a24;
+}
+.acnt-impl-mdlbtn:hover {
+    background: #03021b;
+    border: none;
 }
 .acnt-impl-mdl-ul{
     list-style: none;

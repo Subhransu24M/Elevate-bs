@@ -25,12 +25,10 @@ const VatDeRegCnt = () => {
             </div>
 
             <div className="vat-de-reg-sec2">
-                <div className="container">
-                    <div className="row">
-                        <div className="col-md-12 col-lg-6 col-xl-6 col-sm-12 col-xs-12">
-                            <Image src={vatderegimg2} className="vat-dereg-img" alt="vat deregistration service dubai uae"/>
+                        <div className="vat-de-reg-sec2-left">
+                            {/* <Image src={vatderegimg2} className="vat-dereg-img" alt="vat deregistration service dubai uae"/> */}
                         </div>
-                        <div className="col-md-12 col-lg-6 col-xl-6 col-sm-12 col-xs-12">
+                        <div className="vat-de-reg-sec2-right">
                             <h2 className="vat-dereg-hd">VAT Deregistration in UAE</h2>
                             <p>Deregistration of VAT in UAE is primarily conducted online via the FTA portal. However, businesses that have ceased operations are required to obtain a company liquidation letter from government authorities before they can apply for VAT deregistration. To assist businesses with cancelling their VAT services, Elevate provides streamlined VAT deregistration services in Dubai ,UAE. When applying for VAT deregistration, companies must select one of two types of services available for this process.</p>
                             <ul className="vat-dereg-ul">
@@ -38,24 +36,20 @@ const VatDeRegCnt = () => {
                                 <li><BsCheck2Square/> Voluntary VAT Deregistration</li>
                             </ul>
                         </div>
-                    </div>
-                </div>
+                    
             </div>
 
             <div className="vat-de-reg-sec3">
-                <div className="container">
-                    <div className="row">
-                        <div className="col-md-12 col-lg-6 col-xl-6 col-sm-12 col-xs-12">
+                        <div className="vat-de-reg-sec3-left">
                             <h2 className="vat-dereg-hd">When to Deregister for VAT in UAE</h2>
                             <p>VAT deregistration becomes mandatory if you cease conducting business operations or if your taxable turnover falls below the voluntary registration threshold of AED 187,500. Additionally, you can choose to apply for deregistration voluntarily if your taxable turnover exceeds AED 187,500 but is still below the mandatory registration threshold of AED 375,000.</p>
                             <h2 className="vat-dereg-hd">Time Limit for Submitting a VAT Deregistration Application:</h2>
                             <p>To initiate the deregistration process, you must submit the application to the Federal Tax Authority (FTA) within 20 business days from the occurrence of the event that necessitates deregistration, as specified under Article 21 of the VAT Law.</p>
                         </div>
-                        <div className="col-md-12 col-lg-6 col-xl-6 col-sm-12 col-xs-12">
-                            <Image src={vatderegimg3} className="vat-dereg-img" alt="vat deregistration service dubai uae"/>
+                        <div className="vat-de-reg-sec3-right">
+                            {/* <Image src={vatderegimg3} className="vat-dereg-img" alt="vat deregistration service dubai uae"/> */}
                         </div>
-                    </div>
-                </div>
+                    
             </div>
 
             

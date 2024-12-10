@@ -48,34 +48,34 @@ const ComplianceCnt = () => {
 
             <div className="compl-serv-sec3">
                 <div className="container">
-                    <h2 className="compl-hd">Our premium Compliance Services in UAE:-</h2>
+                    <h2 className="compl-sec3-hd">Our Premium Compliance Services in UAE</h2>
                     <div className="row mt-5 mb-5">
                         <div className="col-md-6 col-lg-3 col-xl-3 col-sm-12">
                             <div className="compl-sec3-box">
                                 <h5>Country-by-Country Reporting </h5>
                                 <p>Country-by-Country Reporting (CbCR) is a requirement established by the OECD's Base Erosion and Profit Shifting (BEPS) Action 13. </p>
-                                <ComplCbcrModal/>
+                                <div className="compl-sec3-box-mdlbtn"><ComplCbcrModal/></div>
                             </div>
                         </div>
                         <div className="col-md-6 col-lg-3 col-xl-3 col-sm-12">
                             <div className="compl-sec3-box">
                                 <h5>Economic Substance Reporting(ESR)</h5>
                                 <p>ESR  aim to ensure that businesses engaged in specific activities meet regulatory needs to combat tax evasion and improper tax practices . </p>
-                                <ComplEsrModal/>
+                                <div className="compl-sec3-box-mdlbtn"><ComplEsrModal/></div>
                             </div>
                         </div>
                         <div className="col-md-6 col-lg-3 col-xl-3 col-sm-12">
                             <div className="compl-sec3-box">
                                 <h5>Ultimate Beneficial Owner(UBO)</h5>
                                 <p>The Ultimate Beneficial Owner (UBO) in the UAE refers to the individual or entity holding the ultimate control and ownership of a company. </p>
-                                <ComplUboModal/>
+                                <div className="compl-sec3-box-mdlbtn"><ComplUboModal/></div>
                             </div>
                         </div>
                         <div className="col-md-6 col-lg-3 col-xl-3 col-sm-12">
                             <div className="compl-sec3-box">
                                 <h5>Anti Money Laundering Compliance(AML)</h5>
                                 <p>AML measures in the UAE are crucial safeguards against financial crimes, designed to detect and prevent money laundering activities .</p>
-                                <ComplAmlModal/>
+                                <div className="compl-sec3-box-mdlbtn"><ComplAmlModal/></div>
                             </div>
                         </div>
                     </div>
@@ -86,8 +86,10 @@ const ComplianceCnt = () => {
                 <div className="container">
                     <div className="row">
                         <div className="col-md-12 col-lg-8 col-xl-8 col-sm-12">
+                            <div className="compl-sec4-right">
                             <h2 className="compl-hd">Choose Elevate for Compliance Services in UAE</h2>
                             <p>Our expertise lies in simplifying the intricate UAE laws and regulations, ensuring you navigate them seamlessly. With our support, you'll stay well-informed about any legal updates, safeguarding your business from unexpected disruptions and compliance challenges. Trust us to be your dedicated partner in maintaining regulatory adherence and peace of mind.</p>
+                            </div>
                         </div>
                         <div className="col-md-12 col-lg-4 col-xl-4 col-sm-12">
                             <CorporateForm/>

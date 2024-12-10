@@ -5,7 +5,7 @@
     padding: 30px 0px;
 }
 .compl-serv-sec3 {
-    background: #000b18;
+    background: #223142;
     color: #fff;
     padding: 30px 0px;
     background-image: url(../bg-images/bg-img1.png);
@@ -15,7 +15,7 @@
 }
 .compl-sec4 {
     padding: 30px 0px;
-    background: linear-gradient(90deg, rgb(7 55 106) 0%, rgb(26 99 151) 47%, rgb(8 93 143) 100%);
+    background: linear-gradient(90deg, #d90909 -24%, #070426 44%);
     color: #fff;
 }
 .compl-btn-cnt {
@@ -27,20 +27,47 @@
 
 .compl-sec3-box {
     background: #ffffff;
-    padding: 12px;
+    padding: 30px;
     color: #000;
     text-align: center;
+    min-height: 300px;
+    position: relative;
+    border-radius: 15px;
+}
+.compl-btn {
+    position: absolute;
+    bottom: 20px;
+    background: no-repeat;
+    color: #fff;
+    border: none;
+    background: #a90b0b;
+}
+.compl-btn svg{
+    color: rgb(248, 176, 21);
+    font-size: 25px;
+    margin-left: 10px;
+}
+.compl-btn:hover{
+    background: #070426;
+    border: none;
+}
+.compl-sec3-box-mdlbtn {
+    display: flex;
+    justify-content: center;
 }
 .compl-sec3-box p{
-    text-align: justify;
+    text-align: center;
+    padding-top: 15px;
 }
 .compl-img{
     max-width: 100%;
     height: auto;
 }
 .compl-hd{
-    font-size: 28px;
-    font-family: system-ui;
+    text-align: left;
+}
+.compl-sec3-hd{
+    text-align: center;
 }
 .compl-sec3-box h5 {
     font-size: 18px;
@@ -50,4 +77,13 @@
 .compliance-ul{
     list-style: none;
     padding-left: 0px;
+}
+.compl-sec4-right {
+    max-width: 600px;
+    margin: auto;
+    margin-top: 100px;
+    margin-bottom: 30px;
+}
+.compl-sec4-right p {
+    margin: 25px 0px;
 }

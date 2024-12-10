@@ -1,10 +1,9 @@
-
-
+import { CiLocationArrow1 } from "react-icons/ci";
 const DistinctVatRegModal = () => {
   return (
     <>
     <button type="button" className="btn btn-primary vat-reg-modal2-btn" data-bs-toggle="modal" data-bs-target="#exampleModal4">
-                Learn More
+                Check now <CiLocationArrow1 />
             </button>
 
 

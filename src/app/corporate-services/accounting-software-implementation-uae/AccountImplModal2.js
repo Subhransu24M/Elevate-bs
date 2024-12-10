@@ -1,11 +1,11 @@
-
+import { CiLocationArrow1 } from "react-icons/ci";
 import { BsCheck2Square } from "react-icons/bs";
 const AccountImplModal2 = () => {
   return (
     <>
     <button type="button" className="btn btn-primary acnt-impl-mdlbtn" data-bs-toggle="modal" data-bs-target="#exampleModal2">
-                Learn More
-            </button>
+                Read More <CiLocationArrow1 />
+    </button>
 
 
             <div className="modal fade" id="exampleModal2" tabIndex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">

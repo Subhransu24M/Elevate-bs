@@ -8,6 +8,24 @@
 .vat-reg-modal-btn{
     background: none;
     font-weight: 500;
+    border: none;
+    background-color: #efb21c;
+    color: rgb(3, 3, 39);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.vat-reg-modal-btn svg{
+    color: #fff;
+    font-size: 25px;
+    margin-left: 10px;
+}
+.vat-reg-modal-btn:hover{
+    background: rgb(3, 3, 39);
+    color: #fff;
+}
+.vat-reg-modal-btn:hover svg{
+    color: #efb21c;
 }
 
 /* VAT Reg */
@@ -24,16 +42,17 @@
 }
 .vat-reg-sec4 {
     padding: 30px 0px;
-    background: linear-gradient(90deg, rgb(7 55 106) 0%, rgb(26 99 151) 47%, rgb(8 93 143) 100%);
+    /* background: linear-gradient(90deg, rgb(7 55 106) 0%, rgb(26 99 151) 47%, rgb(8 93 143) 100%); */
     color: #fff;
+    background: linear-gradient(90deg, #d90909 -24%, #070426 44%);
 }
 .vat-reg-sec3 {
     padding: 30px 0px;
 }
 .vat-reg-sec2 {
     padding: 30px 0px;
-    background: #000714;
-    color: #fff;
+    background: #e4f3ffbf;
+    color: #000;
 }
 .vat-reg-sec1 {
     padding: 30px 0px;
@@ -47,10 +66,21 @@
 .vat-reg-doc-mdl-blk {
     display: grid;
     justify-items: center;
-    border: 1px solid;
+    /* border: 1px solid; */
     width: 50%;
     margin-left: 25%;
     padding: 20px;
+    background: #b71313;
+    border-radius: 50px;
+    min-height: 300px;
+    max-width: 260px;
+}
+@media(max-width:567px){
+    .vat-reg-doc-mdl-blk{
+        width: 80%;
+        align-items: center;
+        margin: auto;
+    }
 }
 .vat-reg-doc-tlt {
     text-align: center;
@@ -59,18 +89,14 @@
 }
 
 .vat-reg-box-bgimg {
-    color: #fff;
+    color: #03021f;
     text-align: center;
-    background-image: url(./images/VAT-Registration-uae.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-    margin: 10px 0px;
-    margin: 1px;
+    background: #edf6ff;
+    min-height: 180px;
 }
 .vat-reg-box {
-    background: #000000d6;
-    padding: 35px 0px;
+    /* background: #000000d6; */
+    padding: 35px 30px;
 }
 
 .vat-reg-box h6{
@@ -78,12 +104,23 @@
     font-size: 18px;
 }
 .vat-reg-modal2-btn {
-    background: no-repeat;
+    background: none;
     margin-top: 15px;
+    border: 1px solid rgb(248, 195, 20);
+    color: #050324;
+    display: inline-flex;
+    align-items: center;
+}
+.vat-reg-modal2-btn svg {
+    font-size: 25px;
+    color: #ffa211;
+    margin-left: 10px;
 }
 .vat-reg-img{
     max-width: 100%;
     height: auto;
+    max-height: 525px;
+    border-radius: 15px;
 }
 
 .vat-reg-hd{
@@ -92,4 +129,20 @@
 .vat-regt-ul{
     list-style: none;
     padding-left: 0px;
+}
+.vat-reg-hd-btnblk {
+    display: inline-flex;
+    background: #b10f0f;
+    padding: 8px 25px;
+    /* color: #fff; */
+    border-radius: 25px;
+    margin: 30px 0px;
+}
+.vat-reg-hd-btnblk a{
+    color: #fff;
+}
+.vat-reg-hd-btnblk a svg{
+    color: #efb21c;
+    font-size: 25px;
+    margin-left: 10px;
 }
