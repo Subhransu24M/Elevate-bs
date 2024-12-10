@@ -25,13 +25,13 @@ const NewCorporateblk = () => {
             name: "ADGM Services",
             image: adgm,
             alt: "ADGM Company Service Provider",
-            link: "/adgm-company-service-provider"
+            link: "/adgm"
         },
         {
             name: "Business Setup",
             image: businesssetup,
             alt: "Business Setup",
-            link: "#"
+            link: "/business-formation"
         }
     ]
     return (
