@@ -7,6 +7,9 @@ import ComplEsrModal from "./ComplEsrModal";
 import ComplUboModal from "./ComplUboModal";
 import ComplAmlModal from "./ComplAmlModal";
 import { BsCheck2Square } from "react-icons/bs";
+import Link from "next/link";
+import { CiLocationArrow1 } from "react-icons/ci";
+
 const ComplianceCnt = () => {
   return (
     <>
@@ -16,6 +19,10 @@ const ComplianceCnt = () => {
                         <div className="col-md-12 col-xl-6 col-lg-6 col-sm-12">
                             <h1 className="compl-hd">Your Guide to Compliance Services in UAE </h1>
                             <p>Maintaining a strong ethical culture and implementing effective compliance measures can significantly reduce the risk of incurring legal or regulatory penalties, which can result in significant financial and reputational damage for businesses. As regulatory requirements for compliance continue to grow, including the need for policies, anti-money laundering frameworks, and skilled talent, it has become increasingly crucial for organizations to prioritize building a robust compliance infrastructure.Prioritizing a robust compliance infrastructure, coupled with the expertise of Compliance Services in Dubai, UAE, is essential in mitigating the risk of facing legal or regulatory penalties.  This proactive approach not only safeguards businesses from potential financial and reputational damage but also ensures adherence to evolving compliance requirements, encompassing policies, anti-money laundering frameworks, and skilled talent, as regulatory demands continue to expand.</p>
+                            <div className="compl-first-btnblk">
+                                <Link href="/contact-us">Contact us <CiLocationArrow1 />
+                                </Link>
+                            </div>
                         </div>
                         <div className="col-md-12 col-xl-6 col-lg-6 col-sm-12">
                             <Image src={complianceimg1} alt="compliance services in dubai uae" data-aos="fade-left" className="compl-img" />

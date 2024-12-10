@@ -1,6 +1,26 @@
 .compl-sev-sec1 {
     padding: 30px 0px;
 }
+.compl-first-btnblk {
+    display: inline-flex;
+    background: #a70808;
+    padding: 8px 25px;
+    border-radius: 25px;
+    align-items: center;
+}
+.compl-first-btnblk a {
+    color: #fff;
+}
+.compl-img {
+    border-radius: 15px;
+    display: block;
+    margin: auto;
+}
+.compl-first-btnblk a svg{
+    color: rgb(255, 200, 20);
+    font-size: 25px;
+    margin-left: 10px;
+}
 .compl-serv-sec2 {
     padding: 30px 0px;
 }
