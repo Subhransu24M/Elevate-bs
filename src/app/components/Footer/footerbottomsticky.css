@@ -2,8 +2,9 @@
     bottom: 0;
     width: 100%;
     position: fixed;
-    background: linear-gradient(90deg, rgb(10 80 155 / 94%) 30%, rgb(24 106 155 / 94%) 70%);
+    /* background: linear-gradient(90deg, rgb(10 80 155 / 94%) 30%, rgb(24 106 155 / 94%) 70%); */
     z-index: 999;
+    background: #040324;
 }
 .btm-icon a {
     padding: 10px 0px;
