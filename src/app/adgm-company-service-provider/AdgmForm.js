@@ -1,37 +1,65 @@
+"use client"
 import './adgmform.css';
-import { FaRegBuilding } from "react-icons/fa";
-import { FaRegUser } from "react-icons/fa";
-import { FaLink } from "react-icons/fa";
-import { FaPhone } from "react-icons/fa";
+import { FaRegBuilding, FaRegUser, FaLink, FaPhone } from "react-icons/fa";
+import { useState } from 'react';
 const AdgmForm = () => {
+    const [businessname, setBusinessname] = useState('');
+  const [customername, setCustomername] = useState('');
+  const [mobilenumber, setMobilenumber] = useState('');
+  const [email, setEmail] = useState('');
+
+  const handleSubmit = async (e) => {
+    e.preventDefault();
+    // Call a function to send email using Nodemailer with formData
+
+    if (businessname == "" && customername == "" && mobilenumber == "" && email == "" ) {
+        alert("Please enter all the field");
+        return false;
+    }
+    // New Mail Handle
+
+    const response = await fetch ('/api/sendEmailAdgm',{
+        credentials : 'same-origin',
+        method : 'POST',
+        headers :{
+           'content-type': 'application/json'
+        },
+        body : JSON.stringify({
+            businessname,customername,mobilenumber,email
+        })
+    })
+    console.log(await response.json())
+
+};
+
   return (
     <>
       <div className="cmn-frm-blk">
-                <form>
+                <form onSubmit={(ev) => handleSubmit (ev)}>
                     <h4>CONTACT US</h4>
                     <div className="row pt-3">
                         <div className="col-md-12 col-lg-12 col-xl-12 col-sm-12 pb-2">
                             <div className="text-blk">
                                 <div className="corp-cmn-frm-icon"><FaRegBuilding className="cmn-frm-icn" /></div>
-                                <input type="text" className="form-control mgnt-frm-input" placeholder="Business Name" name="businessname" id="businessname" />
+                                <input type="text" className="form-control mgnt-frm-input" placeholder="Business Name" name="businessname" id="businessname" value={businessname} onChange={(e) => setBusinessname(e.target.value)} required/>
                             </div>
                         </div>
                         <div className="col-md-12 col-lg-12 col-xl-12 col-sm-12 pb-2">
                             <div className="text-blk">
                                 <div className="corp-cmn-frm-icon"><FaRegUser className="cmn-frm-icn" /></div>
-                                <input type="text" className="form-control mgnt-frm-input" placeholder="Your Name" name="customername" id="customername" />
+                                <input type="text" className="form-control mgnt-frm-input" placeholder="Your Name" name="customername" id="customername" value={customername} onChange={(e) => setCustomername(e.target.value)} required/>
                             </div>
                         </div>
                         <div className="col-md-12 col-lg-12 col-xl-12 col-sm-12 pb-2">
                             <div className="text-blk">
                                 <div className="corp-cmn-frm-icon"><FaLink className="cmn-frm-icn" /></div>
-                                <input type="email" className="form-control mgnt-frm-input" placeholder="email" name="email" id="email" />
+                                <input type="email" className="form-control mgnt-frm-input" placeholder="email" name="email" id="email" value={email} onChange={(e) => setEmail(e.target.value)} required/>
                             </div>
                         </div>
                         <div className="col-md-12 col-lg-12 col-xl-12 col-sm-12 pb-2">
                             <div className="text-blk">
                                 <div className="corp-cmn-frm-icon"><FaPhone className="cmn-frm-icn" /></div>
-                                <input type="text" className="form-control mgnt-frm-input" placeholder="Contact Number" name="mobilenumber" id="mobilenumber" />
+                                <input type="tel" className="form-control mgnt-frm-input" placeholder="Contact Number" name="mobilenumber" id="mobilenumber" value={mobilenumber} onChange={(e) => setMobilenumber(e.target.value)} required/>
                             </div>
                         </div>
                         {/* <div className="col-md-12 col-lg-12 col-xl-12 col-sm-12 pb-2">

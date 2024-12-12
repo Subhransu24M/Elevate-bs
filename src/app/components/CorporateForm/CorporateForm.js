@@ -1,43 +1,75 @@
+"use client"
 import './corporateform.css';
-import { FaRegBuilding } from "react-icons/fa";
-import { FaRegUser } from "react-icons/fa";
-import { FaLink } from "react-icons/fa";
-import { FaPhone,FaCogs } from "react-icons/fa";
+import { FaRegBuilding, FaRegUser, FaLink, FaPhone, FaCogs } from "react-icons/fa";
+
+import { useState } from 'react';
+
 const CorporateForm = () => {
+  const [businessname, setBusinessname] = useState('');
+  const [customername, setCustomername] = useState('');
+  const [email, setEmail] = useState('');
+  const [mobilenumber, setMobilenumber] = useState('');
+  const [services, setServices] = useState('');
+
+  const handleSubmit = async (e) => {
+    e.preventDefault();
+    // Call a function to send email using Nodemailer with formData
+
+    if (businessname == "" && customername == "" && email == "" && mobilenumber == "" && services == "") {
+        alert("Please enter all the field");
+        return false;
+    }
+
+    // New Mail Handle
+
+    const response = await fetch ('/api/sendEmailCorporate',{
+        credentials : 'same-origin',
+        method : 'POST',
+        headers :{
+           'content-type': 'application/json'
+        },
+        body : JSON.stringify({
+            businessname,customername,email,mobilenumber,services
+        })
+    })
+    console.log(await response.json())
+
+};
+
   return (
     <>
       <div className="cmn-frm-blk">
-                <form>
+                <form onSubmit={(ev) => handleSubmit (ev)}>
                     <h4>CONTACT US</h4>
                     <div className="row">
                         <div className="col-md-12 col-lg-12 col-xl-12 col-sm-12 pb-2">
                             <div className="text-blk">
                                 <div className="corp-cmn-frm-icon"><FaRegBuilding className="cmn-frm-icn" /></div>
-                                <input type="text" className="form-control mgnt-frm-input" placeholder="Business Name" name="businessname" id="businessname" />
+                                <input type="text" className="form-control mgnt-frm-input" placeholder="Business Name" name="businessname" id="businessname" value={businessname} onChange={(e) => setBusinessname(e.target.value)} required/>
                             </div>
                         </div>
                         <div className="col-md-12 col-lg-12 col-xl-12 col-sm-12 pb-2">
                             <div className="text-blk">
                                 <div className="corp-cmn-frm-icon"><FaRegUser className="cmn-frm-icn" /></div>
-                                <input type="text" className="form-control mgnt-frm-input" placeholder="Your Name" name="customername" id="customername" />
+                                <input type="text" className="form-control mgnt-frm-input" placeholder="Your Name" name="customername" id="customername" value={customername} onChange={(e) => setCustomername(e.target.value)} required/>
                             </div>
                         </div>
                         <div className="col-md-12 col-lg-12 col-xl-12 col-sm-12 pb-2">
                             <div className="text-blk">
                                 <div className="corp-cmn-frm-icon"><FaLink className="cmn-frm-icn" /></div>
-                                <input type="email" className="form-control mgnt-frm-input" placeholder="email" name="email" id="email" />
+                                <input type="email" className="form-control mgnt-frm-input" placeholder="email" name="email" id="email" value={email} onChange={(e) => setEmail(e.target.value)} required/>
                             </div>
                         </div>
                         <div className="col-md-12 col-lg-12 col-xl-12 col-sm-12 pb-2">
                             <div className="text-blk">
                                 <div className="corp-cmn-frm-icon"><FaPhone className="cmn-frm-icn" /></div>
-                                <input type="text" className="form-control mgnt-frm-input" placeholder="Contact Number" name="mobilenumber" id="mobilenumber" />
+                                <input type="tel" className="form-control mgnt-frm-input" placeholder="Contact Number" name="mobilenumber" id="mobilenumber" value={mobilenumber} onChange={(e) => setMobilenumber(e.target.value)} required/>
                             </div>
                         </div>
                         <div className="col-md-12 col-lg-12 col-xl-12 col-sm-12 pb-2">
                             <div className="text-blk">
                                 <div className="corp-cmn-frm-icon"><FaCogs className="cmn-frm-icn" /></div>
-                                <select className="form-control cmn-frm-slt" name="services" id="services">
+                                <select className="form-control cmn-frm-slt" name="services" id="services" value={services} onChange={(e) => setServices(e.target.value)}>
                                     <option>Select Service</option>
                                     <option value="CFO Services">CFO Services</option>
                                     <option value="Trademark Registration">Trademark Registration</option>

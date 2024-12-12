@@ -6,7 +6,7 @@ export async function POST(request){
 //   console.log(process.env.SMTP_SERVER);
 //   console.log(process.env.SMTP_USERNAME);
 //   console.log(process.env.SMTP_PASSWORD);
-    const { businessname, customername, mobilenumber, email, services } = await request.json();
+    const { businessname, customername, mobilenumber, email } = await request.json();
     const port = parseInt(process.env.SMTP_PORT, 10) || 465;
     try {
         const transporter = nodemailer.createTransport({
@@ -26,14 +26,13 @@ export async function POST(request){
           const mailOption ={
             from: '"Elevate Business Solutions" <info@elevatebs.com>',
             to: 'subhransuseo18@gmail.com',
-            subject: "🎉New submission to digital marketing form!",
+            subject: "🎉New submission to corporate services form!",
             html:`
-             <h3>Elevate Business Solutions  Website Inquiry Details</h3>
+             <h3>Elevate Business Solutions Website Inquiry Details</h3>
              <li>Business Name : <strong>${businessname}</strong></li>
              <li>Customer Name : <strong>${customername}</strong></li>
              <li>Mobile Number : <strong>${mobilenumber}</strong></li>
              <li>Mail Id : <strong>${email}</strong></li>
-             <li>Selected Services : <strong>${services}</strong></li>
             `
           }
     
@@ -47,3 +46,4 @@ export async function POST(request){
 
     }
 }
+
