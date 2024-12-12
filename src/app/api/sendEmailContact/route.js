@@ -7,7 +7,7 @@ export async function POST(request){
 //   console.log(process.env.SMTP_USERNAME);
 //   console.log(process.env.SMTP_PASSWORD);
     const { businessname, customername, mobilenumber, email, services } = await request.json();
-    const port = parseInt(process.env.SMTP_PORT)
+    const port = parseInt(process.env.SMTP_PORT, 10) || 465;
     try {
         const transporter = nodemailer.createTransport({
             host: process.env.SMTP_SERVER,
