@@ -95,7 +95,7 @@ const CorporateForm = () => {
                         </div>
                     </div>
                     {/* <span className='error-clr'>{error}</span> */}
-                    <button type="button" className="btn btn-secondary corp-cmn-frm-btn btn-lg" name="submit" id="submit" value="submit">Submit</button>
+                    <button type="submit" className="btn btn-secondary corp-cmn-frm-btn btn-lg" name="submit" id="submit" value="submit">Submit</button>
                 </form>
             </div>
     </>
