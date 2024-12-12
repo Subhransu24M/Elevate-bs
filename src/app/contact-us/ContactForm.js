@@ -22,7 +22,7 @@ const ContactForm = () => {
 
     // New Mail Handle
 
-    const response = await fetch ('/api/sendEmailRoute',{
+    const response = await fetch ('/api/sendEmailContact',{
         credentials : 'same-origin',
         method : 'POST',
         headers :{
