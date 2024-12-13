@@ -1,4 +1,3 @@
-import JafzaForm from "./JafzaForm"
 import WhyChosejafza from "./WhyChosejafza"
 import { IoIosArrowDown } from "react-icons/io";
 import { HiMiniArrowLongRight } from "react-icons/hi2";
@@ -59,7 +58,6 @@ const JafzaCnt = () => {
                             </div>
                         </div>
                         <div className="col-md-6 col-lg-4 col-xl-4 col-sm-12">
-                            {/* <JafzaForm /> */}
                             <BusinessSetupform/>
                         </div>
                     </div>
