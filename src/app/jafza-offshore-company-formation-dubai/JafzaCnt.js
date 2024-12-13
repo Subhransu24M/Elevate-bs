@@ -6,6 +6,7 @@ import JafzatypesDocuments from "./JafzatypesDocuments";
 import JafzaPrice from "./JafzaPrice";
 import JafzacompanyformationProcess from "./JafzacompanyformationProcess";
 import WhatisifzaCost from "./WhatisifzaCost";
+import BusinessSetupform from "../components/BusinesssetupForm/BusinessSetupform";
 
 
 const JafzaCnt = () => {
@@ -58,7 +59,8 @@ const JafzaCnt = () => {
                             </div>
                         </div>
                         <div className="col-md-6 col-lg-4 col-xl-4 col-sm-12">
-                            <JafzaForm />
+                            {/* <JafzaForm /> */}
+                            <BusinessSetupform/>
                         </div>
                     </div>
                 </div>

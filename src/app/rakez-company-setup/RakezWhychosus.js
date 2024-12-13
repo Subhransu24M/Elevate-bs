@@ -1,8 +1,7 @@
-
-import AdgmForm from "../adgm-company-service-provider/AdgmForm"
 import { MdDoubleArrow } from "react-icons/md";
 import Link from "next/link";
 import { CiLocationArrow1 } from "react-icons/ci";
+import BusinessSetupform from "../components/BusinesssetupForm/BusinessSetupform";
 
 const RakezWhychosus = () => {
     return (
@@ -25,7 +24,8 @@ const RakezWhychosus = () => {
                         </div>
                         <div className="col-md-6 col-xl-4 col-lg-4 col-sm-12">
                             <div className="rakez-whychos-frm-blk">
-                                <AdgmForm />
+                                {/* <AdgmForm /> */}
+                                <BusinessSetupform/>
                             </div>
                         </div>
                     </div>

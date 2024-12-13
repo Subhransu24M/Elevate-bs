@@ -1,32 +1,34 @@
 "use client"
-import './bookkeepingabudhabiform.css';
-import { FaRegBuilding, FaRegUser, FaLink, FaPhone } from "react-icons/fa";
+import './businesssetupform.css';
+import { FaRegBuilding, FaRegUser, FaLink, FaPhone, FaCogs } from "react-icons/fa";
 import { useState } from 'react';
 
-const BookkeepingabudhabiForm = () => {
+const BusinessSetupform = () => {
   const [businessname, setBusinessname] = useState('');
   const [customername, setCustomername] = useState('');
-  const [mobilenumber, setMobilenumber] = useState('');
   const [email, setEmail] = useState('');
+  const [mobilenumber, setMobilenumber] = useState('');
+  const [services, setServices] = useState('');
+  
 
   const handleSubmit = async (e) => {
     e.preventDefault();
     // Call a function to send email using Nodemailer with formData
 
-    if (businessname == "" && customername == "" && mobilenumber == "" && email == "" ) {
+    if (businessname == "" && customername == "" && email == "" && mobilenumber == "" ) {
         alert("Please enter all the field");
         return false;
     }
     // New Mail Handle
 
-    const response = await fetch ('/api/sendEmailAdgm',{
+    const response = await fetch ('/api/sendEmailBusinesssetup',{
         credentials : 'same-origin',
         method : 'POST',
         headers :{
            'content-type': 'application/json'
         },
         body : JSON.stringify({
-            businessname,customername,mobilenumber,email
+            businessname,customername,email,mobilenumber,services
         })
     })
     console.log(await response.json())
@@ -60,37 +62,22 @@ const BookkeepingabudhabiForm = () => {
                         <div className="col-md-12 col-lg-12 col-xl-12 col-sm-12 pb-2">
                             <div className="text-blk">
                                 <div className="corp-cmn-frm-icon"><FaPhone className="cmn-frm-icn" /></div>
-                                <input type="tel" className="form-control mgnt-frm-input" placeholder="Contact Number" name="mobilenumber" id="mobilenumber" value={mobilenumber} onChange={(e) => setMobilenumber(e.target.value)} required/>
+                                <input type="text" className="form-control mgnt-frm-input" placeholder="Contact Number" name="mobilenumber" id="mobilenumber" value={mobilenumber} onChange={(e) => setMobilenumber(e.target.value)} required/>
                             </div>
                         </div>
-                        
-                        {/* <div className="col-md-12 col-lg-12 col-xl-12 col-sm-12 pb-2">
+                        <div className="col-md-12 col-lg-12 col-xl-12 col-sm-12 pb-2">
+                        <p>How soon are you planning to start?</p>
                             <div className="text-blk">
                                 <div className="corp-cmn-frm-icon"><FaCogs className="cmn-frm-icn" /></div>
-                                <select className="form-control cmn-frm-slt" name="services" id="services">
-                                    <option>Select Service</option>
-                                    <option value="CFO Services">CFO Services</option>
-                                    <option value="Trademark Registration">Trademark Registration</option>
-                                    <option value="Restaurant Accounting">Restaurant Accounting </option>
-                                    <option value="Fund Raising">Fund Raising</option>
-                                    <option value="Tax Consultancy">Tax Consultancy</option>
-                                    <option value="Bank Account Opening">Bank Account Opening</option>
-                                    <option value="Middle East Desk">Middle East Desk</option>
-                                    <option value="Capital Arrangement">Capital Arrangement</option>
-                                    <option value="Bank Loan Arrangement">Bank Loan Arrangement</option>
-                                    <option value="Local Partner Arrangement">Local Partner Arrangement</option>
-                                    <option value="Compliance Services">Compliance Services</option>
-                                    <option value="Setting Up A Company">Setting Up A Company</option>
-                                    <option value="Liquidation Services">Liquidation Services</option>
-                                    <option value="VAT Registration">VAT Registration</option>
-                                    <option value="VAT Deregistration">VAT Deregistration</option>
-                                    <option value="Visa Assistance">Visa Assistance</option>
-                                    <option value="Audit & Assurance">Audit & Assurance </option>
-                                    <option value="Accounting Implementation">Accounting Implementation</option>
-                                    <option value="ISO Certification">ISO Certification</option>
+                                <select className="form-control cmn-frm-slt" name="services" id="services" value={services} onChange={(e) => setServices(e.target.value)}>
+                                    <option value="Immediately" default>Immediately</option>
+                                    <option value="Within 1 month">Within 1 month</option>
+                                    <option value="Within 2 months">Within 2 months</option>
+                                    <option value="After 3 months">After 3 months </option>
+
                                 </select>
                             </div>
-                        </div> */}
+                        </div>
                     </div>
                     {/* <span className='error-clr'>{error}</span> */}
                     <button type="submit" className="btn btn-secondary corp-cmn-frm-btn btn-lg" name="submit" id="submit" value="submit">Submit</button>
@@ -100,4 +87,4 @@ const BookkeepingabudhabiForm = () => {
   )
 }
 
-export default BookkeepingabudhabiForm
+export default BusinessSetupform

@@ -1,4 +1,4 @@
-import CorporateForm from "../components/CorporateForm/CorporateForm"
+import BusinessSetupform from "../components/BusinesssetupForm/BusinessSetupform";
 import { HiMiniArrowLongRight } from "react-icons/hi2";
 
 const WhychosesaifElevate = () =>{
@@ -22,7 +22,8 @@ const WhychosesaifElevate = () =>{
                     </div>
                     <div className="col-md-6 col-lg-4 col-xl-4 col-sm-12">
                     <div className="whychossaifelvfrm">
-                        <CorporateForm/>
+                        {/* <CorporateForm/> */}
+                        <BusinessSetupform/>
                     </div>
                     </div>
                 </div>
