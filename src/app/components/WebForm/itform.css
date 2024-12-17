@@ -51,3 +51,8 @@ label.form-check-label {
 .error-clr{
     color: #fff;
 }
+.success-message{
+    color: #fff;
+    text-align: center;
+    margin-top: 20px;
+}

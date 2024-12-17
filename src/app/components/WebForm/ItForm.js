@@ -10,6 +10,8 @@ const ItForm = () => {
   const [mobilenumber, setMobilenumber] = useState('');
   const [email, setEmail] = useState('');
   const [services, setServices] = useState('');
+  const [loading, setLoading] = useState(false);
+  const [successMessage, setSuccessMessage] = useState('');
 
   const handleSubmit = async (e) => {
     e.preventDefault();
@@ -17,12 +19,14 @@ const ItForm = () => {
 
     if (businessname == "" && customername == "" && mobilenumber == "" && email == "" && services == "") {
         alert("Please enter all the field");
-        return false;
+        return;
     }
+    setLoading(true);
+    setSuccessMessage(''); // Clear any previous messages
 
     // New Mail Handle
 
-    const response = await fetch ('/api/sendEmailRoute',{
+    try {const response = await fetch ('/api/sendEmailRoute',{
         credentials : 'same-origin',
         method : 'POST',
         headers :{
@@ -32,7 +36,26 @@ const ItForm = () => {
             businessname,customername,mobilenumber,email,services
         })
     })
-    console.log(await response.json())
+    console.log(await response.json());
+    if (response.ok) {
+        // Clear form fields
+        setBusinessname('');
+        setCustomername('');
+        setMobilenumber('');
+        setEmail('');
+        setServices('');
+        setSuccessMessage('Thank you for contacting us! 🎉');
+    } else {
+        console.error(result.message || 'Something went wrong');
+        alert('Failed to send your message. Please try again.');
+    }
+} catch (error) {
+    console.error('Error:', error);
+}
+finally {
+    setLoading(false);
+}
+
 
 };
 
@@ -91,7 +114,11 @@ const ItForm = () => {
                         </div>
                     </div>
                     {/* <span className='error-clr'>{error}</span> */}
-                    <button type="submit" className="btn btn-secondary mgn-mgr-frm-btn btn-lg">Submit</button>
+                    {/* <button type="submit" className="btn btn-secondary mgn-mgr-frm-btn btn-lg">Submit</button> */}
+                    <button type="submit" className="btn btn-secondary mgn-mgr-frm-btn btn-lg" disabled={loading}>
+                        {loading ? 'Submitting...' : 'Submit'}
+                    </button>
+                    {successMessage && <p className="success-message">{successMessage}</p>}
                 </form>
             </div>
     </>

@@ -1,49 +1,44 @@
 "use client"
-import './corporateform.css';
-import { FaRegBuilding, FaRegUser, FaLink, FaPhone, FaCogs } from "react-icons/fa";
-
+import './adgmformnew.css';
+import { FaRegBuilding, FaRegUser, FaLink, FaPhone } from "react-icons/fa";
 import { useState } from 'react';
-
-const CorporateForm = () => {
-  const [businessname, setBusinessname] = useState('');
+const AdgmformNew = () => {
+    const [businessname, setBusinessname] = useState('');
   const [customername, setCustomername] = useState('');
-  const [email, setEmail] = useState('');
   const [mobilenumber, setMobilenumber] = useState('');
-  const [services, setServices] = useState('');
+  const [email, setEmail] = useState('');
   const [loading, setLoading] = useState(false);
-  const [successMessage, setSuccessMessage] = useState('');
+    const [successMessage, setSuccessMessage] = useState('');
 
   const handleSubmit = async (e) => {
     e.preventDefault();
     // Call a function to send email using Nodemailer with formData
 
-    if (businessname == "" && customername == "" && email == "" && mobilenumber == "" && services == "") {
+    if (businessname == "" && customername == "" && mobilenumber == "" && email == "" ) {
         alert("Please enter all the field");
         return;
     }
     setLoading(true);
     setSuccessMessage(''); // Clear any previous messages
-
     // New Mail Handle
 
-    try {const response = await fetch ('/api/sendEmailCorporate',{
+   try{const response = await fetch ('/api/sendEmailAdgm',{
         credentials : 'same-origin',
         method : 'POST',
         headers :{
            'content-type': 'application/json'
         },
         body : JSON.stringify({
-            businessname,customername,email,mobilenumber,services
+            businessname,customername,mobilenumber,email
         })
     })
-    console.log(await response.json())
+    console.log(await response.json());
     if (response.ok) {
         // Clear form fields
         setBusinessname('');
         setCustomername('');
         setMobilenumber('');
         setEmail('');
-        setServices('');
         setSuccessMessage('Thank you for contacting us! 🎉');
     } else {
         console.error(result.message || 'Something went wrong');
@@ -56,6 +51,7 @@ finally {
     setLoading(false);
 }
 
+
 };
 
   return (
@@ -63,7 +59,7 @@ finally {
       <div className="cmn-frm-blk">
                 <form onSubmit={(ev) => handleSubmit (ev)}>
                     <h4>CONTACT US</h4>
-                    <div className="row">
+                    <div className="row pt-3">
                         <div className="col-md-12 col-lg-12 col-xl-12 col-sm-12 pb-2">
                             <div className="text-blk">
                                 <div className="corp-cmn-frm-icon"><FaRegBuilding className="cmn-frm-icn" /></div>
@@ -88,10 +84,10 @@ finally {
                                 <input type="tel" className="form-control mgnt-frm-input" placeholder="Contact Number" name="mobilenumber" id="mobilenumber" value={mobilenumber} onChange={(e) => setMobilenumber(e.target.value)} required/>
                             </div>
                         </div>
-                        <div className="col-md-12 col-lg-12 col-xl-12 col-sm-12 pb-2">
+                        {/* <div className="col-md-12 col-lg-12 col-xl-12 col-sm-12 pb-2">
                             <div className="text-blk">
                                 <div className="corp-cmn-frm-icon"><FaCogs className="cmn-frm-icn" /></div>
-                                <select className="form-control cmn-frm-slt" name="services" id="services" value={services} onChange={(e) => setServices(e.target.value)}>
+                                <select className="form-control cmn-frm-slt" name="services" id="services">
                                     <option>Select Service</option>
                                     <option value="CFO Services">CFO Services</option>
                                     <option value="Trademark Registration">Trademark Registration</option>
@@ -114,7 +110,7 @@ finally {
                                     <option value="ISO Certification">ISO Certification</option>
                                 </select>
                             </div>
-                        </div>
+                        </div> */}
                     </div>
                     {/* <span className='error-clr'>{error}</span> */}
                     {/* <button type="submit" className="btn btn-secondary corp-cmn-frm-btn btn-lg" name="submit" id="submit" value="submit">Submit</button> */}
@@ -128,4 +124,4 @@ finally {
   )
 }
 
-export default CorporateForm
+export default AdgmformNew

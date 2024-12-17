@@ -4,20 +4,23 @@
        "title":"Abu Dhabi Restaurant Accounting",
        "ShortDescription": "Our tailored solutions are designed to streamline your financial operations and support the success of your restaurant or bar.",
        "PageLink":"/corporate-services/restaurant-accounting-services-in-abu-dhabi"
-       
     },
     {
         "icon": "/icons/adgm/bookkeeping.png",
         "title":"ADGM Accounting Service",
         "ShortDescription": "we understand your unique challenges and offer bespoke Accounting & Bookkeeping Services in Abu Dhabi to manage your accounts efficiently and support your business growth.",
         "PageLink":"accounting-services-in-adgm"
-        
      },
      {
         "icon": "/icons/adgm/investiment.png",
-        "title":"ADGM Company Setup",
+        "title":"ADGM Company Service Provider",
         "ShortDescription": "As one of the leading entities licensed to provide CSP services in ADGM, Elevate Business Solutions brings unparalleled expertise and experience to the table.",
-        "PageLink":"adgm-company-service-provider"
-        
-     }
+        "PageLink":"adgm-company-service-provider" 
+     },
+     {
+      "icon": "/icons/adgm/investiment.png",
+      "title":"ADGM Company Setup",
+      "ShortDescription": "Setting up your company in the Abu Dhabi Global Market (ADGM) offers a world-class environment for businesses to grow, innovate, and expand.",
+      "PageLink":"adgm-company-setup" 
+   }
 ]

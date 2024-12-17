@@ -6,7 +6,8 @@ import Image from 'next/image';
 import adgmimage from './images/adgm.jpg';
 import adgmimage2 from './images/adgm-company-formation-abudhabi.jpg';
 import adgmimage3 from './images/adgm-company-formation.webp';
-import AdgmForm from './AdgmForm';
+import AdgmformNew from '../components/AdgmForm/AdgmformNew';
+// import AdgmForm from './AdgmForm-old';
 
 const AdgmContent = () => {
     return (
@@ -106,7 +107,8 @@ const AdgmContent = () => {
                         </div>
                         <div className='col-md-4 col-lg-4 col-xl-4 col-sm-12'>
                             <div className='adgm-frm-blk'>
-                                <AdgmForm/>
+                                {/* <AdgmForm/> */}
+                                <AdgmformNew/>
                             </div>
                         </div>
                     </div>

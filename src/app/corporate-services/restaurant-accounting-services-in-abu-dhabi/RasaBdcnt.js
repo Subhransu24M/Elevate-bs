@@ -13,7 +13,8 @@ import RasabdTrackaccrd from './RasabdTrackaccrd';
 import HowtoavoidMistakeaccrd from './HowtoavoidMistakeaccrd';
 import OutsrcaccntBenifts from './OutsrcaccntBenifts';
 import OutsrcaccntBeniftselv from './OutsrcaccntBeniftselv';
-import AdgmForm from '@/app/adgm-company-service-provider/AdgmForm';
+// import AdgmForm from '@/app/adgm-company-service-provider/AdgmForm';
+import AdgmformNew from '@/app/components/AdgmForm/AdgmformNew';
 
 const RasaBdcnt = () => {
     return (
@@ -236,7 +237,8 @@ const RasaBdcnt = () => {
                 </div>
                 <div className='whyoutsrcacc-rightblk'>
                     <div className='adgm-rest-accnt-frmblk'>
-                        <AdgmForm />
+                        {/* <AdgmForm /> */}
+                        <AdgmformNew/>
                     </div>
                 </div>
             </div>

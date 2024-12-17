@@ -22,6 +22,7 @@ const ContactContent = () => {
               <div className="col-md-6 col-lg-4 col-xl-4 col-sm-12 col-xs-12">
                 <div className="cnt-blkinrpart">
                   <ContactForm/>
+                  
                 </div>
               </div>
               <div className="col-md-6 col-lg-4 col-xl-4 col-sm-12 col-xs-12 map-responsive">

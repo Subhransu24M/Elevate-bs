@@ -66,6 +66,10 @@ label.form-check-label {
     background: #d1d1d1;
     padding-top: 4px;
 }
-
+.success-message{
+    color: #fff;
+    text-align: center;
+    margin-top: 20px;
+}
 /* .cmn-frm-blk{box-shadow: 0px 0px 2px 1px #000000;} */
 

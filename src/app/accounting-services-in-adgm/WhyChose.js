@@ -1,7 +1,8 @@
 "use client"
 import { useState } from 'react';
 import { FaPlus, FaMinus } from 'react-icons/fa';
-import BookkeepingabudhabiForm from './BookeepingabudhabiForm';
+// import BookkeepingabudhabiForm from './BookeepingabudhabiForm';
+import AdgmformNew from '../components/AdgmForm/AdgmformNew';
 const WhyChose = () => {
 
     const [openSections, setOpenSections] = useState({});
@@ -83,7 +84,8 @@ const WhyChose = () => {
                             
                         </div>
                         <div className='col-md-4 col-xl-4 col-lg-4 col-sm-12'>
-                                <BookkeepingabudhabiForm />
+                                {/* <BookkeepingabudhabiForm /> */}
+                                <AdgmformNew/>
                                 
                             </div>
                     </div>
