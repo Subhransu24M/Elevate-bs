@@ -2,8 +2,10 @@
 import './businesssetupform.css';
 import { FaRegBuilding, FaRegUser, FaLink, FaPhone, FaCogs } from "react-icons/fa";
 import { useState } from 'react';
+import { useRouter } from 'next/navigation';
 
 const BusinessSetupform = () => {
+    const router = useRouter();
   const [businessname, setBusinessname] = useState('');
   const [customername, setCustomername] = useState('');
   const [email, setEmail] = useState('');
@@ -44,6 +46,8 @@ const BusinessSetupform = () => {
         setEmail('');
         setServices('');
         setSuccessMessage('Thank you for contacting us! 🎉');
+        // Navigate to the Thank You page
+        router.push('/thank-you');
     } else {
         console.error(result.message || 'Something went wrong');
         alert('Failed to send your message. Please try again.');

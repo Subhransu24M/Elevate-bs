@@ -1,10 +1,12 @@
 "use client"
+import { useRouter } from 'next/navigation';
 import { useState } from 'react';
 import './itform.css';
 import { FaRegBuilding, FaAddressCard, FaRegUser, FaLink, FaPhone, FaCogs } from "react-icons/fa";
 
 
 const ItForm = () => {
+    const router = useRouter();
   const [businessname, setBusinessname] = useState('');
   const [customername, setCustomername] = useState('');
   const [mobilenumber, setMobilenumber] = useState('');
@@ -45,6 +47,8 @@ const ItForm = () => {
         setEmail('');
         setServices('');
         setSuccessMessage('Thank you for contacting us! 🎉');
+        // Navigate to the Thank You page
+        router.push('/thank-you');
     } else {
         console.error(result.message || 'Something went wrong');
         alert('Failed to send your message. Please try again.');

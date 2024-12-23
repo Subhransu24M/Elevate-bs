@@ -2,7 +2,10 @@
 import './adgmformnew.css';
 import { FaRegBuilding, FaRegUser, FaLink, FaPhone } from "react-icons/fa";
 import { useState } from 'react';
+import { useRouter } from 'next/navigation';
+
 const AdgmformNew = () => {
+    const router = useRouter();
     const [businessname, setBusinessname] = useState('');
   const [customername, setCustomername] = useState('');
   const [mobilenumber, setMobilenumber] = useState('');
@@ -40,6 +43,8 @@ const AdgmformNew = () => {
         setMobilenumber('');
         setEmail('');
         setSuccessMessage('Thank you for contacting us! 🎉');
+        // Navigate to the Thank You page
+        router.push('/thank-you');
     } else {
         console.error(result.message || 'Something went wrong');
         alert('Failed to send your message. Please try again.');

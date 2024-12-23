@@ -1,12 +1,13 @@
 "use client"
 // import { useRouter } from 'next/router';
+import { useRouter } from 'next/navigation';
 import { useState } from 'react';
 import './contactform.css';
 import { FaRegBuilding, FaAddressCard, FaRegUser, FaPhone, FaCogs } from "react-icons/fa";
 
 
 const ContactForm = () => {
-    // const router = useRouter();
+    const router = useRouter();
     const [businessname, setBusinessname] = useState('');
     const [customername, setCustomername] = useState('');
     const [mobilenumber, setMobilenumber] = useState('');
@@ -48,6 +49,8 @@ const ContactForm = () => {
                 setEmail('');
                 setServices('');
                 setSuccessMessage('Thank you for contacting us! 🎉');
+                // Navigate to the Thank You page
+                router.push('/thank-you');
             } else {
                 console.error(result.message || 'Something went wrong');
                 alert('Failed to send your message. Please try again.');
