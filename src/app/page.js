@@ -31,7 +31,7 @@ export default function Home() {
     </div>
    
     {/* <SliderVideo/> */}
-    {/* <marquee className="marquee-text">May the beauty of Diwali fill your heart with happiness, warmth, and endless memories with loved ones.</marquee> */}
+    <marquee className="marquee-text">May your Christmas sparkle with love, laughter, and endless joy! Wishing you a season as magical as you deserve.</marquee>
     <HomeContent />
     {/* <CorporateService/> */}
     <NewCorporateblk/>
