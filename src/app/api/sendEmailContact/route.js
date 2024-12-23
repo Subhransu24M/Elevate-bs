@@ -25,7 +25,7 @@ export async function POST(request){
     
           const mailOption ={
             from: '"Elevate Business Solutions" <info@elevatebs.com>',
-            to: 'subhransu@elevatedigitalservices.com',
+            to: 'info@elevateauditing.com',
             subject: "🎉New submission to your contact form!",
             html:`
              <h3>Elevate Business Solutions  Website Inquiry Details</h3>
