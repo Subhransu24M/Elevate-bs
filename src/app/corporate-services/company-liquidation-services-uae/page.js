@@ -1,9 +1,9 @@
-import TopBar from '@/app/components/TopBar/TopBar';
+// import TopBar from '@/app/components/TopBar/TopBar';
 import './liquidation.css';
-import NavBar from '@/app/components/NavBar/NavBar';
+// import NavBar from '@/app/components/NavBar/NavBar';
 import BreadCrumb from '@/app/components/BreadCrumbs/BreadCrumb';
 import CompanyLiquidation from './CompanyLiquidation';
-import Footer from '@/app/components/Footer/Footer';
+// import Footer from '@/app/components/Footer/Footer';
 import NewNavbar from '@/app/components/NavBar/NewNavbar';
 import FooterNew from '@/app/components/Footer/FooterNew';
 

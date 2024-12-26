@@ -1,10 +1,9 @@
-
-
+import { CiLocationArrow1 } from "react-icons/ci";
 const Liquidationmodal2 = () => {
   return (
     <>
     <button type="button" className="btn btn-primary lqd-mdlbtn" data-bs-toggle="modal" data-bs-target="#exampleModal2">
-                Learn More
+                Learn More <CiLocationArrow1 />
             </button>
 
 

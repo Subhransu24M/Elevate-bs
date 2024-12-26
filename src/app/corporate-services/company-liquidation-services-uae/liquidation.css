@@ -10,22 +10,32 @@
 
 .lquid-sec3 {
     padding: 30px 0px;
-    background: linear-gradient(90deg, rgb(0 58 120) 0%, rgb(10 82 133) 47%, rgb(2 54 118) 100%);
+    background: linear-gradient(90deg, #070426 60%, #cb2020 119%);
+    /* background: linear-gradient(90deg, rgb(0 58 120) 0%, rgb(10 82 133) 47%, rgb(2 54 118) 100%); */
     color: #fff;
 }
 .lquid-sec2 {
     padding: 30px 0px;
-    background: #001020;
-    color: #fff;
+    background: #edf5fd;
+    color: #000;
 }
 .lqd-mdlbtn{
     background: none;
     margin-top: 15px;
+    border: 1px solid #fff;
+    border-radius: 25px;
+}
+.lqd-mdlbtn svg{
+    color: rgb(255, 204, 37);
+    font-size: 25px;
+    margin-left: 10px;
 }
 .lqd-box {
     text-align: center;
     padding: 30px 0px;
-    background: linear-gradient(90deg, rgb(7 43 70) 0%, rgb(16 97 181 / 78%) 47%, rgb(3 41 74) 100%);
+    /* background: linear-gradient(90deg, rgb(7 43 70) 0%, rgb(16 97 181 / 78%) 47%, rgb(3 41 74) 100%); */
+    background: #ab1212;
+    border-radius: 15px;
 }
 .lqdimg{
     margin-top: 40px;
