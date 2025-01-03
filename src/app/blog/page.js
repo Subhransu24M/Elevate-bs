@@ -10,7 +10,10 @@ import FooterNew from '../components/Footer/FooterNew'
 export const metadata = {
   title: "Blog - Elevate Business Solutions ",
   description: "Stay tune with our latest updates through our blog posts.",
-  keywords:"blog,topics"
+  keywords:"blog,topics",
+  alternates: {
+    canonical: "https://www.elevatebs.com/blog", // Specify the canonical URL for this page
+  },
 };
 const page = () => {
   const breadcrumbBackground = "/images/breadcrump-bg/blog.jpg";

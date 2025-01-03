@@ -1,16 +1,19 @@
-import TopBar from '@/app/components/TopBar/TopBar';
+// import TopBar from '@/app/components/TopBar/TopBar';
 import './bankaccountopening.css';
-import NavBar from '@/app/components/NavBar/NavBar';
+// import NavBar from '@/app/components/NavBar/NavBar';
 import BreadCrumb from '@/app/components/BreadCrumbs/BreadCrumb';
 import BankAccOpenContent from './BankAccOpenContent';
-import Footer from '@/app/components/Footer/Footer';
+// import Footer from '@/app/components/Footer/Footer';
 import NewNavbar from '@/app/components/NavBar/NewNavbar';
 import FooterNew from '@/app/components/Footer/FooterNew';
 
 export const metadata = {
   title: "Open a Bank Account in the UAE | savings bank accounts in the UAE",
   description: "Discover hassle-free bank account opening services in Dubai with Elevate Business Services. Get expert assistance for your corporate banking needs in the UAE.",
-  keywords: "Bank account opening assistance in dubai,UAE bank account opening services, corporate bank account opening in dubai(UAE Corporate Bank Account),corporate bank account open in uae"
+  keywords: "Bank account opening assistance in dubai,UAE bank account opening services, corporate bank account opening in dubai(UAE Corporate Bank Account),corporate bank account open in uae",
+  alternates: {
+    canonical: "https://www.elevatebs.com/corporate-services/bank-account-opening-in-dubai", // Specify the canonical URL for this page
+  },
 };
 const page = () => {
   const breadcrumbBackground = "/images/breadcrump-bg/corporate.jpg";

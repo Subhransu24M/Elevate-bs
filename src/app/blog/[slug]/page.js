@@ -18,10 +18,15 @@ export async function generateMetadata({ params }) {
   }[0]
   `;
   const singlePost = await client.fetch(query);
+  const siteUrl = "https://www.elevatebs.com"; // Replace with your site's base URL
+  const canonicalUrl = `${siteUrl}/blog/${params.slug}`; // Construct the canonical URL dynamically
   return {
     title: singlePost.seotitle,
     descriptions: singlePost.descriptions,
     keywords: singlePost.keywords,
+    alternates: {
+      canonical: canonicalUrl, // Specify the canonical URL for this page
+    },
   }
 }
 

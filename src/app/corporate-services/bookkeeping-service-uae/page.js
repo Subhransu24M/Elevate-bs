@@ -10,7 +10,10 @@ import FooterNew from '@/app/components/Footer/FooterNew';
 export const metadata = {
   title: "Bookkeeping Services in Dubai, UAE | Bookkeeping firms in dubai",
   description: "Accurate and reliable bookkeeping for businesses in Du ai, UAE. Elevate your financial management with our expert bookkeeping services.",
-  keywords: "Bookkeeping firms in dubai, Bookkeeping companies in dubai,Accounting & bookkeeping services in dubai,Bookkeeping services in dubai,Best Accounting and Bookkeeping Services in Dubai UAE,Bookkeeping service provider in Dubai UAE,outsourced bookkeeping services in Dubai UAE"
+  keywords: "Bookkeeping firms in dubai, Bookkeeping companies in dubai,Accounting & bookkeeping services in dubai,Bookkeeping services in dubai,Best Accounting and Bookkeeping Services in Dubai UAE,Bookkeeping service provider in Dubai UAE,outsourced bookkeeping services in Dubai UAE",
+  alternates: {
+    canonical: "https://www.elevatebs.com/corporate-services/bookkeeping-service-uae", // Specify the canonical URL for this page
+  },
 };
 const page = () => {
   const breadcrumbBackground = "/images/breadcrump-bg/corporate.jpg";

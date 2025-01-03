@@ -11,6 +11,9 @@ export const metadata = {
   title: "Top Digital Marketing Agency in London, UK ",
   description: "Elevate your brand's digital presence with the premier digital marketing agency in London, UK. Harness the power of online strategies to engage and influence your target audience.",
   keywords:"Digital Marketing Agency in London UK,Digital Marketing Agency in London,top digital marketing agencies in London,Digital Marketing Company in London",
+  alternates: {
+    canonical: "https://www.elevatebs.com/digital-marketing", // Specify the canonical URL for this page
+  },
 };
 const page = () => {
   const breadcrumbBackground = "/images/breadcrump-bg/digital-marketing.jpg";

@@ -10,7 +10,10 @@ import FooterNew from "@/app/components/Footer/FooterNew"
 export const metadata = {
   title: "PPC Agency in London, UK | Elevate Business Solutions ",
   description: "Maximize Google Ads potential with the top PPC Agency in London, UK. Convert intent into valuable customers, across all devices.",
-  keywords: "PPC Agency in London"
+  keywords: "PPC Agency in London",
+  alternates: {
+    canonical: "https://www.elevatebs.com/digital-marketing/google-ads-service-london-uk", // Specify the canonical URL for this page
+  },
 };
 const page = () => {
   const breadcrumbBackground = "/images/breadcrump-bg/google-ads.jpg";

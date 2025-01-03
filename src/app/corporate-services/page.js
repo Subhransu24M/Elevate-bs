@@ -10,7 +10,10 @@ import './corporate.css';
 export const metadata = {
   title: "Corporate Services |  Elevate Business Solutions",
   description: "At Elevate, our team brings in ultimate client satisfaction by enabling them achieving their desired business goal.",
-  keywords: "corporate services in uae"
+  keywords: "corporate services in uae",
+  alternates: {
+    canonical: "https://www.elevatebs.com/corporate-services", // Specify the canonical URL for this page
+  },
 };
 const page = () => {
   const breadcrumbBackground = "/images/breadcrump-bg/corporate.jpg";

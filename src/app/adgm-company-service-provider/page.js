@@ -10,6 +10,9 @@ export const metadata = {
     title: "Company Service Provider For ADGM | Elevate ",
     description: "Company Service Provider for ADGM: Elevate offers streamlined setup, 100% foreign ownership, and expert compliance support in Abu Dhabi's financial hub. ",
     keywords: "adgm company service provider,Company Service Provider For ADGM",
+    alternates: {
+      canonical: "https://www.elevatebs.com/adgm-company-service-provider", // Specify the canonical URL for this page
+    },
   };
   const page = () => {
     const breadcrumbBackground = "/images/breadcrump-bg/adgm.jpg";

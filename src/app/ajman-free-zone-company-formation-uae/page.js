@@ -12,6 +12,9 @@ export const metadata = {
     title: "Company Formation in Ajman Free Zone | Elevate Business Solutions ",
     description: "Start your business with company formation in Ajman Free Zone. Enjoy 100% foreign ownership, low setup costs, and hassle-free licensing. ",
     keywords: "Ajman Free Zone Company Formation,Company Formation in Ajman Free Zone,Company Setup in Ajman Free Zone UAE,Business Setup in Ajman Free Zone,Ajman Free Zone Business Setup,ajman free zone company setup cost",
+    alternates: {
+        canonical: "https://www.elevatebs.com/ajman-free-zone-company-formation-uae", // Specify the canonical URL for this page
+      },
   };
 
 const page = () => {

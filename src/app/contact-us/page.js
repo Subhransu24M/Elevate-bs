@@ -13,7 +13,10 @@ import './contact.css';
 export const metadata = {
   title: "Contact us - Elevate Business Solutions",
   description: "Provide Innovative Support System to Any Business",
-  keywords:"We have above 11 years of experience in providing IT and accounting services over the global."
+  keywords:"We have above 11 years of experience in providing IT and accounting services over the global.",
+  alternates: {
+    canonical: "https://www.elevatebs.com/contact-us", // Specify the canonical URL for this page
+  },
 };
 const page = () => {
   const breadcrumbBackground = "/images/breadcrump-bg/contact.jpg";

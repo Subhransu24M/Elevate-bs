@@ -10,6 +10,9 @@ export const metadata = {
     title: "Website Design and Development Company in London, UK ",
     description: "Unleash your full potential with bespoke web design and development services in London, UK.",
     keywords:"Website design and development company in London,Web Design and Development Agency London UK,Web Design And Development Service Provider In London,Web Design Agency In London,London Web Development Agency,Web Development Company in London,Web Design Company in London",
+    alternates: {
+      canonical: "https://www.elevatebs.com/website-development", // Specify the canonical URL for this page
+    },
   };
 const page = () => {
   const breadcrumbBackground = "/images/breadcrump-bg/web-development.jpg";

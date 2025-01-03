@@ -7,6 +7,9 @@ import BusinessformationCnt from "./BusinessformationCnt";
 export const metadata = {
     title: "Business Formation Services UAE",
     description: "Elevate offers complete services to facilitate your business setup in Dubai. From helping you choose the right business ",
+    alternates: {
+        canonical: "https://www.elevatebs.com/business-formation", // Specify the canonical URL for this page
+      },
   };
 
 const page = () => {

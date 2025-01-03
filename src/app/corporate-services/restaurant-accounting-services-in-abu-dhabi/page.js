@@ -10,6 +10,9 @@ import FooterNew from '@/app/components/Footer/FooterNew'
 export const metadata = {
   title: "Restaurant Accounting Service in ADGM",
   description: "At Elevate Business Solutions, we specialize in providing comprehensive restaurant accounting services in Abu Dhabi.",
+  alternates: {
+    canonical: "https://www.elevatebs.com/corporate-services/restaurant-accounting-services-in-abu-dhabi", // Specify the canonical URL for this page
+  },
 };
 
 const page = () => {

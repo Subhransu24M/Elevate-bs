@@ -11,7 +11,10 @@ import FooterNew from "@/app/components/Footer/FooterNew"
 export const metadata = {
   title: "Auditing Services in UAE  |Approved  Auditors in UAE",
   description: "Reliable Auditing Services in UAE await you at Elevate Business Services.Elevate Business Services' audit and assurance expertise is at your disposal",
-  keywords: "Auditing Firms in UAE,Audit Services in UAE, Audit and Assurance Services in UAE, Auditors in UAE, Audit Firm in UAE"
+  keywords: "Auditing Firms in UAE,Audit Services in UAE, Audit and Assurance Services in UAE, Auditors in UAE, Audit Firm in UAE",
+  alternates: {
+    canonical: "https://www.elevatebs.com/corporate-services/audit-assurance-services-uae", // Specify the canonical URL for this page
+  },
 };
 const page = () => {
   const breadcrumbBackground = "/images/breadcrump-bg/corporate.jpg";

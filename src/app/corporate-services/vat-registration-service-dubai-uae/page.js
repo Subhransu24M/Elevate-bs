@@ -10,7 +10,10 @@ import FooterNew from '@/app/components/Footer/FooterNew';
 export const metadata = {
   title: "VAT Registration Services in Dubai, UAE | Dubai VAT Consultants",
   description: "Simplify VAT registration in Dubai, UAE, with Elevate Business Services. Expert guidance for hassle-free compliance and tax management.",
-  keywords: "uae vat registration online,vat registration process in uae,online vat registration uae,vat registration fee in uae,vat registration in uae for new companies,documents for vat registration in uae,vat registration services in Dubai UAE"
+  keywords: "uae vat registration online,vat registration process in uae,online vat registration uae,vat registration fee in uae,vat registration in uae for new companies,documents for vat registration in uae,vat registration services in Dubai UAE",
+  alternates: {
+    canonical: "https://www.elevatebs.com/corporate-services/vat-registration-service-dubai-uae", // Specify the canonical URL for this page
+  },
 };
 const page = () => {
   const breadcrumbBackground = "/images/breadcrump-bg/corporate.jpg";

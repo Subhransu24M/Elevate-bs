@@ -11,6 +11,9 @@ export const metadata = {
   title: "eCommerce Website Development Company London, UK ",
   description: "Drive eCommerce growth with top eCommerce Website Development Company London, UK. We transform your online store with user-friendly designs.",
   keywords:"ecommerce website development company london uk,ecommerce website development london,ecommerce website agency london,ecommerce website design in london,ecommerce website development services uk",
+  alternates: {
+    canonical: "https://www.elevatebs.com/ecommerce-solutions", // Specify the canonical URL for this page
+  },
 };
 const page = () => {
   const breadcrumbBackground = "/images/breadcrump-bg/web-development.jpg";

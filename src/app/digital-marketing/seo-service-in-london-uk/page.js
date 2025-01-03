@@ -10,7 +10,10 @@ import FooterNew from '@/app/components/Footer/FooterNew'
 export const metadata = {
   title: "SEO Agency in London, UK | Elevate Business Solutions ",
   description: "Top SEO Agency in London, UK. Achieve Top Rankings, Dominate Search, Sustain Position for Key Keywords. Elevate Your Online Visibility!",
-  keywords: "SEO Agency in London"
+  keywords: "SEO Agency in London",
+  alternates: {
+    canonical: "https://www.elevatebs.com/digital-marketing/seo-service-in-london-uk", // Specify the canonical URL for this page
+  },
 };
 const page = () => {
   const breadcrumbBackground = "/images/breadcrump-bg/seo.jpg";

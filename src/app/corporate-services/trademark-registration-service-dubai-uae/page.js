@@ -10,7 +10,10 @@ import FooterNew from '@/app/components/Footer/FooterNew'
 export const metadata = {
   title: "Trademark Registration Service in Dubai, UAE | Register Today",
   description: "Trademark Registration Service in Dubai, UAE - Elevate Business Solutions. Expertise, Efficiency, and Peace of Mind for Your Brand's Intellectual Property.",
-  keywords: "Trademark Registration in the Dubai UAE,Trademark Registration in UAE,Trademark registration UAE cost,how to register trademark in UAE"
+  keywords: "Trademark Registration in the Dubai UAE,Trademark Registration in UAE,Trademark registration UAE cost,how to register trademark in UAE",
+  alternates: {
+    canonical: "https://www.elevatebs.com/corporate-services/trademark-registration-service-dubai-uae", // Specify the canonical URL for this page
+  },
 };
 const page = () => {
   const breadcrumbBackground = "/images/breadcrump-bg/corporate.jpg";

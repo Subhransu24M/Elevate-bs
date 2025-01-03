@@ -10,7 +10,10 @@ import FooterNew from '@/app/components/Footer/FooterNew'
 export const metadata = {
   title: "VAT deregistration Services in Dubai, UAE | Dubai VAT Consultants",
   description: "Need VAT deregistration in Dubai? Elevate Business Services offers seamless solutions to help your business exit the VAT regime efficiently.",
-  keywords: "Deregistration of vat in uae, VAT Deregistration Services in Dubai UAE,VAT Deregistration Services in UAE,uae vat deregistration,vat deregistration guide,Documents required for vat deregistration in uae"
+  keywords: "Deregistration of vat in uae, VAT Deregistration Services in Dubai UAE,VAT Deregistration Services in UAE,uae vat deregistration,vat deregistration guide,Documents required for vat deregistration in uae",
+  alternates: {
+    canonical: "https://www.elevatebs.com/corporate-services/vat-deregistration-service-dubai-uae", // Specify the canonical URL for this page
+  },
 };
 const page = () => {
   const breadcrumbBackground = "/images/breadcrump-bg/corporate.jpg";

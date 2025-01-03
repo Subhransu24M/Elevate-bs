@@ -6,6 +6,9 @@ import './jafza-offshore.css';
 export const metadata = {
     title: "JAFZA Offshore Company Formation Dubai | Cost, Process & Benefits",
     description: "Simplify your JAFZA offshore company formation in Dubai. Discover competitive costs, tax benefits, asset protection, and efficient processes. Start your global journey today!",
+    alternates: {
+        canonical: "https://www.elevatebs.com/jafza-offshore-company-formation-dubai", // Specify the canonical URL for this page
+      },
   };
 
 const page = () =>{

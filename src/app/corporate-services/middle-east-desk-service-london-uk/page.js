@@ -9,7 +9,10 @@ import FooterNew from '@/app/components/Footer/FooterNew';
 export const metadata = {
   title: "Middle East Desk services in UK, London | Elevate Business Solutions",
   description: "Enhance your global business reach with our Middle East Desk Service in London, UK. Elevate Business Services connects you to the heart of Middle Eastern opportunities.",
-  keywords: "Middle east desk services in UK,Middle east desk services in London UK"
+  keywords: "Middle east desk services in UK,Middle east desk services in London UK",
+  alternates: {
+    canonical: "https://www.elevatebs.com/corporate-services/middle-east-desk-service-london-uk", // Specify the canonical URL for this page
+  },
 };
 const page = () => {
   const breadcrumbBackground = "/images/breadcrump-bg/corporate.jpg";

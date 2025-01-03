@@ -10,7 +10,10 @@ import FooterNew from '@/app/components/Footer/FooterNew'
 export const metadata = {
   title: "Company Formation in Dubai | usiness setup consultant in Dubai,UAE",
   description: "Seamless company formation in Dubai, UAE with Elevate Business Services. We handle the complexities, so you can focus on your business's success.",
-  keywords: "Company Formation in Dubai,UAE Free Zone Company Setup,Mainland Company Setup,Offshore company setup in Dubai"
+  keywords: "Company Formation in Dubai,UAE Free Zone Company Setup,Mainland Company Setup,Offshore company setup in Dubai",
+  alternates: {
+    canonical: "https://www.elevatebs.com/corporate-services/company-formation-dubai-uae", // Specify the canonical URL for this page
+  },
 };
 const page = () => {
   const breadcrumbBackground = "/images/breadcrump-bg/corporate.jpg";

@@ -9,7 +9,10 @@ import FooterNew from "@/app/components/Footer/FooterNew"
 export const metadata = {
   title: "Freelance Visa Dubai, UAE | Elevate Business Solutions",
   description: "Dubai is becoming a top destination for freelancers worldwide, thanks to its strategic location, robust infrastructure, and vibrant lifestyle.",
-  keywords: "freelance visa dubai,freelance visa uae"
+  keywords: "freelance visa dubai,freelance visa uae",
+  alternates: {
+    canonical: "https://www.elevatebs.com/corporate-services/freelance-visa-dubai-uae", // Specify the canonical URL for this page
+  },
 };
 
 const page = () => {

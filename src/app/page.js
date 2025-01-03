@@ -15,7 +15,10 @@ import NewCorporateblk from "./components/HomeContent/NewCoporateblk";
 export const metadata = {
   title: "Provide Innovative Support System to Any Business - Elevate Business Solutions DMCC",
   description: "Provide Innovative Support System to Any Business",
-  keywords:"website development service dubai, digital marketing service dubai, accounting service dubai"
+  keywords:"website development service dubai, digital marketing service dubai, accounting service dubai",
+  alternates: {
+    canonical: "https://www.elevatebs.com", // Specify the canonical URL for this page
+  },
 };
 
 export default function Home() {
