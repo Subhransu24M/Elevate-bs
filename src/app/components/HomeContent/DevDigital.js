@@ -15,7 +15,7 @@ const DevDigital = () => {
                         <div className="row">
                             <div className="col-md-12 col-lg-12 col-xl-12 col-sm-12 col-xs-12">
                                 <div className="dev-digi-blk">
-                                    <h2>Website Development & Digital Marketing Services</h2>
+                                    <h1>Website Development & Digital Marketing Services</h1>
                                     <p>We offer an extensive range of website development & Digital Marketing services to small, medium and large businesses to boost their online presence. We are open to both government and private firms.</p>
                                 </div>
                             </div>

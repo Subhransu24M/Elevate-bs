@@ -25,7 +25,7 @@ export async function generateMetadata({ params }) {
     descriptions: singlePost.descriptions,
     keywords: singlePost.keywords,
     alternates: {
-      canonical: canonicalUrl, // Specify the canonical URL for this page
+      canonical: canonicalUrl, // canonical URL dynamic page
     },
   }
 }
