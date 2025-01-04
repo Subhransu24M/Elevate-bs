@@ -10,6 +10,28 @@ export const metadata = {
     alternates: {
       canonical: "https://www.elevatebs.com/thank-you", // Specify the canonical URL for this page
     },
+    openGraph: {
+        title: 'Thank You - Elevate Business Solutions DMCC',
+        description: "Thank you for contacting us. Our experts will get back to you soon !!!",
+        url: 'https://www.elevatebs.com/thank-you',
+        siteName: 'Elevate Business Solutions DMCC',
+        images: [
+          {
+            url: 'https://www.elevatebs.com/_next/static/media/ebs-logo-svg.32be402c.svg',
+            width: 600,
+            height: 600,
+            alt: 'Thank You',
+          },
+        ],
+        locale: 'en_GB',
+        type: 'website',
+      },
+      twitter: {
+        card: 'summary_large_image',
+        title: 'Thank You - Elevate Business Solutions DMCC',
+        description: "Thank you for contacting us. Our experts will get back to you soon !!!",
+        images: ['https://www.elevatebs.com/_next/static/media/ebs-logo-svg.32be402c.svg'],
+      },
   };
 const page = () =>{
     return (

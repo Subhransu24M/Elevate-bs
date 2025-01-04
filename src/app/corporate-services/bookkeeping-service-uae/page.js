@@ -14,6 +14,28 @@ export const metadata = {
   alternates: {
     canonical: "https://www.elevatebs.com/corporate-services/bookkeeping-service-uae", // Specify the canonical URL for this page
   },
+  openGraph: {
+    title: 'Bookkeeping Services in Dubai, UAE | Bookkeeping firms in dubai',
+    description: "Accurate and reliable bookkeeping for businesses in Du ai, UAE. Elevate your financial management with our expert bookkeeping services.",
+    url: 'https://www.elevatebs.com/corporate-services/bookkeeping-service-uae',
+    siteName: 'Elevate Business Solutions DMCC',
+    images: [
+      {
+        url: 'https://www.elevatebs.com/_next/static/media/ebs-logo-svg.32be402c.svg',
+        width: 600,
+        height: 600,
+        alt: 'Bookkeeping Services in Dubai, UAE',
+      },
+    ],
+    locale: 'en_GB',
+    type: 'website',
+  },
+  twitter: {
+    card: 'summary_large_image',
+    title: 'Bookkeeping Services in Dubai, UAE | Bookkeeping firms in dubai',
+    description: "Accurate and reliable bookkeeping for businesses in Du ai, UAE. Elevate your financial management with our expert bookkeeping services.",
+    images: ['https://www.elevatebs.com/_next/static/media/ebs-logo-svg.32be402c.svg'],
+  },
 };
 const page = () => {
   const breadcrumbBackground = "/images/breadcrump-bg/corporate.jpg";

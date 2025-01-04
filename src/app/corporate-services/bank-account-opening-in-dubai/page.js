@@ -14,6 +14,28 @@ export const metadata = {
   alternates: {
     canonical: "https://www.elevatebs.com/corporate-services/bank-account-opening-in-dubai", // Specify the canonical URL for this page
   },
+  openGraph: {
+    title: 'Open a Bank Account in the UAE | savings bank accounts in the UAE',
+    description: "Discover hassle-free bank account opening services in Dubai with Elevate Business Services. Get expert assistance for your corporate banking needs in the UAE.",
+    url: 'https://www.elevatebs.com/corporate-services/bank-account-opening-in-dubai',
+    siteName: 'Elevate Business Solutions DMCC',
+    images: [
+      {
+        url: 'https://www.elevatebs.com/_next/static/media/ebs-logo-svg.32be402c.svg',
+        width: 600,
+        height: 600,
+        alt: 'Bank account opening assistance in dubai',
+      },
+    ],
+    locale: 'en_GB',
+    type: 'website',
+  },
+  twitter: {
+    card: 'summary_large_image',
+    title: 'Open a Bank Account in the UAE | savings bank accounts in the UAE',
+    description: "Discover hassle-free bank account opening services in Dubai with Elevate Business Services. Get expert assistance for your corporate banking needs in the UAE.",
+    images: ['https://www.elevatebs.com/_next/static/media/ebs-logo-svg.32be402c.svg'],
+  },
 };
 const page = () => {
   const breadcrumbBackground = "/images/breadcrump-bg/corporate.jpg";

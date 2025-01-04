@@ -12,10 +12,32 @@ import './contact.css';
 
 export const metadata = {
   title: "Contact us - Elevate Business Solutions",
-  description: "Provide Innovative Support System to Any Business",
+  description: "Contact us to provide an innovative support system to any business. Let our experts help you achieve your goals with tailored solutions designed to drive growth and success.",
   keywords:"We have above 11 years of experience in providing IT and accounting services over the global.",
   alternates: {
     canonical: "https://www.elevatebs.com/contact-us", // Specify the canonical URL for this page
+  },
+  openGraph: {
+    title: 'Contact us - Elevate Business Solutions',
+    description: "Contact us to provide an innovative support system to any business. Let our experts help you achieve your goals with tailored solutions designed to drive growth and success.",
+    url: 'https://www.elevatebs.com/contact-us',
+    siteName: 'Elevate Business Solutions DMCC',
+    images: [
+      {
+        url: 'https://www.elevatebs.com/_next/static/media/ebs-logo-svg.32be402c.svg',
+        width: 600,
+        height: 600,
+        alt: 'Contact us to provide an innovative support system to any business',
+      },
+    ],
+    locale: 'en_GB',
+    type: 'website',
+  },
+  twitter: {
+    card: 'summary_large_image',
+    title: 'Contact us - Elevate Business Solutions',
+    description: "Contact us to provide an innovative support system to any business. Let our experts help you achieve your goals with tailored solutions designed to drive growth and success.",
+    images: ['https://www.elevatebs.com/_next/static/media/ebs-logo-svg.32be402c.svg'],
   },
 };
 const page = () => {

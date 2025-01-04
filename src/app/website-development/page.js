@@ -13,6 +13,28 @@ export const metadata = {
     alternates: {
       canonical: "https://www.elevatebs.com/website-development", // Specify the canonical URL for this page
     },
+    openGraph: {
+      title: 'Website Design and Development Company in London, UK',
+      description: "Unleash your full potential with bespoke web design and development services in London, UK.",
+      url: 'https://www.elevatebs.com/website-development',
+      siteName: 'Elevate Business Solutions DMCC',
+      images: [
+        {
+          url: 'https://www.elevatebs.com/_next/static/media/ebs-logo-svg.32be402c.svg',
+          width: 600,
+          height: 600,
+          alt: 'Website Design and Development Company in London, UK',
+        },
+      ],
+      locale: 'en_GB',
+      type: 'website',
+    },
+    twitter: {
+      card: 'summary_large_image',
+      title: 'Website Design and Development Company in London, UK',
+      description: "Unleash your full potential with bespoke web design and development services in London, UK.",
+      images: ['https://www.elevatebs.com/_next/static/media/ebs-logo-svg.32be402c.svg'],
+    },
   };
 const page = () => {
   const breadcrumbBackground = "/images/breadcrump-bg/web-development.jpg";

@@ -14,6 +14,28 @@ export const metadata = {
   alternates: {
     canonical: "https://www.elevatebs.com/ecommerce-solutions", // Specify the canonical URL for this page
   },
+  openGraph: {
+    title: 'eCommerce Website Development Company London, UK',
+    description: "Drive eCommerce growth with top eCommerce Website Development Company London, UK. We transform your online store with user-friendly designs.",
+    url: 'https://www.elevatebs.com/ecommerce-solutions',
+    siteName: 'Elevate Business Solutions DMCC',
+    images: [
+      {
+        url: 'https://www.elevatebs.com/_next/static/media/ebs-logo-svg.32be402c.svg',
+        width: 600,
+        height: 600,
+        alt: 'eCommerce Website Development Company London, UK',
+      },
+    ],
+    locale: 'en_GB',
+    type: 'website',
+  },
+  twitter: {
+    card: 'summary_large_image',
+    title: 'eCommerce Website Development Company London, UK',
+    description: "Drive eCommerce growth with top eCommerce Website Development Company London, UK. We transform your online store with user-friendly designs.",
+    images: ['https://www.elevatebs.com/_next/static/media/ebs-logo-svg.32be402c.svg'],
+  },
 };
 const page = () => {
   const breadcrumbBackground = "/images/breadcrump-bg/web-development.jpg";

@@ -14,6 +14,28 @@ export const metadata = {
   alternates: {
     canonical: "https://www.elevatebs.com/corporate-services/vat-registration-service-dubai-uae", // Specify the canonical URL for this page
   },
+  openGraph: {
+    title: 'VAT Registration Services in Dubai, UAE | Dubai VAT Consultants',
+    description: "Simplify VAT registration in Dubai, UAE, with Elevate Business Services. Expert guidance for hassle-free compliance and tax management.",
+    url: 'https://www.elevatebs.com/corporate-services/vat-registration-service-dubai-uae',
+    siteName: 'Elevate Business Solutions DMCC',
+    images: [
+      {
+        url: 'https://www.elevatebs.com/_next/static/media/ebs-logo-svg.32be402c.svg',
+        width: 600,
+        height: 600,
+        alt: 'VAT Registration Services in Dubai, UAE',
+      },
+    ],
+    locale: 'en_GB',
+    type: 'website',
+  },
+  twitter: {
+    card: 'summary_large_image',
+    title: 'VAT Registration Services in Dubai, UAE | Dubai VAT Consultants',
+    description: "Simplify VAT registration in Dubai, UAE, with Elevate Business Services. Expert guidance for hassle-free compliance and tax management.",
+    images: ['https://www.elevatebs.com/_next/static/media/ebs-logo-svg.32be402c.svg'],
+  },
 };
 const page = () => {
   const breadcrumbBackground = "/images/breadcrump-bg/corporate.jpg";

@@ -14,10 +14,32 @@ import NewCorporateblk from "./components/HomeContent/NewCoporateblk";
 
 export const metadata = {
   title: "Provide Innovative Support System to Any Business - Elevate Business Solutions DMCC",
-  description: "Provide Innovative Support System to Any Business",
+  description: "Provide innovative support system to any business with tailored solutions that enhance efficiency, drive growth, and ensure success. Discover cutting-edge strategies for your business needs.",
   keywords:"website development service dubai, digital marketing service dubai, accounting service dubai",
   alternates: {
     canonical: "https://www.elevatebs.com", // Specify the canonical URL for this page
+  },
+  openGraph: {
+    title: 'Provide Innovative Support System to Any Business - Elevate Business Solutions DMCC',
+    description: 'Provide innovative support system to any business with tailored solutions that enhance efficiency, drive growth, and ensure success. Discover cutting-edge strategies for your business needs.',
+    url: 'https://www.elevatebs.com',
+    siteName: 'Elevate Business Solutions DMCC',
+    images: [
+      {
+        url: 'https://www.elevatebs.com/_next/static/media/ebs-logo-svg.32be402c.svg',
+        width: 600,
+        height: 600,
+        alt: 'Provide Innovative Support System to Any Business',
+      },
+    ],
+    locale: 'en_GB',
+    type: 'website',
+  },
+  twitter: {
+    card: 'summary_large_image',
+    title: 'Elevate Business Solutions DMCC',
+    description: 'Provide innovative support system to any business with tailored solutions that enhance efficiency, drive growth, and ensure success. Discover cutting-edge strategies for your business needs.',
+    images: ['https://www.elevatebs.com/_next/static/media/ebs-logo-svg.32be402c.svg'],
   },
 };
 

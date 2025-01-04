@@ -25,7 +25,7 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en-GB">
       <head>
-        <link
+        {/* <link
           rel="preload"
           href="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"
           as="script"
@@ -37,7 +37,7 @@ export default function RootLayout({ children }) {
           href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js"
           as="script"
           crossOrigin="anonymous"
-        />
+        /> */}
 
 
         <meta name="google-site-verification" content="W8ujVfKx-JqFfGb4OK8BL3-wTAE2htqZf_BLygbMSps" />
