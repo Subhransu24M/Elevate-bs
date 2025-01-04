@@ -27,6 +27,20 @@ export async function generateMetadata({ params }) {
     alternates: {
       canonical: canonicalUrl, // canonical URL dynamic page
     },
+    openGraph: {
+      title: singlePost.title,
+      description: singlePost.description,
+      url: `https://www.elevatebs.com/${params.slug}`,
+      images: [
+        {
+          url: singlePost.image,
+          width: 1200,
+          height: 600,
+          alt: singlePost.title,
+        },
+      ],
+      siteName: 'Elevate Business Solutions DMCC',
+    },
   }
 }
 
