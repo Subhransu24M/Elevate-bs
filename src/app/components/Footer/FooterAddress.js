@@ -9,7 +9,7 @@ const addressdata = [
     },
     {
         id: "ABU DHABI",
-        ctitle: "Elevate Business Solutions DMCC",
+        ctitle: "Elevate Global BPM Ltd",
         cdetails: "Office No: 2310, Adax Tower, Al Reem Island, Abu Dhabi, UAE",
         ctelno: "+971 (0) 26719099",
         cmobileno: "+971 56 167 2533",
