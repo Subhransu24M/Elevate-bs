@@ -2,7 +2,7 @@ const addressdata = [
     {
         id: "DUBAI",
         ctitle: "Elevate Business Solutions DMCC",
-        cdetails: "Office No: 1203 & 1207, HDS Business Center, Cluster M, JLT, Dubai, UAE",
+        cdetails: "Office No: 1203,1204 & 1207, HDS Business Center, Cluster M, JLT, Dubai, UAE",
         ctelno: "+971 (0) 44258131",
         cmobileno: "+971 56 167 2533",
         cmailid: "info@elevatebs.com",

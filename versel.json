@@ -5,6 +5,14 @@
         {"source": "/(.*)", "destination": "/"}
     ],
 
+    "redirects": [
+    {
+      "source": "http://elevatebs.com",
+      "destination": "https://elevatebs.com",
+      "permanent": true
+    }
+  ],
+
     "headers": [
     {
       "source": "/(.*)",

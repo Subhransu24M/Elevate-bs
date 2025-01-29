@@ -10,7 +10,7 @@ const Caddress = () => {
         {
             Location: "DUBAI,JLT",
             Company_Name: "Elevate Business Solutions DMCC",
-            Address: "Office No: 1203 & 1207, HDS Business Center, Cluster M, JLT, Dubai, UAE",
+            Address: "Office No: 1203,1204 & 1207, HDS Business Center, Cluster M, JLT, Dubai, UAE",
             Phone_Number: "+971 (0) 44258131",
             Phone_Number_optional: "",
             Mobile_Number: "+971 56 167 2533",
