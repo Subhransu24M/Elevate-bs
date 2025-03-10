@@ -101,6 +101,7 @@ const FooterNew = () => {
                                         <li><FaArrowRightFromBracket className='ftr-arrow' /><Link href="/digital-marketing/google-ads-service-london-uk">Google Ads</Link></li>
                                         <li><FaArrowRightFromBracket className='ftr-arrow' /><Link href="/digital-marketing/social-media-marketing-service-london-uk">Social Media Marketing</Link></li>
                                         <li><FaArrowRightFromBracket className='ftr-arrow' /><Link href="/corporate-services">Corporate Services</Link></li>
+                                        <li><FaArrowRightFromBracket className='ftr-arrow' /><Link href="/blog">Blog</Link></li>
                                     </ul>
                                 </div>
                             </div>
