@@ -9,7 +9,7 @@
     height: auto;
 } */
 .blog-img-size{
-    width: 300px;
+    width: 100%;
     height: 170px !important;
     max-width: 100%;
 }

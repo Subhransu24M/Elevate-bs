@@ -24,9 +24,14 @@ ul{
 }
 
 .sngl-post-bnr-img{
-    width: 100% !important;
-    max-width: 1900px;
-    height: auto;
+    width: 100%;
+    /* max-width: 1900px; */
+    height: 450px;
     display: block;
     margin: auto;
+}
+@media(max-width:768px){
+    .sngl-post-bnr-img{
+        height:200px;
+    }
 }
