@@ -43,9 +43,9 @@ export default async function Blog() {
   console.log(postLists);
   return (
     <div className="blog-blk">
-      <main className="container-fluid">
+      <main className="container">
         <div className="row">
-          <div className="col-md-6 col-xl-9 col-lg-9 col-sm-12 col-xs-12">
+          <div className="col-md-6 col-xl-12 col-lg-12 col-sm-12 col-xs-12">
             <div className="row">
               {
                 postLists.map((post, id) => (
@@ -64,7 +64,10 @@ export default async function Blog() {
                       </div>
 
                       <h1 className="blg-pst-tlt">{post.title}</h1>
-                      <p className="blg-excp-p">{post.exceprt}</p>
+                      <p className="blg-excp-p">
+                        {/* {post.exceprt} */}
+                        {post.exceprt.length > 150 ? `${post.exceprt.slice(0, 150)}...` : post.exceprt}
+                        </p>
                       <Link href={`/blog/${post.slug}`} className="blg-rd-btn">Read More</Link>
                     </div>
                   </div>

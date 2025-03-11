@@ -34,12 +34,17 @@
     color: #000;
     font-weight: 500;
     font-size: 14px;
+    position: absolute;
+    bottom: 15px;
 }
 
 .blog-lst-blk {
     background: #eaf6ff;
     padding: 10px;
     border-radius: 10px;
+    min-height: 460px;
+    position: relative;
+    margin: 10px 0px;
 }
 .blg-pst-tlt {
     font-size: 17px;
