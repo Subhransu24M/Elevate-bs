@@ -101,3 +101,7 @@
     background: #fbffff;
     padding: 40px 0px;
 }
+.da-cta-btn {
+    display: flex;
+    justify-content: center;
+}
