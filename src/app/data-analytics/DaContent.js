@@ -170,6 +170,10 @@ const DaContent = () => {
                             Our integrated approach—built on Performance Reporting, Business Intelligence, and Cloud BI Solutions - enables transparent, efficient, and data-driven decision-making across your organization.
                             </p>
                             <p>Want to make better business decisions? Get in touch with our team at Elevate today for a custom Data Analytics Consulting Services session/demo.</p>
+                            <div className='da-cta-btn'>
+                                    <a href="/contact-us">Contact us <CiLocationArrow1 className='da-cta-arw' />
+                                    </a>
+                            </div>
                         </div>
                     </div>
                 </div>
