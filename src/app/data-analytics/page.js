@@ -37,7 +37,7 @@ export const metadata = {
   };
 
 const page = () =>{
-    const breadcrumbBackground = "/images/breadcrump-bg/blob.svg";
+    const breadcrumbBackground = "/images/breadcrump-bg/data-analytics-hdr-bg.jpg";
     return(
         <>
         <NewNavbar/>
