@@ -78,3 +78,22 @@
 .da-cnt-third-block {
     margin: 40px 0px;
 }
+.trd-blk-left-cnt h4 {
+    font-size: 20px;
+}
+.da-sixth-blk {
+    background: linear-gradient(90deg, #070426 60%, #cb2020 119%);
+    max-width: 1900px;
+    display: block;
+    margin: auto;
+    padding: 50px 0px;
+}
+.da-sixth-blk p {
+    color: #fff;
+    text-align: center;
+    max-width: 1000px;
+    display: block;
+    margin: auto;
+    margin-bottom: 30px;
+    font-size: 20px;
+}
