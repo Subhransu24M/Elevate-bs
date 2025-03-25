@@ -17,9 +17,9 @@ const NewNavbar = () => {
                             <div className="menu-close-btn-blk">
                                 <button type="button" className="btn-close mn-close-btn" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-label="Close"></button>
                             </div>
-                            <li className="nav-item">
-                                {/* <Link className="nav-link active my-nav-li" aria-current="page" href="/">Home</Link> */}
-                            </li>
+                            {/* <li className="nav-item">
+                                <Link className="nav-link active my-nav-li" aria-current="page" href="/">Home</Link>
+                            </li> */}
                             <li className="nav-item">
                                 <Link className="nav-link my-nav-li" href="/about">About</Link>
                             </li>
@@ -52,6 +52,7 @@ const NewNavbar = () => {
                                     <li><Link className="dropdown-item my-nav-li" href="/ecommerce-solutions">ECommerce Solutions</Link></li>
                                     <li><Link className="dropdown-item my-nav-li" href="/app-development">App Development</Link></li>
                                     <li><Link className="dropdown-item my-nav-li" href="/digital-marketing">Digital Marketing</Link></li>
+                                    <li><Link className="dropdown-item my-nav-li" href="/data-analytics">Data Analytics</Link></li>
                                 </ul>
                             </li>
 

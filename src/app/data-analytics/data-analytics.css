@@ -1,0 +1,80 @@
+.da-fst-img {
+    max-width: 100%;
+    height: 300px;
+    border-radius: 15px;
+}
+.da-fst-blk {
+    margin: 40px 0px;
+}
+.da-cta-btn{
+    margin: 40px 0px;
+}
+.da-fst-left-blk {
+    margin: 30px 0px;
+}
+.da-cta-btn a {
+    background: #860404;
+    padding: 15px 30px;
+    color: #fff;
+    border-radius: 25px;
+    font-weight: 600;
+}
+.da-cta-arw {
+    font-size: 25px;
+    color: #ffaa16;
+    /* font-weight: 900; */
+    margin-left: 5px;
+}
+
+.da-grid-blk img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 25px;
+}
+.da-snd-blk{
+    max-width: 1900px;
+    display: block;
+    margin: auto;
+    background: linear-gradient(90deg, #020525e6 60%, #cb2020 119%);
+}
+.da-snd-blk-bg{
+    background-image: url(../../../public/images/data-analytics/bg/data-analytics-bg.gif);
+    background-repeat: no-repeat;
+    max-width: 1900px;
+    background-position: top;
+    background-size: 20%;
+    padding: 80px 0px;
+    background-position-x: 0%;
+}
+
+@media(max-width:768px){
+    .da-snd-blk-bg{
+        background-size: 50%;
+    }
+}
+.da-grid-blk {
+    /* border: 1px dotted #fff; */
+    padding: 30px;
+    border-radius: 20px;
+    box-shadow: 0px 0px 7px 7px #00000059;
+    background: #02031cd9;
+    margin: 15px 0px;
+}
+.da-grid-blk h4 {
+    color: #fff;
+    font-size: 22px;
+    text-align: center;
+    margin: 25px 0px;
+}
+.da-grid-blk p {
+    color: #fff;
+    text-align: left;
+}
+.performance-tracking-img{
+    max-width: 100%;
+    height: auto;
+    border-radius: 25px;
+}
+.da-cnt-third-block {
+    margin: 40px 0px;
+}
