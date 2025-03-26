@@ -114,7 +114,9 @@ const ContactForm = () => {
                                     <option value="E-Commerce Solutions">E-Commerce Solutions</option>
                                     <option value="Digital Marketing">Digital Marketing</option>
                                     <option value="App Development">App Development</option>
+                                    <option value="Corporate Services">Data Analytics</option>
                                     <option value="Corporate Services">Corporate Services</option>
+                                    
                                 </select>
                             </div>
                         </div>
