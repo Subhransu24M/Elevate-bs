@@ -7,7 +7,7 @@ import Image from 'next/image';
 import Link from 'next/link';
 import './slider.css';
 import { CiLocationArrow1 } from "react-icons/ci";
-import ramadansslider from './ramadan/Ramadan.jpg';
+import ramadansslider from './ramadan/eid.jpg';
 
 
 const Slider = () => {
