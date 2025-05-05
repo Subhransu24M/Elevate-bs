@@ -8,7 +8,7 @@ import { IoMailOutline } from "react-icons/io5";
 const Caddress = () => {
     const caddressDetails = [
         {
-            Location: "JLT,DUBAI",
+            Location: "DUBAI - JLT",
             Company_Name: "Elevate Business Solutions DMCC",
             Address: "Office No: 1203,1204 & 1207, HDS Business Center, Cluster M, JLT, Dubai, UAE",
             Phone_Number: "+971 (0) 44258131",
@@ -48,7 +48,7 @@ const Caddress = () => {
             Email_Id_Optional: "",
         },
         {
-            Location: "Bhubaneswar,INDIA",
+            Location: "INDIA - BHUBANESWAR",
             Company_Name: "Elevate First Business Pvt. Ltd",
             Address: "Plot No: GA-161, Gayatri Vihar, Patia , Bhubaneswar, Odisha-751024, INDIA",
             Phone_Number: "+91 674 353 5676",
@@ -58,7 +58,7 @@ const Caddress = () => {
             Email_Id_Optional: "",
         },
         {
-            Location: "Noida,INDIA",
+            Location: "INDIA - NOIDA",
             Company_Name: "Elevate First Business Pvt. Ltd",
             Address: "Office N0-605, Tower-4, Assotech Business Cresterra Sector 135, Noida, UP , 201304",
             Phone_Number: "",
