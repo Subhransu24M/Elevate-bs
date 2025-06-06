@@ -12,7 +12,7 @@ export const metadata = {
       },
       openGraph: {
         title: 'ADGM Corporate Services,UAE',
-        description: 'Elevate is one of the best Approved Auditors in ADGM, renowned for providing reliable services for over a decade.',
+        description: 'Explore our comprehensive ADGM services, including company setup, accounting, and compliance support in Abu Dhabi Global Market.',
         url: 'https://www.elevatebs.com/adgm',
         siteName: 'Elevate Business Solutions DMCC',
         images: [
