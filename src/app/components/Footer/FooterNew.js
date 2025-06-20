@@ -46,7 +46,7 @@ const FooterNew = () => {
         else if (value === "USA") {
             setCtitle(addressdata[2].ctitle);
             setCdetails(addressdata[2].cdetails);
-            setMobileno(addressdata[2].cmobileno);
+            setMobileno("");
             setTelno("");
             setMailid(addressdata[2].cmailid);
         }
@@ -142,9 +142,9 @@ const FooterNew = () => {
                                     <BsTelephone className='ftr-adrs-r-icon'/><div className="ftr-adrs-txt">{ctelno}</div>
                                     </div> )}
 
-                                    <div className='ftr-adrs-li-blk'>
+                                    {cmobileno && ( <div className='ftr-adrs-li-blk'>
                                     <ImMobile className='ftr-adrs-r-icon'/><div className="ftr-adrs-txt">{cmobileno}</div>
-                                    </div>
+                                    </div> )}
 
                                     <div className='ftr-adrs-li-blk'>
                                     <RiMailSendLine className='ftr-adrs-r-icon'/><div className="ftr-adrs-txt">{cmailid}</div>

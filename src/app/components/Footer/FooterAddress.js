@@ -17,10 +17,10 @@ const addressdata = [
     },
     {
         id: "USA",
-        ctitle: "Elevate International Business Solutions LLC",
-        cdetails: "105 N 1st St., #429, San Jose, California 95103, USA",
+        ctitle: "Elevate Business Solutions LLC",
+        cdetails: "5900 Balcones Dr STE 300, Austin, TX 78731, USA",
         ctelno: "",
-        cmobileno: "+1 408 786 5433",
+        cmobileno: "",
         cmailid: "info@elevatebs.com",
         
     },
@@ -29,7 +29,7 @@ const addressdata = [
         ctitle: "Elevate International Business Solutions LTD",
         cdetails: "128 City Road, London, EC1V 2NX, UK",
         ctelno: "",
-        cmobileno: "+44 7393 845255",
+        cmobileno: "+44 7386 246959",
         cmailid: "info@elevatebs.com",
         
     },
