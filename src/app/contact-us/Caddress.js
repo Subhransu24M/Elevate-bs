@@ -9,6 +9,7 @@ const Caddress = () => {
     const caddressDetails = [
         {
             Location: "DUBAI - JLT",
+            License: "(License No DMCC 402183)",
             Company_Name: "Elevate Business Solutions DMCC",
             Address: "Office No: 1203,1204 & 1207, HDS Business Center, Cluster M, JLT, Dubai, UAE",
             Phone_Number: "+971 (0) 44258131",
@@ -18,8 +19,20 @@ const Caddress = () => {
             Email_Id_Optional: ""
         },
         {
+            Location: "DUBAI - BUSINESS BAY",
+            License: "(DED Trade License No: 687256)",
+            Company_Name: "Elevate First Accounting & Auditing",
+            Address: "The Exchange Tower, Business Bay, Po Box No: 336293 Dubai, United Arab Emirates",
+            Phone_Number: "",
+            Phone_Number_optional: "",
+            Mobile_Number: "+971 56 167 2533",
+            Email_Id: "info@elevatebs.com",
+            Email_Id_Optional: ""
+        },
+        {
             Location: "ABU DHABI",
             Company_Name: "Elevate Global BPM Ltd",
+            License: "(ADGM License No: 20213)",
             Address: "Office No: 2310, Addax Tower, Al Reem Island, Abu Dhabi, UAE",
             Phone_Number: "+971 (0) 26719099",
             // Phone_Number_optional: "26719099",
@@ -30,6 +43,7 @@ const Caddress = () => {
         {
             Location: "USA",
             Company_Name: "Elevate Business Solutions LLC",
+            License: "(EIN no: 365140296)",
             Address: "5900 Balcones Dr STE 300, Austin, TX 78731, USA",
             Phone_Number: "",
             Phone_Number_optional: "",
@@ -40,6 +54,7 @@ const Caddress = () => {
         {
             Location: "UK",
             Company_Name: "Elevate International Business Solutions LTD",
+            License: "(Company Number 14051546)",
             Address: "128 City Road, London, EC1V 2NX, UK",
             Phone_Number: "",
             Phone_Number_optional: "",
@@ -50,6 +65,7 @@ const Caddress = () => {
         {
             Location: "INDIA - BHUBANESWAR",
             Company_Name: "Elevate First Business Pvt. Ltd",
+            License: "(CIN No.U74999DL2017PTC312701)",
             Address: "Plot No: GA-161, Gayatri Vihar, Patia , Bhubaneswar, Odisha-751024, INDIA",
             Phone_Number: "+91 674 353 5676",
             Phone_Number_optional: "",
@@ -60,10 +76,22 @@ const Caddress = () => {
         {
             Location: "INDIA - NOIDA",
             Company_Name: "Elevate First Business Pvt. Ltd",
+            License: "(CIN No.U82990OD2023PTC042144)",
             Address: "Office N0-605, Tower-4, Assotech Business Cresterra Sector 135, Noida, UP , 201304",
             Phone_Number: "",
             Phone_Number_optional: "",
             Mobile_Number: "+91 78095 20225",
+            Email_Id: "info@elevatebs.com",
+            Email_Id_Optional: "",
+        },
+        {
+            Location: "PORTUGAL - LISBON",
+            Company_Name: "ELEVATE INTERBRIDGE, UNIPESSOAL LDA",
+            License: "(NIF/NIPC: 518762882)",
+            Address: "Avenida Engenheiro Arantes e Oliveira, No. 3, Ground Floor, Areeiro, Lisbon, Postal Code 1900-221",
+            Phone_Number: "",
+            Phone_Number_optional: "",
+            Mobile_Number: "+971 56 167 2533",
             Email_Id: "info@elevatebs.com",
             Email_Id_Optional: "",
         }
@@ -78,6 +106,7 @@ const Caddress = () => {
                                 <div className='cadd-box'>
                                     <h5 className='caddr-loc'>{addresslist.Location}</h5>
                                     <h5 className='cpmname-tlt'>{addresslist.Company_Name}</h5>
+                                    <p className='cpmname-license-p'>{addresslist.License}</p>
                                     <p className='cpmname-addr-p'>
                                     {addresslist.Address}</p>
                                     {addresslist.Phone_Number && (
