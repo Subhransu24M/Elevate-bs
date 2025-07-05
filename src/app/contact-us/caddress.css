@@ -45,3 +45,11 @@
     font-weight: 500;
     font-style: italic;
 }
+
+.cont-loc-img-blk {
+    padding: 12px;
+}
+.cont-loc-img-blk img {
+    border-radius: 12px;
+    width: 100%;
+}
