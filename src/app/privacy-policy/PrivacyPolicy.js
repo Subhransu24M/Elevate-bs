@@ -7,8 +7,8 @@ const PrivacyPolicy = () =>{
             <div className='container'>
                 <div className='row'>
                     <div className='col-md-12 col-lg-12 col-xl-12 col-sm-12'>
-                        <p>Effective Date: [Insert Date]</p>
-                        <p>Last Updated: [Insert Date]</p>
+                        <p>Effective Date: 23rd July 2025</p>
+                        <p>Last Updated: 23rd July 2025</p>
                         <p>
                             We at Elevate Business Solutions DMCC (“Company”, “we”, “us”, or “our”) respect your privacyand are committed to protecting your personal data. This Privacy Policy outlines how we collect, use, disclose, and safeguard your information when you access our website and mobile application (“Platform”) and use our Audit and Assurance services. This policy complies with the General Data Protection Regulation (GDPR), and also aligns with privacy laws in the United States, United Kingdom, United Arab Emirates, Canada, and India.
                         </p>
