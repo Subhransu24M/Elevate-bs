@@ -4,7 +4,7 @@ export const revalidate = 0 // revalidate at most every hour
 
 export default async function sitemap() {
 
-    const query =`*[_type=='post'] | order(_careatedAt asc)
+    const query =`*[_type=='post'] | order(_createdAt asc)
     {
       "slug":slug.current,
        _updatedAt
