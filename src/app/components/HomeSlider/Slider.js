@@ -8,7 +8,7 @@ import Link from 'next/link';
 import './slider.css';
 import { CiLocationArrow1 } from "react-icons/ci";
 // import ramadansslider from './ramadan/eid.jpg';
-import christmas2025 from './merry-christmas/marry-christmas-2025.jpeg';
+import christmas2025 from './merry-christmas/happy-new-year-2026.jpg';
 
 
 const Slider = () => {
