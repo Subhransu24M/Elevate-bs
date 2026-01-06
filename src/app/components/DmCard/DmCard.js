@@ -13,7 +13,7 @@ const DmCard = () => {
                                     <div className="content">
                                         <div className="service-number s1">01</div>
                                         <h4><a href="">SEO</a></h4>
-                                        <div className="text">Today it’s not about ‘Get the Traffic’ — it’s about ‘Get the Targeted and Relevant Traffic.</div>
+                                        <div className="text">Today it’s not about ‘Get the Traffic’ — it’s about ‘Get the Targeted and Relevant Traffic that converts.</div>
                                         <Link className='more-detail' href="/digital-marketing/seo-service-in-london-uk">More Details</Link>
                                     </div>
                                 </div>

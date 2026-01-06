@@ -33,25 +33,25 @@ const SeoCnt = () => {
               <div className="col-md-6 col-lg-3 col-xl-3 col-sm-12 col-xs-12">
                 <div className="seo-pwr-box">
                   <h5>Enhanced Visibility</h5>
-                  <p>SEO boosts your website's visibility on search engines, with over 75% of users never scrolling past the first page of search results.</p>
+                  <p>SEO improves website visibility on search engines, and over 75% of users never go beyond the first results page, making higher rankings essential for growth.</p>
                 </div>
               </div>
               <div className="col-md-6 col-lg-3 col-xl-3 col-sm-12 col-xs-12">
                 <div className="seo-pwr-box">
                   <h5>Increased Organic Traffic</h5>
-                  <p>Effective SEO drives organic traffic, generating about 53% of all website traffic.</p>
+                  <p>An effective SEO strategy delivers organic traffic, contributing nearly 53% of total website visits and helping businesses attract long-term users.</p>
                 </div>
               </div>
               <div className="col-md-6 col-lg-3 col-xl-3 col-sm-12 col-xs-12">
                 <div className="seo-pwr-box">
                   <h5>Credibility and Trust</h5>
-                  <p>Ranking higher establishes trust; 75% of users trust organic search results over paid ads.</p>
+                  <p>Higher search rankings build credibility and trust, as 75% of users prefer organic search results and trust them more than paid advertisements.</p>
                 </div>
               </div>
               <div className="col-md-6 col-lg-3 col-xl-3 col-sm-12 col-xs-12">
                 <div className="seo-pwr-box">
                   <h5>ROI and Cost-Effectiveness</h5>
-                  <p>SEO offers long-term returns, with 61% of marketers ranking it as a top revenue generator.</p>
+                  <p>SEO delivers sustainable growth with strong long-term returns, and 61% of marketers rank it among the top channels for revenue generation.</p>
                 </div>
               </div>
             </div>
