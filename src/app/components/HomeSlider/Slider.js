@@ -8,7 +8,7 @@ import Link from 'next/link';
 import './slider.css';
 import { CiLocationArrow1 } from "react-icons/ci";
 // import ramadansslider from './ramadan/eid.jpg';
-import christmas2025 from './merry-christmas/happy-new-year-2026.jpg';
+// import christmas2025 from './merry-christmas/happy-new-year-2026.jpg';
 
 
 const Slider = () => {
@@ -22,11 +22,11 @@ const Slider = () => {
                 </div>
                 <div className="carousel-inner">
 
-                    <div className="carousel-item active" data-bs-interval="2000" >
+                    {/* <div className="carousel-item active" data-bs-interval="2000" >
                     <Image src={christmas2025} className="d-block w-100 sldimg" alt="merry christmas 2025" />
-                    </div>
+                    </div> */}
 
-                    <div className="carousel-item" data-bs-interval="3000">
+                    <div className="carousel-item active" data-bs-interval="3000">
                         <Image src={slider1} className="d-block w-100 sldimg" alt="innovative support system" priority/>
                         <div className="carousel-caption d-none d-md-block">
                             <h2 className='animationsldrtlt' data-aos="fade-up" data-aos-duration="800" data-aos-easing="linear" data-aos-delay="100"><span className='sl-hd-spn '>INNOVATIVE</span> SUPPORT SYSTEM</h2>
