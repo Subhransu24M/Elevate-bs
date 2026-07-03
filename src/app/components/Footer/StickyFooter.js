@@ -52,9 +52,9 @@ const StickyFooter = () => {
             </div>
             <div className="sticky-right-social-blk">
             <Link href="https://www.linkedin.com/company/elevate-business-solutions-dmcc/" target="_blank"><Image className="desk-stickicon" src={stickylinkdicon} /></Link>
-            <Link href="https://www.facebook.com/elevatebs/" target="_blank"><Image className="desk-stickicon" src={stickyficon} /></Link>
+            <Link href="https://www.facebook.com/elevatebusinesssetup/" target="_blank"><Image className="desk-stickicon" src={stickyficon} /></Link>
             <Link href="https://x.com/i/flow/login?redirect_after_login=%2Felevatebs" target="_blank"><Image className="desk-stickicon" src={stickyticon} /></Link>
-            <Link href="https://www.instagram.com/elevateauditing/" target="_blank"><Image className="desk-stickicon" src={stickyinsticon} /></Link>
+            <Link href="https://www.instagram.com/elevatebusinesssetup/" target="_blank"><Image className="desk-stickicon" src={stickyinsticon} /></Link>
             
             </div>
         </>
