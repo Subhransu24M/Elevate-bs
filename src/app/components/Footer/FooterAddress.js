@@ -1,7 +1,7 @@
 const addressdata = [
     {
         id: "DUBAI",
-        ctitle: "Elevate Business Solutions DMCC",
+        ctitle: "Elevate Business Solutions FZCO",
         cdetails: "Office No: 1203,1204 & 1207, HDS Business Center, Cluster M, JLT, Dubai, UAE",
         ctelno: "+971 (0) 44258131",
         cmobileno: "+971 56 167 2533",
@@ -11,7 +11,7 @@ const addressdata = [
         id: "ABU DHABI",
         ctitle: "Elevate Global BPM Ltd",
         cdetails: "Office No: 2310, Adax Tower, Al Reem Island, Abu Dhabi, UAE",
-        ctelno: "+971 (0) 26719099",
+        ctelno: "+971 (0) 25588615",
         cmobileno: "+971 56 167 2533",
         cmailid: "info@elevatebs.com",
     },
@@ -26,7 +26,7 @@ const addressdata = [
     },
     {
         id: "UK",
-        ctitle: "Elevate International Business Solutions LTD",
+        ctitle: "Elevate Accounting and Auditing Limited",
         cdetails: "128 City Road, London, EC1V 2NX, UK",
         ctelno: "",
         cmobileno: "+44 7386 246959",
