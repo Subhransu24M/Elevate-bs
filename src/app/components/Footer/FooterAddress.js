@@ -20,7 +20,7 @@ const addressdata = [
         ctitle: "Elevate Business Solutions LLC",
         cdetails: "Registered Address: 5900 Balcones Dr, Suite 300, Austin TX 78731",
         cdetails: "Office Address: 5049 Edwards Ranch Clearfork 4th Floor Fort Worth TX 76109",
-        ctelno: "",
+        ctelno: "+1 940 334 9183",
         cmobileno: "",
         cmailid: "info@elevatebs.com",
 
