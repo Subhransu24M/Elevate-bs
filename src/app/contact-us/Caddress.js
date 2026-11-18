@@ -115,15 +115,21 @@ const Caddress = () => {
                                 <div className='cadd-box'>
                                     <h5 className='caddr-loc'>{addresslist.Location}</h5>
                                     <div className='cont-loc-img-blk'>
-                                        <Image src={addresslist.Image_URL} width={300} height={150}alt="elevate business solutions global locations" />
+                                        <Image src={addresslist.Image_URL} width={300} height={150} alt="elevate business solutions global locations" />
                                     </div>
                                     <h5 className='cpmname-tlt'>{addresslist.Company_Name}</h5>
                                     <p className='cpmname-license-p'>{addresslist.License}</p>
                                     <p className='cpmname-addr-p'>
-                                    {addresslist.Address}</p>
+                                        {addresslist.Address.split('\n').map((line, i, arr) => (
+                                            <span key={i}>
+                                                {line}
+                                                {i < arr.length - 1 && <br />}
+                                            </span>
+                                        ))}
+                                    </p>
                                     {addresslist.Phone_Number && (
                                         <div className='caddr-cnt'>
-                                            <p><IoCallOutline className='caddr-cta-icn'/>
+                                            <p><IoCallOutline className='caddr-cta-icn' />
 
                                                 {addresslist.Phone_Number && (
                                                     <a href={`tel:${addresslist.Phone_Number}`}>{addresslist.Phone_Number}</a>
@@ -139,27 +145,26 @@ const Caddress = () => {
                                     )}
                                     {addresslist.Mobile_Number && (
                                         <div className='caddr-cnt'>
-                                        <p><CiMobile3 className='caddr-cta-icn'/>
+                                            <p><CiMobile3 className='caddr-cta-icn' />
 
-                                            <a href={`tel:${addresslist.Mobile_Number}`}>{addresslist.Mobile_Number}</a>
-                                        </p>
+                                                <a href={`tel:${addresslist.Mobile_Number}`}>{addresslist.Mobile_Number}</a>
+                                            </p>
                                         </div>
                                     )}
                                     {addresslist.Email_Id && (
                                         <div className='caddr-cnt'>
-                                        <p><IoMailOutline className='caddr-cta-icn'/>
+                                            <p><IoMailOutline className='caddr-cta-icn' />
 
-                                            
-                                            {addresslist.Email_Id && (
-                                                <a href={`tel:${addresslist.Email_Id}`}>{addresslist.Email_Id}</a>
-                                            )}
-                                            {addresslist.Email_Id && addresslist.Email_Id_Optional && " | "}
-                                            {addresslist.Email_Id_Optional && (
-                                                <a href={`tel:${addresslist.Email_Id_Optional}`}>
-                                                    {addresslist.Email_Id_Optional}
-                                                </a>
-                                            )}
-                                        </p>
+                                                {addresslist.Email_Id && (
+                                                    <a href={`mailto:${addresslist.Email_Id}`}>{addresslist.Email_Id}</a>
+                                                )}
+                                                {addresslist.Email_Id && addresslist.Email_Id_Optional && " | "}
+                                                {addresslist.Email_Id_Optional && (
+                                                    <a href={`mailto:${addresslist.Email_Id_Optional}`}>
+                                                        {addresslist.Email_Id_Optional}
+                                                    </a>
+                                                )}
+                                            </p>
                                         </div>
                                     )}
                                 </div>
