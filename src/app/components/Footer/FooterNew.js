@@ -46,7 +46,6 @@ const FooterNew = () => {
         else if (value === "USA") {
             setCtitle(addressdata[2].ctitle);
             setCdetails(addressdata[2].cdetails);
-            setCdetails(addressdata[2].cdetails);
             setMobileno(addressdata[2].cmobileno);
             setTelno("");
             setMailid(addressdata[2].cmailid);
